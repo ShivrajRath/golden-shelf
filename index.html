@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Golden Shelf | Best Non-Fiction Books — Summaries, Takeaways & Mental Models</title>
+  <meta name="description" content="Golden Shelf is a curated collection of the best non-fiction books — highly rated (4.0+ on Goodreads), easy to read, and packed with executive summaries, key takeaways and mental models. Explore top books on psychology, habits, productivity, decision-making, history, biography and more.">
+  <meta name="keywords" content="best non-fiction books, curated books, book summaries, key takeaways, mental models, productivity books, psychology books, self-improvement books, decision making books, Golden Shelf">
+  <meta name="author" content="Golden Shelf">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://shivrajrath.github.io/golden-shelf/">
+  <meta name="theme-color" content="#b45309">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Golden Shelf">
+  <meta property="og:title" content="Golden Shelf | Best Non-Fiction Books Worth Reading">
+  <meta property="og:description" content="A curated shelf of highly-rated, easy-to-read non-fiction — with summaries, actionable takeaways, and library links. Psychology, habits, productivity, history, biography and more.">
+  <meta property="og:url" content="https://shivrajrath.github.io/golden-shelf/">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Golden Shelf | Best Non-Fiction Books Worth Reading">
+  <meta name="twitter:description" content="Curated non-fiction books rated 4.0+ on Goodreads — readable, relevant, and full of actionable ideas. Summaries, takeaways & library links.">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.17.4/dist/cdn.min.js" integrity="sha384-5/joNqFnRyVWzXp99bHot6RHG+EksGp+USSgZwPar7T9SD9PKKER37n/8bXBAZGd" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <style>
+    [x-cloak] { display: none !important; }
+    body { font-family: 'Inter', sans-serif; }
+    .font-serif { font-family: 'Playfair Display', serif; }
+    ::selection { background: #fde68a; color: #451a03; }
+    .no-scrollbar::-webkit-scrollbar { display: none; }
+    .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Golden Shelf",
+    "url": "https://shivrajrath.github.io/golden-shelf/",
+    "description": "A curated collection of the best non-fiction books — highly rated, easy to read, with executive summaries, key takeaways and mental models.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Golden Shelf"
+    }
+  }
+  </script>
+</head>
+<body class="bg-[#fdfbf7] text-stone-900 min-h-full flex flex-col antialiased" x-data="bookShelf()">
+
+  <!-- Gold accent bar -->
+  <div class="h-1 bg-gradient-to-r from-amber-200 via-amber-500 to-amber-200" aria-hidden="true"></div>
+
+  <!-- Header -->
+  <header class="bg-white/90 backdrop-blur border-b border-amber-100 sticky top-0 z-30 shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <div class="flex items-center space-x-3 min-w-0">
+        <div class="bg-gradient-to-br from-amber-400 to-amber-600 text-white p-2 rounded-xl shadow-sm ring-1 ring-amber-700/20 flex-shrink-0" aria-hidden="true">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+          </svg>
+        </div>
+        <div class="min-w-0">
+          <h1 class="text-lg font-bold font-serif tracking-tight text-stone-900 truncate">Golden Shelf</h1>
+          <p class="text-xs text-stone-500 truncate">Curated Non-Fiction Books Worth Reading</p>
+        </div>
+      </div>
+      <nav class="hidden md:flex items-center space-x-6 text-sm font-medium text-stone-600 flex-shrink-0" aria-label="Primary">
+        <a href="#collection" class="hover:text-amber-700 transition-colors">Collection</a>
+        <a href="#how-we-select" class="hover:text-amber-700 transition-colors">How we select</a>
+      </nav>
+      <div class="flex items-center space-x-4 flex-shrink-0">
+        <span class="hidden sm:inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-amber-50 text-amber-800 border border-amber-200">
+          <span class="w-2 h-2 mr-1.5 bg-amber-500 rounded-full"></span>
+          Curated Collection
+        </span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="flex-grow max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8 space-y-8 sm:space-y-12">
+
+    <!-- Intro / SEO hero -->
+    <section class="max-w-3xl space-y-3" aria-labelledby="intro-heading">
+      <h2 id="intro-heading" class="text-3xl sm:text-4xl font-serif font-bold tracking-tight text-stone-900">The best non-fiction books, on one shelf.</h2>
+      <p class="text-stone-600 leading-relaxed">Golden Shelf is a hand-picked collection of <strong class="text-stone-800 font-semibold">highly-rated, easy-to-read non-fiction</strong> — from psychology and habits to productivity, decision-making, history, science and biography.</p>
+    </section>
+
+    <!-- Loading State -->
+    <div x-show="loading" x-cloak class="text-center py-20">
+      <div class="inline-block animate-spin rounded-full h-10 w-10 border-4 border-amber-600 border-t-transparent"></div>
+      <p class="mt-4 text-stone-600 font-medium">Loading Golden Shelf...</p>
+    </div>
+
+    <!-- Load failure -->
+    <div x-show="!loading && loadError" x-cloak class="text-center py-20 bg-white rounded-3xl border border-amber-200/60 shadow-sm">
+      <p class="text-stone-900 font-semibold">Couldn't load the collection.</p>
+      <p class="mt-1 text-sm text-stone-500">Check your connection and reload the page.</p>
+      <button @click="init()" class="mt-4 px-4 py-2 bg-amber-600 hover:bg-amber-700 text-white text-sm font-medium rounded-xl transition-colors">Retry</button>
+    </div>
+
+    <!-- Empty collection -->
+    <div x-show="!loading && !loadError && books.length === 0" x-cloak class="text-center py-20 bg-white rounded-3xl border border-amber-200/60 shadow-sm">
+      <p class="text-stone-900 font-semibold">No books on the shelf yet.</p>
+      <p class="mt-1 text-sm text-stone-500">New curated picks will appear here once added.</p>
+    </div>
+
+    <template x-if="!loading && !loadError && books.length > 0">
+      <div class="space-y-8 sm:space-y-12">
+
+        <!-- Featured Spotlight -->
+        <section id="featured" aria-labelledby="featured-heading" class="bg-white rounded-3xl border border-amber-200/60 shadow-xl overflow-hidden transition-all">
+          <div class="bg-gradient-to-r from-stone-950 via-amber-950 to-stone-900 text-white px-4 sm:px-6 py-3 sm:py-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 sm:gap-4">
+            <div class="flex items-center space-x-2">
+              <span class="bg-amber-400/20 border border-amber-200/30 text-amber-100 text-xs px-3 py-1 rounded-full font-semibold uppercase tracking-wider">Featured Pick</span>
+              <span id="featured-heading" class="sr-only">Featured book</span>
+            </div>
+            <div class="flex flex-wrap items-center gap-x-3 gap-y-1 text-xs sm:text-sm text-amber-100/90">
+              <span>⭐ <strong class="text-white" x-text="featuredBook.goodreads?.rating ?? '—'"></strong> / 5.0</span>
+              <span>•</span>
+              <span x-text="formatCount(featuredBook.goodreads?.ratings_count) + ' ratings'"></span>
+            </div>
+          </div>
+
+          <div class="p-6 sm:p-10 grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+            <!-- Cover & Quick Actions -->
+            <div class="lg:col-span-4 w-full flex flex-col items-center space-y-6">
+              <div class="relative group w-48 sm:w-60 rounded-2xl shadow-2xl overflow-hidden bg-stone-100 aspect-[2/3] border border-stone-200">
+                <img :src="coverUrl(featuredBook)" :alt="'Cover of ' + (featuredBook.title || 'featured book') + ' by ' + (featuredBook.author || 'unknown author')" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500" @error="handleCoverError($event, featuredBook)" @load="checkCover($event, featuredBook)">
+              </div>
+              <div class="w-full max-w-sm mx-auto space-y-3">
+                <a :href="goodreadsUrl(featuredBook)" target="_blank" rel="noopener" class="w-full flex items-center justify-center px-4 py-2.5 bg-amber-600 hover:bg-amber-700 text-white font-medium rounded-xl shadow-sm transition-colors text-sm">
+                  <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>
+                  View on Goodreads
+                </a>
+                <div class="flex gap-2">
+                  <a :href="bookPageUrl(featuredBook)" class="flex-1 inline-flex items-center justify-center px-4 py-2.5 bg-white border border-stone-300 hover:border-amber-300 hover:bg-amber-50 text-stone-700 hover:text-amber-800 font-medium rounded-xl shadow-sm transition-colors text-sm">View book page →</a>
+                  <button @click="copyBookLink(featuredBook, $event)" class="flex-1 inline-flex items-center justify-center px-4 py-2.5 bg-white border border-stone-300 hover:border-amber-300 hover:bg-amber-50 text-stone-700 hover:text-amber-800 font-medium rounded-xl shadow-sm transition-colors text-sm" x-text="copiedIsbn === String(featuredBook.isbn_13) ? 'Copied!' : 'Copy share link'"></button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Details & Content -->
+            <div class="lg:col-span-8 space-y-6">
+              <div>
+                <div class="flex flex-wrap gap-2 mb-3">
+                  <template x-for="genre in (featuredBook.genres_tags || [])">
+                    <span class="px-3 py-1 bg-amber-50 text-amber-900 border border-amber-100 rounded-lg text-xs font-medium" x-text="genre"></span>
+                  </template>
+                </div>
+                <h3 class="text-3xl sm:text-4xl font-serif font-bold text-stone-900 tracking-tight leading-tight break-words" x-text="featuredBook.title || 'Untitled'"></h3>
+                <p class="text-lg text-stone-600 mt-1">by <span class="font-semibold text-stone-800" x-text="featuredBook.author || 'Unknown author'"></span> (<span x-text="featuredBook.publication_year"></span> • <span x-text="featuredBook.page_count"></span> pages)</p>
+              </div>
+
+              <!-- Hook Banner -->
+              <div class="bg-gradient-to-r from-amber-50 to-yellow-50/60 border-l-4 border-amber-500 p-4 rounded-r-xl">
+                <p class="text-amber-900 font-medium italic text-base" x-text="'“' + (featuredBook.one_sentence_hook || '') + '”'"></p>
+              </div>
+
+              <!-- Overview -->
+              <div class="space-y-2">
+                <h4 class="text-sm font-semibold text-stone-900 uppercase tracking-wider">Executive Summary</h4>
+                <p class="text-stone-700 leading-relaxed" x-text="(featuredBook.summary || {}).overview || ''"></p>
+              </div>
+
+              <!-- Key Takeaways -->
+              <div class="space-y-3">
+                <h4 class="text-sm font-semibold text-stone-900 uppercase tracking-wider">Core Takeaways & Mental Models</h4>
+                <div class="grid grid-cols-1 gap-3">
+                  <template x-for="(takeaway, index) in ((featuredBook.summary || {}).key_takeaways || [])">
+                    <div class="flex items-start bg-stone-50 border border-stone-200/80 p-3.5 rounded-xl">
+                      <span class="flex-shrink-0 w-6 h-6 rounded-full bg-amber-100 text-amber-800 flex items-center justify-center text-xs font-bold mr-3 mt-0.5" x-text="index + 1"></span>
+                      <p class="text-stone-700 text-sm leading-relaxed" x-text="takeaway"></p>
+                    </div>
+                  </template>
+                </div>
+              </div>
+
+              <!-- Review Highlights -->
+              <div class="space-y-3 pt-2 border-t border-stone-100">
+                <h4 class="text-xs font-semibold text-stone-400 uppercase tracking-wider">Community Highlights</h4>
+                <div class="space-y-2">
+                  <template x-for="highlight in ((featuredBook.goodreads || {}).review_summary_highlights || [])">
+                    <p class="text-xs text-stone-600 italic">“<span x-text="highlight"></span>”</p>
+                  </template>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </section>
+
+        <!-- Search & Filter Controls -->
+        <section id="collection" aria-labelledby="collection-heading" class="space-y-4 scroll-mt-20">
+          <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+            <div class="w-full sm:w-auto">
+              <h3 id="collection-heading" class="text-xl font-serif font-bold text-stone-900">Explore the Collection</h3>
+              <p class="text-sm text-stone-500 mt-1"><span x-text="filteredBooks.length"></span> curated non-fiction books • summaries, takeaways & library links</p>
+            </div>
+            <div class="w-full sm:w-72">
+              <input type="text" x-model.debounce.300ms="searchQuery" placeholder="Search by title, author, genre..." aria-label="Search books" class="w-full px-4 py-2.5 bg-white border border-stone-300 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-amber-600 focus:border-amber-500 shadow-sm">
+            </div>
+          </div>
+
+          <!-- Genre Pills (compact, expandable, multi-select) -->
+          <div class="space-y-2">
+            <div class="flex items-start gap-2">
+              <div :class="showAllGenres ? 'flex-wrap overflow-x-hidden overflow-y-auto pr-1 max-h-[32vh] sm:max-h-[28vh] lg:max-h-[36vh]' : 'flex-nowrap sm:flex-wrap overflow-x-auto sm:overflow-hidden no-scrollbar max-h-[44px] sm:max-h-[84px]'" class="flex gap-2 flex-1 py-1 -mx-4 px-4 sm:mx-0 sm:px-0 sm:py-0" role="group" aria-label="Filter by genre">
+                <button @click="clearGenres()" :class="selectedGenres.length === 0 ? 'bg-amber-600 text-white border border-amber-600' : 'bg-white text-stone-600 hover:bg-amber-50 hover:border-amber-200 hover:text-amber-800 border border-stone-200'" :aria-pressed="selectedGenres.length === 0" class="flex-shrink-0 whitespace-nowrap inline-flex items-center px-3.5 py-2 min-h-[36px] rounded-xl text-xs font-medium transition-colors shadow-sm">All</button>
+                <template x-for="genre in visibleGenres" :key="genre">
+                  <button @click="toggleGenre(genre)" :aria-pressed="isGenreSelected(genre)" :class="isGenreSelected(genre) ? 'bg-amber-600 text-white border border-amber-600' : 'bg-white text-stone-600 hover:bg-amber-50 hover:border-amber-200 hover:text-amber-800 border border-stone-200'" class="flex-shrink-0 whitespace-nowrap inline-flex items-center px-3.5 py-2 min-h-[36px] rounded-xl text-xs font-medium transition-colors shadow-sm" x-text="(isGenreSelected(genre) ? '✓ ' : '') + genre"></button>
+                </template>
+              </div>
+              <button @click="showAllGenres = !showAllGenres" :aria-expanded="showAllGenres" class="flex-shrink-0 inline-flex items-center px-3 py-2 min-h-[36px] rounded-xl text-xs font-medium border border-stone-200 bg-white text-amber-800 hover:bg-amber-50 hover:border-amber-200 transition-colors shadow-sm whitespace-nowrap" x-text="showAllGenres ? 'Show less' : (allGenres.length > visibleGenres.length ? '+' + (allGenres.length - visibleGenres.length) + ' more' : 'All')"></button>
+            </div>
+            <div x-show="selectedGenres.length > 0" class="flex flex-wrap items-center gap-2 text-xs">
+              <span class="text-stone-500"><span x-text="filteredBooks.length"></span> match <span x-text="selectedGenres.length > 1 ? (genreMatchAll ? 'all' : 'any') + ' of' : ''"></span> <strong class="text-stone-800" x-text="selectedGenres.length + ' selected'"></strong></span>
+              <template x-for="g in selectedGenres" :key="g">
+                <button @click="toggleGenre(g)" :title="'Remove ' + g" class="inline-flex items-center gap-1 pl-2.5 pr-2 py-1 rounded-full bg-amber-600 text-white text-xs font-medium hover:bg-amber-700 transition-colors"><span x-text="g"></span><span aria-hidden="true">×</span></button>
+              </template>
+              <button x-show="selectedGenres.length > 1" @click="toggleMatchMode()" :title="genreMatchAll ? 'Show books matching any selected tag' : 'Show books matching all selected tags'" class="px-2.5 py-1 rounded-full border border-stone-200 bg-white text-amber-800 font-medium hover:bg-amber-50 transition-colors" x-text="genreMatchAll ? 'Match: ALL' : 'Match: ANY'"></button>
+              <button @click="clearGenres()" class="text-amber-700 font-medium hover:underline">Clear</button>
+            </div>
+          </div>
+        </section>
+
+        <!-- Books Grid (paged: renders displayedBooks slice, not the full filtered list) -->
+        <section aria-label="Book collection" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <template x-for="book in displayedBooks" :key="book.isbn_13 || book.title">
+            <article @click="openModal(book)" @keyup.enter="openModal(book)" @keyup.space.prevent="openModal(book)" tabindex="0" role="button" :aria-label="'View details for ' + (book.title || 'book')" class="bg-white rounded-2xl border border-stone-200/80 hover:border-amber-300 shadow-sm hover:shadow-xl transition-all duration-300 cursor-pointer overflow-hidden flex flex-col group focus:outline-none focus:ring-2 focus:ring-amber-600 focus:border-amber-500">
+              <div class="p-6 flex items-start space-x-4 flex-grow">
+                <div class="w-24 flex-shrink-0 aspect-[2/3] rounded-lg overflow-hidden bg-stone-100 border border-stone-200 shadow-sm">
+                  <img :src="coverUrl(book)" :alt="'Cover of ' + (book.title || 'book') + ' by ' + (book.author || 'unknown author')" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" @error="handleCoverError($event, book)" @load="checkCover($event, book)">
+                </div>
+                <div class="space-y-2 flex-grow min-w-0">
+                  <div class="flex items-center justify-between">
+                    <span class="text-xs font-semibold text-amber-700" x-text="book.publication_year"></span>
+                    <span class="text-xs text-stone-500 font-medium">⭐ <span x-text="book.goodreads?.rating ?? '—'"></span></span>
+                  </div>
+                  <h4 class="font-serif font-bold text-stone-900 text-lg leading-snug line-clamp-2 group-hover:text-amber-700 transition-colors" :title="book.title" x-text="book.title"></h4>
+                  <p class="text-xs text-stone-600 truncate" :title="'by ' + book.author">by <span x-text="book.author"></span></p>
+                  <p class="text-xs text-stone-500 line-clamp-2 mt-1" x-text="book.one_sentence_hook"></p>
+                </div>
+              </div>
+              <div class="px-6 py-3 bg-amber-50/50 border-t border-amber-100/70 flex items-center justify-between gap-2 flex-wrap text-xs text-stone-500">
+                <div class="flex flex-wrap gap-1 min-w-0 max-w-full sm:max-w-[200px]">
+                  <template x-for="g in (book.genres_tags || []).slice(0, 2)">
+                    <span class="bg-amber-100/80 text-amber-900 px-2 py-0.5 rounded-md text-[11px] font-medium whitespace-nowrap" x-text="g"></span>
+                  </template>
+                </div>
+                <span class="flex items-center gap-3 whitespace-nowrap">
+                  <a :href="bookPageUrl(book)" @click.stop :title="'View the book page for ' + (book.title || 'this book')" class="text-amber-700 font-medium hover:underline">Permalink</a>
+                  <span class="text-amber-700 font-medium group-hover:underline">View details →</span>
+                </span>
+              </div>
+            </article>
+          </template>
+        </section>
+
+        <!-- Pagination controls -->
+        <div class="flex flex-col items-center gap-2 pt-2" x-show="filteredBooks.length > 0">
+          <p class="text-xs text-stone-500">Showing <span class="font-semibold text-stone-800" x-text="displayedBooks.length"></span> of <span class="font-semibold text-stone-800" x-text="filteredBooks.length"></span> books</p>
+          <button x-show="hasMore" @click="loadMore()" class="px-5 py-2.5 bg-white border border-stone-300 hover:border-amber-300 hover:bg-amber-50 text-stone-700 hover:text-amber-800 text-sm font-medium rounded-xl shadow-sm transition-colors" x-text="'Load more (' + (filteredBooks.length - displayedBooks.length) + ' remaining)'"></button>
+          <p x-show="!hasMore && filteredBooks.length > pageSize" class="text-xs text-stone-400">You've reached the end of the shelf.</p>
+        </div>
+
+        <!-- No matches -->
+        <div x-show="filteredBooks.length === 0" class="text-center py-12 bg-white rounded-2xl border border-stone-200/80 shadow-sm">
+          <p class="text-stone-900 font-semibold">No books match your search.</p>
+          <p class="mt-1 text-sm text-stone-500">Try a different title, author, or genre.</p>
+          <button @click="searchQuery = ''; clearGenres()" class="mt-4 px-4 py-2 bg-amber-600 hover:bg-amber-700 text-white text-sm font-medium rounded-xl transition-colors">Clear search & filters</button>
+        </div>
+
+      </div>
+    </template>
+
+    <!-- How books are selected -->
+    <section id="how-we-select" aria-labelledby="how-we-select-heading" class="bg-white rounded-3xl border border-amber-200/60 shadow-sm p-6 sm:p-10 scroll-mt-20">
+      <div class="max-w-3xl space-y-3 mb-8">
+        <p class="text-xs font-semibold uppercase tracking-widest text-amber-700">Curation standards</p>
+        <h2 id="how-we-select-heading" class="text-2xl sm:text-3xl font-serif font-bold tracking-tight text-stone-900">How books make it onto the Golden Shelf</h2>
+        <p class="text-stone-600 leading-relaxed">Every book on Golden Shelf must pass the same strict checklist. We only shelve <strong class="text-stone-800">relevant, easy-to-read non-fiction</strong> that readers have already vetted at scale — so you can pick up any title with confidence.</p>
+      </div>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div class="bg-amber-50/50 border border-amber-100/70 rounded-2xl p-5">
+          <div class="text-2xl mb-2" aria-hidden="true">📚</div>
+          <h3 class="font-semibold text-stone-900 text-sm mb-1">Non-fiction only</h3>
+          <p class="text-sm text-stone-600 leading-relaxed">Neuroscience, psychology, decision-making, productivity, systems thinking, history, technology, biography and more. True Crime is excluded.</p>
+        </div>
+        <div class="bg-amber-50/50 border border-amber-100/70 rounded-2xl p-5">
+          <div class="text-2xl mb-2" aria-hidden="true">⭐</div>
+          <h3 class="font-semibold text-stone-900 text-sm mb-1">4.0+ Goodreads rating</h3>
+          <p class="text-sm text-stone-600 leading-relaxed">Only books rated 4.0 out of 5.0 stars or higher by the Goodreads community make the cut.</p>
+        </div>
+        <div class="bg-amber-50/50 border border-amber-100/70 rounded-2xl p-5">
+          <div class="text-2xl mb-2" aria-hidden="true">👥</div>
+          <h3 class="font-semibold text-stone-900 text-sm mb-1">2,500+ reader ratings</h3>
+          <p class="text-sm text-stone-600 leading-relaxed">A minimum of 2,500 ratings ensures the score reflects broad reader consensus, not a small niche.</p>
+        </div>
+        <div class="bg-amber-50/50 border border-amber-100/70 rounded-2xl p-5">
+          <div class="text-2xl mb-2" aria-hidden="true">📖</div>
+          <h3 class="font-semibold text-stone-900 text-sm mb-1">Easy to read, under 500 pages</h3>
+          <p class="text-sm text-stone-600 leading-relaxed">Accessible, engaging and insightful — no dense textbooks or dry reference manuals. Strictly under 500 pages.</p>
+        </div>
+        <div class="bg-amber-50/50 border border-amber-100/70 rounded-2xl p-5">
+          <div class="text-2xl mb-2" aria-hidden="true">🌱</div>
+          <h3 class="font-semibold text-stone-900 text-sm mb-1">Relevant and current</h3>
+          <p class="text-sm text-stone-600 leading-relaxed">Published after 2000, or an undeniable evergreen classic. Ideas you can apply to modern work and life.</p>
+        </div>
+        <div class="bg-amber-50/50 border border-amber-100/70 rounded-2xl p-5">
+          <div class="text-2xl mb-2" aria-hidden="true">✅</div>
+          <h3 class="font-semibold text-stone-900 text-sm mb-1">No repeats, ever</h3>
+          <p class="text-sm text-stone-600 leading-relaxed">Each pick is cross-checked against the full shelf history — every book appears only once.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modal View for Selected Book -->
+    <div x-show="modalOpen" x-cloak x-transition.opacity @keydown.escape.window="closeModal()" class="fixed inset-0 z-50 bg-stone-900/60 backdrop-blur-sm flex p-4 sm:p-6 overflow-y-auto" @click.self="closeModal()">
+      <template x-if="activeBook">
+        <div class="bg-white rounded-3xl shadow-2xl max-w-3xl w-full my-auto mx-auto p-6 sm:p-8 space-y-6 relative border border-amber-200/60" role="dialog" aria-modal="true" aria-labelledby="modal-book-title">
+          <button @click="closeModal()" aria-label="Close details" class="absolute top-6 right-6 text-stone-400 hover:text-stone-700 p-2 rounded-full hover:bg-stone-100 transition-colors">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+          </button>
+
+          <div class="flex flex-col sm:flex-row gap-6 items-start">
+            <div class="w-36 sm:w-44 flex-shrink-0 aspect-[2/3] rounded-xl overflow-hidden shadow-lg border border-stone-200 mx-auto sm:mx-0">
+              <img :src="coverUrl(activeBook)" :alt="'Cover of ' + (activeBook.title || 'book') + ' by ' + (activeBook.author || 'unknown author')" class="w-full h-full object-cover" @error="handleCoverError($event, activeBook)" @load="checkCover($event, activeBook)">
+            </div>
+            <div class="space-y-3 flex-grow min-w-0 pr-10">
+              <div class="flex flex-wrap gap-2">
+                <template x-for="g in (activeBook.genres_tags || [])">
+                  <span class="px-2.5 py-1 bg-amber-50 text-amber-900 border border-amber-100 rounded-md text-xs font-medium" x-text="g"></span>
+                </template>
+              </div>
+              <h3 id="modal-book-title" class="text-2xl sm:text-3xl font-serif font-bold text-stone-900 leading-tight break-words" x-text="activeBook.title || 'Untitled'"></h3>
+              <p class="text-sm text-stone-600">by <span class="font-semibold text-stone-800" x-text="activeBook.author || 'Unknown author'"></span> (<span x-text="activeBook.publication_year"></span> • <span x-text="activeBook.page_count"></span> pages)</p>
+              <div class="flex items-center space-x-3 text-sm text-stone-700">
+                <span>⭐ <strong class="text-stone-900" x-text="activeBook.goodreads?.rating ?? '—'"></strong> / 5.0</span>
+                <span>•</span>
+                <span x-text="formatCount(activeBook.goodreads?.ratings_count) + ' Goodreads ratings'"></span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Hook -->
+          <div class="bg-gradient-to-r from-amber-50 to-yellow-50/60 border-l-4 border-amber-500 p-4 rounded-r-xl">
+            <p class="text-amber-900 font-medium italic text-sm sm:text-base" x-text="'“' + ((activeBook.one_sentence_hook || '')) + '”'"></p>
+          </div>
+
+          <!-- Summary -->
+          <div class="space-y-2">
+            <h4 class="text-xs font-semibold text-stone-400 uppercase tracking-wider">Overview</h4>
+            <p class="text-stone-700 text-sm leading-relaxed" x-text="(activeBook.summary || {}).overview || ''"></p>
+          </div>
+
+          <!-- Takeaways -->
+          <div class="space-y-3">
+            <h4 class="text-xs font-semibold text-stone-400 uppercase tracking-wider">Core Takeaways</h4>
+            <div class="space-y-2">
+              <template x-for="(takeaway, idx) in ((activeBook.summary || {}).key_takeaways || [])">
+                <div class="flex items-start bg-stone-50 border border-stone-200/80 p-3 rounded-xl">
+                  <span class="flex-shrink-0 w-5 h-5 rounded-full bg-amber-100 text-amber-800 flex items-center justify-center text-xs font-bold mr-3 mt-0.5" x-text="idx + 1"></span>
+                  <p class="text-stone-700 text-xs sm:text-sm" x-text="takeaway"></p>
+                </div>
+              </template>
+            </div>
+          </div>
+
+          <!-- Actions -->
+          <div class="pt-4 border-t border-stone-200 flex flex-col sm:flex-row gap-3">
+            <a :href="goodreadsUrl(activeBook)" target="_blank" rel="noopener" class="flex-1 flex items-center justify-center px-4 py-2.5 bg-amber-600 hover:bg-amber-700 text-white font-medium rounded-xl shadow-sm text-sm transition-colors">
+              View on Goodreads
+            </a>
+          </div>
+          <div class="flex flex-col sm:flex-row gap-3">
+            <a :href="bookPageUrl(activeBook)" class="flex-1 flex items-center justify-center px-4 py-2.5 bg-white border border-stone-300 hover:border-amber-300 hover:bg-amber-50 text-stone-700 hover:text-amber-800 font-medium rounded-xl shadow-sm text-sm transition-colors">
+              View book page →
+            </a>
+            <button @click="copyBookLink(activeBook, $event)" class="flex-1 px-4 py-2.5 bg-white border border-stone-300 hover:border-amber-300 hover:bg-amber-50 text-stone-700 hover:text-amber-800 font-medium rounded-xl shadow-sm text-sm transition-colors" x-text="copiedIsbn === String(activeBook.isbn_13) ? 'Copied!' : 'Copy share link'"></button>
+          </div>
+
+        </div>
+      </template>
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-white border-t border-amber-100 mt-12 py-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <p class="text-xs text-stone-500">Shivraj Rath | <a href="https://novicelab.org" class="hover:text-amber-700 hover:underline">novicelab.org</a></p>
+    </div>
+  </footer>
+
+  <script>
+    function bookShelf() {
+      return {
+        books: [],
+        loading: true,
+        loadError: false,
+        searchQuery: '',
+        selectedGenres: [],
+        genreMatchAll: false,
+        showAllGenres: false,
+        modalOpen: false,
+        activeBook: null,
+        pageSize: 30,
+        visibleCount: 30,
+        _allGenresCache: null,
+        _topGenresCache: null,
+
+        async init() {
+          this.loading = true;
+          this.loadError = false;
+          // Reset paging whenever the debounced search text changes.
+          this.$watch('searchQuery', () => { this.visibleCount = this.pageSize; });
+          try {
+            // {cache:'no-cache'} revalidates via ETag/Last-Modified (304 when
+            // unchanged) instead of the old ?Date.now() cache-buster, which
+            // forced a full re-download of books.json on every page load.
+            const res = await fetch('data/books.json', { cache: 'no-cache' });
+            if (!res.ok) throw new Error('HTTP ' + res.status);
+            const data = await res.json();
+            if (!Array.isArray(data)) throw new Error('Invalid books.json shape');
+            this.books = data;
+            this._allGenresCache = null;
+            this._topGenresCache = null;
+            this.visibleCount = this.pageSize;
+          } catch (err) {
+            console.error('Failed to load books.json:', err);
+            this.loadError = true;
+          } finally {
+            this.loading = false;
+          }
+        },
+
+        get featuredBook() {
+          return this.books.length > 0 ? this.books[0] : null;
+        },
+
+        get allGenres() {
+          if (this._allGenresCache) return this._allGenresCache;
+          const set = new Set();
+          this.books.forEach(b => {
+            if (b.genres_tags) b.genres_tags.forEach(g => set.add(g));
+          });
+          this._allGenresCache = Array.from(set).sort();
+          return this._allGenresCache;
+        },
+
+        get topGenres() {
+          if (this._topGenresCache) return this._topGenresCache;
+          const counts = {};
+          this.books.forEach(b => {
+            if (b.genres_tags) b.genres_tags.forEach(g => { counts[g] = (counts[g] || 0) + 1; });
+          });
+          this._topGenresCache = Object.entries(counts)
+            .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+            .slice(0, 8)
+            .map(e => e[0]);
+          return this._topGenresCache;
+        },
+
+        get visibleGenres() {
+          if (this.showAllGenres) return this.allGenres;
+          const top = this.topGenres;
+          const extra = this.selectedGenres.filter(g => !top.includes(g));
+          if (extra.length) return [...top, ...extra].sort();
+          return top;
+        },
+
+        toggleGenre(genre) {
+          const i = this.selectedGenres.indexOf(genre);
+          if (i >= 0) this.selectedGenres.splice(i, 1);
+          else this.selectedGenres.push(genre);
+          this.visibleCount = this.pageSize;
+        },
+
+        isGenreSelected(genre) {
+          return this.selectedGenres.includes(genre);
+        },
+
+        clearGenres() {
+          this.selectedGenres = [];
+          this.visibleCount = this.pageSize;
+        },
+
+        toggleMatchMode() {
+          this.genreMatchAll = !this.genreMatchAll;
+          this.visibleCount = this.pageSize;
+        },
+
+        get filteredBooks() {
+          return this.books.filter(book => {
+            const b = book || {};
+            let matchesGenre = true;
+            if (this.selectedGenres.length > 0) {
+              const tags = b.genres_tags || [];
+              matchesGenre = this.genreMatchAll
+                ? this.selectedGenres.every(g => tags.includes(g))
+                : this.selectedGenres.some(g => tags.includes(g));
+            }
+            const q = (this.searchQuery || '').toLowerCase();
+            const title = String(b.title || '').toLowerCase();
+            const author = String(b.author || '').toLowerCase();
+            const isbn = String(b.isbn_13 || '');
+            const matchesQuery = !q ||
+              title.includes(q) ||
+              author.includes(q) ||
+              isbn.includes(q) ||
+              ((b.genres_tags || []).some(g => String(g).toLowerCase().includes(q)));
+            return matchesGenre && matchesQuery;
+          });
+        },
+
+        get displayedBooks() {
+          return this.filteredBooks.slice(0, this.visibleCount);
+        },
+
+        get hasMore() {
+          return this.visibleCount < this.filteredBooks.length;
+        },
+
+        loadMore() {
+          this.visibleCount += this.pageSize;
+        },
+
+        formatCount(n) {
+          const v = Number(n);
+          return Number.isFinite(v) ? Math.round(v).toLocaleString() : '—';
+        },
+
+        // Goodreads link is computed client-side (never trusted from data).
+        // Stored ISBNs are sometimes hallucinated near-misses (~33 rows fail
+        // the ISBN-13 checksum, e.g. Atomic Habits ...291 vs real ...292),
+        // and an ISBN-only Goodreads query with a bad checksum finds nothing —
+        // so fall back to title + author when the checksum is invalid.
+        // (Local-library / WorldCat buttons removed for now; the curation
+        // script still writes library_lookup so they can return later.)
+        isValidIsbn13(isbn) {
+          const s = String(isbn || '').replace(/[-\s]/g, '');
+          if (!/^\d{13}$/.test(s)) return false;
+          let sum = 0;
+          for (let i = 0; i < 12; i++) sum += Number(s[i]) * (i % 2 === 0 ? 1 : 3);
+          return (10 - (sum % 10)) % 10 === Number(s[12]);
+        },
+
+        bookQuery(book, preferIsbn) {
+          const title = book && book.title ? String(book.title).trim() : '';
+          const author = book && book.author ? String(book.author).trim() : '';
+          const titleAuthor = (title + ' ' + author).trim();
+          if (preferIsbn && this.isValidIsbn13(book && book.isbn_13)) {
+            return String(book.isbn_13).replace(/[-\s]/g, '');
+          }
+          return titleAuthor || String((book && book.isbn_13) || '').trim();
+        },
+
+        goodreadsUrl(book) {
+          return 'https://www.goodreads.com/search?q=' + encodeURIComponent(this.bookQuery(book, true));
+        },
+
+        // Dedicated static page per book (generated by generate_pages.py):
+        // books/<id>-<slug(title)>.html. slugify() must stay in sync with
+        // the Python slugify() there: NFKD -> ascii -> lower ->
+        // [^a-z0-9]+ to '-' -> trim '-'.
+        slugify(text) {
+          const s = String(text || '').normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+          return s.replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '') || 'book';
+        },
+
+        // Evergreen slug stored on each book (books/<slug>.html). Falls back
+        // to slugify(title) for entries predating the slug field. Never
+        // includes the curation-date id — URLs must stay stable forever.
+        bookSlug(book) {
+          const stored = book && book.slug ? String(book.slug).trim() : '';
+          if (stored) return stored;
+          return this.slugify(book && book.title);
+        },
+
+        bookPageUrl(book) {
+          return 'books/' + this.bookSlug(book) + '.html';
+        },
+
+        copiedIsbn: '',
+
+        copyBookLink(book, event) {
+          if (event) event.stopPropagation();
+          const url = new URL(this.bookPageUrl(book), window.location.href).href;
+          const done = () => {
+            this.copiedIsbn = String((book && book.isbn_13) || '');
+            setTimeout(() => { this.copiedIsbn = ''; }, 1600);
+          };
+          if (navigator.clipboard && navigator.clipboard.writeText) {
+            navigator.clipboard.writeText(url).then(done).catch(() => { window.prompt('Copy this link:', url); });
+          } else {
+            window.prompt('Copy this link:', url);
+          }
+        },
+
+        openModal(book) {
+          this.activeBook = book;
+          this.modalOpen = true;
+          document.body.style.overflow = 'hidden';
+        },
+
+        closeModal() {
+          this.modalOpen = false;
+          this.activeBook = null;
+          document.body.style.overflow = '';
+        },
+
+        coverIdOverrides: {
+          // ISBN -> Open Library cover ID. Used when both the ISBN-keyed and
+          // title-keyed covers are missing. Resolved via openlibrary.org/search.json.
+          '9780544947224': 10467082, // Peak by Anders Ericsson
+          '9780998406217': 10102083 // The University of Berkshire Hathaway
+        },
+
+        coverUrl(book) {
+          if (!book || !book.cover_image_url) return this.fallbackCoverSrc(book);
+          const url = book.cover_image_url;
+          // Open Library returns a 1x1 blank gif (HTTP 200) when a cover is
+          // missing, so @error never fires. ?default=false forces a 404
+          // instead, letting the fallback trigger. See checkCover() below.
+          if (url.includes('covers.openlibrary.org') && !url.includes('default=')) {
+            return url + (url.includes('?') ? '&' : '?') + 'default=false';
+          }
+          return url;
+        },
+
+        titleCoverUrl(book) {
+          const title = book && book.title ? String(book.title).trim() : '';
+          if (!title) return null;
+          return 'https://covers.openlibrary.org/b/title/' + encodeURIComponent(title) + '-L.jpg?default=false';
+        },
+
+        resetCoverState(el, book) {
+          const isbn = book && book.isbn_13 ? String(book.isbn_13) : '';
+          if (el.dataset.isbn !== isbn) {
+            el.dataset.isbn = isbn;
+            delete el.dataset.triedTitle;
+            delete el.dataset.triedId;
+            delete el.dataset.fallbackApplied;
+          }
+        },
+
+        tryNextCover(el, book) {
+          // Next URL in the chain after the ISBN-keyed cover failed:
+          // title-keyed Open Library cover -> pinned cover ID -> null (use SVG).
+          // cover_ol_id comes from the data (set by script.py at curation
+          // time); coverIdOverrides is legacy for entries predating it.
+          if (!el.dataset.triedTitle) {
+            el.dataset.triedTitle = '1';
+            const t = this.titleCoverUrl(book);
+            if (t && el.src !== t) return t;
+          }
+          const isbn = book && book.isbn_13 ? String(book.isbn_13) : '';
+          const pinned = (book && book.cover_ol_id) || (isbn && this.coverIdOverrides[isbn]);
+          if (pinned && !el.dataset.triedId) {
+            el.dataset.triedId = '1';
+            return 'https://covers.openlibrary.org/b/id/' + pinned + '-L.jpg?default=false';
+          }
+          return null;
+        },
+
+        handleCoverError(event, book) {
+          const el = event && event.target ? event.target : null;
+          if (!el) return;
+          this.resetCoverState(el, book);
+          if (el.dataset.fallbackApplied) return;
+          const next = this.tryNextCover(el, book);
+          if (next) {
+            el.src = next;
+            return;
+          }
+          el.dataset.fallbackApplied = '1';
+          el.src = this.fallbackCoverSrc(book);
+        },
+
+        checkCover(event, book) {
+          const el = event && event.target ? event.target : null;
+          if (!el) return;
+          this.resetCoverState(el, book);
+          if (el.dataset.fallbackApplied) return;
+          // Safety net: if Open Library (or a cache/proxy) still returns the
+          // 1x1 blank placeholder with HTTP 200, advance down the chain.
+          if (el.naturalWidth <= 2 && el.naturalHeight <= 2) {
+            const next = this.tryNextCover(el, book);
+            if (next) {
+              el.src = next;
+              return;
+            }
+            el.dataset.fallbackApplied = '1';
+            el.src = this.fallbackCoverSrc(book);
+          }
+        },
+
+        fallbackCoverSrc(book) {
+          const raw = (book && book.title ? String(book.title) : 'No Cover').trim() || 'No Cover';
+          const esc = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+          // Simple word-wrap: up to 3 lines, ~22 chars each.
+          const words = raw.split(/\s+/);
+          const lines = [];
+          let line = '';
+          for (let i = 0; i < words.length; i++) {
+            const w = words[i];
+            const next = line ? line + ' ' + w : w;
+            if (next.length > 22 && line) {
+              lines.push(line);
+              if (lines.length === 2) {
+                // Collect remainder into last line, truncated.
+                line = words.slice(i).join(' ').slice(0, 30);
+                break;
+              }
+              line = w;
+            } else {
+              line = next;
+            }
+            if (line.length >= 30 && lines.length === 2) break;
+          }
+          if (line) lines.push(line.slice(0, 30));
+          const titleLines = lines.slice(0, 3);
+          const startY = titleLines.length > 1 ? 392 : 400;
+          const titleSvg = titleLines.map((t, i) =>
+            `<text x="200" y="${startY + i * 30}" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="20" font-weight="bold" fill="#451a03">${esc(t)}</text>`
+          ).join('');
+          const author = book && book.author ? String(book.author).slice(0, 34) : '';
+          const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="400" height="600" viewBox="0 0 400 600">` +
+            `<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fffbeb"/><stop offset="1" stop-color="#fde68a"/></linearGradient></defs>` +
+            `<rect width="400" height="600" fill="url(#g)"/>` +
+            `<rect x="14" y="14" width="372" height="572" rx="18" fill="none" stroke="#d97706" stroke-opacity="0.35" stroke-width="2"/>` +
+            `<g fill="none" stroke="#b45309" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.6" transform="translate(164,150) scale(3)"><path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></g>` +
+            `<text x="200" y="330" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="15" letter-spacing="3" fill="#92400e">NO COVER</text>` +
+            titleSvg +
+            (author ? `<text x="200" y="${startY + titleLines.length * 30 + 6}" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="15" font-style="italic" fill="#78350f">${esc(author)}</text>` : '') +
+            `<text x="200" y="548" text-anchor="middle" font-family="Georgia, serif" font-size="15" font-style="italic" fill="#b45309">Golden Shelf</text>` +
+            `</svg>`;
+          return 'data:image/svg+xml;charset=UTF-8,' + encodeURIComponent(svg);
+        }
+      }
+    }
+  </script>
+</body>
+</html>
