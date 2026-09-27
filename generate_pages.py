@@ -335,8 +335,11 @@ def write_sitemap(slugs_with_dates):
     urls = [f"  <url><loc>{SITE_URL}/</loc></url>"]
     for slug, date_str in slugs_with_dates:
         loc = f"{SITE_URL}/books/{slug}.html"
-        if isinstance(date_str, str) and re.fullmatch(r"\d{4}-\d{2}-\d{2}", date_str):
-            urls.append(f"  <url><loc>{loc}</loc><lastmod>{date_str}</lastmod></url>")
+        # Batch ids look like YYYY-MM-DD-N (Friday 5-book runs); the sitemap
+        # only needs the leading YYYY-MM-DD date for <lastmod>.
+        m = re.match(r"(\d{4}-\d{2}-\d{2})", str(date_str or ""))
+        if m:
+            urls.append(f"  <url><loc>{loc}</loc><lastmod>{m.group(1)}</lastmod></url>")
         else:
             urls.append(f"  <url><loc>{loc}</loc></url>")
     content = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + "\n".join(urls) + "\n</urlset>\n"

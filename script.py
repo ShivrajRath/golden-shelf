@@ -14,6 +14,13 @@ DATA_DIR = "data"
 BOOKS_FILE = os.path.join(DATA_DIR, "books.json")
 HISTORY_FILE = os.path.join(DATA_DIR, "history.json")
 
+# Friday batch size. Override with BOOKS_PER_RUN env var for manual runs
+# (e.g. BOOKS_PER_RUN=1 python3 script.py). The workflow runs with the default.
+try:
+    BOOKS_PER_RUN = max(1, int(os.environ.get("BOOKS_PER_RUN", "5")))
+except ValueError:
+    BOOKS_PER_RUN = 5
+
 def load_json(path, default):
     # Fail fast on corrupt data: returning `default` here would let a later
     # save overwrite the full file with a single entry (total data loss).
@@ -118,7 +125,7 @@ def build_library_lookup(book_data):
     }
     return book_data["library_lookup"]
 
-def validate_book_data(book_data, history_list, today_str):
+def validate_book_data(book_data, history_list, expected_id):
     """Enforce the selection criteria + output schema. Returns a list of error strings."""
     import datetime as _dt
     errors = []
@@ -205,8 +212,8 @@ def validate_book_data(book_data, history_list, today_str):
             if not isinstance(url, str) or not url.strip() or not url.startswith("http"):
                 errors.append(f"library_lookup.{key} must be a non-empty http(s) URL.")
 
-    if book_data.get("id") != today_str:
-        errors.append(f"id must be {today_str!r}.")
+    if book_data.get("id") != expected_id:
+        errors.append(f"id must be {expected_id!r}.")
 
     slug = book_data.get("slug")
     if not isinstance(slug, str) or not re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", slug):
@@ -307,18 +314,26 @@ def main():
     books = load_json(BOOKS_FILE, [])
     history_list = load_json(HISTORY_FILE, [])
     
-    # Check if today's book already exists
-    if any(b.get("id") == today_str for b in books):
-        print(f"Book for today ({today_str}) already exists in books.json. Skipping generation.")
+    # Batch ids: first pick keeps the plain date (backward compatible),
+    # siblings get a "-N" suffix so every entry still has a unique id.
+    # Example for BOOKS_PER_RUN=5: 2026-10-03, 2026-10-03-2, ..., 2026-10-03-5.
+    expected_ids = [today_str] + [f"{today_str}-{i}" for i in range(2, BOOKS_PER_RUN + 1)]
+
+    # Check if this batch already exists (idempotent Friday run)
+    existing_ids = {b.get("id") for b in books if isinstance(b, dict)}
+    if any(eid in existing_ids for eid in expected_ids):
+        print(f"Books for batch {today_str} (x{BOOKS_PER_RUN}) already exist in books.json. Skipping generation.")
         return
 
     # Build prompt
+    count = BOOKS_PER_RUN
+    noun = "book" if count == 1 else "books"
     prompt = f"""
-You are an automated, high-precision book curation engine running inside an automated curation script. Your objective is to select exactly ONE non-fiction book that satisfies all criteria below, generate a rich structured dataset for it, and format the output strictly as JSON for integration into the Golden Shelf GitHub Pages collection.
+You are an automated, high-precision book curation engine running inside an automated curation script. Your objective is to select exactly {count} non-fiction {noun} that satisfy all criteria below, generate a rich structured dataset for each, and format the output strictly as JSON for integration into the Golden Shelf GitHub Pages collection.
 
 ---
 
-### 1. SELECTION CRITERIA (ALL MUST BE MET)
+### 1. SELECTION CRITERIA (ALL MUST BE MET, FOR EACH OF THE {count} BOOKS)
 1. **Genre:** Non-fiction (e.g., neuroscience, cognitive psychology, decision-making, productivity, systems thinking, history, technology, biography).
    - EXCLUDED: True Crime is strictly prohibited. Never select True Crime books.
 2. **Community Rating & Volume:**
@@ -331,65 +346,98 @@ You are an automated, high-precision book curation engine running inside an auto
    - Published AFTER the year 2000, OR classified as an undeniable Evergreen Classic if published prior to 2000.
 5. **Strict Deduplication:**
    - Cross-reference the provided `history_list` array.
-   - The selected book MUST NOT exist in `history_list` by title, subtitle, or ISBN.
+   - No selected book may exist in `history_list` by title, subtitle, or ISBN.
+   - The {count} books in this batch must also be distinct from each other: different titles, different ISBNs, no repeated author. Spread them across at least 3 different genres/categories.
 
 ---
 
-### 2. INPUT CONTEXT PROVIDED AT RUNTIME
+### 2. CORRECTNESS REQUIREMENTS (EACH BOOK MUST LOOK CORRECT — VERIFY BEFORE EMITTING)
+- Only real, actually published books. Never invent a title, author, or edition.
+- `title`: exact full title as published (correct spelling, no invented subtitles).
+- `author`: exact author name(s) as published (correct spelling, full name).
+- `publication_year`: the real first-publication year of the book (integer 1800-present; post-2000 unless an undeniable evergreen classic). It must match the edition the ISBN belongs to.
+- `page_count`: the real page count of a standard print edition of that ISBN (integer strictly under 500). Do not guess a round number — use the actual edition length.
+- `isbn_13`: the exact, real 13-digit ISBN of a standard print edition (digits only, no hyphens). Recompute the ISBN-13 checksum digit before emitting: a near-miss ISBN (even one digit off) makes catalog and cover links return zero results and fails validation. Never invent, truncate, or alter digits.
+- `goodreads.rating` (4.0-5.0) and `goodreads.ratings_count` (>= 2500) must be plausible real values for that book, not aspirational numbers. If you are unsure a book clears both bars, pick a different, better-known book.
+- `genres_tags`: the book's actual categories (non-empty array). Never tag a book True Crime.
+- `review_summary_highlights` (at least 2), `summary.overview`, `summary.key_takeaways` (exactly 3), and `one_sentence_hook` must describe THIS specific book's real thesis and contents — concrete frameworks, findings, or narrative — never generic filler that could apply to any book.
+- Consistency check before emitting each entry: title <-> author <-> year <-> ISBN must all belong to the same real book and edition. If any field is uncertain, discard the candidate and select a book you know with certainty.
+
+---
+
+### 3. COVER IMAGE ACCESSIBILITY (EACH BOOK MUST HAVE A REACHABLE COVER)
+- Construct `cover_image_url` strictly using the Open Library pattern `https://covers.openlibrary.org/b/isbn/{{ISBN_13}}-L.jpg` with your verified `isbn_13`.
+- Only select books/editions whose cover is actually reachable at that URL. Prefer the most popular print edition's ISBN (the one Open Library, Goodreads, and booksellers list first), and avoid obscure, print-on-demand, box-set, or regional ISBNs that have no Open Library cover.
+- Self-check per book: the ISBN-keyed cover should resolve to a real book cover image (not a 1x1 blank placeholder or 404). If you doubt a specific ISBN has a cover, choose a different well-known edition/ISBN of the same book, or a different book entirely.
+- The curation script probes `b/isbn/<ISBN>-L.jpg`, then the title-keyed cover, then pins an Open Library cover ID as a fallback — picking mainstream ISBNs maximizes the chance the first-level cover resolves. Do not emit `cover_ol_id` yourself (the script sets it); just make the ISBN choice cover-friendly.
+
+---
+
+### 4. DEDUPLICATION (STRICT — NO DUPLICATES, EVER)
+- Compare every candidate against `history_list` (which contains past ISBNs and titles): reject on exact ISBN match, case-insensitive title/subtitle match, or same author + title combination.
+- The {count} books in this batch must be pairwise distinct by ISBN, title, and author — no two entries may share any of these.
+- If a candidate collides with `history_list` or with another pick in this batch, replace it with a different qualifying book. Never return a duplicate and hope the script accepts it — duplicates fail validation and discard the whole batch.
+
+---
+
+### 5. INPUT CONTEXT PROVIDED AT RUNTIME
 - `history_list`: {json.dumps(history_list)}
 - `target_date`: "{today_str}"
+- `batch_size`: {count}
 
 ---
 
-### 3. REQUIRED JSON OUTPUT SCHEMA
-Output ONLY a single valid, raw JSON object matching this structure:
+### 6. REQUIRED JSON OUTPUT SCHEMA
+Output ONLY a single valid, raw JSON array containing exactly {count} objects, each matching this structure:
 
-{{
-  "id": "{today_str}",
-  "isbn_13": "string (13-digit ISBN without hyphens)",
-  "title": "string",
-  "author": "string",
-  "publication_year": integer,
-  "page_count": integer,
-  "genres_tags": ["array of strings"],
-  "goodreads": {{
-    "rating": float,
-    "ratings_count": integer,
-    "review_summary_highlights": [
-      "Praise highlight 1 regarding tone, actionable value, or core narrative style",
-      "Praise highlight 2 regarding real-world application or insights"
-    ]
-  }},
-  "cover_image_url": "https://covers.openlibrary.org/b/isbn/{{ISBN_13}}-L.jpg",
-  "one_sentence_hook": "string (Engaging, punchy single sentence summarizing why to read this book)",
-  "summary": {{
-    "overview": "2-3 sentence executive summary explaining the core thesis.",
-    "key_takeaways": [
-      "Key actionable takeaway or mental model 1",
-      "Key actionable takeaway or mental model 2",
-      "Key actionable takeaway or mental model 3"
-    ]
-  }},
-  "library_lookup": {{
-    "goodreads_url": "https://www.goodreads.com/search?q={{ISBN_13}}",
-    "worldcat_url": "https://search.worldcat.org/search?q={{ISBN_13}}"
+[
+  {{
+    "isbn_13": "string (13-digit ISBN without hyphens)",
+    "title": "string",
+    "author": "string",
+    "publication_year": integer,
+    "page_count": integer,
+    "genres_tags": ["array of strings"],
+    "goodreads": {{
+      "rating": float,
+      "ratings_count": integer,
+      "review_summary_highlights": [
+        "Praise highlight 1 regarding tone, actionable value, or core narrative style",
+        "Praise highlight 2 regarding real-world application or insights"
+      ]
+    }},
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/{{ISBN_13}}-L.jpg",
+    "one_sentence_hook": "string (Engaging, punchy single sentence summarizing why to read this book)",
+    "summary": {{
+      "overview": "2-3 sentence executive summary explaining the core thesis.",
+      "key_takeaways": [
+        "Key actionable takeaway or mental model 1",
+        "Key actionable takeaway or mental model 2",
+        "Key actionable takeaway or mental model 3"
+      ]
+    }},
+    "library_lookup": {{
+      "goodreads_url": "https://www.goodreads.com/search?q={{ISBN_13}}",
+      "worldcat_url": "https://search.worldcat.org/search?q={{ISBN_13}}"
+    }}
   }}
-}}
+]
 
 ---
 
-### 4. EXECUTION CONSTRAINTS
-- Construct `cover_image_url` strictly using the Open Library API pattern `https://covers.openlibrary.org/b/isbn/{{ISBN_13}}-L.jpg`.
-- Double-check `isbn_13` is the exact, real 13-digit ISBN of the book (including the checksum digit): a near-miss ISBN makes catalog and cover links return zero results and fails validation.
+### 7. EXECUTION CONSTRAINTS
+- Return exactly {count} array items, ordered by your confidence (strongest pick first).
+- Construct each `cover_image_url` strictly using the Open Library API pattern `https://covers.openlibrary.org/b/isbn/{{ISBN_13}}-L.jpg` with that entry's own ISBN.
+- Double-check each `isbn_13` is the exact, real 13-digit ISBN of the book (including the checksum digit): a near-miss ISBN makes catalog and cover links return zero results and fails validation.
 - `library_lookup` URLs are rebuilt deterministically by the script after parsing; still include best-effort http(s) placeholders matching the schema.
-- Omit `slug`: the script assigns the evergreen URL slug from the title (any value you provide is overwritten).
-- Ensure the 3 `key_takeaways` focus on concrete, practical frameworks or distinct cognitive insights rather than generic chapter descriptions.
+- Omit `id` and `slug`: the script assigns batch ids (`{today_str}`, `{today_str}-2`, ...) and evergreen URL slugs from the title (any values you provide are overwritten).
+- Ensure the 3 `key_takeaways` per book focus on concrete, practical frameworks or distinct cognitive insights rather than generic chapter descriptions.
 - Output ONLY valid JSON. Do not include markdown headers, surrounding text, preambles, or postscript notes.
 """
 
-    print("Calling Gemini API for book curation...")
+    print(f"Calling Gemini API for book curation ({count} {noun})...")
     raw_response = call_gemini_api(prompt, api_key)
-    
+
     # Clean response (strip markdown fences if present)
     cleaned = raw_response.strip()
     if cleaned.lower().startswith("```json"):
@@ -399,58 +447,106 @@ Output ONLY a single valid, raw JSON object matching this structure:
     if cleaned.endswith("```"):
         cleaned = cleaned[:-3]
     cleaned = cleaned.strip()
-    
+
     try:
-        book_data = json.loads(cleaned)
+        parsed = json.loads(cleaned)
     except json.JSONDecodeError as e:
         print(f"Failed to parse JSON response: {e}")
         print(f"Raw response was:\n{raw_response}")
         sys.exit(1)
-        
-    # Ensure id is set to today_str
-    book_data["id"] = today_str
 
-    # Deterministic links: never trust model-invented catalog URLs (it
-    # returned WorldCat for both buttons with ISBNs that 404). Rebuilt
-    # here so validation below also covers them.
-    build_library_lookup(book_data)
-
-    # Evergreen URL slug for the dedicated page (title-based, unique across
-    # the shelf; never the curation date). Overwrites any model-provided value.
-    taken_slugs = {str(b.get("slug") or "") for b in books if isinstance(b, dict)}
-    book_data["slug"] = generate_pages.unique_slug(
-        book_data.get("title"), book_data.get("author"), book_data.get("isbn_13"), taken_slugs
-    )
-
-    # Enforce selection criteria + schema before touching any data files.
-    validation_errors = validate_book_data(book_data, history_list, today_str)
-    if validation_errors:
-        print("Generated book failed validation:")
-        for err in validation_errors:
-            print(f"  - {err}")
+    # Accept a single object only for a 1-book run (backward compatible);
+    # batch runs must return an array of exactly BOOKS_PER_RUN items.
+    if isinstance(parsed, dict):
+        if count == 1:
+            parsed = [parsed]
+        else:
+            print(f"Error: expected a JSON array of {count} books, got a single object.")
+            print(f"Raw response was:\n{raw_response}")
+            sys.exit(1)
+    if not isinstance(parsed, list) or len(parsed) != count:
+        got = len(parsed) if isinstance(parsed, list) else type(parsed).__name__
+        print(f"Error: expected a JSON array of exactly {count} books, got {got}.")
+        print(f"Raw response was:\n{raw_response}")
+        sys.exit(1)
+    if any(not isinstance(item, dict) for item in parsed):
+        print("Error: every array item must be a JSON object.")
         sys.exit(1)
 
-    isbn = str(book_data.get("isbn_13", ""))
-    title = str(book_data.get("title", ""))
-
-    # Probe cover resolvability and pin a data-driven fallback ID when needed.
-    # Warn-only: never blocks the run (frontend SVG fallback always renders).
-    resolve_cover(book_data)
-
-    # Strict deduplication: abort without saving so a duplicate is never committed.
+    # Per-book processing: deterministic ids/links/slugs, schema validation,
+    # cover probing, and dedup (against history AND within this batch).
+    taken_slugs = {str(b.get("slug") or "") for b in books if isinstance(b, dict)}
     history_exact = {str(h).strip() for h in history_list}
     history_titles = {str(h).strip().casefold() for h in history_list}
-    if isbn in history_exact or title.strip().casefold() in history_titles:
-        print(f"Error: Selected book '{title}' (ISBN: {isbn}) is already in history_list. Refusing to save duplicate.")
-        sys.exit(1)
-        
-    # Update history and books
-    books.insert(0, book_data)
-    if isbn and isbn not in history_list:
-        history_list.append(isbn)
-    if title and title not in history_list:
-        history_list.append(title)
-        
+    batch_isbns = set()
+    batch_titles = set()
+    new_books = []
+
+    for idx, book_data in enumerate(parsed):
+        expected_id = expected_ids[idx]
+
+        # Assign the batch id (overwrites any model-provided value).
+        book_data["id"] = expected_id
+
+        # Deterministic links: never trust model-invented catalog URLs (it
+        # returned WorldCat for both buttons with ISBNs that 404). Rebuilt
+        # here so validation below also covers them.
+        build_library_lookup(book_data)
+
+        # Evergreen URL slug for the dedicated page (title-based, unique across
+        # the shelf; never the curation date). Overwrites any model-provided value.
+        book_data["slug"] = generate_pages.unique_slug(
+            book_data.get("title"), book_data.get("author"), book_data.get("isbn_13"), taken_slugs
+        )
+        taken_slugs.add(book_data["slug"])
+
+        # Enforce selection criteria + schema before touching any data files.
+        validation_errors = validate_book_data(book_data, history_list, expected_id)
+        if validation_errors:
+            print(f"Generated book #{idx + 1} ('{book_data.get('title')}') failed validation:")
+            for err in validation_errors:
+                print(f"  - {err}")
+            sys.exit(1)
+
+        isbn = str(book_data.get("isbn_13", ""))
+        title = str(book_data.get("title", ""))
+
+        # Intra-batch duplicate check (history sets already include earlier
+        # picks in this batch, added at the end of each iteration).
+        if isbn in batch_isbns:
+            print(f"Error: batch contains duplicate isbn_13 {isbn!r} (book #{idx + 1}). Refusing to save.")
+            sys.exit(1)
+        if title.strip().casefold() in batch_titles:
+            print(f"Error: batch contains duplicate title {title!r} (book #{idx + 1}). Refusing to save.")
+            sys.exit(1)
+
+        # Probe cover resolvability and pin a data-driven fallback ID when needed.
+        # Warn-only: never blocks the run (frontend SVG fallback always renders).
+        resolve_cover(book_data)
+
+        # Strict deduplication: abort without saving so a duplicate is never committed.
+        if isbn in history_exact or title.strip().casefold() in history_titles:
+            print(f"Error: Selected book '{title}' (ISBN: {isbn}) is already in history_list. Refusing to save duplicate.")
+            sys.exit(1)
+
+        batch_isbns.add(isbn)
+        batch_titles.add(title.strip().casefold())
+        history_exact.add(isbn)
+        history_titles.add(title.strip().casefold())
+        new_books.append(book_data)
+
+    # All picks valid: prepend preserving prompt order (books[0] = strongest pick)
+    # and extend history. Nothing was saved before this point, so a failure
+    # above never leaves a partial batch behind.
+    books[0:0] = new_books
+    for book_data in new_books:
+        isbn = str(book_data.get("isbn_13", ""))
+        title = str(book_data.get("title", ""))
+        if isbn and isbn not in history_list:
+            history_list.append(isbn)
+        if title and title not in history_list:
+            history_list.append(title)
+
     save_json(BOOKS_FILE, books)
     save_json(HISTORY_FILE, history_list)
 
@@ -462,8 +558,9 @@ Output ONLY a single valid, raw JSON object matching this structure:
         generate_pages.main()
     except Exception as e:
         print(f"Warning: book page generation skipped due to error: {e}")
-    
-    print(f"Successfully selected and saved book for {today_str}: '{title}' by {book_data.get('author')}")
+
+    titles = ", ".join(f"'{b.get('title')}' by {b.get('author')}" for b in new_books)
+    print(f"Successfully selected and saved {len(new_books)} books for {today_str}: {titles}")
 
 if __name__ == "__main__":
     main()
