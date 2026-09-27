@@ -1,5 +1,7 @@
 # ✨ Golden Shelf — Curated Non-Fiction Books Worth Reading
 
+🌐 **Live site:** https://novicelab.org
+
 Golden Shelf is a curated collection of exceptional non-fiction books — relevant, easy to read, and community-vetted. Every book meets strict rating, readability, and relevance criteria, and ships with an executive summary, actionable takeaways / mental models, review highlights, cover art, and library lookup links. The collection is presented as a timeless searchable library (not a daily blog) via a responsive GitHub Pages dashboard.
 
 New curated picks are added to the collection over time via an automated GitHub Actions curation workflow.
