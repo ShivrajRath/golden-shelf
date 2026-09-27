@@ -13,7 +13,7 @@ NFKD -> ascii -> lower -> [^a-z0-9]+ to '-' -> strip '-'.
 
 Usage:
     python3 generate_pages.py
-    SITE_URL="https://shivrajrath.github.io/golden-shelf" python3 generate_pages.py
+    SITE_URL="https://novicelab.org" python3 generate_pages.py
 
 Called best-effort from script.py after each curation run and explicitly in
 .github/workflows/curate-book.yml (which commits books/ + sitemap.xml).
@@ -30,7 +30,7 @@ import urllib.parse
 DATA_FILE = os.path.join("data", "books.json")
 OUTPUT_DIR = "books"
 SITEMAP_FILE = "sitemap.xml"
-SITE_URL = os.environ.get("SITE_URL", "https://shivrajrath.github.io/golden-shelf").strip().rstrip("/")
+SITE_URL = os.environ.get("SITE_URL", "https://novicelab.org").strip().rstrip("/")
 
 
 def slugify(value):

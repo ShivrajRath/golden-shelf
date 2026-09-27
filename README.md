@@ -8,7 +8,7 @@ New curated picks are added to the collection over time via an automated GitHub 
 
 ## ✨ Features
 
-- **Strict Selection Criteria** (see [How books make it onto the Golden Shelf](https://shivrajrath.github.io/golden-shelf/#how-we-select)):
+- **Strict Selection Criteria** (see [How books make it onto the Golden Shelf](https://novicelab.org/#how-we-select)):
   - **Genre**: Non-fiction only (neuroscience, cognitive psychology, decision-making, productivity, systems thinking, history, technology, biography, etc.). True Crime is excluded.
   - **Community Rating & Volume**: Goodreads rating $\ge 4.0$ with $\ge 2,500$ ratings.
   - **Length & Readability**: Under 500 pages, highly accessible and insightful.
@@ -27,7 +27,6 @@ New curated picks are added to the collection over time via an automated GitHub 
 1. **GitHub Repository Secrets**:
    Go to your repository **Settings > Secrets and variables > Actions** and add:
    - `GEMINI_API_KEY`: Your Google Gemini API Key (free tier supported).
-   - `USER_LIBRARY` (Optional): Your local library name or ZIP code (e.g., `Dallas Public Library` or `75034`). Defaults to `Dallas Public Library`.
 
 2. **GitHub Pages**:
    - Go to repository **Settings > Pages**.
@@ -46,7 +45,6 @@ To run the curation script locally:
 
 ```bash
 export GEMINI_API_KEY="your-gemini-api-key"
-export USER_LIBRARY="75034"
 python3 script.py
 ```
 

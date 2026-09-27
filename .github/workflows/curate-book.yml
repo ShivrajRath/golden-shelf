@@ -27,11 +27,12 @@ jobs:
       - name: Run Book Curation Script
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          USER_LIBRARY: ${{ secrets.USER_LIBRARY || 'Dallas Public Library' }}
         run: |
           python3 script.py
 
       - name: Generate Book Pages
+        env:
+          SITE_URL: https://novicelab.org
         run: |
           python3 generate_pages.py
 

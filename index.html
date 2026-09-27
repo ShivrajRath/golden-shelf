@@ -8,7 +8,7 @@
   <meta name="keywords" content="best non-fiction books, curated books, book summaries, key takeaways, mental models, productivity books, psychology books, self-improvement books, decision making books, Golden Shelf">
   <meta name="author" content="Golden Shelf">
   <meta name="robots" content="index, follow">
-  <link rel="canonical" href="https://shivrajrath.github.io/golden-shelf/">
+  <link rel="canonical" href="https://novicelab.org/">
   <meta name="theme-color" content="#b45309">
 
   <!-- Open Graph -->
@@ -16,7 +16,7 @@
   <meta property="og:site_name" content="Golden Shelf">
   <meta property="og:title" content="Golden Shelf | Best Non-Fiction Books Worth Reading">
   <meta property="og:description" content="A curated shelf of highly-rated, easy-to-read non-fiction — with summaries, actionable takeaways, and library links. Psychology, habits, productivity, history, biography and more.">
-  <meta property="og:url" content="https://shivrajrath.github.io/golden-shelf/">
+  <meta property="og:url" content="https://novicelab.org/">
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
@@ -41,7 +41,7 @@
     "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "Golden Shelf",
-    "url": "https://shivrajrath.github.io/golden-shelf/",
+    "url": "https://novicelab.org/",
     "description": "A curated collection of the best non-fiction books — highly rated, easy to read, with executive summaries, key takeaways and mental models.",
     "publisher": {
       "@type": "Organization",
@@ -541,8 +541,6 @@
         // the ISBN-13 checksum, e.g. Atomic Habits ...291 vs real ...292),
         // and an ISBN-only Goodreads query with a bad checksum finds nothing —
         // so fall back to title + author when the checksum is invalid.
-        // (Local-library / WorldCat buttons removed for now; the curation
-        // script still writes library_lookup so they can return later.)
         isValidIsbn13(isbn) {
           const s = String(isbn || '').replace(/[-\s]/g, '');
           if (!/^\d{13}$/.test(s)) return false;

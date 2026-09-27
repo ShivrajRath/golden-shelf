@@ -100,14 +100,13 @@ def isbn13_ok(value):
     total = sum(int(d) * (1 if i % 2 == 0 else 3) for i, d in enumerate(s[:12]))
     return (10 - total % 10) % 10 == int(s[12])
 
-def build_library_lookup(book_data, user_library):
+def build_library_lookup(book_data):
     """Deterministic library URLs (never trust the model for links).
 
     Past runs asked Gemini for these and it returned WorldCat for both
     buttons (identical destinations) with ISBN-only queries. Compute them
-    instead: WorldCat = global holdings by ISBN, local catalog = the
-    Dallas Public Library "discover" catalog by title + author (resolves
-    across editions). Overwrites whatever the model returned.
+    instead: WorldCat = global holdings by ISBN. Overwrites whatever the
+    model returned.
     """
     isbn = normalize_isbn(book_data.get("isbn_13"))
     title = str(book_data.get("title", "") or "").strip()
@@ -116,11 +115,6 @@ def build_library_lookup(book_data, user_library):
     book_data["library_lookup"] = {
         "goodreads_url": "https://www.goodreads.com/search?q=" + urllib.parse.quote_plus(isbn or title_author),
         "worldcat_url": "https://search.worldcat.org/search?q=" + urllib.parse.quote_plus(isbn or title_author),
-        "local_catalog_search_url": (
-            "https://discover.dallaslibrary.org/search?query="
-            + urllib.parse.quote_plus(title_author or isbn)
-            + "&searchType=everything"
-        ),
     }
     return book_data["library_lookup"]
 
@@ -204,9 +198,9 @@ def validate_book_data(book_data, history_list, today_str):
 
     lookup = book_data.get("library_lookup")
     if not isinstance(lookup, dict):
-        errors.append("library_lookup must be an object with goodreads_url, worldcat_url, local_catalog_search_url.")
+        errors.append("library_lookup must be an object with goodreads_url, worldcat_url.")
     else:
-        for key in ("goodreads_url", "worldcat_url", "local_catalog_search_url"):
+        for key in ("goodreads_url", "worldcat_url"):
             url = lookup.get(key)
             if not isinstance(url, str) or not url.strip() or not url.startswith("http"):
                 errors.append(f"library_lookup.{key} must be a non-empty http(s) URL.")
@@ -308,7 +302,6 @@ def main():
         print("Error: GEMINI_API_KEY environment variable is not set.")
         sys.exit(1)
         
-    user_library = os.environ.get("USER_LIBRARY", "Dallas Public Library")
     today_str = datetime.date.today().isoformat()
     
     books = load_json(BOOKS_FILE, [])
@@ -344,7 +337,6 @@ You are an automated, high-precision book curation engine running inside an auto
 
 ### 2. INPUT CONTEXT PROVIDED AT RUNTIME
 - `history_list`: {json.dumps(history_list)}
-- `user_library_zip_or_name`: "{user_library}"
 - `target_date`: "{today_str}"
 
 ---
@@ -380,8 +372,7 @@ Output ONLY a single valid, raw JSON object matching this structure:
   }},
   "library_lookup": {{
     "goodreads_url": "https://www.goodreads.com/search?q={{ISBN_13}}",
-    "worldcat_url": "https://search.worldcat.org/search?q={{ISBN_13}}",
-    "local_catalog_search_url": "placeholder http(s) URL (rebuilt by the script — see EXECUTION CONSTRAINTS)"
+    "worldcat_url": "https://search.worldcat.org/search?q={{ISBN_13}}"
   }}
 }}
 
@@ -422,7 +413,7 @@ Output ONLY a single valid, raw JSON object matching this structure:
     # Deterministic links: never trust model-invented catalog URLs (it
     # returned WorldCat for both buttons with ISBNs that 404). Rebuilt
     # here so validation below also covers them.
-    build_library_lookup(book_data, user_library)
+    build_library_lookup(book_data)
 
     # Evergreen URL slug for the dedicated page (title-based, unique across
     # the shelf; never the curation date). Overwrites any model-provided value.

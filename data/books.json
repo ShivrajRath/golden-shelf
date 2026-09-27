@@ -1,5 +1,77 @@
 [
   {
+    "id": "2026-07-04",
+    "slug": "unbroken",
+    "isbn_13": "9781400064168",
+    "title": "Unbroken",
+    "author": "Laura Hillenbrand",
+    "publication_year": 2010,
+    "page_count": 473,
+    "genres_tags": [
+      "Biography",
+      "History",
+      "World War II"
+    ],
+    "goodreads": {
+      "rating": 4.4,
+      "ratings_count": 750000,
+      "review_summary_highlights": [
+        "Widely acclaimed for its profound insights into biography.",
+        "Highly readable, engaging, and packed with practical wisdom."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781400064168-L.jpg",
+    "one_sentence_hook": "A World War II story of survival, resilience, and redemption of Olympian Louis Zamperini.",
+    "summary": {
+      "overview": "Hillenbrand chronicles Zamperini's survival after a plane crash in the Pacific and grueling imprisonment in Japanese POW camps.",
+      "key_takeaways": [
+        "Study resilience as a practice: Zamperini survived crashes, sharks, POW camps, and PTSD through defiance, faith, and one more day at a time.",
+        "Convert suffering into purpose: forgiveness — even of tormentors like the Bird — freed Zamperini where hatred kept him imprisoned after the war.",
+        "Prepare the body to serve the mind: Olympic discipline gave him physical reserves that became spiritual endurance when survival demanded it."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781400064168",
+      "worldcat_url": "https://www.worldcat.org/search?q=9781400064168"
+    }
+  },
+  {
+    "id": "2026-03-11",
+    "slug": "the-richest-man-in-babylon",
+    "isbn_13": "9780451205360",
+    "title": "The Richest Man in Babylon",
+    "author": "George S. Clason",
+    "publication_year": 1926,
+    "page_count": 144,
+    "genres_tags": [
+      "Finance",
+      "Classics",
+      "Self-Improvement"
+    ],
+    "goodreads": {
+      "rating": 4.26,
+      "ratings_count": 280000,
+      "review_summary_highlights": [
+        "Tiny parable classic.",
+        "Beloved first money book."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780451205360-L.jpg",
+    "one_sentence_hook": "Pay yourself first — ancient parables of saving 10% and avoiding debt.",
+    "summary": {
+      "overview": "Clason uses Babylonian tales to teach timeless wealth laws.",
+      "key_takeaways": [
+        "Save at least 10% before spending.",
+        "Make money work via compound interest.",
+        "Seek wise counsel before investing."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780451205360",
+      "worldcat_url": "https://www.worldcat.org/search?q=9780451205360"
+    }
+  },
+  {
     "id": "2026-09-27",
     "slug": "atomic-habits",
     "isbn_13": "9780735211292",
@@ -33,8 +105,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780735211292",
-      "worldcat_url": "https://search.worldcat.org/search?q=9780735211292",
-      "local_catalog_search_url": "https://discover.dallaslibrary.org/search?query=Atomic+Habits+James+Clear&searchType=everything"
+      "worldcat_url": "https://search.worldcat.org/search?q=9780735211292"
     }
   },
   {
@@ -71,8 +142,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780374533557",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780374533557",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780374533557"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780374533557"
     }
   },
   {
@@ -109,8 +179,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780062316097",
-      "worldcat_url": "https://search.worldcat.org/search?q=9780062316097",
-      "local_catalog_search_url": "https://discover.dallaslibrary.org/search?query=Sapiens%3A+A+Brief+History+of+Humankind+Yuval+Noah+Harari&searchType=everything"
+      "worldcat_url": "https://search.worldcat.org/search?q=9780062316097"
     }
   },
   {
@@ -147,8 +216,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780399590504",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780399590504",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780399590504"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780399590504"
     }
   },
   {
@@ -185,8 +253,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780807014295",
-      "worldcat_url": "https://search.worldcat.org/search?q=9780807014295",
-      "local_catalog_search_url": "https://discover.dallaslibrary.org/search?query=Man%27s+Search+for+Meaning+Viktor+E.+Frankl&searchType=everything"
+      "worldcat_url": "https://search.worldcat.org/search?q=9780807014295"
     }
   },
   {
@@ -223,8 +290,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9781455586691",
-      "worldcat_url": "https://search.worldcat.org/search?q=9781455586691",
-      "local_catalog_search_url": "https://discover.dallaslibrary.org/search?query=Deep+Work+Cal+Newport&searchType=everything"
+      "worldcat_url": "https://search.worldcat.org/search?q=9781455586691"
     }
   },
   {
@@ -261,8 +327,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780857197689",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780857197689",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780857197689"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780857197689"
     }
   },
   {
@@ -299,8 +364,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9781501111105",
-      "worldcat_url": "https://www.worldcat.org/search?q=9781501111105",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9781501111105"
+      "worldcat_url": "https://www.worldcat.org/search?q=9781501111105"
     }
   },
   {
@@ -337,8 +401,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9781603580557",
-      "worldcat_url": "https://www.worldcat.org/search?q=9781603580557",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9781603580557"
+      "worldcat_url": "https://www.worldcat.org/search?q=9781603580557"
     }
   },
   {
@@ -375,8 +438,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780735214484",
-      "worldcat_url": "https://search.worldcat.org/search?q=9780735214484",
-      "local_catalog_search_url": "https://discover.dallaslibrary.org/search?query=Range+David+Epstein&searchType=everything"
+      "worldcat_url": "https://search.worldcat.org/search?q=9780735214484"
     }
   },
   {
@@ -413,8 +475,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780061241895",
-      "worldcat_url": "https://search.worldcat.org/search?q=9780061241895",
-      "local_catalog_search_url": "https://discover.dallaslibrary.org/search?query=Influence%3A+The+Psychology+of+Persuasion+Robert+Cialdini&searchType=everything"
+      "worldcat_url": "https://search.worldcat.org/search?q=9780061241895"
     }
   },
   {
@@ -451,8 +512,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780307352156",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780307352156",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780307352156"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780307352156"
     }
   },
   {
@@ -489,8 +549,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780062464316",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780062464316",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780062464316"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780062464316"
     }
   },
   {
@@ -527,8 +586,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9781471159114",
-      "worldcat_url": "https://search.worldcat.org/search?q=9781471159114",
-      "local_catalog_search_url": "https://discover.dallaslibrary.org/search?query=The+Wright+Brothers+David+McCullough&searchType=everything"
+      "worldcat_url": "https://search.worldcat.org/search?q=9781471159114"
     }
   },
   {
@@ -565,8 +623,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780743226714",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780743226714",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780743226714"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780743226714"
     }
   },
   {
@@ -603,8 +660,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780330426237",
-      "worldcat_url": "https://search.worldcat.org/search?q=9780330426237",
-      "local_catalog_search_url": "https://discover.dallaslibrary.org/search?query=The+Immortal+Life+of+Henrietta+Lacks+Rebecca+Skloot&searchType=everything"
+      "worldcat_url": "https://search.worldcat.org/search?q=9780330426237"
     }
   },
   {
@@ -641,8 +697,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780553380163",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780553380163",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780553380163"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780553380163"
     }
   },
   {
@@ -678,8 +733,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780553802023",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780553802023",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780553802023"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780553802023"
     }
   },
   {
@@ -716,8 +770,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780375508325",
-      "worldcat_url": "https://search.worldcat.org/search?q=9780375508325",
-      "local_catalog_search_url": "https://discover.dallaslibrary.org/search?query=Cosmos+Carl+Sagan&searchType=everything"
+      "worldcat_url": "https://search.worldcat.org/search?q=9780375508325"
     }
   },
   {
@@ -754,8 +807,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780345409461",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780345409461",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780345409461"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780345409461"
     }
   },
   {
@@ -791,8 +843,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9781531888121",
-      "worldcat_url": "https://search.worldcat.org/search?q=9781531888121",
-      "local_catalog_search_url": "https://discover.dallaslibrary.org/search?query=Pale+Blue+Dot+Carl+Sagan&searchType=everything"
+      "worldcat_url": "https://search.worldcat.org/search?q=9781531888121"
     }
   },
   {
@@ -829,8 +880,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780316017930",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780316017930",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780316017930"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780316017930"
     }
   },
   {
@@ -866,8 +916,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780060731335",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780060731335",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780060731335"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780060731335"
     }
   },
   {
@@ -903,8 +952,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780812981605",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780812981605",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780812981605"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780812981605"
     }
   },
   {
@@ -941,8 +989,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780312430009",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780312430009",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780312430009"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780312430009"
     }
   },
   {
@@ -979,8 +1026,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780805095159",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780805095159",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780805095159"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780805095159"
     }
   },
   {
@@ -1016,8 +1062,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9781429972109",
-      "worldcat_url": "https://search.worldcat.org/search?q=9781429972109",
-      "local_catalog_search_url": "https://discover.dallaslibrary.org/search?query=Complications+Atul+Gawande&searchType=everything"
+      "worldcat_url": "https://search.worldcat.org/search?q=9781429972109"
     }
   },
   {
@@ -1053,8 +1098,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9781861976574",
-      "worldcat_url": "https://search.worldcat.org/search?q=9781861976574",
-      "local_catalog_search_url": "https://discover.dallaslibrary.org/search?query=Better+Atul+Gawande&searchType=everything"
+      "worldcat_url": "https://search.worldcat.org/search?q=9781861976574"
     }
   },
   {
@@ -1091,8 +1135,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780812988406",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780812988406",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780812988406"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780812988406"
     }
   },
   {
@@ -1128,8 +1171,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9781442339705",
-      "worldcat_url": "https://search.worldcat.org/search?q=9781442339705",
-      "local_catalog_search_url": "https://discover.dallaslibrary.org/search?query=The+Glass+Castle+Jeannette+Walls&searchType=everything"
+      "worldcat_url": "https://search.worldcat.org/search?q=9781442339705"
     }
   },
   {
@@ -1166,8 +1208,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780399588174",
-      "worldcat_url": "https://search.worldcat.org/search?q=9780399588174",
-      "local_catalog_search_url": "https://discover.dallaslibrary.org/search?query=Born+a+Crime+Trevor+Noah&searchType=everything"
+      "worldcat_url": "https://search.worldcat.org/search?q=9780399588174"
     }
   },
   {
@@ -1203,8 +1244,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780385492089",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780385492089",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780385492089"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780385492089"
     }
   },
   {
@@ -1240,8 +1280,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780385486804",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780385486804",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780385486804"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780385486804"
     }
   },
   {
@@ -1277,8 +1316,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780385534260",
-      "worldcat_url": "https://search.worldcat.org/search?q=9780385534260",
-      "local_catalog_search_url": "https://discover.dallaslibrary.org/search?query=The+Wager%3A+A+Tale+of+Shipwreck%2C+Mutiny+and+Murder+David+Grann&searchType=everything"
+      "worldcat_url": "https://search.worldcat.org/search?q=9780385534260"
     }
   },
   {
@@ -1315,8 +1353,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780786215133",
-      "worldcat_url": "https://search.worldcat.org/search?q=9780786215133",
-      "local_catalog_search_url": "https://discover.dallaslibrary.org/search?query=A+Walk+in+the+Woods+Bill+Bryson&searchType=everything"
+      "worldcat_url": "https://search.worldcat.org/search?q=9780786215133"
     }
   },
   {
@@ -1352,8 +1389,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780385539302",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780385539302",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780385539302"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780385539302"
     }
   },
   {
@@ -1389,8 +1425,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780812982008",
-      "worldcat_url": "https://search.worldcat.org/search?q=9780812982008",
-      "local_catalog_search_url": "https://discover.dallaslibrary.org/search?query=Made+to+Stick+Chip+Heath+%26+Dan+Heath&searchType=everything"
+      "worldcat_url": "https://search.worldcat.org/search?q=9780812982008"
     }
   },
   {
@@ -1426,8 +1461,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9781847940322",
-      "worldcat_url": "https://search.worldcat.org/search?q=9781847940322",
-      "local_catalog_search_url": "https://discover.dallaslibrary.org/search?query=Switch+Chip+Heath+%26+Dan+Heath&searchType=everything"
+      "worldcat_url": "https://search.worldcat.org/search?q=9781847940322"
     }
   },
   {
@@ -1463,8 +1497,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9781432845544",
-      "worldcat_url": "https://search.worldcat.org/search?q=9781432845544",
-      "local_catalog_search_url": "https://discover.dallaslibrary.org/search?query=The+Power+of+Moments+Chip+Heath+%26+Dan+Heath&searchType=everything"
+      "worldcat_url": "https://search.worldcat.org/search?q=9781432845544"
     }
   },
   {
@@ -1500,8 +1533,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780143115267",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780143115267",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780143115267"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780143115267"
     }
   },
   {
@@ -1537,8 +1569,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780393352795",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780393352795",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780393352795"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780393352795"
     }
   },
   {
@@ -1574,8 +1605,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780061353246",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780061353246",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780061353246"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780061353246"
     }
   },
   {
@@ -1612,8 +1642,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780061339202",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780061339202",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780061339202"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780061339202"
     }
   },
   {
@@ -1650,8 +1679,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9781797115092",
-      "worldcat_url": "https://search.worldcat.org/search?q=9781797115092",
-      "local_catalog_search_url": "https://discover.dallaslibrary.org/search?query=The+7+Habits+of+Highly+Effective+People+Stephen+R.+Covey&searchType=everything"
+      "worldcat_url": "https://search.worldcat.org/search?q=9781797115092"
     }
   },
   {
@@ -1688,8 +1716,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780671027032",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780671027032",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780671027032"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780671027032"
     }
   },
   {
@@ -1726,8 +1753,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780804139298",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780804139298",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780804139298"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780804139298"
     }
   },
   {
@@ -1764,8 +1790,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780307887894",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780307887894",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780307887894"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780307887894"
     }
   },
   {
@@ -1801,8 +1826,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780066620992",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780066620992",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780066620992"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780066620992"
     }
   },
   {
@@ -1838,8 +1862,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780060516406",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780060516406",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780060516406"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780060516406"
     }
   },
   {
@@ -1876,8 +1899,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780812979688",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780812979688",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780812979688"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780812979688"
     }
   },
   {
@@ -1914,8 +1936,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9781250107817",
-      "worldcat_url": "https://www.worldcat.org/search?q=9781250107817",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9781250107817"
+      "worldcat_url": "https://www.worldcat.org/search?q=9781250107817"
     }
   },
   {
@@ -1952,8 +1973,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780684873947",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780684873947",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780684873947"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780684873947"
     }
   },
   {
@@ -1989,8 +2009,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780715607091",
-      "worldcat_url": "https://search.worldcat.org/search?q=9780715607091",
-      "local_catalog_search_url": "https://discover.dallaslibrary.org/search?query=Awakenings+Oliver+Sacks&searchType=everything"
+      "worldcat_url": "https://search.worldcat.org/search?q=9780715607091"
     }
   },
   {
@@ -2026,8 +2045,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9781400040810",
-      "worldcat_url": "https://www.worldcat.org/search?q=9781400040810",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9781400040810"
+      "worldcat_url": "https://www.worldcat.org/search?q=9781400040810"
     }
   },
   {
@@ -2063,8 +2081,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780143113454",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780143113454",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780143113454"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780143113454"
     }
   },
   {
@@ -2099,8 +2116,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780393338102",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780393338102",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780393338102"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780393338102"
     }
   },
   {
@@ -2137,8 +2153,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780062363596",
-      "worldcat_url": "https://search.worldcat.org/search?q=9780062363596",
-      "local_catalog_search_url": "https://discover.dallaslibrary.org/search?query=Hidden+Figures+Margot+Lee+Shetterly&searchType=everything"
+      "worldcat_url": "https://search.worldcat.org/search?q=9780062363596"
     }
   },
   {
@@ -2175,8 +2190,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9781579124588",
-      "worldcat_url": "https://search.worldcat.org/search?q=9781579124588",
-      "local_catalog_search_url": "https://discover.dallaslibrary.org/search?query=The+Right+Stuff+Tom+Wolfe&searchType=everything"
+      "worldcat_url": "https://search.worldcat.org/search?q=9781579124588"
     }
   },
   {
@@ -2212,82 +2226,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9781471153877",
-      "worldcat_url": "https://search.worldcat.org/search?q=9781471153877",
-      "local_catalog_search_url": "https://discover.dallaslibrary.org/search?query=Radium+Girls+Kate+Moore&searchType=everything"
-    }
-  },
-  {
-    "id": "2026-07-05",
-    "slug": "seabiscuit",
-    "isbn_13": "9781841150925",
-    "title": "Seabiscuit",
-    "author": "Laura Hillenbrand",
-    "publication_year": 2001,
-    "page_count": 399,
-    "genres_tags": [
-      "History",
-      "Sports",
-      "Biography"
-    ],
-    "goodreads": {
-      "rating": 4.33,
-      "ratings_count": 410000,
-      "review_summary_highlights": [
-        "Widely acclaimed for its profound insights into history.",
-        "Highly readable, engaging, and packed with practical wisdom."
-      ]
-    },
-    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781841150925-L.jpg",
-    "one_sentence_hook": "An American legend of an undersized thoroughbred racehorse and the broken men who brought him to glory.",
-    "summary": {
-      "overview": "Laura Hillenbrand weaves a thrilling historical narrative of Depression-era hope centered on the legendary racehorse Seabiscuit.",
-      "key_takeaways": [
-        "Bet on overlooked combinations: a discarded horse, a failed jockey, and a gruff trainer healed each other into a Depression-era symbol of hope.",
-        "Train patiently through damage: Seabiscuit's comeback from injury shows rehabilitation, trust, and timing beat rushing broken assets.",
-        "Remember sport's social power: during the Depression, one horse's heart briefly united a struggling nation hungry for second chances."
-      ]
-    },
-    "library_lookup": {
-      "goodreads_url": "https://www.goodreads.com/search?q=9781841150925",
-      "worldcat_url": "https://search.worldcat.org/search?q=9781841150925",
-      "local_catalog_search_url": "https://discover.dallaslibrary.org/search?query=Seabiscuit+Laura+Hillenbrand&searchType=everything"
-    }
-  },
-  {
-    "id": "2026-07-04",
-    "slug": "unbroken",
-    "isbn_13": "9781400064168",
-    "title": "Unbroken",
-    "author": "Laura Hillenbrand",
-    "publication_year": 2010,
-    "page_count": 473,
-    "genres_tags": [
-      "Biography",
-      "History",
-      "World War II"
-    ],
-    "goodreads": {
-      "rating": 4.4,
-      "ratings_count": 750000,
-      "review_summary_highlights": [
-        "Widely acclaimed for its profound insights into biography.",
-        "Highly readable, engaging, and packed with practical wisdom."
-      ]
-    },
-    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781400064168-L.jpg",
-    "one_sentence_hook": "A World War II story of survival, resilience, and redemption of Olympian Louis Zamperini.",
-    "summary": {
-      "overview": "Hillenbrand chronicles Zamperini's survival after a plane crash in the Pacific and grueling imprisonment in Japanese POW camps.",
-      "key_takeaways": [
-        "Study resilience as a practice: Zamperini survived crashes, sharks, POW camps, and PTSD through defiance, faith, and one more day at a time.",
-        "Convert suffering into purpose: forgiveness — even of tormentors like the Bird — freed Zamperini where hatred kept him imprisoned after the war.",
-        "Prepare the body to serve the mind: Olympic discipline gave him physical reserves that became spiritual endurance when survival demanded it."
-      ]
-    },
-    "library_lookup": {
-      "goodreads_url": "https://www.goodreads.com/search?q=9781400064168",
-      "worldcat_url": "https://www.worldcat.org/search?q=9781400064168",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9781400064168"
+      "worldcat_url": "https://search.worldcat.org/search?q=9781471153877"
     }
   },
   {
@@ -2324,8 +2263,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9781511336277",
-      "worldcat_url": "https://search.worldcat.org/search?q=9781511336277",
-      "local_catalog_search_url": "https://discover.dallaslibrary.org/search?query=The+Boy+Who+Harnessed+the+Wind+William+Kamkwamba&searchType=everything"
+      "worldcat_url": "https://search.worldcat.org/search?q=9781511336277"
     }
   },
   {
@@ -2361,8 +2299,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9781501135910",
-      "worldcat_url": "https://www.worldcat.org/search?q=9781501135910",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9781501135910"
+      "worldcat_url": "https://www.worldcat.org/search?q=9781501135910"
     }
   },
   {
@@ -2398,8 +2335,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780393338829",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780393338829",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780393338829"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780393338829"
     }
   },
   {
@@ -2435,8 +2371,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780393324815",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780393324815",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780393324815"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780393324815"
     }
   },
   {
@@ -2472,8 +2407,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780393027501",
-      "worldcat_url": "https://search.worldcat.org/search?q=9780393027501",
-      "local_catalog_search_url": "https://discover.dallaslibrary.org/search?query=Liar%27s+Poker+Michael+Lewis&searchType=everything"
+      "worldcat_url": "https://search.worldcat.org/search?q=9780393027501"
     }
   },
   {
@@ -2509,8 +2443,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780393351590",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780393351590",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780393351590"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780393351590"
     }
   },
   {
@@ -2546,8 +2479,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9781410496454",
-      "worldcat_url": "https://search.worldcat.org/search?q=9781410496454",
-      "local_catalog_search_url": "https://discover.dallaslibrary.org/search?query=The+Undoing+Project+Michael+Lewis&searchType=everything"
+      "worldcat_url": "https://search.worldcat.org/search?q=9781410496454"
     }
   },
   {
@@ -2583,8 +2515,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780805092998",
-      "worldcat_url": "https://search.worldcat.org/search?q=9780805092998",
-      "local_catalog_search_url": "https://discover.dallaslibrary.org/search?query=The+Sixth+Extinction+Elizabeth+Kolbert&searchType=everything"
+      "worldcat_url": "https://search.worldcat.org/search?q=9780805092998"
     }
   },
   {
@@ -2620,8 +2551,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9781451697728",
-      "worldcat_url": "https://www.worldcat.org/search?q=9781451697728",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9781451697728"
+      "worldcat_url": "https://www.worldcat.org/search?q=9781451697728"
     }
   },
   {
@@ -2658,8 +2588,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9781101873724",
-      "worldcat_url": "https://www.worldcat.org/search?q=9781101873724",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9781101873724"
+      "worldcat_url": "https://www.worldcat.org/search?q=9781101873724"
     }
   },
   {
@@ -2696,8 +2625,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780618249060",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780618249060",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780618249060"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780618249060"
     }
   },
   {
@@ -2734,8 +2662,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780143038580",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780143038580",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780143038580"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780143038580"
     }
   },
   {
@@ -2771,8 +2698,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780143114963",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780143114963",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780143114963"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780143114963"
     }
   },
   {
@@ -2808,8 +2734,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780141975634",
-      "worldcat_url": "https://search.worldcat.org/search?q=9780141975634",
-      "local_catalog_search_url": "https://discover.dallaslibrary.org/search?query=Cooked+Michael+Pollan&searchType=everything"
+      "worldcat_url": "https://search.worldcat.org/search?q=9780141975634"
     }
   },
   {
@@ -2845,8 +2770,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780375760396",
-      "worldcat_url": "https://search.worldcat.org/search?q=9780375760396",
-      "local_catalog_search_url": "https://discover.dallaslibrary.org/search?query=The+Botany+of+Desire+Michael+Pollan&searchType=everything"
+      "worldcat_url": "https://search.worldcat.org/search?q=9780375760396"
     }
   },
   {
@@ -2882,8 +2806,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780802715296",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780802715296",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780802715296"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780802715296"
     }
   },
   {
@@ -2919,8 +2842,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780140280555",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780140280555",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780140280555"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780140280555"
     }
   },
   {
@@ -2956,8 +2878,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780345472328",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780345472328",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780345472328"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780345472328"
     }
   },
   {
@@ -2993,8 +2914,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9781594484803",
-      "worldcat_url": "https://www.worldcat.org/search?q=9781594484803",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9781594484803"
+      "worldcat_url": "https://www.worldcat.org/search?q=9781594484803"
     }
   },
   {
@@ -3030,8 +2950,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780735210622",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780735210622",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780735210622"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780735210622"
     }
   },
   {
@@ -3067,8 +2986,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9781594631900",
-      "worldcat_url": "https://www.worldcat.org/search?q=9781594631900",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9781594631900"
+      "worldcat_url": "https://www.worldcat.org/search?q=9781594631900"
     }
   },
   {
@@ -3104,8 +3022,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780735216372",
-      "worldcat_url": "https://search.worldcat.org/search?q=9780735216372",
-      "local_catalog_search_url": "https://discover.dallaslibrary.org/search?query=Thinking+in+Bets+Annie+Duke&searchType=everything"
+      "worldcat_url": "https://search.worldcat.org/search?q=9780735216372"
     }
   },
   {
@@ -3141,8 +3058,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9781529146165",
-      "worldcat_url": "https://search.worldcat.org/search?q=9781529146165",
-      "local_catalog_search_url": "https://discover.dallaslibrary.org/search?query=Quit+Annie+Duke&searchType=everything"
+      "worldcat_url": "https://search.worldcat.org/search?q=9781529146165"
     }
   },
   {
@@ -3178,8 +3094,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9781101905562",
-      "worldcat_url": "https://search.worldcat.org/search?q=9781101905562",
-      "local_catalog_search_url": "https://discover.dallaslibrary.org/search?query=Superforecasting+Philip+E.+Tetlock+and+Dan+Gardner&searchType=everything"
+      "worldcat_url": "https://search.worldcat.org/search?q=9781101905562"
     }
   },
   {
@@ -3215,8 +3130,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780316451390",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780316451390",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780316451390"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780316451390"
     }
   },
   {
@@ -3252,8 +3166,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780465028023",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780465028023",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780465028023"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780465028023"
     }
   },
   {
@@ -3289,8 +3202,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780593655030",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780593655030",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780593655030"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780593655030"
     }
   },
   {
@@ -3326,8 +3238,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780735224896",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780735224896",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780735224896"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780735224896"
     }
   },
   {
@@ -3363,8 +3274,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780143127741",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780143127741",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780143127741"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780143127741"
     }
   },
   {
@@ -3400,8 +3310,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9781501144318",
-      "worldcat_url": "https://www.worldcat.org/search?q=9781501144318",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9781501144318"
+      "worldcat_url": "https://www.worldcat.org/search?q=9781501144318"
     }
   },
   {
@@ -3437,8 +3346,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780735213616",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780735213616",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780735213616"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780735213616"
     }
   },
   {
@@ -3474,8 +3382,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780593236598",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780593236598",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780593236598"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780593236598"
     }
   },
   {
@@ -3511,8 +3418,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9781524746728",
-      "worldcat_url": "https://www.worldcat.org/search?q=9781524746728",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9781524746728"
+      "worldcat_url": "https://www.worldcat.org/search?q=9781524746728"
     }
   },
   {
@@ -3548,8 +3454,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780374159122",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780374159122",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780374159122"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780374159122"
     }
   },
   {
@@ -3585,8 +3490,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780593652886",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780593652886",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780593652886"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780593652886"
     }
   },
   {
@@ -3622,8 +3526,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780761169253",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780761169253",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780761169253"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780761169253"
     }
   },
   {
@@ -3659,8 +3562,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780761178972",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780761178972",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780761178972"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780761178972"
     }
   },
   {
@@ -3696,8 +3598,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9781936891023",
-      "worldcat_url": "https://www.worldcat.org/search?q=9781936891023",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9781936891023"
+      "worldcat_url": "https://www.worldcat.org/search?q=9781936891023"
     }
   },
   {
@@ -3733,8 +3634,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780385480017",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780385480017",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780385480017"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780385480017"
     }
   },
   {
@@ -3770,8 +3670,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9781982159375",
-      "worldcat_url": "https://www.worldcat.org/search?q=9781982159375",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9781982159375"
+      "worldcat_url": "https://www.worldcat.org/search?q=9781982159375"
     }
   },
   {
@@ -3807,8 +3706,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780399165245",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780399165245",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780399165245"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780399165245"
     }
   },
   {
@@ -3844,8 +3742,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9781531864880",
-      "worldcat_url": "https://search.worldcat.org/search?q=9781531864880",
-      "local_catalog_search_url": "https://discover.dallaslibrary.org/search?query=Peak+Anders+Ericsson+and+Robert+Pool&searchType=everything"
+      "worldcat_url": "https://search.worldcat.org/search?q=9781531864880"
     }
   },
   {
@@ -3881,8 +3778,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780553806847",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780553806847",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780553806847"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780553806847"
     }
   },
   {
@@ -3918,8 +3814,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780525492467",
-      "worldcat_url": "https://search.worldcat.org/search?q=9780525492467",
-      "local_catalog_search_url": "https://discover.dallaslibrary.org/search?query=The+Culture+Code+Daniel+Coyle&searchType=everything"
+      "worldcat_url": "https://search.worldcat.org/search?q=9780525492467"
     }
   },
   {
@@ -3955,8 +3850,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9781591848226",
-      "worldcat_url": "https://www.worldcat.org/search?q=9781591848226",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9781591848226"
+      "worldcat_url": "https://www.worldcat.org/search?q=9781591848226"
     }
   },
   {
@@ -3992,8 +3886,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780061723759",
-      "worldcat_url": "https://search.worldcat.org/search?q=9780061723759",
-      "local_catalog_search_url": "https://discover.dallaslibrary.org/search?query=Bounce+Matthew+Syed&searchType=everything"
+      "worldcat_url": "https://search.worldcat.org/search?q=9780061723759"
     }
   },
   {
@@ -4029,8 +3922,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780674729018",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780674729018",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780674729018"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780674729018"
     }
   },
   {
@@ -4066,8 +3958,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780062852687",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780062852687",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780062852687"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780062852687"
     }
   },
   {
@@ -4103,8 +3994,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780812984293",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780812984293",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780812984293"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780812984293"
     }
   },
   {
@@ -4140,8 +4030,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9781591843528",
-      "worldcat_url": "https://www.worldcat.org/search?q=9781591843528",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9781591843528"
+      "worldcat_url": "https://www.worldcat.org/search?q=9781591843528"
     }
   },
   {
@@ -4177,8 +4066,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780307463746",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780307463746",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780307463746"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780307463746"
     }
   },
   {
@@ -4214,8 +4102,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780525536512",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780525536512",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780525536512"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780525536512"
     }
   },
   {
@@ -4251,8 +4138,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9781455509126",
-      "worldcat_url": "https://www.worldcat.org/search?q=9781455509126",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9781455509126"
+      "worldcat_url": "https://www.worldcat.org/search?q=9781455509126"
     }
   },
   {
@@ -4288,8 +4174,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780060833459",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780060833459",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780060833459"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780060833459"
     }
   },
   {
@@ -4325,8 +4210,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780679762881",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780679762881",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780679762881"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780679762881"
     }
   },
   {
@@ -4362,8 +4246,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780525536222",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780525536222",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780525536222"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780525536222"
     }
   },
   {
@@ -4399,8 +4282,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9781250103505",
-      "worldcat_url": "https://www.worldcat.org/search?q=9781250103505",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9781250103505"
+      "worldcat_url": "https://www.worldcat.org/search?q=9781250103505"
     }
   },
   {
@@ -4436,8 +4318,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780812993011",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780812993011",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780812993011"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780812993011"
     }
   },
   {
@@ -4473,8 +4354,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780316219280",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780316219280",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780316219280"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780316219280"
     }
   },
   {
@@ -4510,8 +4390,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780062301253",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780062301253",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780062301253"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780062301253"
     }
   },
   {
@@ -4547,8 +4426,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780062273208",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780062273208",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780062273208"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780062273208"
     }
   },
   {
@@ -4584,8 +4462,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9781492180746",
-      "worldcat_url": "https://www.worldcat.org/search?q=9781492180746",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9781492180746"
+      "worldcat_url": "https://www.worldcat.org/search?q=9781492180746"
     }
   },
   {
@@ -4621,8 +4498,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9781119387503",
-      "worldcat_url": "https://www.worldcat.org/search?q=9781119387503",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9781119387503"
+      "worldcat_url": "https://www.worldcat.org/search?q=9781119387503"
     }
   },
   {
@@ -4658,8 +4534,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780465050659",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780465050659",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780465050659"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780465050659"
     }
   },
   {
@@ -4695,8 +4570,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780321965516",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780321965516",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780321965516"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780321965516"
     }
   },
   {
@@ -4732,8 +4606,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9781592408412",
-      "worldcat_url": "https://www.worldcat.org/search?q=9781592408412",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9781592408412"
+      "worldcat_url": "https://www.worldcat.org/search?q=9781592408412"
     }
   },
   {
@@ -4769,8 +4642,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9781592858491",
-      "worldcat_url": "https://www.worldcat.org/search?q=9781592858491",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9781592858491"
+      "worldcat_url": "https://www.worldcat.org/search?q=9781592858491"
     }
   },
   {
@@ -4806,8 +4678,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780399592522",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780399592522",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780399592522"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780399592522"
     }
   },
   {
@@ -4843,8 +4714,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780062265425",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780062265425",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780062265425"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780062265425"
     }
   },
   {
@@ -4880,8 +4750,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780807012390",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780807012390",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780807012390"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780807012390"
     }
   },
   {
@@ -4917,8 +4786,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9781572245372",
-      "worldcat_url": "https://www.worldcat.org/search?q=9781572245372",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9781572245372"
+      "worldcat_url": "https://www.worldcat.org/search?q=9781572245372"
     }
   },
   {
@@ -4954,8 +4822,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9781577314806",
-      "worldcat_url": "https://www.worldcat.org/search?q=9781577314806",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9781577314806"
+      "worldcat_url": "https://www.worldcat.org/search?q=9781577314806"
     }
   },
   {
@@ -4991,8 +4858,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9781878424310",
-      "worldcat_url": "https://www.worldcat.org/search?q=9781878424310",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9781878424310"
+      "worldcat_url": "https://www.worldcat.org/search?q=9781878424310"
     }
   },
   {
@@ -5028,8 +4894,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9781401323257",
-      "worldcat_url": "https://www.worldcat.org/search?q=9781401323257",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9781401323257"
+      "worldcat_url": "https://www.worldcat.org/search?q=9781401323257"
     }
   },
   {
@@ -5065,8 +4930,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780767905923",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780767905923",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780767905923"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780767905923"
     }
   },
   {
@@ -5102,8 +4966,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780393326154",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780393326154",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780393326154"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780393326154"
     }
   },
   {
@@ -5139,8 +5002,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780307352897",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780307352897",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780307352897"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780307352897"
     }
   },
   {
@@ -5176,8 +5038,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780553386691",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780553386691",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780553386691"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780553386691"
     }
   },
   {
@@ -5213,8 +5074,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780544104402",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780544104402",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780544104402"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780544104402"
     }
   },
   {
@@ -5250,8 +5110,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780812984965",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780812984965",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780812984965"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780812984965"
     }
   },
   {
@@ -5287,8 +5146,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9781620971932",
-      "worldcat_url": "https://www.worldcat.org/search?q=9781620971932",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9781620971932"
+      "worldcat_url": "https://www.worldcat.org/search?q=9781620971932"
     }
   },
   {
@@ -5324,8 +5182,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780553447439",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780553447439",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780553447439"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780553447439"
     }
   },
   {
@@ -5361,8 +5218,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780312626686",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780312626686",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780312626686"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780312626686"
     }
   },
   {
@@ -5398,8 +5254,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780316505116",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780316505116",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780316505116"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780316505116"
     }
   },
   {
@@ -5435,8 +5290,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780062300546",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780062300546",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780062300546"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780062300546"
     }
   },
   {
@@ -5472,8 +5326,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780684842677",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780684842677",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780684842677"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780684842677"
     }
   },
   {
@@ -5509,8 +5362,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780345514400",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780345514400",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780345514400"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780345514400"
     }
   },
   {
@@ -5546,8 +5398,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780345350688",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780345350688",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780345350688"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780345350688"
     }
   },
   {
@@ -5583,8 +5434,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780374500016",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780374500016",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780374500016"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780374500016"
     }
   },
   {
@@ -5620,8 +5470,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780553296983",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780553296983",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780553296983"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780553296983"
     }
   },
   {
@@ -5657,8 +5506,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780486284996",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780486284996",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780486284996"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780486284996"
     }
   },
   {
@@ -5694,8 +5542,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780812993547",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780812993547",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780812993547"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780812993547"
     }
   },
   {
@@ -5731,8 +5578,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780593230251",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780593230251",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780593230251"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780593230251"
     }
   },
   {
@@ -5768,8 +5614,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780613706476",
-      "worldcat_url": "https://search.worldcat.org/search?q=9780613706476",
-      "local_catalog_search_url": "https://discover.dallaslibrary.org/search?query=Lies+My+Teacher+Told+Me+James+W.+Loewen&searchType=everything"
+      "worldcat_url": "https://search.worldcat.org/search?q=9780613706476"
     }
   },
   {
@@ -5805,8 +5650,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780307265722",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780307265722",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780307265722"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780307265722"
     }
   },
   {
@@ -5842,8 +5686,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9781586486068",
-      "worldcat_url": "https://www.worldcat.org/search?q=9781586486068",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9781586486068"
+      "worldcat_url": "https://www.worldcat.org/search?q=9781586486068"
     }
   },
   {
@@ -5879,8 +5722,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780393339758",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780393339758",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780393339758"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780393339758"
     }
   },
   {
@@ -5916,8 +5758,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780804137386",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780804137386",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780804137386"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780804137386"
     }
   },
   {
@@ -5953,8 +5794,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9781885167774",
-      "worldcat_url": "https://www.worldcat.org/search?q=9781885167774",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9781885167774"
+      "worldcat_url": "https://www.worldcat.org/search?q=9781885167774"
     }
   },
   {
@@ -5990,8 +5830,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780143126560",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780143126560",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780143126560"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780143126560"
     }
   },
   {
@@ -6027,8 +5866,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780525572428",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780525572428",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780525572428"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780525572428"
     }
   },
   {
@@ -6064,8 +5902,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9781501121746",
-      "worldcat_url": "https://www.worldcat.org/search?q=9781501121746",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9781501121746"
+      "worldcat_url": "https://www.worldcat.org/search?q=9781501121746"
     }
   },
   {
@@ -6101,8 +5938,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9781591847786",
-      "worldcat_url": "https://www.worldcat.org/search?q=9781591847786",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9781591847786"
+      "worldcat_url": "https://www.worldcat.org/search?q=9781591847786"
     }
   },
   {
@@ -6138,8 +5974,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9781526610201",
-      "worldcat_url": "https://search.worldcat.org/search?q=9781526610201",
-      "local_catalog_search_url": "https://discover.dallaslibrary.org/search?query=Indistractable+Nir+Eyal&searchType=everything"
+      "worldcat_url": "https://search.worldcat.org/search?q=9781526610201"
     }
   },
   {
@@ -6175,8 +6010,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780062273840",
-      "worldcat_url": "https://search.worldcat.org/search?q=9780062273840",
-      "local_catalog_search_url": "https://discover.dallaslibrary.org/search?query=The+Art+of+Thinking+Clearly+Rolf+Dobelli&searchType=everything"
+      "worldcat_url": "https://search.worldcat.org/search?q=9780062273840"
     }
   },
   {
@@ -6212,8 +6046,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780593086117",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780593086117",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780593086117"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780593086117"
     }
   },
   {
@@ -6249,8 +6082,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9781999449001",
-      "worldcat_url": "https://www.worldcat.org/search?q=9781999449001",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9781999449001"
+      "worldcat_url": "https://www.worldcat.org/search?q=9781999449001"
     }
   },
   {
@@ -6286,8 +6118,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9781578644285",
-      "worldcat_url": "https://search.worldcat.org/search?q=9781578644285",
-      "local_catalog_search_url": "https://discover.dallaslibrary.org/search?query=Seeking+Wisdom+Peter+Bevelin&searchType=everything"
+      "worldcat_url": "https://search.worldcat.org/search?q=9781578644285"
     }
   },
   {
@@ -6323,8 +6154,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780998406213",
-      "worldcat_url": "https://search.worldcat.org/search?q=9780998406213",
-      "local_catalog_search_url": "https://discover.dallaslibrary.org/search?query=The+University+of+Berkshire+Hathaway+Daniel+Pecaut+and+Corey+Wrenn&searchType=everything"
+      "worldcat_url": "https://search.worldcat.org/search?q=9780998406213"
     }
   },
   {
@@ -6360,8 +6190,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780743200400",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780743200400",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780743200400"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780743200400"
     }
   },
   {
@@ -6396,45 +6225,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780470102107",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780470102107",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780470102107"
-    }
-  },
-  {
-    "id": "2026-03-11",
-    "slug": "the-richest-man-in-babylon",
-    "isbn_13": "9780451205360",
-    "title": "The Richest Man in Babylon",
-    "author": "George S. Clason",
-    "publication_year": 1926,
-    "page_count": 144,
-    "genres_tags": [
-      "Finance",
-      "Classics",
-      "Self-Improvement"
-    ],
-    "goodreads": {
-      "rating": 4.26,
-      "ratings_count": 280000,
-      "review_summary_highlights": [
-        "Tiny parable classic.",
-        "Beloved first money book."
-      ]
-    },
-    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780451205360-L.jpg",
-    "one_sentence_hook": "Pay yourself first — ancient parables of saving 10% and avoiding debt.",
-    "summary": {
-      "overview": "Clason uses Babylonian tales to teach timeless wealth laws.",
-      "key_takeaways": [
-        "Save at least 10% before spending.",
-        "Make money work via compound interest.",
-        "Seek wise counsel before investing."
-      ]
-    },
-    "library_lookup": {
-      "goodreads_url": "https://www.goodreads.com/search?q=9780451205360",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780451205360",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780451205360"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780470102107"
     }
   },
   {
@@ -6470,8 +6261,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780143115762",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780143115762",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780143115762"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780143115762"
     }
   },
   {
@@ -6506,8 +6296,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780761147480",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780761147480",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780761147480"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780761147480"
     }
   },
   {
@@ -6542,8 +6331,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9781533667922",
-      "worldcat_url": "https://www.worldcat.org/search?q=9781533667922",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9781533667922"
+      "worldcat_url": "https://www.worldcat.org/search?q=9781533667922"
     }
   },
   {
@@ -6579,8 +6367,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780358567097",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780358567097",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780358567097"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780358567097"
     }
   },
   {
@@ -6616,8 +6403,7 @@
     },
     "library_lookup": {
       "goodreads_url": "https://www.goodreads.com/search?q=9780593332702",
-      "worldcat_url": "https://www.worldcat.org/search?q=9780593332702",
-      "local_catalog_search_url": "https://search.worldcat.org/search?q=9780593332702"
+      "worldcat_url": "https://www.worldcat.org/search?q=9780593332702"
     }
   }
 ]

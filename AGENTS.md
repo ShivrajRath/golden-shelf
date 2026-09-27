@@ -11,7 +11,7 @@ Static GitHub Pages site + Python curation script. No build, bundler, tests, lin
 
 ## Commands
 ```bash
-export GEMINI_API_KEY="..." USER_LIBRARY="75034"  # USER_LIBRARY defaults to Dallas Public Library
+export GEMINI_API_KEY="..."
 python3 script.py
 python3 -m http.server 8000  # required: file:// breaks fetch() of data/books.json
 python3 -c "import json; json.load(open('data/books.json')); json.load(open('data/history.json'))"
