@@ -224,7 +224,234 @@ def validate_book_data(book_data, history_list, expected_id):
 COVER_TIMEOUT = 10
 COVER_UA = {"User-Agent": "GoldenShelf/1.0 (daily curation; contact via repo)"}
 
-def ol_cover_ok(url):
+def ol_fetch_json(url, attempts=3):
+    """GET JSON from Open Library with retries. Returns (data, error).
+
+    error is None on success, "notfound" on HTTP 404, or "network" when
+    the record could not be retrieved (rate limiting, outage, ...).
+    Callers treat "network" as fail-closed: an unverifiable pick must
+    never be saved (the Friday run can be re-triggered once OL recovers).
+    """
+    import time as _time
+    last_404 = False
+    for attempt in range(attempts):
+        try:
+            req = urllib.request.Request(url, headers=COVER_UA)
+            with urllib.request.urlopen(req, timeout=COVER_TIMEOUT) as r:
+                return json.loads(r.read().decode("utf-8")), None
+        except urllib.error.HTTPError as e:
+            if e.code == 404:
+                return None, "notfound"
+            last_404 = False
+        except Exception:
+            last_404 = False
+        if attempt < attempts - 1:
+            _time.sleep(2 ** (attempt + 1))
+    return None, "network"
+
+def norm_text(value):
+    s = str(value or "").lower()
+    s = re.sub(r"[^a-z0-9\s]", " ", s)
+    s = re.sub(r"\s+", " ", s).strip()
+    return re.sub(r"^(the|a|an)\s+", "", s)
+
+def main_title(value):
+    """Title without subtitle/parenthetical/leading article."""
+    s = str(value or "")
+    s = re.sub(r"\s*\(.*?\)\s*", " ", s)
+    s = s.split(":")[0]
+    return norm_text(s)
+
+def title_similarity(a, b):
+    import difflib as _dl
+    return _dl.SequenceMatcher(None, a, b).ratio() if a and b else 0.0
+
+def titles_match(claimed, *catalog_titles):
+    """True if the claimed title plausibly names any catalog title.
+
+    Compares main titles (subtitle/parenthetical/leading-article stripped)
+    and full normalized titles with difflib similarity >= 0.8. Strict enough
+    to reject a wrong-book ISBN ("Becoming Wise" vs "Becoming" scores
+    ~0.76) while accepting harmless edition variance.
+    """
+    for catalog in catalog_titles:
+        pairs = ((main_title(claimed), main_title(catalog)),
+                 (norm_text(claimed), norm_text(catalog)))
+        if any(title_similarity(a, b) >= 0.8 for a, b in pairs):
+            return True
+    return False
+
+def best_title_score(claimed, *catalog_titles):
+    return max(
+        [title_similarity(main_title(claimed), main_title(c)) for c in catalog_titles]
+        + [title_similarity(norm_text(claimed), norm_text(c)) for c in catalog_titles]
+        + [0.0]
+    )
+
+# Transliteration variants the surname check must accept (claimed -> extra
+# tokens treated as matching). Without these, "Laozi" vs OL "Lao Tzu" and
+# "Sun Tzu" vs OL "Sunzi" would false-fail.
+AUTHOR_TOKEN_ALIASES = {
+    "laozi": {"lao", "tzu", "laotzu"},
+    "tzu": {"sunzi"},
+    "sunzi": {"sun", "tzu"},
+}
+
+def author_surnames(author_str):
+    parts = re.split(r"\s+and\s+|[&,;]", str(author_str or ""))
+    surnames = set()
+    for p in parts:
+        toks = norm_text(p).split()
+        if toks:
+            surnames.add(toks[-1])
+    return surnames
+
+def author_matches(claimed_author, ol_names):
+    ol_tokens = set()
+    for name in ol_names:
+        ol_tokens.update(norm_text(name).split())
+    surnames = author_surnames(claimed_author)
+    if not surnames or not ol_tokens:
+        return False
+    for s in surnames:
+        if s in ol_tokens or any(a in ol_tokens for a in AUTHOR_TOKEN_ALIASES.get(s, ())):
+            return True
+    return False
+
+def subject_tokens(subject):
+    return set(norm_text(subject).split())
+
+def is_fiction_subject(subject):
+    # Standalone "fiction" token catches "Fiction", "Science fiction",
+    # "Historical fiction", ... "Nonfiction"/"Non-fiction" explicitly pass.
+    raw = str(subject or "").lower()
+    if "nonfiction" in raw.replace("-", "") or "non-fiction" in raw:
+        return False
+    return "fiction" in subject_tokens(subject)
+
+# A single stray "fiction" subject is catalog noise (Douglass's Narrative
+# and Evicted each carry one); real novels carry several (Annihilation 15,
+# Last Thing He Told Me 7, Perennials 3). True crime stays at >= 1: the
+# "true crime" bigram is precise and rarely noise.
+FICTION_SUBJECT_THRESHOLD = 2
+
+def is_true_crime_subject(subject):
+    return "true crime" in str(subject or "").lower()
+
+def ol_year(publish_date):
+    m = re.search(r"(\d{4})", str(publish_date or ""))
+    return int(m.group(1)) if m else None
+
+def verify_book_external(book_data):
+    """Cross-check the pick against its ISBN's Open Library catalog record.
+
+    Catches the failure modes schema validation cannot: an ISBN belonging
+    to a different book, fiction disguised with non-fiction tags, and true
+    crime (which the model re-tags to dodge the genre check). Returns a
+    list of error strings; fail-closed on network errors.
+    """
+    import time as _time
+    errors = []
+    isbn = normalize_isbn(book_data.get("isbn_13"))
+    title = str(book_data.get("title", "") or "")
+    author = str(book_data.get("author", "") or "")
+
+    ed, err = ol_fetch_json(f"https://openlibrary.org/isbn/{isbn}.json")
+    if err == "notfound" or ed is None and err is None:
+        return [f"isbn_13 {isbn!r} not found in Open Library; refusing to save an unverifiable ISBN."]
+    if err is not None:
+        return [f"Open Library lookup failed for isbn_13 {isbn!r} ({err}); refusing to save unverified picks (re-run once OL recovers)."]
+
+    ed_title = str(ed.get("title") or "")
+
+    # One work fetch serves the title fallback (mis-titled editions, e.g.
+    # Diary of a Young Girl filed under "Anne Frank"), subjects, and
+    # author union below.
+    work_title = ""
+    work_subjects = []
+    work_author_keys = []
+    for w in (ed.get("works") or [])[:1]:
+        wkey = w.get("key") if isinstance(w, dict) else None
+        if not wkey:
+            continue
+        _wd, _ = ol_fetch_json(f"https://openlibrary.org{wkey}.json")
+        if not isinstance(_wd, dict):
+            continue
+        work_title = str(_wd.get("title") or "")
+        if isinstance(_wd.get("subjects"), list):
+            work_subjects = _wd["subjects"]
+        for _a in (_wd.get("authors") or [])[:4]:
+            _akey = (_a.get("author") or {}).get("key") if isinstance(_a, dict) else None
+            if _akey:
+                work_author_keys.append(_akey)
+
+    if not titles_match(title, ed_title, work_title):
+        errors.append(
+            f"title {title!r} does not match the Open Library record for isbn_13 {isbn!r} ({ed_title!r}); "
+            "title <-> ISBN belong to different books."
+        )
+
+    # Author names: union of edition and work authors. Either side can be
+    # wrong or missing in the catalog (e.g. Greenlights 9780593139134
+    # lists "Crown" on the edition; the work lists Matthew McConaughey),
+    # so a claimed surname matching either side passes.
+    ol_names = []
+    seen_keys = set()
+    for key in [a.get("key") for a in (ed.get("authors") or []) if isinstance(a, dict)] + work_author_keys:
+        if not key or key in seen_keys:
+            continue
+        seen_keys.add(key)
+        ad, _ = ol_fetch_json(f"https://openlibrary.org{key}.json")
+        if isinstance(ad, dict) and ad.get("name"):
+            ol_names.append(ad["name"])
+        _time.sleep(0.5)
+    if not ol_names:
+        errors.append(f"could not resolve any author for isbn_13 {isbn!r} via Open Library; refusing to save unverified picks.")
+    elif not author_matches(author, ol_names):
+        # Translator-as-author catalog quirks (e.g. Tao Te Ching filed
+        # under its translator) must not kill a batch when the ISBN is
+        # unambiguously the right book: downgrade to a warning on a
+        # near-exact title match, hard-fail otherwise.
+        if best_title_score(title, ed_title, work_title) >= 0.95:
+            print(f"Warning: author {author!r} not in Open Library names ({', '.join(ol_names)}) "
+                  f"for isbn_13 {isbn!r}; title match is exact so continuing.")
+        else:
+            errors.append(
+                f"author {author!r} does not match the Open Library record for isbn_13 {isbn!r} ({', '.join(ol_names)})."
+            )
+
+    # Fiction / true-crime gate on catalog subjects (not model-supplied tags).
+    # Reuses the work subjects fetched above; no second work request.
+    subjects = []
+    if isinstance(ed.get("subjects"), list):
+        subjects.extend(ed["subjects"])
+    subjects.extend(work_subjects)
+    for s in subjects:
+        if is_true_crime_subject(s):
+            errors.append(f"Open Library catalogs isbn_13 {isbn!r} under {s!r}: True Crime is excluded.")
+            break
+    else:
+        fiction_hits = [s for s in subjects if is_fiction_subject(s)]
+        if len(fiction_hits) >= FICTION_SUBJECT_THRESHOLD:
+            errors.append(
+                f"Open Library catalogs isbn_13 {isbn!r} under {fiction_hits[0]!r} "
+                f"({len(fiction_hits)} fiction subjects): fiction is excluded (non-fiction only)."
+            )
+
+    # The claimed first-publication year cannot postdate this edition by
+    # more than a year (US/UK edition gaps, e.g. Radium Girls 2017 vs a
+    # 2016-dated edition record, are legitimate; larger gaps mean the
+    # year <-> ISBN belong to different books/editions).
+    ed_year = ol_year(ed.get("publish_date"))
+    year = book_data.get("publication_year")
+    if isinstance(ed_year, int) and isinstance(year, int) and year > ed_year + 1:
+        errors.append(
+            f"publication_year {year} postdates the Open Library edition year {ed_year} for isbn_13 {isbn!r}; "
+            "year <-> ISBN belong to different books/editions."
+        )
+
+    _time.sleep(1)
+    return errors
     """True if an Open Library cover URL resolves to a real image.
 
     Returns None when the check itself fails (network down, etc.) so callers
@@ -272,36 +499,50 @@ def resolve_cover(book_data):
     """Mirror of the frontend chain (ISBN -> title -> cover ID -> SVG).
 
     Probes which level resolves and pins book_data["cover_ol_id"] only when
-    both the ISBN-keyed and title-keyed covers are missing. Warn-only: never
-    raises, so a cover-service outage can't break the daily run (the inline
-    SVG fallback still renders).
+    both the ISBN-keyed and title-keyed covers are missing. Returns one of
+    'isbn' | 'title' | 'pinned' | 'none' | 'unknown'. 'none' means the cover
+    is definitively missing (blocking: the ISBN is likely wrong); 'unknown'
+    means the probes themselves failed (network), which warns but never
+    blocks the run.
     """
     isbn = normalize_isbn(book_data.get("isbn_13"))
     title = str(book_data.get("title", "") or "").strip()
     author = str(book_data.get("author", "") or "").strip()
+    definitive = True
     try:
-        if isbn and ol_cover_ok(
+        isbn_ok = ol_cover_ok(
             f"https://covers.openlibrary.org/b/isbn/{isbn}-L.jpg?default=false"
-        ):
+        ) if isbn else False
+        if isbn_ok is None:
+            definitive = False
+        if isbn_ok:
             book_data.pop("cover_ol_id", None)
             print("Cover check: ISBN-keyed Open Library cover resolves.")
-            return
-        if title and ol_cover_ok(
+            return "isbn"
+        title_ok = ol_cover_ok(
             "https://covers.openlibrary.org/b/title/"
             + urllib.parse.quote(title) + "-L.jpg?default=false"
-        ):
+        ) if title else False
+        if title_ok is None:
+            definitive = False
+        if title_ok:
             book_data.pop("cover_ol_id", None)
             print("Cover check: ISBN cover missing, title-keyed cover resolves (frontend fallback).")
-            return
+            return "title"
         cover_id = ol_search_cover_id(title, author) if title else None
         if cover_id:
             book_data["cover_ol_id"] = cover_id
             print(f"Cover check: pinned cover_ol_id={cover_id} (ISBN + title covers missing).")
-        else:
-            book_data.pop("cover_ol_id", None)
-            print("Cover check: no Open Library cover found; frontend SVG fallback will render.")
+            return "pinned"
+        book_data.pop("cover_ol_id", None)
+        if definitive:
+            print("Cover check: no Open Library cover found for ISBN or title; failing validation.")
+            return "none"
+        print("Cover check: no Open Library cover found; frontend SVG fallback will render.")
+        return "unknown"
     except Exception as e:
         print(f"Cover check skipped due to error: {e}")
+        return "unknown"
 
 def main():
     api_key = os.environ.get("GEMINI_API_KEY")
@@ -358,6 +599,7 @@ You are an automated, high-precision book curation engine running inside an auto
 - `publication_year`: the real first-publication year of the book (integer 1800-present; post-2000 unless an undeniable evergreen classic). It must match the edition the ISBN belongs to.
 - `page_count`: the real page count of a standard print edition of that ISBN (integer strictly under 500). Do not guess a round number — use the actual edition length.
 - `isbn_13`: the exact, real 13-digit ISBN of a standard print edition (digits only, no hyphens). Recompute the ISBN-13 checksum digit before emitting: a near-miss ISBN (even one digit off) makes catalog and cover links return zero results and fails validation. Never invent, truncate, or alter digits.
+- AUTOMATED CROSS-CHECK (no exceptions): after parsing, the script looks up each `isbn_13` in the Open Library catalog and requires the record's title and author to match your `title`/`author`; it also rejects the pick when the catalog subjects mark it fiction or true crime — even if you re-tagged `genres_tags` to hide it. A wrong-book ISBN, a novel dressed up as narrative non-fiction, or a true-crime book with sanitized tags discards the whole batch.
 - `goodreads.rating` (4.0-5.0) and `goodreads.ratings_count` (>= 2500) must be plausible real values for that book, not aspirational numbers. If you are unsure a book clears both bars, pick a different, better-known book.
 - `genres_tags`: the book's actual categories (non-empty array). Never tag a book True Crime.
 - `review_summary_highlights` (at least 2), `summary.overview`, `summary.key_takeaways` (exactly 3), and `one_sentence_hook` must describe THIS specific book's real thesis and contents — concrete frameworks, findings, or narrative — never generic filler that could apply to any book.
@@ -474,7 +716,8 @@ Output ONLY a single valid, raw JSON array containing exactly {count} objects, e
         sys.exit(1)
 
     # Per-book processing: deterministic ids/links/slugs, schema validation,
-    # cover probing, and dedup (against history AND within this batch).
+    # Open Library external verification (title/author/subjects), cover
+    # probing, and dedup (against history AND within this batch).
     taken_slugs = {str(b.get("slug") or "") for b in books if isinstance(b, dict)}
     history_exact = {str(h).strip() for h in history_list}
     history_titles = {str(h).strip().casefold() for h in history_list}
@@ -508,6 +751,18 @@ Output ONLY a single valid, raw JSON array containing exactly {count} objects, e
                 print(f"  - {err}")
             sys.exit(1)
 
+        # External consistency gate: the ISBN must actually belong to the
+        # claimed title/author per the Open Library catalog, and the catalog
+        # subjects must not mark it fiction or true crime (schema checks
+        # alone cannot catch a wrong-book ISBN or re-tagged genres).
+        # Fail-closed on lookup outages: never save unverified picks.
+        external_errors = verify_book_external(book_data)
+        if external_errors:
+            print(f"Generated book #{idx + 1} ('{book_data.get('title')}') failed external verification:")
+            for err in external_errors:
+                print(f"  - {err}")
+            sys.exit(1)
+
         isbn = str(book_data.get("isbn_13", ""))
         title = str(book_data.get("title", ""))
 
@@ -521,8 +776,14 @@ Output ONLY a single valid, raw JSON array containing exactly {count} objects, e
             sys.exit(1)
 
         # Probe cover resolvability and pin a data-driven fallback ID when needed.
-        # Warn-only: never blocks the run (frontend SVG fallback always renders).
-        resolve_cover(book_data)
+        # A definitively missing cover (ISBN 404 + no title cover + no cover
+        # ID) fails the run: it almost always means a wrong-book ISBN. An
+        # indeterminate probe (cover-service outage) warns only, since the
+        # frontend SVG fallback still renders.
+        cover_status = resolve_cover(book_data)
+        if cover_status == "none":
+            print(f"Error: no reachable Open Library cover for '{title}' (ISBN: {isbn}). Refusing to save.")
+            sys.exit(1)
 
         # Strict deduplication: abort without saving so a duplicate is never committed.
         if isbn in history_exact or title.strip().casefold() in history_titles:
