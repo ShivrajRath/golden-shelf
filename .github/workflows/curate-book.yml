@@ -2,7 +2,7 @@ name: Golden Shelf Book Curation
 
 on:
   schedule:
-    - cron: '0 8 * * 5' # Every Friday 08:00 UTC: adds 5 picks to the collection (not surfaced in the UI)
+    - cron: '0 0 * * 5' # Every Friday 00:00 UTC: adds 5 picks to the collection (not surfaced in the UI)
   workflow_dispatch:
 
 permissions:
