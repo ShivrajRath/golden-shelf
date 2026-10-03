@@ -1,188 +1,183 @@
 [
   {
-    "isbn_13": "9781524763138",
-    "title": "Becoming Wise: An Inquiry into the Mystery and Art of Living",
-    "author": "Krista Tippett",
-    "publication_year": 2016,
-    "page_count": 288,
+    "isbn_13": "9780393316049",
+    "title": "Surely You're Joking, Mr. Feynman!",
+    "author": "Richard P. Feynman",
+    "publication_year": 1985,
+    "page_count": 350,
     "genres_tags": [
-      "Philosophy",
-      "Spirituality",
-      "Humanities",
+      "Biography",
+      "Science",
+      "Humor"
+    ],
+    "goodreads": {
+      "rating": 4.26,
+      "ratings_count": 238000,
+      "review_summary_highlights": [
+        "A joyous, funny tour through the adventures of a Nobel-winning physicist, from Los Alamos to bongo drums in Brazil.",
+        "Readers love how Feynman's curiosity and irreverence make physics, problem-solving, and honesty feel contagious."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780393316049-L.jpg",
+    "one_sentence_hook": "Nobel physicist Richard Feynman turns a life of pranks, safecracking, and quantum breakthroughs into a masterclass on curiosity.",
+    "summary": {
+      "overview": "Told to Ralph Leighton, these reminiscences follow Feynman from his Queens childhood through the Manhattan Project, Cornell and Caltech, his adventures learning Portuguese in Brazil and Japanese drumming, and his famous 1964 Cornell lectures. The throughline is Feynman's method: question authority, test everything yourself, and follow curiosity wherever it leads.",
+      "key_takeaways": [
+        "Curiosity compounds: saying yes to unfamiliar problems, from biology to lock-picking, builds the analogies that fuel original science.",
+        "Think from first principles: Feynman rebuilt ideas from scratch rather than memorizing jargon, which exposed cargo-cult reasoning instantly.",
+        "Honesty is a technique: report what would prove you wrong, not just what confirms you, because fooling yourself is the easiest trap."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780393316049",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780393316049"
+    },
+    "id": "2026-10-03",
+    "slug": "surely-you-re-joking-mr-feynman"
+  },
+  {
+    "isbn_13": "9780593139134",
+    "title": "Greenlights",
+    "author": "Matthew McConaughey",
+    "publication_year": 2020,
+    "page_count": 304,
+    "genres_tags": [
+      "Memoir",
+      "Biography",
       "Personal Development"
     ],
     "goodreads": {
-      "rating": 4.25,
-      "ratings_count": 6450,
+      "rating": 4.19,
+      "ratings_count": 489269,
       "review_summary_highlights": [
-        "Offers a profound look at what it means to be human through the lens of deep listening and curated conversations.",
-        "Beautifully written, bridging the gap between science, art, religion, and everyday life."
+        "An unconventional, raucous memoir built on fifty years of outlaw wisdom and bumper-sticker aphorisms that somehow land.",
+        "McConaughey's audiobook-style storytelling makes hard lessons about risk, family, and craft feel personal and fun."
       ]
     },
-    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781524763138-L.jpg",
-    "one_sentence_hook": "Peabody Award-winning broadcaster Krista Tippett distills decades of conversations with humanity's greatest thinkers into a masterclass on cultivating a wise, connected life.",
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780593139134-L.jpg",
+    "one_sentence_hook": "Matthew McConaughey distills fifty years of outlaw living into raucous stories and practical rules for catching greenlights.",
     "summary": {
-      "overview": "Becoming Wise draws on insights from astrophysicists, poets, activists, and religious leaders to explore how we can better understand ourselves and each other. Tippett structures the wisdom around five core categories: words, flesh, eros, faith, and time, arguing that curiosity and generosity are the ultimate antidotes to modern polarization.",
+      "overview": "Drawing on diaries kept since age fourteen, McConaughey recounts growing up in Texas, early acting breaks from Dazed and Confused to Dallas Buyers Club, a wilderness sabbatical in Mali, and his return to family-centered filmmaking. He frames each episode around greenlights (approvals to advance) and red lights that turn green with patience and engineering.",
       "key_takeaways": [
-        "Language shapes our reality; choosing generative words can instantly shift toxic cultural dynamics into spaces of mutual understanding.",
-        "Embodiment matters—wisdom is not just an intellectual pursuit but something felt and expressed through physical presence and shared vulnerability.",
-        "Empathy is an active discipline that requires us to be genuinely curious about other people's inner lives rather than rushing to judgment."
+        "Engineer greenlights: when blocked, change the route or timing rather than forcing the obstacle — persistence plus redesign beats stubbornness.",
+        "Frequency over force: values, habits, and relationships compound when tended daily, while intensity without consistency burns out.",
+        "Write your resume backwards: define the life you want at the end, then audit today's choices against that obituary test."
       ]
     },
     "library_lookup": {
-      "goodreads_url": "https://www.goodreads.com/search?q=9781524763138",
-      "worldcat_url": "https://search.worldcat.org/search?q=9781524763138"
-    },
-    "id": "2026-10-03",
-    "slug": "becoming-wise-an-inquiry-into-the-mystery-and-art-of-living"
-  },
-  {
-    "isbn_13": "9780374104092",
-    "title": "The Mars Room",
-    "author": "Rachel Kushner",
-    "publication_year": 2018,
-    "page_count": 352,
-    "genres_tags": [
-      "Social Science",
-      "Criminal Justice",
-      "Narrative Non-Fiction",
-      "Sociology"
-    ],
-    "goodreads": {
-      "rating": 4.02,
-      "ratings_count": 18500,
-      "review_summary_highlights": [
-        "An unflinching, brilliantly researched look into the harsh realities of the American women's prison system.",
-        "Combines empathetic character portraits with a sharp structural critique of systemic inequality."
-      ]
-    },
-    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780374104092-L.jpg",
-    "one_sentence_hook": "While known for fiction, Kushner's exhaustive investigative immersion into the California correctional system delivers an unforgettable, socially urgent exposé of institutional survival.",
-    "summary": {
-      "overview": "Set against the backdrop of a maximum-security women's facility, The Mars Room examines the grinding machinery of American mass incarceration. Through rigorous grounding in the day-to-day realities of inmates and guards alike, the book exposes how poverty, gender violence, and failing public institutions funnel vulnerable human beings into inescapable punitive loops.",
-      "key_takeaways": [
-        "The modern penal system often functions as a warehouse for society's most neglected problems rather than an engine for rehabilitation.",
-        "Isolation and sensory deprivation inside maximum-security environments systematically degrade human agency.",
-        "Institutional survival requires marginalized women to forge complex micro-economies and emotional solidarity networks to endure."
-      ]
-    },
-    "library_lookup": {
-      "goodreads_url": "https://www.goodreads.com/search?q=9780374104092",
-      "worldcat_url": "https://search.worldcat.org/search?q=9780374104092"
+      "goodreads_url": "https://www.goodreads.com/search?q=9780593139134",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780593139134"
     },
     "id": "2026-10-03-2",
-    "slug": "the-mars-room"
+    "slug": "greenlights"
   },
   {
-    "isbn_13": "9780399562419",
-    "title": "The Longevity Paradox: How to Die Young at a Ripe Old Age",
-    "author": "Steven R. Gundry",
-    "publication_year": 2019,
-    "page_count": 400,
+    "isbn_13": "9780525510314",
+    "title": "Entangled Life",
+    "author": "Merlin Sheldrake",
+    "publication_year": 2020,
+    "page_count": 384,
     "genres_tags": [
-      "Health & Wellness",
-      "Longevity",
-      "Nutrition",
-      "Science"
-    ],
-    "goodreads": {
-      "rating": 4.12,
-      "ratings_count": 3100,
-      "review_summary_highlights": [
-        "Presents a fascinating, gut-health-centric framework for extending healthspan rather than just lifespan.",
-        "Provides practical dietary adjustments backed by modern microbiome research."
-      ]
-    },
-    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780399562419-L.jpg",
-    "one_sentence_hook": "Renowned heart surgeon Dr. Steven Gundry reveals how nurturing your gut microbiome holds the secret to aging with vitality and staving off age-related chronic disease.",
-    "summary": {
-      "overview": "The Longevity Paradox explores the intersection of aging, modern diet, and the gut microbiome. Dr. Gundry argues that aging is largely a consequence of chronic inflammation driven by gut dysbiosis and mitochondrial decay. By altering what we eat and how we live, we can manipulate our microbiome to promote cellular repair and vigorous longevity.",
-      "key_takeaways": [
-        "Gut microbial diversity is the single most important physiological indicator of biological resilience and healthy aging.",
-        "Minimizing inflammatory dietary triggers (such as specific lectins and processed sugars) preserves intestinal barrier integrity.",
-        "Intermittent fasting and caloric restriction act as hormetic stressors that activate cellular longevity pathways like autophagy."
-      ]
-    },
-    "library_lookup": {
-      "goodreads_url": "https://www.goodreads.com/search?q=9780399562419",
-      "worldcat_url": "https://search.worldcat.org/search?q=9780399562419"
-    },
-    "id": "2026-10-03-3",
-    "slug": "the-longevity-paradox-how-to-die-young-at-a-ripe-old-age"
-  },
-  {
-    "isbn_13": "9781501171345",
-    "title": "The Feather Thief: Beauty, Obsession, and the Natural History Heist of the Century",
-    "author": "Kirk Wallace Johnson",
-    "publication_year": 2018,
-    "page_count": 336,
-    "genres_tags": [
-      "History",
       "Science",
       "Nature",
-      "Investigative Journalism"
+      "Biology"
     ],
     "goodreads": {
-      "rating": 4.04,
-      "ratings_count": 52400,
+      "rating": 4.29,
+      "ratings_count": 42800,
       "review_summary_highlights": [
-        "A riveting page-turner that reads like a thriller while exploring the bizarre subculture of Victorian salmon fly tying.",
-        "Exposes the devastating real-world impact of human obsession on endangered museum collections."
+        "A mind-bending tour of mycelial networks that readers call the rare science book that reads like poetry.",
+        "Gorgeous field stories from truffle hunting to psychedelic research show fungi shaping minds, markets, and forests."
       ]
     },
-    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781501171345-L.jpg",
-    "one_sentence_hook": "A brilliant true-life tale of obsession, natural history, and a bizarre heist inside the British Museum that stripped centuries-old bird specimens for rare fishing feathers.",
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780525510314-L.jpg",
+    "one_sentence_hook": "Biologist Merlin Sheldrake reveals how fungi's hidden networks shape forests, minds, and the future of medicine.",
     "summary": {
-      "overview": "In 2009, a flutist and salmon-fly tier named Edwin Rist broke into the Tring Natural History Museum in England and stole hundreds of priceless, centuries-old bird skins collected by Alfred Russel Wallace. Kirk Wallace Johnson investigates the crime, uncovering an underground subculture of eccentric fly-tyers whose obsession with historical feathers triggered ecological vandalism on a global scale.",
+      "overview": "Sheldrake combines mycology with expeditions: brewing with wild yeasts, hunting truffles with dogs in Italy, studying mycorrhizal trade between trees and fungi, and reviewing clinical work on psilocybin. He argues fungi dissolve neat boundaries between organism and ecosystem, intelligence and chemistry, forcing a rethink of what an individual even is.",
       "key_takeaways": [
-        "Extreme hobbyist subcultures can foster ethical blind spots that rationalize illegal trafficking of endangered natural artifacts.",
-        "Historical scientific specimens housed in museums serve as irreplaceable ecological baselines for understanding biodiversity loss.",
-        "Obsession, when detached from ethical constraints, can easily bridge the gap between passionate collecting and outright criminal enterprise."
+        "Wood-wide webs are markets: mycorrhizal fungi trade phosphorus for plant sugars with supply-and-demand dynamics, not altruism.",
+        "Decentralized problem-solving works: slime molds and mycelium solve mazes and optimize networks without a brain, a model for resilient design.",
+        "Fermentation is collaboration: bread, beer, and medicine all depend on managing fungal appetites rather than sterilizing them away."
       ]
     },
     "library_lookup": {
-      "goodreads_url": "https://www.goodreads.com/search?q=9781501171345",
-      "worldcat_url": "https://search.worldcat.org/search?q=9781501171345"
+      "goodreads_url": "https://www.goodreads.com/search?q=9780525510314",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780525510314"
     },
-    "id": "2026-10-03-4",
-    "slug": "the-feather-thief-beauty-obsession-and-the-natural-history-heist-of-the-century"
+    "id": "2026-10-03-3",
+    "slug": "entangled-life"
   },
   {
-    "isbn_13": "9780399589331",
-    "title": "When We Cease to Understand the World",
-    "author": "Benjamín Labatut",
+    "isbn_13": "9781501160271",
+    "title": "Why Fish Don't Exist",
+    "author": "Lulu Miller",
     "publication_year": 2020,
-    "page_count": 224,
+    "page_count": 256,
     "genres_tags": [
-      "Science History",
-      "Philosophy of Science",
-      "Physics",
-      "Mathematics"
+      "Science",
+      "Biography",
+      "Natural History"
     ],
     "goodreads": {
-      "rating": 4.21,
-      "ratings_count": 24300,
+      "rating": 4.15,
+      "ratings_count": 112000,
       "review_summary_highlights": [
-        "A dazzling hybrid of history, narrative fiction, and scientific philosophy exploring the dangerous genius of quantum mechanics.",
-        "Profoundly atmospheric and intellectually unsettling, examining how breakthroughs in math and physics changed reality forever."
+        "A slim, genre-bending memoir-biography of taxonomist David Starr Jordan that readers inhale in one sitting.",
+        "Miller weaves chaos theory, eugenics history, and personal grief into a hopeful manifesto for living without rigid order."
       ]
     },
-    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780399589331-L.jpg",
-    "one_sentence_hook": "An intoxicating, genre-bending exploration of the scientists and mathematicians whose staggering discoveries tore open the fabric of reality, from quantum mechanics to black holes.",
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781501160271-L.jpg",
+    "one_sentence_hook": "Science reporter Lulu Miller chases the chaotic life of taxonomist David Starr Jordan to learn how to live without tidy categories.",
     "summary": {
-      "overview": "Benjamín Labatut traces the real-life stories of groundbreaking scientists—such as Werner Heisenberg, Erwin Schrödinger, and Karl Schwarzschild—whose insights unlocked atomic and cosmic mysteries that ultimately surpassed human comprehension. The book examines the fine line between genius and madness, demonstrating how mathematical breakthroughs frequently lead creators into metaphysical terror.",
+      "overview": "Miller, reeling from personal upheaval, becomes obsessed with Jordan, the Stanford president who named thousands of fish yet championed eugenics and rebuilt his shattered collection after every earthquake and fire. Tracing his specimens, his scandals, and modern phylogenetics showing fish as a paraphyletic group, she confronts what to keep and what to discard when the world's order collapses.",
       "key_takeaways": [
-        "Scientific progress often uncovers fundamental truths about the universe that shatter our intuitive understanding of reality.",
-        "The mathematical language describing quantum states and relativity reveals a universe governed by probability and paradox rather than clockwork certainty.",
-        "Extreme intellectual abstraction can alienate thinkers from human ethical frameworks, illustrating the dual-edged nature of human curiosity."
+        "Categories are tools, not truths: phylogeny shows fish is not a valid clade, so clinging to neat labels distorts how life actually branches.",
+        "Persistence needs ethics: Jordan's relentless rebuilding is admirable and horrifying — effort without moral reckoning repeats harm.",
+        "Embrace the dandelion principle: survive chaos by scattering many small experiments rather than betting everything on one plan."
       ]
     },
     "library_lookup": {
-      "goodreads_url": "https://www.goodreads.com/search?q=9780399589331",
-      "worldcat_url": "https://search.worldcat.org/search?q=9780399589331"
+      "goodreads_url": "https://www.goodreads.com/search?q=9781501160271",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781501160271"
+    },
+    "id": "2026-10-03-4",
+    "slug": "why-fish-dont-exist"
+  },
+  {
+    "isbn_13": "9780544133310",
+    "title": "How Emotions Are Made",
+    "author": "Lisa Feldman Barrett",
+    "publication_year": 2017,
+    "page_count": 448,
+    "genres_tags": [
+      "Psychology",
+      "Neuroscience",
+      "Cognitive Science"
+    ],
+    "goodreads": {
+      "rating": 4.09,
+      "ratings_count": 13963,
+      "review_summary_highlights": [
+        "A paradigm-shifting theory of constructed emotion backed by neuroscience that rewires how readers handle anxiety and health.",
+        "Dense but rewarding, with practical chapters on emotional granularity, interoception, and rewiring predictions."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780544133310-L.jpg",
+    "one_sentence_hook": "Neuroscientist Lisa Feldman Barrett shows your brain constructs emotions as predictions — and you can retrain the architect.",
+    "summary": {
+      "overview": "Barrett rejects the classical view of emotions as hardwired fingerprints, presenting decades of experiments where faces, bodies, and brains show no one-to-one signature for anger or fear. Instead the brain predicts incoming bodily signals using past concepts, categorizing interoception as emotion; emotional granularity, words, and context therefore literally shape what you feel and how your body budgets energy.",
+      "key_takeaways": [
+        "Emotions are constructed predictions: the brain guesses the cause of bodily signals using concepts, so new concepts create new emotional options.",
+        "Granularity regulates intensity: naming feelings precisely (disappointed vs. furious) gives the brain better predictions and calmer control.",
+        "The body budget rules mood: sleep, movement, and nutrition change interoceptive input, making emotion regulation physiological before psychological."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780544133310",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780544133310"
     },
     "id": "2026-10-03-5",
-    "slug": "when-we-cease-to-understand-the-world"
+    "slug": "how-emotions-are-made"
   },
   {
     "id": "2026-07-04",
