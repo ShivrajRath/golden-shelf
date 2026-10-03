@@ -20,7 +20,7 @@ python3 -c "import json; json.load(open('data/books.json')); json.load(open('dat
 
 ## Gotchas
 - `script.py` exits silently if any entry with today's batch `id` (`YYYY-MM-DD` or `YYYY-MM-DD-N`) already exists — delete/rename those entries to re-run for today. `BOOKS_PER_RUN=1 python3 script.py` forces a single-book run.
-- Gemini model fallback is hardcoded: `gemini-2.5-flash` → `2.0-flash` → `1.5-flash`. Failures print HTTP body then try next.
+- Gemini model fallback is hardcoded: `gemini-3.8-flash` → `3.7-flash` → `3.6-flash`. Failures print HTTP body then try next.
 - `cover_image_url` must be `https://covers.openlibrary.org/b/isbn/<ISBN_13>-L.jpg` (canonical; keep it). Frontend fallback chain at runtime: ISBN (`?default=false`) → title-keyed OL cover → `cover_ol_id` (`/b/id/...`, pinned by `script.py` when ISBN+title both miss) → inline SVG. `script.py:resolve_cover()` probes this at curation time and sets `cover_ol_id`; warn-only, never blocks the run.
 - Selection criteria live in 3 places — keep in sync: `script.py` prompt, `README.md`, `index.html#how-we-select`. Rules: non-fiction, no True Crime, Goodreads ≥4.0 with ≥2500 ratings, <500 pages, post-2000 or evergreen classic, never duplicate `history.json`.
 - Schedule is an internal growth mechanism (see workflow comment): never surface cron/schedule/countdown in the UI.
