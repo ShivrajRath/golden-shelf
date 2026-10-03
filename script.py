@@ -554,7 +554,6 @@ Output ONLY a single valid, raw JSON array containing exactly {count} objects, e
     # curated data above is already saved, so a template bug here must not
     # fail the run (the workflow also runs generate_pages.py explicitly).
     try:
-        import generate_pages
         generate_pages.main()
     except Exception as e:
         print(f"Warning: book page generation skipped due to error: {e}")
