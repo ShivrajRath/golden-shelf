@@ -43,7 +43,11 @@ def save_json(path, data):
         json.dump(data, f, indent=2, ensure_ascii=False)
 
 def call_gemini_api(prompt, api_key):
-    models = ["gemini-3.8-flash", "gemini-3.7-flash", "gemini-3.6-flash", "gemini-3.5-flash-lite"]
+    # Non-lite models only: the lite tier hallucinates ISBNs/metadata far
+    # more often, and a weak-model batch almost always fails verification
+    # (wasted run). If all three full models are unreachable, fail the run
+    # instead of downgrading quality — the week is skipped fail-closed.
+    models = ["gemini-3.8-flash", "gemini-3.7-flash", "gemini-3.6-flash"]
     
     for model in models:
         url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={api_key}"
