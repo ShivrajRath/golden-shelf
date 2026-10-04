@@ -14,12 +14,12 @@ DATA_DIR = "data"
 BOOKS_FILE = os.path.join(DATA_DIR, "books.json")
 HISTORY_FILE = os.path.join(DATA_DIR, "history.json")
 
-# Friday batch size. Override with BOOKS_PER_RUN env var for manual runs
-# (e.g. BOOKS_PER_RUN=1 python3 script.py). The workflow runs with the default.
+# Books per curation run. Override with BOOKS_PER_RUN env var for manual runs
+# (e.g. BOOKS_PER_RUN=5 python3 script.py). The workflow runs with the default.
 try:
-    BOOKS_PER_RUN = max(1, int(os.environ.get("BOOKS_PER_RUN", "5")))
+    BOOKS_PER_RUN = max(1, int(os.environ.get("BOOKS_PER_RUN", "1")))
 except ValueError:
-    BOOKS_PER_RUN = 5
+    BOOKS_PER_RUN = 1
 
 def load_json(path, default):
     # Fail fast on corrupt data: returning `default` here would let a later
@@ -676,7 +676,8 @@ def main():
 
     # Batch ids: first pick keeps the plain date (backward compatible),
     # siblings get a "-N" suffix so every entry still has a unique id.
-    # Example for BOOKS_PER_RUN=5: 2026-10-03, 2026-10-03-2, ..., 2026-10-03-5.
+    # Example for BOOKS_PER_RUN=1: 2026-10-09. Multi-book runs append
+    # "-N" siblings: 2026-10-09, 2026-10-09-2, ..., 2026-10-09-5.
     expected_ids = [today_str] + [f"{today_str}-{i}" for i in range(2, BOOKS_PER_RUN + 1)]
 
     # Check if this batch already exists (idempotent Friday run)
