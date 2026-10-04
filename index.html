@@ -260,8 +260,14 @@
               <h3 id="collection-heading" class="text-xl font-serif font-bold text-stone-900">Explore the Collection</h3>
               <p class="text-sm text-stone-500 mt-1"><span x-text="filteredBooks.length"></span> curated non-fiction books • summaries, takeaways & library links</p>
             </div>
-            <div class="w-full sm:w-72">
-              <input type="text" x-model.debounce.300ms="searchQuery" placeholder="Search by title, author, genre..." aria-label="Search books" class="w-full px-4 py-2.5 bg-white border border-stone-300 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-amber-600 focus:border-amber-500 shadow-sm">
+            <div class="w-full sm:w-auto flex flex-col sm:flex-row gap-2 sm:items-center">
+              <input type="text" x-model.debounce.300ms="searchQuery" placeholder="Search by title, author, genre..." aria-label="Search books" class="w-full sm:w-72 px-4 py-2.5 bg-white border border-stone-300 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-amber-600 focus:border-amber-500 shadow-sm">
+              <label class="sr-only" for="sort-select">Sort books</label>
+              <select id="sort-select" x-model="sortBy" aria-label="Sort books" class="w-full sm:w-auto px-4 py-2.5 bg-white border border-stone-300 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-amber-600 focus:border-amber-500 shadow-sm text-stone-700 font-medium cursor-pointer">
+                <option value="curated">Sort: Recently added</option>
+                <option value="rating_desc">Sort: Highest rated</option>
+                <option value="ratings_count_desc">Sort: Most reviewed</option>
+              </select>
             </div>
           </div>
 
@@ -471,6 +477,7 @@
         searchQuery: '',
         selectedGenres: [],
         genreMatchAll: false,
+        sortBy: 'curated',
         showAllGenres: false,
         modalOpen: false,
         activeBook: null,
@@ -484,6 +491,7 @@
           this.loadError = false;
           // Reset paging whenever the debounced search text changes.
           this.$watch('searchQuery', () => { this.visibleCount = this.pageSize; });
+          this.$watch('sortBy', () => { this.visibleCount = this.pageSize; });
           try {
             // {cache:'no-cache'} revalidates via ETag/Last-Modified (304 when
             // unchanged) instead of the old ?Date.now() cache-buster, which
@@ -561,7 +569,7 @@
         },
 
         get filteredBooks() {
-          return this.books.filter(book => {
+          const result = this.books.filter(book => {
             const b = book || {};
             let matchesGenre = true;
             if (this.selectedGenres.length > 0) {
@@ -581,6 +589,30 @@
               ((b.genres_tags || []).some(g => String(g).toLowerCase().includes(q)));
             return matchesGenre && matchesQuery;
           });
+          if (this.sortBy === 'rating_desc') {
+            result.sort((a, b) => {
+              const ra = Number(a && a.goodreads && a.goodreads.rating);
+              const rb = Number(b && b.goodreads && b.goodreads.rating);
+              const va = Number.isFinite(ra) ? ra : -1;
+              const vb = Number.isFinite(rb) ? rb : -1;
+              if (vb !== va) return vb - va;
+              const ca = Number(a && a.goodreads && a.goodreads.ratings_count);
+              const cb = Number(b && b.goodreads && b.goodreads.ratings_count);
+              return (Number.isFinite(cb) ? cb : -1) - (Number.isFinite(ca) ? ca : -1);
+            });
+          } else if (this.sortBy === 'ratings_count_desc') {
+            result.sort((a, b) => {
+              const ca = Number(a && a.goodreads && a.goodreads.ratings_count);
+              const cb = Number(b && b.goodreads && b.goodreads.ratings_count);
+              const va = Number.isFinite(ca) ? ca : -1;
+              const vb = Number.isFinite(cb) ? cb : -1;
+              if (vb !== va) return vb - va;
+              const ra = Number(a && a.goodreads && a.goodreads.rating);
+              const rb = Number(b && b.goodreads && b.goodreads.rating);
+              return (Number.isFinite(rb) ? rb : -1) - (Number.isFinite(ra) ? ra : -1);
+            });
+          }
+          return result;
         },
 
         get displayedBooks() {
