@@ -249,6 +249,27 @@ def ol_fetch_json(url, attempts=3):
             _time.sleep(2 ** (attempt + 1))
     return None, "network"
 
+def ol_cover_ok(url):
+    """True if an Open Library cover URL resolves to a real image.
+
+    Returns None when the check itself fails (network down, etc.) so callers
+    can skip pinning instead of failing the curation run. Missing covers
+    return HTTP 404 with ?default=false, or a 43-byte 1x1 blank gif.
+    """
+    try:
+        req = urllib.request.Request(url, headers=COVER_UA)
+        with urllib.request.urlopen(req, timeout=COVER_TIMEOUT) as r:
+            body = r.read()
+            ctype = r.headers.get_content_type()
+            return r.status == 200 and ctype.startswith("image/") and len(body) > 1000
+    except urllib.error.HTTPError as e:
+        if e.code == 404:
+            return False
+        return None
+    except Exception as e:
+        print(f"Cover check skipped ({url[:80]}...): {e}")
+        return None
+
 def norm_text(value):
     s = str(value or "").lower()
     s = re.sub(r"[^a-z0-9\s]", " ", s)
@@ -544,17 +565,111 @@ def resolve_cover(book_data):
         print(f"Cover check skipped due to error: {e}")
         return "unknown"
 
+def validate_and_verify_book(book_data, history_list, expected_id, taken_slugs,
+                              batch_isbns, batch_titles, history_exact, history_titles):
+    """Run all per-book gates. Returns (book_data, None) on success or
+    (None, [errors]) on failure. Does NOT sys.exit — caller decides."""
+    errors = []
+
+    # Assign the batch id (overwrites any model-provided value).
+    book_data["id"] = expected_id
+
+    # Deterministic links: never trust model-invented catalog URLs (it
+    # returned WorldCat for both buttons with ISBNs that 404). Rebuilt
+    # here so validation below also covers them.
+    build_library_lookup(book_data)
+
+    # Evergreen URL slug for the dedicated page (title-based, unique across
+    # the shelf; never the curation date). Overwrites any model-provided value.
+    book_data["slug"] = generate_pages.unique_slug(
+        book_data.get("title"), book_data.get("author"), book_data.get("isbn_13"), taken_slugs
+    )
+    taken_slugs.add(book_data["slug"])
+
+    # Enforce selection criteria + schema before touching any data files.
+    errors.extend(validate_book_data(book_data, history_list, expected_id))
+
+    # External consistency gate: the ISBN must actually belong to the
+    # claimed title/author per the Open Library catalog, and the catalog
+    # subjects must not mark it fiction or true crime (schema checks
+    # alone cannot catch a wrong-book ISBN or re-tagged genres).
+    # Fail-closed on lookup outages: never save unverified picks.
+    errors.extend(verify_book_external(book_data))
+
+    isbn = str(book_data.get("isbn_13", ""))
+    title = str(book_data.get("title", ""))
+
+    # Intra-batch duplicate check (history sets already include earlier
+    # picks in this batch, added at the end of each iteration).
+    if isbn in batch_isbns:
+        errors.append(f"batch contains duplicate isbn_13 {isbn!r}")
+    if title.strip().casefold() in batch_titles:
+        errors.append(f"batch contains duplicate title {title!r}")
+
+    # Probe cover resolvability and pin a data-driven fallback ID when needed.
+    # A definitively missing cover (ISBN 404 + no title cover + no cover
+    # ID) fails the run: it almost always means a wrong-book ISBN. An
+    # indeterminate probe (cover-service outage) warns only, since the
+    # frontend SVG fallback still renders.
+    cover_status = resolve_cover(book_data)
+    if cover_status == "none":
+        errors.append(f"no reachable Open Library cover for '{title}' (ISBN: {isbn})")
+
+    # Strict deduplication: abort without saving so a duplicate is never committed.
+    if isbn in history_exact or title.strip().casefold() in history_titles:
+        errors.append(f"selected book '{title}' (ISBN: {isbn}) is already in history_list")
+
+    if errors:
+        return None, errors
+
+    batch_isbns.add(isbn)
+    batch_titles.add(title.strip().casefold())
+    history_exact.add(isbn)
+    history_titles.add(title.strip().casefold())
+    return book_data, None
+
+
+def build_correction_prompt(original_book, errors, history_list, expected_id, count):
+    """Build a focused correction prompt for a single failed book."""
+    return f"""
+The following book entry failed automated validation. Fix ONLY this book and return a corrected JSON object.
+
+FAILED BOOK (original):
+{json.dumps(original_book, indent=2, ensure_ascii=False)}
+
+VALIDATION ERRORS:
+{chr(10).join(f'- {e}' for e in errors)}
+
+REQUIREMENTS FOR THE CORRECTION:
+1. The `isbn_13` MUST be the exact, real 13-digit ISBN of the book whose title and author you provide. Look it up or use a well-known edition. The ISBN checksum must be valid.
+2. The `title` and `author` MUST match the Open Library catalog record for that ISBN.
+3. The book MUST be non-fiction (not a novel, not fiction, not true crime).
+4. `publication_year` must be the real first-publication year (integer, must not postdate the ISBN's edition year by more than 1).
+5. `page_count` must be the real page count of a standard print edition (integer strictly under 500).
+6. `goodreads.rating` must be 4.0-5.0 and `ratings_count` >= 2500 — use plausible real values.
+7. `genres_tags` must be the book's actual categories (non-empty array of strings, never "True Crime").
+8. `review_summary_highlights` (at least 2 non-empty strings), `summary.overview` (non-empty), `summary.key_takeaways` (exactly 3 non-empty strings), and `one_sentence_hook` (non-empty) must describe THIS specific book.
+9. `cover_image_url` must be `https://covers.openlibrary.org/b/isbn/{{ISBN_13}}-L.jpg` with the corrected ISBN.
+10. `library_lookup` must contain `goodreads_url` and `worldcat_url` as http(s) URLs.
+11. Omit `id` and `slug` — the script assigns them.
+12. The book must NOT already exist in this history list (ISBN or title match):
+{json.dumps(history_list)}
+
+Output ONLY a single valid JSON object (not an array, no markdown fences, no surrounding text).
+"""
+
+
 def main():
     api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key:
         print("Error: GEMINI_API_KEY environment variable is not set.")
         sys.exit(1)
-        
+
     today_str = datetime.date.today().isoformat()
-    
+
     books = load_json(BOOKS_FILE, [])
     history_list = load_json(HISTORY_FILE, [])
-    
+
     # Batch ids: first pick keeps the plain date (backward compatible),
     # siblings get a "-N" suffix so every entry still has a unique id.
     # Example for BOOKS_PER_RUN=5: 2026-10-03, 2026-10-03-2, ..., 2026-10-03-5.
@@ -715,9 +830,11 @@ Output ONLY a single valid, raw JSON array containing exactly {count} objects, e
         print("Error: every array item must be a JSON object.")
         sys.exit(1)
 
-    # Per-book processing: deterministic ids/links/slugs, schema validation,
-    # Open Library external verification (title/author/subjects), cover
-    # probing, and dedup (against history AND within this batch).
+    # Per-book processing with self-correcting retry loop.
+    # When a book fails validation, the model gets a focused correction
+    # prompt with the specific errors and a second chance to fix it.
+    # This prevents a single bad pick from discarding the whole batch.
+    MAX_CORRECTION_ATTEMPTS = 2
     taken_slugs = {str(b.get("slug") or "") for b in books if isinstance(b, dict)}
     history_exact = {str(h).strip() for h in history_list}
     history_titles = {str(h).strip().casefold() for h in history_list}
@@ -727,74 +844,53 @@ Output ONLY a single valid, raw JSON array containing exactly {count} objects, e
 
     for idx, book_data in enumerate(parsed):
         expected_id = expected_ids[idx]
+        current_book = book_data
+        correction_history = []
 
-        # Assign the batch id (overwrites any model-provided value).
-        book_data["id"] = expected_id
+        for attempt in range(1 + MAX_CORRECTION_ATTEMPTS):
+            result, errors = validate_and_verify_book(
+                current_book, history_list, expected_id, taken_slugs,
+                batch_isbns, batch_titles, history_exact, history_titles
+            )
+            if result is not None:
+                new_books.append(result)
+                break
 
-        # Deterministic links: never trust model-invented catalog URLs (it
-        # returned WorldCat for both buttons with ISBNs that 404). Rebuilt
-        # here so validation below also covers them.
-        build_library_lookup(book_data)
-
-        # Evergreen URL slug for the dedicated page (title-based, unique across
-        # the shelf; never the curation date). Overwrites any model-provided value.
-        book_data["slug"] = generate_pages.unique_slug(
-            book_data.get("title"), book_data.get("author"), book_data.get("isbn_13"), taken_slugs
-        )
-        taken_slugs.add(book_data["slug"])
-
-        # Enforce selection criteria + schema before touching any data files.
-        validation_errors = validate_book_data(book_data, history_list, expected_id)
-        if validation_errors:
-            print(f"Generated book #{idx + 1} ('{book_data.get('title')}') failed validation:")
-            for err in validation_errors:
+            label = "initial" if attempt == 0 else f"correction #{attempt}"
+            print(f"Book #{idx + 1} ('{current_book.get('title', '?')}') failed {label} validation:")
+            for err in errors:
                 print(f"  - {err}")
-            sys.exit(1)
 
-        # External consistency gate: the ISBN must actually belong to the
-        # claimed title/author per the Open Library catalog, and the catalog
-        # subjects must not mark it fiction or true crime (schema checks
-        # alone cannot catch a wrong-book ISBN or re-tagged genres).
-        # Fail-closed on lookup outages: never save unverified picks.
-        external_errors = verify_book_external(book_data)
-        if external_errors:
-            print(f"Generated book #{idx + 1} ('{book_data.get('title')}') failed external verification:")
-            for err in external_errors:
-                print(f"  - {err}")
+            if attempt < MAX_CORRECTION_ATTEMPTS:
+                correction_prompt = build_correction_prompt(
+                    current_book, errors, history_list, expected_id, count
+                )
+                print(f"  Attempting correction #{attempt + 1}...")
+                try:
+                    correction_raw = call_gemini_api(correction_prompt, api_key)
+                    cleaned_corr = correction_raw.strip()
+                    if cleaned_corr.lower().startswith("```json"):
+                        cleaned_corr = cleaned_corr[7:]
+                    elif cleaned_corr.startswith("```"):
+                        cleaned_corr = cleaned_corr[3:]
+                    if cleaned_corr.endswith("```"):
+                        cleaned_corr = cleaned_corr[:-3]
+                    cleaned_corr = cleaned_corr.strip()
+                    corrected = json.loads(cleaned_corr)
+                    if isinstance(corrected, list) and len(corrected) == 1:
+                        corrected = corrected[0]
+                    if not isinstance(corrected, dict):
+                        print(f"  Correction response was not a JSON object, retrying...")
+                        continue
+                    current_book = corrected
+                    correction_history.append(corrected)
+                except (json.JSONDecodeError, RuntimeError) as e:
+                    print(f"  Correction call failed: {e}")
+                    continue
+        else:
+            # All attempts exhausted — discard the whole batch (fail-closed).
+            print(f"Error: Book #{idx + 1} failed all {1 + MAX_CORRECTION_ATTEMPTS} attempts. Discarding batch.")
             sys.exit(1)
-
-        isbn = str(book_data.get("isbn_13", ""))
-        title = str(book_data.get("title", ""))
-
-        # Intra-batch duplicate check (history sets already include earlier
-        # picks in this batch, added at the end of each iteration).
-        if isbn in batch_isbns:
-            print(f"Error: batch contains duplicate isbn_13 {isbn!r} (book #{idx + 1}). Refusing to save.")
-            sys.exit(1)
-        if title.strip().casefold() in batch_titles:
-            print(f"Error: batch contains duplicate title {title!r} (book #{idx + 1}). Refusing to save.")
-            sys.exit(1)
-
-        # Probe cover resolvability and pin a data-driven fallback ID when needed.
-        # A definitively missing cover (ISBN 404 + no title cover + no cover
-        # ID) fails the run: it almost always means a wrong-book ISBN. An
-        # indeterminate probe (cover-service outage) warns only, since the
-        # frontend SVG fallback still renders.
-        cover_status = resolve_cover(book_data)
-        if cover_status == "none":
-            print(f"Error: no reachable Open Library cover for '{title}' (ISBN: {isbn}). Refusing to save.")
-            sys.exit(1)
-
-        # Strict deduplication: abort without saving so a duplicate is never committed.
-        if isbn in history_exact or title.strip().casefold() in history_titles:
-            print(f"Error: Selected book '{title}' (ISBN: {isbn}) is already in history_list. Refusing to save duplicate.")
-            sys.exit(1)
-
-        batch_isbns.add(isbn)
-        batch_titles.add(title.strip().casefold())
-        history_exact.add(isbn)
-        history_titles.add(title.strip().casefold())
-        new_books.append(book_data)
 
     # All picks valid: prepend preserving prompt order (books[0] = strongest pick)
     # and extend history. Nothing was saved before this point, so a failure
