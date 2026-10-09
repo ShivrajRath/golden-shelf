@@ -1,5 +1,43 @@
 [
   {
+    "isbn_13": "9781627790369",
+    "title": "Algorithms to Live By: The Computer Science of Human Decisions",
+    "author": "Brian Christian and Tom Griffiths",
+    "publication_year": 2016,
+    "page_count": 368,
+    "genres_tags": [
+      "Nonfiction",
+      "Computer Science",
+      "Psychology",
+      "Decision-Making",
+      "Science"
+    ],
+    "goodreads": {
+      "rating": 4.13,
+      "ratings_count": 87500,
+      "review_summary_highlights": [
+        "Praised for brilliantly translating rigorous mathematical and computer science concepts into intuitive, day-to-day human dilemmas.",
+        "Commended for providing practical cognitive frameworks on when to stop deliberating and start taking action."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781627790369-L.jpg",
+    "one_sentence_hook": "Discover how the foundational algorithms developed for computer science offer elegant, rational solutions to our most agonizing human dilemmas.",
+    "summary": {
+      "overview": "Brian Christian and Tom Griffiths explore how algorithmic principles designed to solve hard computer science problems can be applied directly to human decision-making. The authors explain that daily frustrations—from scheduling a crowded calendar to organizing a closet or choosing a life partner—mirror classic computational trade-offs. By understanding established algorithms, readers learn how to navigate uncertainty, manage bounded time, and make mathematically defensible choices.",
+      "key_takeaways": [
+        "Optimal Stopping (The 37% Rule): When choosing among a sequential series of unknown options, spend the first 37% of the search window solely evaluating without deciding to establish a baseline, then select the very next option that beats all predecessors.",
+        "The Explore/Exploit Trade-Off: Tailor your experimentation strategy to your time horizon; pursue high exploration early when the future is long, and shift toward exploitation of proven favorites as the window of opportunity narrows.",
+        "Caching and Information Retrieval: Eliminate the unnecessary overhead of complete alphabetical or thematic sorting by arranging physical and digital workspaces according to the Least Recently Used (LRU) principle."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781627790369",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781627790369"
+    },
+    "id": "2026-10-09",
+    "slug": "algorithms-to-live-by-the-computer-science-of-human-decisions"
+  },
+  {
     "isbn_13": "9780393316049",
     "title": "Surely You're Joking, Mr. Feynman!",
     "author": "Richard P. Feynman",
