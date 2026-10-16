@@ -1,6 +1,6 @@
 [
   {
-    "isbn_13": "9780399184413",
+    "isbn_13": "9780399184437",
     "title": "Seven Brief Lessons on Physics",
     "author": "Carlo Rovelli",
     "publication_year": 2014,
@@ -20,7 +20,7 @@
         "Celebrated for stripping away dense mathematics to reveal the conceptual beauty of modern cosmology in an afternoon read."
       ]
     },
-    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780399184413-L.jpg",
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780399184437-L.jpg",
     "one_sentence_hook": "A breathtakingly concise and lyrical journey through general relativity, quantum mechanics, and loop quantum gravity that reveals the profound elegance of our universe.",
     "summary": {
       "overview": "Theoretical physicist Carlo Rovelli presents seven compact essays that unpack the major breakthroughs of twentieth-century physics and its unresolved frontiers. The book bridges the gap between rigorous scientific discovery and humanistic wonder, illuminating how space, time, and matter operate at both cosmic and subatomic scales.",
@@ -31,8 +31,8 @@
       ]
     },
     "library_lookup": {
-      "goodreads_url": "https://www.goodreads.com/search?q=9780399184413",
-      "worldcat_url": "https://search.worldcat.org/search?q=9780399184413"
+      "goodreads_url": "https://www.goodreads.com/search?q=9780399184437",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780399184437"
     },
     "id": "2026-10-16",
     "slug": "seven-brief-lessons-on-physics"
