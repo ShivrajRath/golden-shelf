@@ -1,5 +1,3700 @@
 [
   {
+    "isbn_13": "9781571313560",
+    "title": "Braiding Sweetgrass: Indigenous Wisdom, Scientific Knowledge and the Teachings of Plants",
+    "author": "Robin Wall Kimmerer",
+    "publication_year": 2013,
+    "page_count": 408,
+    "genres_tags": [
+      "Nature",
+      "Science",
+      "Indigenous Knowledge",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.51,
+      "ratings_count": 175000,
+      "review_summary_highlights": [
+        "Readers describe the book as both scientifically rigorous and spiritually nourishing.",
+        "Praised for the gift economy framing and the essays on sweetgrass, strawberries, and maples."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781571313560-L.jpg",
+    "one_sentence_hook": "Botany and Indigenous wisdom braid together into a case for reciprocity with the living world.",
+    "summary": {
+      "overview": "Robin Wall Kimmerer, a botanist and member of the Citizen Potawatomi Nation, weaves plant science with Indigenous teaching. She argues that plants offer gifts rather than resources, and that a relationship of reciprocity is both ethically right and ecologically necessary.",
+      "key_takeaways": [
+        "Indigenous knowledge and Western science can illuminate the same phenomena through different but complementary frames.",
+        "A gift economy, in which taking is balanced by giving back, sustains ecosystems better than extraction.",
+        "Attention and gratitude are practical ecological skills, not merely sentiments."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781571313560",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781571313560"
+    },
+    "id": "2026-10-25",
+    "slug": "braiding-sweetgrass-indigenous-wisdom-scientific-knowledge-and-the-teachings-of-plants"
+  },
+  {
+    "isbn_13": "9781847941497",
+    "title": "Never Split the Difference: Negotiating As If Your Life Depended On It",
+    "author": "Chris Voss",
+    "publication_year": 2016,
+    "page_count": 288,
+    "genres_tags": [
+      "Negotiation",
+      "Business",
+      "Psychology",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.36,
+      "ratings_count": 145000,
+      "review_summary_highlights": [
+        "Readers praise the FBI hostage-negotiator stories and the immediately usable techniques such as mirroring and labelling.",
+        "Commended for replacing compromise with a focus on uncovering the other side's real needs."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781847941497-L.jpg",
+    "one_sentence_hook": "An FBI hostage negotiator shows that tactical empathy, not compromise, is what moves people.",
+    "summary": {
+      "overview": "Chris Voss draws on decades of hostage negotiation to argue that effective negotiation is emotional and collaborative rather than logical and adversarial. He presents techniques including mirroring, labelling, calibrated questions, and the accusation audit.",
+      "key_takeaways": [
+        "Tactical empathy, naming the other side's emotions and perspective, lowers defences and uncovers hidden constraints.",
+        "Calibrated questions beginning with how or what transfer the burden of problem-solving to the other party.",
+        "Never split the difference: a compromise that satisfies neither side usually hides the real interests that need addressing."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781847941497",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781847941497"
+    },
+    "id": "2026-10-25-2",
+    "slug": "never-split-the-difference-negotiating-as-if-your-life-depended-on-it"
+  },
+  {
+    "isbn_13": "9780142181072",
+    "title": "Emotional First Aid: Healing Rejection, Guilt, Failure, and Other Everyday Hurts",
+    "author": "Guy Winch",
+    "publication_year": 2014,
+    "page_count": 304,
+    "genres_tags": [
+      "Psychology",
+      "Self-Help",
+      "Mental Health",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.07,
+      "ratings_count": 12000,
+      "review_summary_highlights": [
+        "Praised for treating psychological injuries with the same practical seriousness we give physical wounds.",
+        "Readers find the chapter on rumination and the loneliness exercises especially actionable."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780142181072-L.jpg",
+    "one_sentence_hook": "A practical first-aid kit for the everyday psychological wounds, rejection, failure, loneliness, and guilt, that we usually let fester.",
+    "summary": {
+      "overview": "Psychologist Guy Winch argues that emotional injuries such as rejection, failure, loneliness, guilt, and low self-esteem need active treatment rather than stoic endurance. He translates clinical research into specific exercises that stop the wounds from turning into chronic patterns.",
+      "key_takeaways": [
+        "Loneliness is a perception that becomes self-reinforcing; correcting distorted social readings matters more than simply meeting more people.",
+        "Rumination is the engine of prolonged emotional pain, and it is best interrupted first by distraction and then by structured reappraisal.",
+        "Self-esteem recovers through self-compassion and mastery experiences, not through repeating affirmations that the mind rejects."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780142181072",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780142181072"
+    },
+    "id": "2026-10-25-3",
+    "slug": "emotional-first-aid-healing-rejection-guilt-failure-and-other-everyday-hurts"
+  },
+  {
+    "isbn_13": "9781626251205",
+    "title": "The Upward Spiral: Using Neuroscience to Reverse the Course of Depression, One Small Change at a Time",
+    "author": "Alex Korb",
+    "publication_year": 2015,
+    "page_count": 240,
+    "genres_tags": [
+      "Neuroscience",
+      "Mental Health",
+      "Psychology",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.03,
+      "ratings_count": 11000,
+      "review_summary_highlights": [
+        "Readers appreciate the plain-language explanation of the brain circuits behind low mood and anxiety.",
+        "Commended for offering small, cumulative changes rather than demanding a total life overhaul."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781626251205-L.jpg",
+    "one_sentence_hook": "Depression runs on self-reinforcing brain loops, and small neuroscience-backed changes can flip them into an upward spiral.",
+    "summary": {
+      "overview": "Neuroscientist Alex Korb explains the brain circuits involved in depression and anxiety and shows how small, repeated actions alter them. Rather than presenting a single cure, he describes leverage points such as gratitude, decision-making, exercise, and social connection that nudge mood upward.",
+      "key_takeaways": [
+        "Making a decision, even an imperfect one, quiets the prefrontal-limbic worry loop more effectively than continuing to deliberate.",
+        "Naming an emotion reduces amygdala reactivity, which is why precise emotional labelling calms the nervous system.",
+        "Gratitude and social connection work through dopamine and oxytocin pathways, making them biological interventions rather than mere positive thinking."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781626251205",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781626251205"
+    },
+    "id": "2026-10-25-4",
+    "slug": "the-upward-spiral-using-neuroscience-to-reverse-the-course-of-depression-one-small-change-at-a-time"
+  },
+  {
+    "isbn_13": "9781785041952",
+    "title": "Chatter: The Voice in Our Head, Why It Matters, and How to Harness It",
+    "author": "Ethan Kross",
+    "publication_year": 2021,
+    "page_count": 272,
+    "genres_tags": [
+      "Psychology",
+      "Neuroscience",
+      "Mental Health",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.02,
+      "ratings_count": 13000,
+      "review_summary_highlights": [
+        "Readers praise the counterintuitive finding that talking to yourself in the third person actually helps.",
+        "Commended for turning a familiar experience, the inner critic, into a set of testable tools."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781785041952-L.jpg",
+    "one_sentence_hook": "Your inner voice can be a coach or a tormentor, and simple distancing tools decide which one shows up.",
+    "summary": {
+      "overview": "Ethan Kross studies the inner voice and shows when it helps us plan and when it spirals into rumination. He presents research-tested tools, from distanced self-talk to rituals and environmental order, for turning chatter down.",
+      "key_takeaways": [
+        "Distanced self-talk, addressing yourself by name or as you, creates psychological distance and improves performance under stress.",
+        "Venting to others often amplifies rumination; structured expressive writing and temporal distancing reduce it.",
+        "Rituals and ordered physical environments provide a sense of control that quiets repetitive negative thought."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781785041952",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781785041952"
+    },
+    "id": "2026-10-25-5",
+    "slug": "chatter-the-voice-in-our-head-why-it-matters-and-how-to-harness-it"
+  },
+  {
+    "isbn_13": "9781250212849",
+    "title": "Permission to Feel: Unlocking the Power of Emotions to Help Our Kids, Ourselves, and Our Society Thrive",
+    "author": "Marc Brackett",
+    "publication_year": 2019,
+    "page_count": 292,
+    "genres_tags": [
+      "Psychology",
+      "Education",
+      "Parenting",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.08,
+      "ratings_count": 9800,
+      "review_summary_highlights": [
+        "Readers value the practical RULER framework for naming and regulating emotions at home and at work.",
+        "Praised for arguing that emotional skills are learnable and predict academic and professional outcomes."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781250212849-L.jpg",
+    "one_sentence_hook": "Emotional intelligence is a teachable skill set, and the RULER method shows how to build it in children and adults alike.",
+    "summary": {
+      "overview": "Marc Brackett, director of the Yale Center for Emotional Intelligence, argues that recognising and regulating emotions is a learnable skill that underpins learning, relationships, and wellbeing. He presents the RULER approach and shows how adults model emotional competence for children.",
+      "key_takeaways": [
+        "The RULER sequence, recognising, understanding, labelling, expressing, and regulating, turns vague feelings into manageable information.",
+        "Precise emotion labels reduce intensity and improve decision-making compared with broad labels such as fine or stressed.",
+        "Adults' own emotional regulation is the strongest curriculum children receive, so self-work precedes teaching others."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781250212849",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781250212849"
+    },
+    "id": "2026-10-25-6",
+    "slug": "permission-to-feel-unlocking-the-power-of-emotions-to-help-our-kids-ourselves-and-our-society-thrive"
+  },
+  {
+    "isbn_13": "9780061733529",
+    "title": "Self-Compassion: The Proven Power of Being Kind to Yourself",
+    "author": "Kristin Neff",
+    "publication_year": 2011,
+    "page_count": 305,
+    "genres_tags": [
+      "Psychology",
+      "Self-Help",
+      "Mindfulness",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.14,
+      "ratings_count": 26000,
+      "review_summary_highlights": [
+        "Readers credit the book with replacing harsh self-criticism with a more sustainable form of motivation.",
+        "Praised for grounding self-kindness in research rather than sentimentality."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780061733529-L.jpg",
+    "one_sentence_hook": "Being kind to yourself is not self-indulgence; it is the most reliable foundation for resilience and real motivation.",
+    "summary": {
+      "overview": "Kristin Neff, a pioneer of self-compassion research, shows that treating yourself with the same care you would offer a friend reduces anxiety and improves motivation. She breaks self-compassion into self-kindness, common humanity, and mindfulness, with exercises for each.",
+      "key_takeaways": [
+        "Self-criticism feels motivating but usually increases avoidance; self-kindness sustains effort through failure.",
+        "Common humanity reframes personal shortcomings as shared human experience, which defuses shame.",
+        "Mindfulness lets you observe painful thoughts without over-identifying with them, the balance point between suppression and rumination."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780061733529",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780061733529"
+    },
+    "id": "2026-10-25-7",
+    "slug": "self-compassion-the-proven-power-of-being-kind-to-yourself"
+  },
+  {
+    "isbn_13": "9781509823963",
+    "title": "The Deepest Well: Healing the Long-Term Effects of Childhood Adversity",
+    "author": "Nadine Burke Harris",
+    "publication_year": 2018,
+    "page_count": 272,
+    "genres_tags": [
+      "Health",
+      "Psychology",
+      "Medicine",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.19,
+      "ratings_count": 12000,
+      "review_summary_highlights": [
+        "Praised for making the science of adverse childhood experiences urgent and human through patient stories.",
+        "Readers value the concrete argument that toxic stress is a medical condition deserving screening and treatment."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781509823963-L.jpg",
+    "one_sentence_hook": "Childhood adversity physically rewires the stress system, and recognising it as a medical condition changes how we treat a lifetime of illness.",
+    "summary": {
+      "overview": "Pediatrician Nadine Burke Harris describes how adverse childhood experiences produce toxic stress that alters the developing brain, immune system, and hormonal regulation, raising lifelong risk of disease. She argues for routine screening and for buffering relationships and healthy routines as treatment.",
+      "key_takeaways": [
+        "Adverse childhood experiences follow a dose-response pattern: more adversity predicts worse long-term health outcomes.",
+        "Toxic stress is physiological, not merely emotional, and shows up in cortisol, inflammation, and immune function.",
+        "Stable, responsive caregiving plus sleep, exercise, and nutrition can buffer and even reverse some of the damage."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781509823963",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781509823963"
+    },
+    "id": "2026-10-25-8",
+    "slug": "the-deepest-well-healing-the-long-term-effects-of-childhood-adversity"
+  },
+  {
+    "isbn_13": "9780143111719",
+    "title": "The Danish Way of Parenting: What the Happiest People in the World Know About Raising Confident, Capable Kids",
+    "author": "Jessica Joelle Alexander and Iben Sandahl",
+    "publication_year": 2016,
+    "page_count": 185,
+    "genres_tags": [
+      "Parenting",
+      "Psychology",
+      "Culture",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.08,
+      "ratings_count": 21000,
+      "review_summary_highlights": [
+        "Readers appreciate the six concrete principles and the contrast with achievement-focused Western parenting.",
+        "Praised for the practical reframing technique and the discussion of hygge as a family practice."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780143111719-L.jpg",
+    "one_sentence_hook": "The happiest people in the world raise children with play, honesty, empathy, and togetherness rather than pressure and ultimatums.",
+    "summary": {
+      "overview": "Jessica Joelle Alexander and Iben Sandahl distil Danish parenting into six principles: play, authenticity, reframing, empathy, no ultimatums, and togetherness. They argue that these habits build confident, cooperative children and explain how Danish culture supports them.",
+      "key_takeaways": [
+        "Free, unstructured play is treated as essential developmental work, not a reward for finished tasks.",
+        "Authenticity means naming and accepting difficult emotions instead of suppressing them, which teaches children to trust their own experience.",
+        "Reframing setbacks as manageable and avoiding ultimatums reduce power struggles and preserve cooperation."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780143111719",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780143111719"
+    },
+    "id": "2026-10-25-9",
+    "slug": "the-danish-way-of-parenting-what-the-happiest-people-in-the-world-know-about-raising-confident-capable-kids"
+  },
+  {
+    "isbn_13": "9780062299253",
+    "title": "The Gift of Failure: How the Best Parents Learn to Let Go So Their Children Can Succeed",
+    "author": "Jessica Lahey",
+    "publication_year": 2015,
+    "page_count": 272,
+    "genres_tags": [
+      "Parenting",
+      "Education",
+      "Psychology",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.07,
+      "ratings_count": 13000,
+      "review_summary_highlights": [
+        "Readers appreciate the balance of developmental research and candid classroom anecdotes.",
+        "Praised for showing that autonomy-supportive parenting beats praise and micromanagement."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780062299253-L.jpg",
+    "one_sentence_hook": "Every rescue from a small failure robs a child of the experience that builds real competence.",
+    "summary": {
+      "overview": "Teacher Jessica Lahey argues that well-meaning parental intervention undermines the intrinsic motivation and resilience children need. She reviews research on autonomy, competence, and failure and shows how to let children experience manageable consequences.",
+      "key_takeaways": [
+        "Autonomy-supportive parenting, which explains limits and offers choices, outperforms controlling praise and rewards.",
+        "Small, early failures are low-cost tuition for the larger challenges of adolescence and adulthood.",
+        "Intrinsic motivation withers under constant external evaluation; mastery and curiosity need unstructured room to grow."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780062299253",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780062299253"
+    },
+    "id": "2026-10-25-10",
+    "slug": "the-gift-of-failure-how-the-best-parents-learn-to-let-go-so-their-children-can-succeed"
+  },
+  {
+    "isbn_13": "9780446504133",
+    "title": "NurtureShock: New Thinking About Children",
+    "author": "Po Bronson and Ashley Merryman",
+    "publication_year": 2009,
+    "page_count": 352,
+    "genres_tags": [
+      "Parenting",
+      "Psychology",
+      "Education",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.02,
+      "ratings_count": 26000,
+      "review_summary_highlights": [
+        "Readers enjoy having popular parenting assumptions challenged with specific studies.",
+        "Praised for chapters on praise, sleep, and sibling conflict that changed how families operate."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780446504133-L.jpg",
+    "one_sentence_hook": "Much of the conventional wisdom about raising children is backwards, and the research says so plainly.",
+    "summary": {
+      "overview": "Po Bronson and Ashley Merryman examine widely held parenting beliefs, from praise to sleep to racial attitudes, against the developmental research. Each chapter shows where intuition and evidence diverge and what parents can do differently.",
+      "key_takeaways": [
+        "Praising intelligence backfires; praising effort and strategy supports persistence and resilience.",
+        "Children need more sleep than most families allow, and chronic shortfalls mimic attention and mood problems.",
+        "Talking explicitly about race and difference early is more effective than colour-blind silence, which lets biases harden."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780446504133",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780446504133"
+    },
+    "id": "2026-10-25-11",
+    "slug": "nurtureshock-new-thinking-about-children"
+  },
+  {
+    "isbn_13": "9781982149673",
+    "title": "Hunt, Gather, Parent: What Ancient Cultures Can Teach Us About the Lost Art of Raising Happy, Helpful Little Humans",
+    "author": "Michaeleen Doucleff",
+    "publication_year": 2021,
+    "page_count": 304,
+    "genres_tags": [
+      "Parenting",
+      "Anthropology",
+      "Psychology",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.14,
+      "ratings_count": 17000,
+      "review_summary_highlights": [
+        "Readers love the immersive reporting and the concrete, low-drama parenting strategies drawn from it.",
+        "Praised for replacing constant instruction with modelling, autonomy, and family contribution."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781982149673-L.jpg",
+    "one_sentence_hook": "In many cultures children cooperate without nagging or rewards, and the techniques are simple enough to borrow.",
+    "summary": {
+      "overview": "Journalist Michaeleen Doucleff travels to Maya, Inuit, and Hadza communities to study parenting practices that produce calm, helpful children. She translates what she learns, modelling, autonomy, and shared contribution, into practical changes for modern families.",
+      "key_takeaways": [
+        "Children learn primarily by watching and participating in real household work, not by being instructed.",
+        "Autonomy and trust reduce conflict: giving children meaningful responsibility removes the need for constant correction.",
+        "Praise and rewards can crowd out intrinsic motivation; quiet acknowledgement and shared activity work better."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781982149673",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781982149673"
+    },
+    "id": "2026-10-25-12",
+    "slug": "hunt-gather-parent-what-ancient-cultures-can-teach-us-about-the-lost-art-of-raising-happy-helpful-little-humans"
+  },
+  {
+    "isbn_13": "9780063159488",
+    "title": "Good Inside: A Guide to Becoming the Parent You Want to Be",
+    "author": "Becky Kennedy",
+    "publication_year": 2022,
+    "page_count": 336,
+    "genres_tags": [
+      "Parenting",
+      "Psychology",
+      "Self-Help",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.31,
+      "ratings_count": 16000,
+      "review_summary_highlights": [
+        "Readers praise the core reframe that children are good inside even when behaviour is difficult.",
+        "Commended for scripts that work in real tantrums rather than only in theory."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780063159488-L.jpg",
+    "one_sentence_hook": "Assume your child is good inside and the whole discipline problem changes shape.",
+    "summary": {
+      "overview": "Clinical psychologist Becky Kennedy presents a parenting approach built on the premise that children are inherently good and that difficult behaviour signals unmet needs or overwhelmed skills. She offers scripts for boundaries, tantrums, and repair that preserve connection.",
+      "key_takeaways": [
+        "Behaviour is a signal, not a verdict; looking for the need underneath changes the response.",
+        "Firm boundaries and warm connection are compatible, and children need both to feel safe.",
+        "Repair after ruptures matters more than perfect parenting, because it teaches children how relationships recover."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780063159488",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780063159488"
+    },
+    "id": "2026-10-25-13",
+    "slug": "good-inside-a-guide-to-becoming-the-parent-you-want-to-be"
+  },
+  {
+    "isbn_13": "9780525559276",
+    "title": "Cribsheet: A Data-Driven Guide to Better, More Relaxed Parenting, from Birth to Preschool",
+    "author": "Emily Oster",
+    "publication_year": 2019,
+    "page_count": 352,
+    "genres_tags": [
+      "Parenting",
+      "Economics",
+      "Health",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.12,
+      "ratings_count": 25000,
+      "review_summary_highlights": [
+        "Readers value the calm, evidence-first treatment of fraught early-parenting decisions.",
+        "Praised for showing where the data is strong, weak, or simply absent."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780525559276-L.jpg",
+    "one_sentence_hook": "Most early parenting decisions matter far less than the internet suggests, and the data can show which ones actually do.",
+    "summary": {
+      "overview": "Economist Emily Oster reviews the evidence behind common decisions in a child's first years, from sleep and breastfeeding to screen time and preschool. She separates robust findings from weak correlations and gives parents a framework for weighing trade-offs.",
+      "key_takeaways": [
+        "Many widely feared choices have small or unproven effects, so parental wellbeing is a legitimate variable in the decision.",
+        "Correlation is not causation: most observational parenting studies cannot isolate the effect of a single choice.",
+        "A decision framework based on your own preferences and constraints beats one-size-fits-all rules."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780525559276",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780525559276"
+    },
+    "id": "2026-10-25-14",
+    "slug": "cribsheet-a-data-driven-guide-to-better-more-relaxed-parenting-from-birth-to-preschool"
+  },
+  {
+    "isbn_13": "9780241251027",
+    "title": "The Book You Wish Your Parents Had Read (and Your Children Will Be Glad That You Did)",
+    "author": "Philippa Perry",
+    "publication_year": 2019,
+    "page_count": 272,
+    "genres_tags": [
+      "Parenting",
+      "Psychology",
+      "Relationships",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.21,
+      "ratings_count": 14000,
+      "review_summary_highlights": [
+        "Readers appreciate the focus on the parent's own childhood patterns rather than only on the child.",
+        "Praised for being warm and direct about rupture and repair."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780241251027-L.jpg",
+    "one_sentence_hook": "The most important parenting work happens in the parent's own emotional history.",
+    "summary": {
+      "overview": "Psychotherapist Philippa Perry argues that parenting is primarily a relationship, and that unresolved patterns from a parent's own childhood shape how they respond under stress. She shows how to notice those patterns, stay connected during conflict, and repair after mistakes.",
+      "key_takeaways": [
+        "Unresolved childhood experiences get replayed in parenting unless they are noticed and worked through.",
+        "Connection before correction: children can only use guidance when they feel emotionally safe.",
+        "Rupture is inevitable; what matters is consistent, sincere repair that models accountability."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780241251027",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780241251027"
+    },
+    "id": "2026-10-25-15",
+    "slug": "the-book-you-wish-your-parents-had-read-and-your-children-will-be-glad-that-you-did"
+  },
+  {
+    "isbn_13": "9780735219564",
+    "title": "The Making of a Manager: What to Do When Everyone Looks to You",
+    "author": "Julie Zhuo",
+    "publication_year": 2019,
+    "page_count": 288,
+    "genres_tags": [
+      "Management",
+      "Business",
+      "Leadership",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.19,
+      "ratings_count": 16000,
+      "review_summary_highlights": [
+        "Readers value the honest treatment of first-time-manager anxiety and the practical meeting and feedback advice.",
+        "Praised for being concrete about what good management actually looks like day to day."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780735219564-L.jpg",
+    "one_sentence_hook": "Management is a craft you learn on the job, and the first year is mostly about shifting from doing to enabling.",
+    "summary": {
+      "overview": "Julie Zhuo became a manager at Facebook in her mid-twenties with no training and wrote the book she wished she had. She covers the transition from individual contributor, running effective meetings, giving feedback, hiring, and leading teams through change.",
+      "key_takeaways": [
+        "A manager's output is the output of the team, so time and attention must shift from personal production to enabling others.",
+        "Clear expectations and regular feedback prevent most performance surprises.",
+        "Trust is built through consistency and honesty, especially when delivering uncomfortable news."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780735219564",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780735219564"
+    },
+    "id": "2026-10-25-16",
+    "slug": "the-making-of-a-manager-what-to-do-when-everyone-looks-to-you"
+  },
+  {
+    "isbn_13": "9781732265189",
+    "title": "An Elegant Puzzle: Systems of Engineering Management",
+    "author": "Will Larson",
+    "publication_year": 2019,
+    "page_count": 288,
+    "genres_tags": [
+      "Management",
+      "Engineering",
+      "Business",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.11,
+      "ratings_count": 5600,
+      "review_summary_highlights": [
+        "Readers praise the systems-thinking approach to engineering organisations and the specific team-sizing models.",
+        "Commended for being dense with usable frameworks rather than general leadership advice."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781732265189-L.jpg",
+    "one_sentence_hook": "Engineering management is a systems problem, and the book supplies the models for sizing, structuring, and unblocking teams.",
+    "summary": {
+      "overview": "Will Larson applies systems thinking to engineering management, covering organisational design, team growth, technical debt, and incident response. Each chapter offers a model and a set of practices rather than a single prescription.",
+      "key_takeaways": [
+        "Team size and structure constrain what an organisation can accomplish, so growth must be planned against managerial capacity.",
+        "Technical debt is a management problem as much as an engineering one, requiring explicit prioritisation and communication.",
+        "Managers should diagnose whether a team is stuck on execution, direction, or staffing before applying a fix."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781732265189",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781732265189"
+    },
+    "id": "2026-10-25-17",
+    "slug": "an-elegant-puzzle-systems-of-engineering-management"
+  },
+  {
+    "isbn_13": "9780385483827",
+    "title": "Only the Paranoid Survive: How to Exploit the Crisis Points That Challenge Every Company",
+    "author": "Andrew S. Grove",
+    "publication_year": 1996,
+    "page_count": 240,
+    "genres_tags": [
+      "Business",
+      "Management",
+      "Strategy",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.12,
+      "ratings_count": 14000,
+      "review_summary_highlights": [
+        "Readers value Grove's first-hand account of Intel's exit from memory chips and the strategic inflection point framework.",
+        "Praised for being candid about how painful and disorienting strategic change is from the inside."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780385483827-L.jpg",
+    "one_sentence_hook": "Intel's former CEO explains how to recognise the moment your industry changes underneath you, and how to survive it.",
+    "summary": {
+      "overview": "Andrew Grove describes strategic inflection points, moments when a company's competitive fundamentals shift so profoundly that old assumptions stop working. Drawing on Intel's exit from memory chips, he shows how to detect these moments and lead an organisation through them.",
+      "key_takeaways": [
+        "Strategic inflection points arrive as ambiguous signals; the danger is interpreting them through the old model until it is too late.",
+        "Letting go of an identity, such as Intel's memory business, is often harder than the technical change itself.",
+        "Middle managers and frontline staff usually detect inflection points first, so leaders need channels that surface dissent."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780385483827",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780385483827"
+    },
+    "id": "2026-10-25-18",
+    "slug": "only-the-paranoid-survive-how-to-exploit-the-crisis-points-that-challenge-every-company"
+  },
+  {
+    "isbn_13": "9781400201839",
+    "title": "Building a StoryBrand: Clarify Your Message So Customers Will Listen",
+    "author": "Donald Miller",
+    "publication_year": 2017,
+    "page_count": 240,
+    "genres_tags": [
+      "Marketing",
+      "Business",
+      "Communication",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.13,
+      "ratings_count": 21000,
+      "review_summary_highlights": [
+        "Readers appreciate the reusable seven-part framework for clarifying marketing copy.",
+        "Praised for making the customer the hero and the brand the guide, which simplifies messaging decisions."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781400201839-L.jpg",
+    "one_sentence_hook": "Customers do not buy the best product; they buy the clearest story in which they are the hero.",
+    "summary": {
+      "overview": "Donald Miller adapts the structure of story to marketing, arguing that confused customers do not buy. He presents a seven-part StoryBrand framework, a character with a problem, a guide, a plan, a call to action, and stakes, for clarifying any message.",
+      "key_takeaways": [
+        "Make the customer the protagonist and your brand the guide, never the hero of your own marketing.",
+        "Name the customer's external, internal, and philosophical problem explicitly; ambiguity loses attention.",
+        "Give one clear call to action and show the cost of inaction to create narrative stakes."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781400201839",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781400201839"
+    },
+    "id": "2026-10-25-19",
+    "slug": "building-a-storybrand-clarify-your-message-so-customers-will-listen"
+  },
+  {
+    "isbn_13": "9780981808291",
+    "title": "Profit First: Transform Your Business from a Cash-Eating Monster to a Money-Making Machine",
+    "author": "Mike Michalowicz",
+    "publication_year": 2014,
+    "page_count": 191,
+    "genres_tags": [
+      "Business",
+      "Finance",
+      "Entrepreneurship",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.24,
+      "ratings_count": 15000,
+      "review_summary_highlights": [
+        "Readers like the simple bank-account system that makes profit a habit rather than a year-end hope.",
+        "Praised for reframing profit as a constraint that forces operational discipline."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780981808291-L.jpg",
+    "one_sentence_hook": "Take profit first, not last, and the business is forced to run on the money that remains.",
+    "summary": {
+      "overview": "Mike Michalowicz proposes reversing the standard formula of revenue minus expenses equals profit. Instead, allocate a fixed percentage of every deposit to profit, then to owner pay, tax, and operating expenses, which forces the business to adapt to real constraints.",
+      "key_takeaways": [
+        "Pay profit to yourself first through separate accounts so it is not consumed by operating expenses.",
+        "Smaller operating budgets force creativity and eliminate low-value spending.",
+        "Repeated small, consistent allocations beat occasional large withdrawals for building financial stability."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780981808291",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780981808291"
+    },
+    "id": "2026-10-25-20",
+    "slug": "profit-first-transform-your-business-from-a-cash-eating-monster-to-a-money-making-machine"
+  },
+  {
+    "isbn_13": "9780062663078",
+    "title": "Multipliers: How the Best Leaders Make Everyone Smarter",
+    "author": "Liz Wiseman",
+    "publication_year": 2010,
+    "page_count": 360,
+    "genres_tags": [
+      "Leadership",
+      "Management",
+      "Business",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.08,
+      "ratings_count": 17000,
+      "review_summary_highlights": [
+        "Readers value the distinction between leaders who amplify intelligence and those who drain it.",
+        "Praised for the five disciplines and the practical contrast between multipliers and diminishers."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780062663078-L.jpg",
+    "one_sentence_hook": "Some leaders make everyone around them smarter, and their five disciplines can be learned.",
+    "summary": {
+      "overview": "Liz Wiseman contrasts multipliers, leaders who amplify the intelligence of their teams, with diminishers, who consume it. She identifies five disciplines, talent magnet, liberator, challenger, debate maker, and investor, and shows how each raises collective capability.",
+      "key_takeaways": [
+        "Multipliers assume intelligence is distributed and look for it everywhere; diminishers assume they must supply it.",
+        "Framing work as a challenge rather than a set of tasks invites people to bring their full capability.",
+        "Investing ownership in others, including the right to make mistakes, produces more capability than directing them."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780062663078",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780062663078"
+    },
+    "id": "2026-10-25-21",
+    "slug": "multipliers-how-the-best-leaders-make-everyone-smarter"
+  },
+  {
+    "isbn_13": "9789354893896",
+    "title": "The Almanack of Naval Ravikant: A Guide to Wealth and Happiness",
+    "author": "Eric Jorgenson",
+    "publication_year": 2020,
+    "page_count": 242,
+    "genres_tags": [
+      "Business",
+      "Philosophy",
+      "Self-Help",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.4,
+      "ratings_count": 60000,
+      "review_summary_highlights": [
+        "Readers appreciate the compact, quotable distillation of Naval's thinking on leverage and happiness.",
+        "Praised for the practical distinction between wealth, money, and status."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9789354893896-L.jpg",
+    "one_sentence_hook": "Wealth comes from specific knowledge plus leverage, and happiness is a skill you can practise.",
+    "summary": {
+      "overview": "Eric Jorgenson curates Naval Ravikant's essays, tweets, and interviews into a compact guide to building wealth and cultivating happiness. The book emphasises specific knowledge, permissionless leverage, and long-term compounding in both money and relationships.",
+      "key_takeaways": [
+        "Wealth is assets that earn while you sleep; money is only a transfer mechanism, and status is a zero-sum game to avoid.",
+        "Specific knowledge, what you are uniquely good at and cannot easily be trained for, combined with leverage creates outsized returns.",
+        "Happiness is a default state revealed when desire and constant mental commentary quiet down, and it can be trained through habit."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9789354893896",
+      "worldcat_url": "https://search.worldcat.org/search?q=9789354893896"
+    },
+    "id": "2026-10-25-22",
+    "slug": "the-almanack-of-naval-ravikant-a-guide-to-wealth-and-happiness"
+  },
+  {
+    "isbn_13": "9781999023003",
+    "title": "Obviously Awesome: How to Nail Product Positioning so Customers Get It, Buy It, Love It",
+    "author": "April Dunford",
+    "publication_year": 2019,
+    "page_count": 202,
+    "genres_tags": [
+      "Marketing",
+      "Business",
+      "Product",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.34,
+      "ratings_count": 4200,
+      "review_summary_highlights": [
+        "Readers value the step-by-step positioning process and the emphasis on competitive alternatives.",
+        "Praised for being short, specific, and immediately usable for product marketing."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781999023003-L.jpg",
+    "one_sentence_hook": "Positioning is a deliberate choice about the context you place your product in, and that context determines how it is valued.",
+    "summary": {
+      "overview": "April Dunford argues that products are understood relative to the alternatives customers already know, so positioning is the work of choosing the most favourable context. She lays out a ten-step process from identifying competitive alternatives to naming a market category.",
+      "key_takeaways": [
+        "Start with what customers would actually do without your product, not with a competitor list.",
+        "Isolate your unique, defensible strengths and then choose a market category where those strengths matter most.",
+        "Positioning should be documented and shared so sales, product, and marketing tell the same story."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781999023003",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781999023003"
+    },
+    "id": "2026-10-25-23",
+    "slug": "obviously-awesome-how-to-nail-product-positioning-so-customers-get-it-buy-it-love-it"
+  },
+  {
+    "isbn_13": "9781576759776",
+    "title": "Leadership and Self-Deception: Getting Out of the Box",
+    "author": "The Arbinger Institute",
+    "publication_year": 2010,
+    "page_count": 199,
+    "genres_tags": [
+      "Leadership",
+      "Psychology",
+      "Management",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.09,
+      "ratings_count": 20000,
+      "review_summary_highlights": [
+        "Readers appreciate the memorable box metaphor for self-justifying behaviour.",
+        "Praised for showing how personal mindset, not technique, drives most leadership failures."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781576759776-L.jpg",
+    "one_sentence_hook": "Most leadership problems are not skill problems but self-deception problems, and the fix begins with how you see other people.",
+    "summary": {
+      "overview": "Through a business fable, the Arbinger Institute explains self-deception as the act of treating people as objects while justifying it to ourselves. The book argues that being in the box distorts perception and undermines every relationship and management technique.",
+      "key_takeaways": [
+        "Self-deception begins when you betray your own sense of what is right toward another person, then rationalise it.",
+        "Once in the box, you inflate others' faults and your own virtues, which makes your behaviour feel justified.",
+        "Getting out of the box requires seeing the other person's humanity and acting on that perception rather than on technique."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781576759776",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781576759776"
+    },
+    "id": "2026-10-25-24",
+    "slug": "leadership-and-self-deception-getting-out-of-the-box"
+  },
+  {
+    "isbn_13": "9780670014668",
+    "title": "Thanks for the Feedback: The Science and Art of Receiving Feedback Well",
+    "author": "Douglas Stone and Sheila Heen",
+    "publication_year": 2014,
+    "page_count": 348,
+    "genres_tags": [
+      "Communication",
+      "Psychology",
+      "Management",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.11,
+      "ratings_count": 13000,
+      "review_summary_highlights": [
+        "Readers value the three-trigger framework for understanding why feedback stings.",
+        "Praised for shifting attention from giving feedback to the neglected skill of receiving it."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780670014668-L.jpg",
+    "one_sentence_hook": "Receiving feedback is the harder half of the conversation, and three predictable triggers explain most of our resistance.",
+    "summary": {
+      "overview": "Douglas Stone and Sheila Heen examine why feedback so often fails, focusing on the receiver rather than the giver. They identify truth, relationship, and identity triggers and show how to separate useful information from the emotional noise around it.",
+      "key_takeaways": [
+        "Truth triggers fire when feedback seems wrong or incomplete; ask clarifying questions before defending.",
+        "Relationship triggers fire because of who is giving the feedback, so disentangle the message from the messenger.",
+        "Identity triggers amplify feedback that threatens self-image, and recognising the spiral is the first step to staying open."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780670014668",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780670014668"
+    },
+    "id": "2026-10-25-25",
+    "slug": "thanks-for-the-feedback-the-science-and-art-of-receiving-feedback-well"
+  },
+  {
+    "isbn_13": "9781847940933",
+    "title": "Getting to Yes: Negotiating Agreement Without Giving In",
+    "author": "Roger Fisher and William Ury",
+    "publication_year": 1981,
+    "page_count": 204,
+    "genres_tags": [
+      "Negotiation",
+      "Business",
+      "Communication",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.06,
+      "ratings_count": 40000,
+      "review_summary_highlights": [
+        "Readers consider it the classic statement of principled negotiation and interest-based bargaining.",
+        "Praised for the durable BATNA framework and the separation of people from problems."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781847940933-L.jpg",
+    "one_sentence_hook": "Negotiate over interests rather than positions, and you can reach agreements that do not require either side to surrender.",
+    "summary": {
+      "overview": "Roger Fisher and William Ury present principled negotiation, a method that separates people from the problem, focuses on interests rather than positions, invents options for mutual gain, and insists on objective criteria. The book introduced BATNA, the best alternative to a negotiated agreement.",
+      "key_takeaways": [
+        "Positions are what people say they want; interests are why they want it, and interests leave room for creative agreement.",
+        "Know your BATNA before negotiating, because it defines your real walk-away point and your confidence.",
+        "Separate relationship issues from substantive ones so that disagreement on terms does not become personal conflict."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781847940933",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781847940933"
+    },
+    "id": "2026-10-25-26",
+    "slug": "getting-to-yes-negotiating-agreement-without-giving-in"
+  },
+  {
+    "isbn_13": "9780471730330",
+    "title": "The Bogleheads' Guide to Investing",
+    "author": "Taylor Larimore, Mel Lindauer, and Michael LeBoeuf",
+    "publication_year": 2006,
+    "page_count": 307,
+    "genres_tags": [
+      "Investing",
+      "Personal Finance",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.22,
+      "ratings_count": 12000,
+      "review_summary_highlights": [
+        "Readers appreciate the patient, low-cost indexing philosophy and the absence of hype.",
+        "Praised for translating John Bogle's principles into practical portfolio steps."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780471730330-L.jpg",
+    "one_sentence_hook": "A calm, low-cost indexing playbook that treats investing as a long-term discipline rather than a contest.",
+    "summary": {
+      "overview": "Written by leaders of the Bogleheads community, this guide explains how to build a simple, diversified, low-cost portfolio and stick with it. It covers asset allocation, taxes, rebalancing, and the behavioural traps that erode returns.",
+      "key_takeaways": [
+        "Costs compound against you, so broad index funds with low expense ratios are the default rather than the compromise.",
+        "Choose an asset allocation you can hold through a crash, because behaviour explains more return variance than fund selection.",
+        "Rebalance on a schedule and ignore market forecasts, which have a poor record even among professionals."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780471730330",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780471730330"
+    },
+    "id": "2026-10-25-27",
+    "slug": "the-bogleheads-guide-to-investing"
+  },
+  {
+    "isbn_13": "9780684840079",
+    "title": "You Can Be a Stock Market Genius: Uncover the Secret Hiding Places of Stock Market Profits",
+    "author": "Joel Greenblatt",
+    "publication_year": 1997,
+    "page_count": 304,
+    "genres_tags": [
+      "Investing",
+      "Finance",
+      "Business",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.13,
+      "ratings_count": 4200,
+      "review_summary_highlights": [
+        "Readers value the concrete treatment of spin-offs, mergers, and restructurings as sources of mispricing.",
+        "Praised for giving individual investors a genuine edge over institutions in special situations."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780684840079-L.jpg",
+    "one_sentence_hook": "The best bargains hide in corporate spin-offs, mergers, and restructurings where forced sellers create mispricing.",
+    "summary": {
+      "overview": "Joel Greenblatt explains why special situations such as spin-offs, mergers, rights offerings, and bankruptcies create opportunities for patient individual investors. He walks through the mechanics of each event and how to value the resulting securities.",
+      "key_takeaways": [
+        "Institutional constraints force funds to sell certain securities regardless of price, which creates temporary bargains.",
+        "Spin-offs often outperform because management incentives and investor attention reset at separation.",
+        "Do the work on the underlying business; the event is only the entry point, not the thesis."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780684840079",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780684840079"
+    },
+    "id": "2026-10-25-28",
+    "slug": "you-can-be-a-stock-market-genius-uncover-the-secret-hiding-places-of-stock-market-profits"
+  },
+  {
+    "isbn_13": "9780233972107",
+    "title": "The Great Crash 1929",
+    "author": "John Kenneth Galbraith",
+    "publication_year": 1955,
+    "page_count": 206,
+    "genres_tags": [
+      "History",
+      "Economics",
+      "Finance",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.07,
+      "ratings_count": 12000,
+      "review_summary_highlights": [
+        "Readers praise the elegant prose and the enduring analysis of speculative mania.",
+        "Praised for explaining the structural and psychological causes of the crash, not just the timeline."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780233972107-L.jpg",
+    "one_sentence_hook": "Galbraith's classic account of 1929 shows how euphoria, leverage, and institutional failure turn a boom into a collapse.",
+    "summary": {
+      "overview": "John Kenneth Galbraith examines the speculative bubble of the late 1920s and the crash that followed, tracing the roles of easy credit, investment trusts, and collective delusion. He also analyses why the aftermath became a prolonged depression.",
+      "key_takeaways": [
+        "Speculative bubbles require a plausible new narrative plus abundant credit and rising leverage.",
+        "Financial innovation often hides risk in structures that even participants do not understand.",
+        "The crash became a depression because policy and institutional responses amplified the initial shock."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780233972107",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780233972107"
+    },
+    "id": "2026-10-25-29",
+    "slug": "the-great-crash-1929"
+  },
+  {
+    "isbn_13": "9780691123356",
+    "title": "Irrational Exuberance",
+    "author": "Robert J. Shiller",
+    "publication_year": 2000,
+    "page_count": 344,
+    "genres_tags": [
+      "Economics",
+      "Finance",
+      "Psychology",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.02,
+      "ratings_count": 8200,
+      "review_summary_highlights": [
+        "Readers value the rigorous case that markets are driven by psychology and narratives, not only fundamentals.",
+        "Praised for the valuation metrics and the analysis of feedback loops in bubbles."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780691123356-L.jpg",
+    "one_sentence_hook": "Markets are not merely inefficient; they are propelled by stories and feedback loops that produce recurring bubbles.",
+    "summary": {
+      "overview": "Robert Shiller argues that asset prices are driven by psychological and sociological forces as much as by fundamentals. He analyses historical bubbles and the feedback mechanisms, media, and herd behaviour that amplify them.",
+      "key_takeaways": [
+        "Narratives spread through media and social networks and become self-reinforcing drivers of demand.",
+        "Valuation ratios such as price-to-earnings and cyclically adjusted measures give a better long-run signal than short-term momentum.",
+        "Investors should diversify and avoid assuming that recent returns predict future ones."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780691123356",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780691123356"
+    },
+    "id": "2026-10-25-30",
+    "slug": "irrational-exuberance"
+  },
+  {
+    "isbn_13": "9780517548233",
+    "title": "Economics in One Lesson",
+    "author": "Henry Hazlitt",
+    "publication_year": 1946,
+    "page_count": 218,
+    "genres_tags": [
+      "Economics",
+      "Politics",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.23,
+      "ratings_count": 24000,
+      "review_summary_highlights": [
+        "Readers value the single, memorable lesson about seen and unseen effects.",
+        "Praised for applying one principle consistently across dozens of policy examples."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780517548233-L.jpg",
+    "one_sentence_hook": "The whole of economics can be reduced to one lesson: trace the effects of a policy on everyone, not just the visible group.",
+    "summary": {
+      "overview": "Henry Hazlitt distils economics into a single principle: consider the long-run effects of a policy on all groups, not just its immediate, visible beneficiaries. He applies it to tariffs, subsidies, price controls, and public works.",
+      "key_takeaways": [
+        "Every policy has unseen costs, and ignoring them produces conclusions that look generous but are destructive.",
+        "Protectionism benefits a concentrated group while spreading larger, diffuse costs across everyone else.",
+        "Price controls create shortages or surpluses because they suppress the information prices carry."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780517548233",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780517548233"
+    },
+    "id": "2026-10-25-31",
+    "slug": "economics-in-one-lesson"
+  },
+  {
+    "isbn_13": "9780393049824",
+    "title": "Naked Economics: Undressing the Dismal Science",
+    "author": "Charles Wheelan",
+    "publication_year": 2002,
+    "page_count": 260,
+    "genres_tags": [
+      "Economics",
+      "Nonfiction",
+      "Business"
+    ],
+    "goodreads": {
+      "rating": 4.06,
+      "ratings_count": 16000,
+      "review_summary_highlights": [
+        "Readers appreciate the jargon-free explanations and the wit throughout.",
+        "Praised for making incentives, trade, and markets intuitive for non-specialists."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780393049824-L.jpg",
+    "one_sentence_hook": "Economics is mostly the study of incentives, and once you see them the world stops looking random.",
+    "summary": {
+      "overview": "Charles Wheelan explains core economic ideas, incentives, markets, trade, inflation, and government failure, without equations. He uses everyday examples to show how economic reasoning clarifies public policy and personal decisions.",
+      "key_takeaways": [
+        "Incentives shape behaviour more reliably than intentions, so policy design must account for how people actually respond.",
+        "Markets aggregate information efficiently but fail when prices do not capture real costs or benefits.",
+        "Comparative advantage makes trade mutually beneficial even when one party is better at everything."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780393049824",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780393049824"
+    },
+    "id": "2026-10-25-32",
+    "slug": "naked-economics-undressing-the-dismal-science"
+  },
+  {
+    "isbn_13": "9781440654015",
+    "title": "The Ascent of Money: A Financial History of the World",
+    "author": "Niall Ferguson",
+    "publication_year": 2008,
+    "page_count": 445,
+    "genres_tags": [
+      "History",
+      "Finance",
+      "Economics",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.07,
+      "ratings_count": 26000,
+      "review_summary_highlights": [
+        "Readers enjoy the sweep from Renaissance banking to modern derivatives.",
+        "Praised for showing how financial innovation and crisis are inseparable from political history."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781440654015-L.jpg",
+    "one_sentence_hook": "Money, credit, and finance are not abstractions but the infrastructure on which empires and revolutions were built.",
+    "summary": {
+      "overview": "Niall Ferguson traces the history of finance from early banking and bonds through insurance, real estate, and globalisation. He argues that financial development has been central to the rise of states and that crises are recurring features of that system.",
+      "key_takeaways": [
+        "Financial instruments such as bonds and insurance enabled states and trade to scale far beyond their earlier limits.",
+        "Every major financial innovation has carried new systemic risk that was understood only after a crisis.",
+        "Financial history repeats in structure if not in detail, which makes historical literacy a practical advantage."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781440654015",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781440654015"
+    },
+    "id": "2026-10-25-33",
+    "slug": "the-ascent-of-money-a-financial-history-of-the-world"
+  },
+  {
+    "isbn_13": "9781610390934",
+    "title": "Poor Economics: A Radical Rethinking of the Way to Fight Global Poverty",
+    "author": "Abhijit V. Banerjee and Esther Duflo",
+    "publication_year": 2011,
+    "page_count": 303,
+    "genres_tags": [
+      "Economics",
+      "Poverty",
+      "Policy",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.14,
+      "ratings_count": 15000,
+      "review_summary_highlights": [
+        "Readers value the field experiments and the refusal of grand ideological answers.",
+        "Praised for treating poor people as rational decision-makers operating under severe constraints."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781610390934-L.jpg",
+    "one_sentence_hook": "Instead of asking what would fix poverty in theory, the authors ran experiments to find what actually helps.",
+    "summary": {
+      "overview": "Abhijit Banerjee and Esther Duflo use randomised controlled trials to understand how poor people make decisions and which interventions actually improve their lives. They reject both grand ideological narratives in favour of evidence about specific frictions.",
+      "key_takeaways": [
+        "Small frictions, such as the timing of payments or the cost of a vaccine, can determine whether an intervention works.",
+        "Poverty creates cognitive scarcity that shapes decisions, so programme design should reduce effort and uncertainty.",
+        "Policy should be evaluated with field experiments rather than assumed to work from theory."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781610390934",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781610390934"
+    },
+    "id": "2026-10-25-34",
+    "slug": "poor-economics-a-radical-rethinking-of-the-way-to-fight-global-poverty"
+  },
+  {
+    "isbn_13": "9780198985389",
+    "title": "The Selfish Gene",
+    "author": "Richard Dawkins",
+    "publication_year": 1976,
+    "page_count": 480,
+    "genres_tags": [
+      "Science",
+      "Biology",
+      "Evolution",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.12,
+      "ratings_count": 105000,
+      "review_summary_highlights": [
+        "Readers credit the gene's-eye view with reframing how they think about altruism and cooperation.",
+        "Praised for lucid explanations of kin selection, reciprocity, and evolutionary arms races."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780198985389-L.jpg",
+    "one_sentence_hook": "Evolution is not about species or individuals but about genes using bodies to make more copies of themselves.",
+    "summary": {
+      "overview": "Richard Dawkins argues that the fundamental unit of natural selection is the gene, and that bodies are survival machines built to propagate replicators. He uses this lens to explain altruism, family conflict, cooperation, and the spread of cultural units he calls memes.",
+      "key_takeaways": [
+        "Genes, not individuals or species, are the entities that persist and compete across generations.",
+        "Kin selection explains altruism: helping relatives can spread shared genes even at a cost to the helper.",
+        "Reciprocal altruism and evolutionary arms races explain much of the complexity in social behaviour."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780198985389",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780198985389"
+    },
+    "id": "2026-10-25-35",
+    "slug": "the-selfish-gene"
+  },
+  {
+    "isbn_13": "9781440685859",
+    "title": "Why Evolution Is True",
+    "author": "Jerry A. Coyne",
+    "publication_year": 2009,
+    "page_count": 320,
+    "genres_tags": [
+      "Science",
+      "Biology",
+      "Evolution",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.11,
+      "ratings_count": 14000,
+      "review_summary_highlights": [
+        "Readers value the systematic presentation of evidence from fossils, biogeography, and genetics.",
+        "Praised for being accessible without watering down the science."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781440685859-L.jpg",
+    "one_sentence_hook": "Evolution is not a belief system but a conclusion supported by independent lines of evidence that all converge.",
+    "summary": {
+      "overview": "Evolutionary biologist Jerry Coyne lays out the evidence for evolution from several independent directions: the fossil record, embryology, vestigial traits, biogeography, and observed natural selection. He argues that the convergence of these lines makes the conclusion inescapable.",
+      "key_takeaways": [
+        "Vestigial and imperfect traits make sense as historical leftovers but not as deliberate design.",
+        "Biogeography, the distribution of species across islands and continents, fits common descent with isolation.",
+        "Observed selection in laboratories and the wild shows evolution happening on human timescales."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781440685859",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781440685859"
+    },
+    "id": "2026-10-25-36",
+    "slug": "why-evolution-is-true"
+  },
+  {
+    "isbn_13": "9780307277459",
+    "title": "Your Inner Fish: A Journey into the 3.5-Billion-Year History of the Human Body",
+    "author": "Neil Shubin",
+    "publication_year": 2008,
+    "page_count": 237,
+    "genres_tags": [
+      "Science",
+      "Biology",
+      "Evolution",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.09,
+      "ratings_count": 26000,
+      "review_summary_highlights": [
+        "Readers enjoy the fossil-hunting narrative and the surprising links between fish anatomy and human anatomy.",
+        "Praised for making embryology and homology intuitive."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780307277459-L.jpg",
+    "one_sentence_hook": "Your hands, ears, and teeth are repurposed fish anatomy, and the fossil record shows the transitions.",
+    "summary": {
+      "overview": "Paleontologist Neil Shubin describes the discovery of Tiktaalik and uses it to trace human anatomy back to fish ancestors. He shows how limbs, hearing bones, teeth, and the genome carry the signature of deep evolutionary history.",
+      "key_takeaways": [
+        "Homologous structures, shared despite different functions, reveal common ancestry.",
+        "Developmental genes are deeply conserved, so the same genetic toolkit builds fish fins and human hands.",
+        "Vestigial and quirky anatomy, such as the recurrent laryngeal nerve, only makes sense as evolutionary history."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780307277459",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780307277459"
+    },
+    "id": "2026-10-25-37",
+    "slug": "your-inner-fish-a-journey-into-the-3-5-billion-year-history-of-the-human-body"
+  },
+  {
+    "isbn_13": "9780316185349",
+    "title": "The Disappearing Spoon: And Other True Tales of Madness, Love, and the History of the World from the Periodic Table of the Elements",
+    "author": "Sam Kean",
+    "publication_year": 2010,
+    "page_count": 391,
+    "genres_tags": [
+      "Science",
+      "Chemistry",
+      "History",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.05,
+      "ratings_count": 34000,
+      "review_summary_highlights": [
+        "Readers love the human stories behind the periodic table, from poisonings to Nobel rivalries.",
+        "Praised for making chemistry memorable through anecdote rather than memorisation."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780316185349-L.jpg",
+    "one_sentence_hook": "The periodic table is a cabinet of human stories, and every element has a history worth telling.",
+    "summary": {
+      "overview": "Sam Kean tours the periodic table through the scientists, rivalries, accidents, and historical events connected to each element. He explains chemical properties through narrative, from mercury poisoning to the politics of element discovery.",
+      "key_takeaways": [
+        "An element's position on the table predicts its behaviour, because structure determines reactivity.",
+        "Scientific progress is shaped by personalities, funding, and politics as much as by ideas.",
+        "Material properties, such as toxicity or conductivity, have changed the course of history."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780316185349",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780316185349"
+    },
+    "id": "2026-10-25-38",
+    "slug": "the-disappearing-spoon-and-other-true-tales-of-madness-love-and-the-history-of-the-world-from-the-periodic-table-of-the-elements"
+  },
+  {
+    "isbn_13": "9781857028799",
+    "title": "The Code Book: The Science of Secrecy from Ancient Egypt to Quantum Cryptography",
+    "author": "Simon Singh",
+    "publication_year": 1999,
+    "page_count": 416,
+    "genres_tags": [
+      "Science",
+      "Cryptography",
+      "History",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.22,
+      "ratings_count": 18000,
+      "review_summary_highlights": [
+        "Readers value the clear explanations of encryption methods alongside the history of code-breaking.",
+        "Praised for making public-key cryptography understandable to non-mathematicians."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781857028799-L.jpg",
+    "one_sentence_hook": "The history of secrecy is a two-thousand-year arms race between codemakers and codebreakers, and it is still running.",
+    "summary": {
+      "overview": "Simon Singh traces cryptography from ancient substitution ciphers through the Enigma machine to modern public-key systems and quantum computing. He explains the mathematics behind each advance and the historical consequences of breaking codes.",
+      "key_takeaways": [
+        "Every classical cipher leaks structure, which is why frequency analysis and pattern recognition defeat them.",
+        "Public-key cryptography solved the key-distribution problem by making encryption and decryption mathematically asymmetric.",
+        "Security is provisional: advances in computing, including quantum machines, threaten current standards."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781857028799",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781857028799"
+    },
+    "id": "2026-10-25-39",
+    "slug": "the-code-book-the-science-of-secrecy-from-ancient-egypt-to-quantum-cryptography"
+  },
+  {
+    "isbn_13": "9781780746067",
+    "title": "The Big Picture: On the Origins of Life, Meaning, and the Universe Itself",
+    "author": "Sean Carroll",
+    "publication_year": 2016,
+    "page_count": 480,
+    "genres_tags": [
+      "Science",
+      "Physics",
+      "Philosophy",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.07,
+      "ratings_count": 12000,
+      "review_summary_highlights": [
+        "Readers appreciate the ambitious synthesis of physics, biology, and philosophy into a coherent worldview.",
+        "Praised for the concept of poetic naturalism and its treatment of meaning without supernaturalism."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781780746067-L.jpg",
+    "one_sentence_hook": "A single naturalistic story can run from quantum fields to human meaning without leaving anything out.",
+    "summary": {
+      "overview": "Physicist Sean Carroll presents poetic naturalism, the view that there is one world described by many useful vocabularies. He traces the chain from fundamental physics through complexity and life to consciousness, morality, and meaning.",
+      "key_takeaways": [
+        "Different levels of description, physics, chemistry, biology, psychology, are all valid without one reducing to another.",
+        "Purpose and meaning are real features of human life even in a universe without inherent cosmic purpose.",
+        "Understanding the best available science is compatible with, and can enrich, ethical and existential commitment."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781780746067",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781780746067"
+    },
+    "id": "2026-10-25-40",
+    "slug": "the-big-picture-on-the-origins-of-life-meaning-and-the-universe-itself"
+  },
+  {
+    "isbn_13": "9780062368621",
+    "title": "I Contain Multitudes: The Microbes Within Us and a Grander View of Life",
+    "author": "Ed Yong",
+    "publication_year": 2016,
+    "page_count": 368,
+    "genres_tags": [
+      "Science",
+      "Biology",
+      "Health",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.09,
+      "ratings_count": 24000,
+      "review_summary_highlights": [
+        "Readers enjoy the vivid reporting on microbiomes across species, from squid to humans.",
+        "Praised for replacing germophobia with a nuanced view of symbiotic life."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780062368621-L.jpg",
+    "one_sentence_hook": "Animals are not individuals but ecosystems, and the microbes inside us shape development, immunity, and behaviour.",
+    "summary": {
+      "overview": "Ed Yong explores the microbiome and the ubiquity of symbiosis, showing how microbes influence animal development, immunity, and evolution. He argues that the boundary between organism and environment is far blurrier than we assume.",
+      "key_takeaways": [
+        "Microbes are not incidental passengers; they are integrated partners in animal biology.",
+        "Symbiosis ranges from mutual benefit to parasitism and shifts along that spectrum over evolutionary time.",
+        "Attempts to manipulate the microbiome therapeutically are promising but still early and often oversimplified."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780062368621",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780062368621"
+    },
+    "id": "2026-10-25-41",
+    "slug": "i-contain-multitudes-the-microbes-within-us-and-a-grander-view-of-life"
+  },
+  {
+    "isbn_13": "9780008226299",
+    "title": "Other Minds: The Octopus, the Sea, and the Deep Origins of Consciousness",
+    "author": "Peter Godfrey-Smith",
+    "publication_year": 2016,
+    "page_count": 272,
+    "genres_tags": [
+      "Science",
+      "Biology",
+      "Philosophy",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.06,
+      "ratings_count": 21000,
+      "review_summary_highlights": [
+        "Readers praise the blend of marine biology, evolutionary theory, and philosophy of mind.",
+        "Praised for the striking idea that octopus intelligence evolved on a completely separate path from ours."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780008226299-L.jpg",
+    "one_sentence_hook": "The octopus is the closest thing to an alien mind on Earth, and studying it reveals how consciousness could evolve twice.",
+    "summary": {
+      "overview": "Peter Godfrey-Smith uses cephalopods to explore the evolution of subjective experience. He traces the split between vertebrate and cephalopod lineages and argues that their complex behaviour and distributed nervous systems offer a second, independent data point on consciousness.",
+      "key_takeaways": [
+        "Complex minds evolved independently in cephalopods, suggesting consciousness is not a single evolutionary accident.",
+        "Octopus nervous systems are distributed through the arms, blurring the line between central and peripheral control.",
+        "Studying other minds requires humility about how much our own cognition shapes the questions we ask."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780008226299",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780008226299"
+    },
+    "id": "2026-10-25-42",
+    "slug": "other-minds-the-octopus-the-sea-and-the-deep-origins-of-consciousness"
+  },
+  {
+    "isbn_13": "9780399563126",
+    "title": "The Genius of Birds",
+    "author": "Jennifer Ackerman",
+    "publication_year": 2016,
+    "page_count": 352,
+    "genres_tags": [
+      "Science",
+      "Biology",
+      "Nature",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.09,
+      "ratings_count": 17000,
+      "review_summary_highlights": [
+        "Readers enjoy the field research and the surprising demonstrations of bird cognition.",
+        "Praised for overturning the stereotype of the birdbrain."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780399563126-L.jpg",
+    "one_sentence_hook": "Birds navigate oceans, use tools, and recognise individuals, which means their brains are doing something remarkable with very little.",
+    "summary": {
+      "overview": "Jennifer Ackerman surveys research on avian intelligence, from tool use and social learning to navigation and memory. She shows that bird brains, though structurally different from mammalian ones, support sophisticated cognition.",
+      "key_takeaways": [
+        "Brain architecture matters less than circuit function: birds achieve complex cognition with a differently organised brain.",
+        "Many bird abilities are specialised rather than general, tuned to ecological demands such as caching or migration.",
+        "Cognition evolves under social and environmental pressure, not as a single ladder toward human intelligence."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780399563126",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780399563126"
+    },
+    "id": "2026-10-25-43",
+    "slug": "the-genius-of-birds"
+  },
+  {
+    "isbn_13": "9780062364814",
+    "title": "The Ends of the World: Volcanic Apocalypses, Lethal Oceans, and Our Quest to Understand Earth's Past Mass Extinctions",
+    "author": "Peter Brannen",
+    "publication_year": 2017,
+    "page_count": 336,
+    "genres_tags": [
+      "Science",
+      "Geology",
+      "Environment",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.19,
+      "ratings_count": 5600,
+      "review_summary_highlights": [
+        "Readers value the deep-time perspective and the vivid field reporting from extinction sites.",
+        "Praised for making the comparison between past extinctions and present carbon emissions concrete."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780062364814-L.jpg",
+    "one_sentence_hook": "Earth has nearly died five times, and the causes of those extinctions are uncomfortably familiar.",
+    "summary": {
+      "overview": "Peter Brannen travels to geological sites of the five great mass extinctions and interviews the scientists who study them. He explains how volcanism, ocean chemistry, and carbon cycles drove past collapses and draws out the parallels to current climate change.",
+      "key_takeaways": [
+        "Past mass extinctions were often driven by rapid carbon release and ocean acidification, not only by asteroid impacts.",
+        "Geological history shows that ecosystems can absorb stress for a long time and then collapse abruptly.",
+        "The rate of change matters as much as the magnitude, which is why today's emissions are geologically unusual."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780062364814",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780062364814"
+    },
+    "id": "2026-10-25-44",
+    "slug": "the-ends-of-the-world-volcanic-apocalypses-lethal-oceans-and-our-quest-to-understand-earth-s-past-mass-extinctions"
+  },
+  {
+    "isbn_13": "9781509830077",
+    "title": "The Rise and Fall of the Dinosaurs: A New History of a Lost World",
+    "author": "Steve Brusatte",
+    "publication_year": 2018,
+    "page_count": 416,
+    "genres_tags": [
+      "Science",
+      "Paleontology",
+      "History",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.23,
+      "ratings_count": 21000,
+      "review_summary_highlights": [
+        "Readers enjoy the vivid reconstructions and the author's own fieldwork stories.",
+        "Praised for showing dinosaurs as dynamic, evolving animals rather than museum skeletons."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781509830077-L.jpg",
+    "one_sentence_hook": "Dinosaurs rose from marginal reptiles to planetary rulers, and their story ends with a single catastrophic day.",
+    "summary": {
+      "overview": "Paleontologist Steve Brusatte traces the 150-million-year history of dinosaurs from their origins through the age of giants to their sudden extinction. He incorporates recent discoveries about feathers, growth rates, and the asteroid impact.",
+      "key_takeaways": [
+        "Dinosaurs were not doomed evolutionary dead ends; they were highly successful and diverse until the impact.",
+        "Birds are living dinosaurs, a lineage that survived the extinction and diversified afterwards.",
+        "The extinction was geologically instantaneous, which explains why survival depended on circumstance as much as fitness."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781509830077",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781509830077"
+    },
+    "id": "2026-10-25-45",
+    "slug": "the-rise-and-fall-of-the-dinosaurs-a-new-history-of-a-lost-world"
+  },
+  {
+    "isbn_13": "9780141985138",
+    "title": "How to Change Your Mind: What the New Science of Psychedelics Teaches Us About Consciousness, Dying, Addiction, Depression, and Transcendence",
+    "author": "Michael Pollan",
+    "publication_year": 2018,
+    "page_count": 480,
+    "genres_tags": [
+      "Science",
+      "Psychology",
+      "Health",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.22,
+      "ratings_count": 48000,
+      "review_summary_highlights": [
+        "Readers praise the balanced reporting that takes both the science and the subjective experience seriously.",
+        "Commended for the history of psychedelic research and the careful account of clinical trials."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780141985138-L.jpg",
+    "one_sentence_hook": "Psychedelics are back in the laboratory, and the results challenge what we think consciousness and the self are for.",
+    "summary": {
+      "overview": "Michael Pollan investigates the history, neuroscience, and therapeutic potential of psychedelics, weaving in his own experiences. He examines how these substances alter default-mode network activity and why that may help with depression, addiction, and end-of-life anxiety.",
+      "key_takeaways": [
+        "Psychedelics appear to disrupt rigid patterns of self-referential thought, which may allow new perspectives to form.",
+        "Set and setting strongly shape outcomes, so clinical protocols matter as much as the molecule.",
+        "The mystical-type experience reported by many users correlates with therapeutic benefit, raising questions about how to study it rigorously."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780141985138",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780141985138"
+    },
+    "id": "2026-10-25-46",
+    "slug": "how-to-change-your-mind-what-the-new-science-of-psychedelics-teaches-us-about-consciousness-dying-addiction-depression-and-transcendence"
+  },
+  {
+    "isbn_13": "9781471141850",
+    "title": "The Laws of Medicine: Field Notes from an Uncertain Science",
+    "author": "Siddhartha Mukherjee",
+    "publication_year": 2015,
+    "page_count": 70,
+    "genres_tags": [
+      "Medicine",
+      "Science",
+      "Health",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.02,
+      "ratings_count": 5600,
+      "review_summary_highlights": [
+        "Readers appreciate the compact, essayistic treatment of uncertainty in medicine.",
+        "Praised for the memorable formulation of the three laws."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781471141850-L.jpg",
+    "one_sentence_hook": "Medicine advances by learning to reason under uncertainty, and three hard-won laws describe how.",
+    "summary": {
+      "overview": "Siddhartha Mukherjee distils his experience as an oncologist into three laws about medical reasoning. The book is a meditation on evidence, outliers, and bias in a field where certainty is rare.",
+      "key_takeaways": [
+        "A strong intuition can outperform a weak test, so the quality of evidence matters more than its quantity.",
+        "Normal cases teach rules, but outliers teach the laws, which is why unusual patients drive medical progress.",
+        "Every experiment carries human bias, and good medicine requires designing around it rather than pretending it away."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781471141850",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781471141850"
+    },
+    "id": "2026-10-25-47",
+    "slug": "the-laws-of-medicine-field-notes-from-an-uncertain-science"
+  },
+  {
+    "isbn_13": "9780805086843",
+    "title": "Bury My Heart at Wounded Knee: An Indian History of the American West",
+    "author": "Dee Brown",
+    "publication_year": 1970,
+    "page_count": 487,
+    "genres_tags": [
+      "History",
+      "Native American",
+      "Politics",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.37,
+      "ratings_count": 45000,
+      "review_summary_highlights": [
+        "Readers describe it as a landmark corrective that tells westward expansion from the Native side.",
+        "Praised for its restrained use of testimony and its moral force."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780805086843-L.jpg",
+    "one_sentence_hook": "The American West looks entirely different when the story is told by the people who were being displaced.",
+    "summary": {
+      "overview": "Dee Brown chronicles the conquest of the American West between 1860 and 1890 from the perspective of Native nations, drawing on treaties, testimony, and government records. The book documents broken agreements, massacres, and the systematic destruction of Native lifeways.",
+      "key_takeaways": [
+        "Treaties were repeatedly signed and then violated as settler expansion accelerated.",
+        "Military policy toward Native nations shifted between extermination, removal, and forced assimilation.",
+        "The same events that entered national myth as heroic expansion were experienced as a sustained catastrophe."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780805086843",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780805086843"
+    },
+    "id": "2026-10-25-48",
+    "slug": "bury-my-heart-at-wounded-knee-an-indian-history-of-the-american-west"
+  },
+  {
+    "isbn_13": "9781416591061",
+    "title": "Empire of the Summer Moon: Quanah Parker and the Rise and Fall of the Comanches, the Most Powerful Indian Tribe in American History",
+    "author": "S. C. Gwynne",
+    "publication_year": 2010,
+    "page_count": 371,
+    "genres_tags": [
+      "History",
+      "Native American",
+      "Biography",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.19,
+      "ratings_count": 45000,
+      "review_summary_highlights": [
+        "Readers praise the narrative drive and the portrait of Comanche horse culture.",
+        "Praised for showing how the Comanche empire shaped the frontier before its collapse."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781416591061-L.jpg",
+    "one_sentence_hook": "The Comanches built an empire on horseback that held back settlement for generations, until repeating rifles and bison slaughter ended it.",
+    "summary": {
+      "overview": "S. C. Gwynne tells the story of the Comanche empire through the life of Quanah Parker, the son of a Comanche chief and a captured white woman. He traces how horse culture made the Comanches dominant and how technology, disease, and bison destruction destroyed their world.",
+      "key_takeaways": [
+        "The Comanche rise rested on mastery of the horse, which transformed mobility, hunting, and warfare.",
+        "Frontier conflict was shaped by technological asymmetry as much as by numbers.",
+        "Quanah Parker's later life illustrates forced adaptation, as he negotiated between Comanche tradition and American power."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781416591061",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781416591061"
+    },
+    "id": "2026-10-25-49",
+    "slug": "empire-of-the-summer-moon-quanah-parker-and-the-rise-and-fall-of-the-comanches-the-most-powerful-indian-tribe-in-american-history"
+  },
+  {
+    "isbn_13": "9780307952950",
+    "title": "The Black Count: Glory, Revolution, Betrayal, and the Real Count of Monte Cristo",
+    "author": "Tom Reiss",
+    "publication_year": 2012,
+    "page_count": 430,
+    "genres_tags": [
+      "Biography",
+      "History",
+      "France",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.2,
+      "ratings_count": 17000,
+      "review_summary_highlights": [
+        "Readers value the recovery of a forgotten general whose life inspired his novelist son.",
+        "Praised for the vivid account of race and military service in revolutionary France."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780307952950-L.jpg",
+    "one_sentence_hook": "Alexandre Dumas's father was a black general who rose to command armies in revolutionary France and died broken by its betrayals.",
+    "summary": {
+      "overview": "Tom Reiss reconstructs the life of Thomas-Alexandre Dumas, born to a French nobleman and an enslaved African woman, who became a celebrated general in revolutionary France. His son, the novelist Alexandre Dumas, drew on his father's life for The Count of Monte Cristo and The Three Musketeers.",
+      "key_takeaways": [
+        "Revolutionary France briefly offered opportunities to men of colour that later regimes reversed.",
+        "Dumas's career shows how military merit could coexist with, and eventually be crushed by, racial prejudice.",
+        "Literary classics often encode the buried biographies of their authors' families."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780307952950",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780307952950"
+    },
+    "id": "2026-10-25-50",
+    "slug": "the-black-count-glory-revolution-betrayal-and-the-real-count-of-monte-cristo"
+  },
+  {
+    "isbn_13": "9780241972137",
+    "title": "The Spy and the Traitor: The Greatest Espionage Story of the Cold War",
+    "author": "Ben Macintyre",
+    "publication_year": 2018,
+    "page_count": 384,
+    "genres_tags": [
+      "History",
+      "Espionage",
+      "Politics",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.38,
+      "ratings_count": 40000,
+      "review_summary_highlights": [
+        "Readers describe it as a real-life thriller with meticulous sourcing.",
+        "Praised for the tension of the exfiltration sequence and the portrait of Oleg Gordievsky."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780241972137-L.jpg",
+    "one_sentence_hook": "A KGB colonel spent a decade spying for Britain, and the story of his escape is stranger than fiction.",
+    "summary": {
+      "overview": "Ben Macintyre recounts the double life of Oleg Gordievsky, a KGB officer who supplied intelligence to MI6 during the Cold War. He shows how the information shaped Western policy and describes the operation that smuggled Gordievsky out of the Soviet Union.",
+      "key_takeaways": [
+        "Human intelligence depends on motivation and trust more than on technology.",
+        "The fear of exposure creates a permanent psychological strain that shapes an agent's decisions.",
+        "Intelligence can change policy only when leaders are willing to act on it."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780241972137",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780241972137"
+    },
+    "id": "2026-10-25-51",
+    "slug": "the-spy-and-the-traitor-the-greatest-espionage-story-of-the-cold-war"
+  },
+  {
+    "isbn_13": "9780307237811",
+    "title": "Genghis Khan and the Making of the Modern World",
+    "author": "Jack Weatherford",
+    "publication_year": 2004,
+    "page_count": 352,
+    "genres_tags": [
+      "History",
+      "Asia",
+      "Politics",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.12,
+      "ratings_count": 27000,
+      "review_summary_highlights": [
+        "Readers appreciate the revisionist case that the Mongol empire enabled trade and exchange.",
+        "Praised for bringing a less Eurocentric view to thirteenth-century history."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780307237811-L.jpg",
+    "one_sentence_hook": "The Mongols are remembered for destruction, but their empire also built the trade and communication networks of the modern world.",
+    "summary": {
+      "overview": "Jack Weatherford argues that Genghis Khan's empire, often reduced to conquest and slaughter, also created a framework of trade, law, and cultural exchange across Eurasia. He traces the Mongol system from its steppe origins through its successor states.",
+      "key_takeaways": [
+        "The Mongols promoted meritocracy, religious tolerance, and a unified trade network across conquered territories.",
+        "The Pax Mongolica lowered the cost of long-distance exchange and spread technology and ideas.",
+        "Historical memory tends to emphasise destruction over the institutional innovations that follow it."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780307237811",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780307237811"
+    },
+    "id": "2026-10-25-52",
+    "slug": "genghis-khan-and-the-making-of-the-modern-world"
+  },
+  {
+    "isbn_13": "9780465093533",
+    "title": "Pax: War and Peace in Rome's Golden Age",
+    "author": "Tom Holland",
+    "publication_year": 2023,
+    "page_count": 480,
+    "genres_tags": [
+      "History",
+      "Ancient Rome",
+      "Politics",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.21,
+      "ratings_count": 4200,
+      "review_summary_highlights": [
+        "Readers praise the vivid narrative of Rome at its height.",
+        "Praised for complicating the idea of the Pax Romana as a simple golden age."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780465093533-L.jpg",
+    "one_sentence_hook": "Rome's golden age was built on victory, spectacle, and quiet violence, and it was never as stable as it looked.",
+    "summary": {
+      "overview": "Tom Holland covers the Roman Empire from the reign of Hadrian through the Antonines, a period often remembered as the height of Roman peace and prosperity. He shows the military, political, and cultural machinery that sustained it and the pressures accumulating beneath the surface.",
+      "key_takeaways": [
+        "Imperial peace was maintained by continuous military exertion and the threat of force.",
+        "The emperor's legitimacy rested on a mix of military loyalty, public spectacle, and elite accommodation.",
+        "Periods remembered as golden ages often contain the seeds of later crises."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780465093533",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780465093533"
+    },
+    "id": "2026-10-25-53",
+    "slug": "pax-war-and-peace-in-rome-s-golden-age"
+  },
+  {
+    "isbn_13": "9781541724037",
+    "title": "The Storm Before the Storm: The Beginning of the End of the Roman Republic",
+    "author": "Mike Duncan",
+    "publication_year": 2017,
+    "page_count": 352,
+    "genres_tags": [
+      "History",
+      "Ancient Rome",
+      "Politics",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.2,
+      "ratings_count": 9000,
+      "review_summary_highlights": [
+        "Readers enjoy the clear narrative of the Gracchi, Marius, and Sulla.",
+        "Praised for showing how institutional decay precedes dictatorship."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781541724037-L.jpg",
+    "one_sentence_hook": "Before Caesar crossed the Rubicon, the Roman Republic had already been hollowed out by reform, violence, and civil war.",
+    "summary": {
+      "overview": "Mike Duncan narrates the Roman Republic's decline from the reforms of the Gracchi to Sulla's dictatorship. He focuses on how political norms eroded, violence became a legitimate tool, and institutions failed to adapt.",
+      "key_takeaways": [
+        "Institutional norms matter more than formal rules; once broken, they are hard to restore.",
+        "Economic dislocation and inequality created constituencies willing to follow populist leaders.",
+        "Repeated use of political violence normalises it and lowers the threshold for civil war."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781541724037",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781541724037"
+    },
+    "id": "2026-10-25-54",
+    "slug": "the-storm-before-the-storm-the-beginning-of-the-end-of-the-roman-republic"
+  },
+  {
+    "isbn_13": "9781841150925",
+    "title": "Seabiscuit: An American Legend",
+    "author": "Laura Hillenbrand",
+    "publication_year": 2001,
+    "page_count": 448,
+    "genres_tags": [
+      "Sports",
+      "History",
+      "Biography",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.22,
+      "ratings_count": 60000,
+      "review_summary_highlights": [
+        "Readers praise the vivid racing scenes and the Depression-era atmosphere.",
+        "Commended for the portraits of jockey Red Pollard and trainer Tom Smith."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781841150925-L.jpg",
+    "one_sentence_hook": "An undersized horse, a half-blind jockey, and a silent trainer became the unlikely symbol of a country climbing out of the Depression.",
+    "summary": {
+      "overview": "Laura Hillenbrand recounts the rise of Seabiscuit, a small, unimpressive racehorse who became a national phenomenon during the Great Depression. She interweaves the stories of his owner, trainer, and jockey, showing how their shared marginality made the partnership work.",
+      "key_takeaways": [
+        "Seabiscuit's success came from tailored training and trust rather than raw physical superiority.",
+        "Public sports narratives can provide collective meaning during periods of national hardship.",
+        "Second chances depend on people willing to look past obvious deficiencies."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781841150925",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781841150925"
+    },
+    "id": "2026-10-25-55",
+    "slug": "seabiscuit-an-american-legend"
+  },
+  {
+    "isbn_13": "9780306815294",
+    "title": "Friday Night Lights: A Town, a Team, and a Dream",
+    "author": "H. G. Bissinger",
+    "publication_year": 1990,
+    "page_count": 357,
+    "genres_tags": [
+      "Sports",
+      "Sociology",
+      "Education",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.07,
+      "ratings_count": 30000,
+      "review_summary_highlights": [
+        "Readers value the unflinching look at how a town's identity became tied to a high-school football team.",
+        "Praised for the reporting on race, class, and education in Odessa."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780306815294-L.jpg",
+    "one_sentence_hook": "In Odessa, Texas, a high-school football team carries the hopes of a town with few other sources of pride.",
+    "summary": {
+      "overview": "H. G. Bissinger spent a season with the Permian High School Panthers and produced a portrait of a community where football became the central institution. The book examines the pressures on players, the racial dynamics of the town, and the cost of prioritising sport over education.",
+      "key_takeaways": [
+        "When a community lacks other sources of identity, a school team can absorb unrealistic expectations.",
+        "Racial segregation and economic decline shape who gets opportunities and who pays the price.",
+        "Institutional priorities are revealed by what a town is willing to fund and forgive."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780306815294",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780306815294"
+    },
+    "id": "2026-10-25-56",
+    "slug": "friday-night-lights-a-town-a-team-and-a-dream"
+  },
+  {
+    "isbn_13": "9781594205118",
+    "title": "Eleven Rings: The Soul of Success",
+    "author": "Phil Jackson",
+    "publication_year": 2013,
+    "page_count": 356,
+    "genres_tags": [
+      "Sports",
+      "Leadership",
+      "Biography",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.21,
+      "ratings_count": 24000,
+      "review_summary_highlights": [
+        "Readers enjoy the behind-the-scenes account of coaching Jordan, Kobe, and the Bulls and Lakers.",
+        "Praised for the leadership philosophy built on mindfulness and selflessness."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781594205118-L.jpg",
+    "one_sentence_hook": "The most successful coach in NBA history built championships by getting superstars to subordinate their egos to a shared system.",
+    "summary": {
+      "overview": "Phil Jackson recounts his eleven championship seasons with the Chicago Bulls and Los Angeles Lakers, explaining the leadership approach he developed from Zen practice and systems thinking. He describes how he managed egos, designed offences, and built team culture.",
+      "key_takeaways": [
+        "A coach's job is to create conditions for players to lead themselves, not to control every action.",
+        "Superstars need both autonomy and a compelling shared purpose to sacrifice individual stats.",
+        "Mindfulness and attention to the present moment are practical performance tools, not mysticism."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781594205118",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781594205118"
+    },
+    "id": "2026-10-25-57",
+    "slug": "eleven-rings-the-soul-of-success"
+  },
+  {
+    "isbn_13": "9780307268198",
+    "title": "Open: An Autobiography",
+    "author": "Andre Agassi",
+    "publication_year": 2009,
+    "page_count": 385,
+    "genres_tags": [
+      "Sports",
+      "Biography",
+      "Memoir",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.35,
+      "ratings_count": 95000,
+      "review_summary_highlights": [
+        "Readers praise the unusual honesty about hating tennis while excelling at it.",
+        "Commended for the vivid match descriptions and the portrait of a pressured childhood."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780307268198-L.jpg",
+    "one_sentence_hook": "One of tennis's greatest champions spent much of his career hating the sport his father chose for him.",
+    "summary": {
+      "overview": "Andre Agassi recounts a career defined by prodigious talent, public struggle, and eventual reinvention. He describes his father's relentless training, his own ambivalence toward tennis, his marriages, and his late-career resurgence.",
+      "key_takeaways": [
+        "Early specialisation can produce excellence at the cost of autonomy and love for the activity.",
+        "Identity built entirely on performance is fragile when performance declines.",
+        "Reinvention is possible when someone finds a reason to compete that is genuinely their own."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780307268198",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780307268198"
+    },
+    "id": "2026-10-25-58",
+    "slug": "open-an-autobiography"
+  },
+  {
+    "isbn_13": "9781401309725",
+    "title": "The Breaks of the Game",
+    "author": "David Halberstam",
+    "publication_year": 1981,
+    "page_count": 400,
+    "genres_tags": [
+      "Sports",
+      "Sociology",
+      "History",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.28,
+      "ratings_count": 5400,
+      "review_summary_highlights": [
+        "Readers consider it one of the best books ever written about professional sport.",
+        "Praised for using one season to illuminate race, money, and labour in the NBA."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781401309725-L.jpg",
+    "one_sentence_hook": "One NBA season becomes a portrait of a league, a city, and a country changing faster than its institutions.",
+    "summary": {
+      "overview": "David Halberstam follows the Portland Trail Blazers through the 1979-80 season, using the team to examine the economics, race relations, and labour politics of professional basketball. The book is as much social history as sports reporting.",
+      "key_takeaways": [
+        "Professional sport is a workplace, and labour relations shape performance as much as talent.",
+        "Racial integration in sport did not automatically produce equity in management or ownership.",
+        "Institutions often adapt to change only after the people inside them are forced to."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781401309725",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781401309725"
+    },
+    "id": "2026-10-25-59",
+    "slug": "the-breaks-of-the-game"
+  },
+  {
+    "isbn_13": "9780375401152",
+    "title": "The Diving Bell and the Butterfly: A Memoir of Life in Death",
+    "author": "Jean-Dominique Bauby",
+    "publication_year": 1997,
+    "page_count": 131,
+    "genres_tags": [
+      "Memoir",
+      "Health",
+      "Biography",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.16,
+      "ratings_count": 28000,
+      "review_summary_highlights": [
+        "Readers are moved by the precision and humour of a memoir dictated one blink at a time.",
+        "Praised for transforming a story of total paralysis into a celebration of imagination."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780375401152-L.jpg",
+    "one_sentence_hook": "Locked inside a paralysed body, a magazine editor wrote a luminous memoir by blinking one letter at a time.",
+    "summary": {
+      "overview": "After a stroke left him with locked-in syndrome, Jean-Dominique Bauby dictated this memoir using only his left eyelid. He describes his hospital life, his memories, and the flights of imagination that let him escape his body.",
+      "key_takeaways": [
+        "Freedom can survive severe physical constraint when memory and imagination remain available.",
+        "Dignity depends on how others treat a person, not on physical capability.",
+        "Attention to small sensory details can restore a sense of aliveness under the harshest conditions."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780375401152",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780375401152"
+    },
+    "id": "2026-10-25-60",
+    "slug": "the-diving-bell-and-the-butterfly-a-memoir-of-life-in-death"
+  },
+  {
+    "isbn_13": "9780857897756",
+    "title": "Wild: From Lost to Found on the Pacific Crest Trail",
+    "author": "Cheryl Strayed",
+    "publication_year": 2012,
+    "page_count": 363,
+    "genres_tags": [
+      "Memoir",
+      "Travel",
+      "Nature",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.06,
+      "ratings_count": 380000,
+      "review_summary_highlights": [
+        "Readers connect with the raw account of grief and the physical grind of the trail.",
+        "Praised for avoiding easy redemption in favour of a slow, earned recovery."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780857897756-L.jpg",
+    "one_sentence_hook": "Grieving and self-destructive, a young woman walked over a thousand miles alone and slowly became someone she could live with.",
+    "summary": {
+      "overview": "Cheryl Strayed recounts hiking the Pacific Crest Trail alone after her mother's death and the collapse of her marriage. The journey is both a physical test and a slow reckoning with grief, addiction, and self-forgiveness.",
+      "key_takeaways": [
+        "Grief cannot be outrun, but physical challenge can create space to carry it differently.",
+        "Competence is built through repeated small acts of endurance rather than a single transformation.",
+        "Solitude in nature forces an honesty that social life can postpone."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780857897756",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780857897756"
+    },
+    "id": "2026-10-25-61",
+    "slug": "wild-from-lost-to-found-on-the-pacific-crest-trail"
+  },
+  {
+    "isbn_13": "9780802124739",
+    "title": "H Is for Hawk",
+    "author": "Helen Macdonald",
+    "publication_year": 2014,
+    "page_count": 320,
+    "genres_tags": [
+      "Memoir",
+      "Nature",
+      "Grief",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.04,
+      "ratings_count": 52000,
+      "review_summary_highlights": [
+        "Readers praise the lyrical prose and the unusual blend of grief memoir and falconry.",
+        "Praised for the honest depiction of how obsession can both shelter and isolate."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780802124739-L.jpg",
+    "one_sentence_hook": "After her father's death, a historian trained a goshawk and nearly disappeared into the bird's wildness.",
+    "summary": {
+      "overview": "Helen Macdonald recounts training a goshawk named Mabel while grieving her father's sudden death. The memoir moves between falconry, the life of T. H. White, and an unflinching account of depression and isolation.",
+      "key_takeaways": [
+        "Obsessive immersion can be a legitimate response to grief, but it can also become a way of avoiding the world.",
+        "Taming a wild animal requires understanding its nature rather than imposing human expectations.",
+        "Recovery often means re-entering relationships rather than remaining in a private, controlled world."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780802124739",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780802124739"
+    },
+    "id": "2026-10-25-62",
+    "slug": "h-is-for-hawk"
+  },
+  {
+    "isbn_13": "9781400043149",
+    "title": "The Year of Magical Thinking",
+    "author": "Joan Didion",
+    "publication_year": 2005,
+    "page_count": 227,
+    "genres_tags": [
+      "Memoir",
+      "Grief",
+      "Psychology",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.05,
+      "ratings_count": 48000,
+      "review_summary_highlights": [
+        "Readers praise the lucid, unsentimental examination of grief and self-deception.",
+        "Praised for the precise reporting of a mind trying to reason its way through loss."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781400043149-L.jpg",
+    "one_sentence_hook": "After her husband's sudden death, a writer documents the irrational bargains and magical thinking that grief produces.",
+    "summary": {
+      "overview": "Joan Didion describes the year following the sudden death of her husband, John Gregory Dunne, while their daughter was critically ill. She examines grief with a reporter's eye, cataloguing the ways the mind refuses to accept irreversible loss.",
+      "key_takeaways": [
+        "Grief produces magical thinking, including the belief that vigilance or ritual can undo a death.",
+        "Mourning is not a linear process and does not resolve neatly at the end of a year.",
+        "Writing can impose order on experience without pretending to cure it."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781400043149",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781400043149"
+    },
+    "id": "2026-10-25-63",
+    "slug": "the-year-of-magical-thinking"
+  },
+  {
+    "isbn_13": "9780143105510",
+    "title": "The Snow Leopard",
+    "author": "Peter Matthiessen",
+    "publication_year": 1978,
+    "page_count": 368,
+    "genres_tags": [
+      "Travel",
+      "Nature",
+      "Memoir",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.17,
+      "ratings_count": 19000,
+      "review_summary_highlights": [
+        "Readers praise the contemplative prose and the Himalayan setting.",
+        "Praised for the honesty about grief and the search for spiritual meaning."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780143105510-L.jpg",
+    "one_sentence_hook": "A grieving naturalist walked into the Himalayas hoping to see a snow leopard and found something less literal but more lasting.",
+    "summary": {
+      "overview": "Peter Matthiessen recounts a trek through the Himalayas with zoologist George Schaller to study the Himalayan blue sheep and, if possible, glimpse the snow leopard. The journey becomes a meditation on grief, Zen practice, and the limits of seeking.",
+      "key_takeaways": [
+        "The search itself can transform the seeker even when the object is never found.",
+        "Attention to landscape and wildlife is a form of spiritual practice.",
+        "Grief is not resolved by achievement or arrival but by learning to remain present."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780143105510",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780143105510"
+    },
+    "id": "2026-10-25-64",
+    "slug": "the-snow-leopard"
+  },
+  {
+    "isbn_13": "9780671695880",
+    "title": "Desert Solitaire: A Season in the Wilderness",
+    "author": "Edward Abbey",
+    "publication_year": 1968,
+    "page_count": 269,
+    "genres_tags": [
+      "Nature",
+      "Memoir",
+      "Environment",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.21,
+      "ratings_count": 31000,
+      "review_summary_highlights": [
+        "Readers praise the fierce prose and the defense of wild places.",
+        "Praised for the vivid descriptions of canyon country and the critique of tourism and development."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780671695880-L.jpg",
+    "one_sentence_hook": "A season alone in the Utah desert becomes a passionate argument for leaving some places wild.",
+    "summary": {
+      "overview": "Edward Abbey recounts his time as a seasonal ranger in what is now Arches National Park. He describes the desert landscape, his encounters with animals and visitors, and argues against the development and commodification of wilderness.",
+      "key_takeaways": [
+        "Wilderness has value beyond human use, and that value is diminished by infrastructure built to consume it.",
+        "Solitude and physical hardship can sharpen attention to the living world.",
+        "Environmental advocacy sometimes requires discomfort and resistance rather than accommodation."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780671695880",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780671695880"
+    },
+    "id": "2026-10-25-65",
+    "slug": "desert-solitaire-a-season-in-the-wilderness"
+  },
+  {
+    "isbn_13": "9780195053050",
+    "title": "A Sand County Almanac: And Sketches Here and There",
+    "author": "Aldo Leopold",
+    "publication_year": 1949,
+    "page_count": 228,
+    "genres_tags": [
+      "Nature",
+      "Environment",
+      "Philosophy",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.28,
+      "ratings_count": 30000,
+      "review_summary_highlights": [
+        "Readers consider it the founding text of modern ecological ethics.",
+        "Praised for the land ethic and the month-by-month observations of a Wisconsin farm."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780195053050-L.jpg",
+    "one_sentence_hook": "A year of careful observation on a Wisconsin farm becomes the basis for an ethical relationship with land.",
+    "summary": {
+      "overview": "Aldo Leopold combines seasonal observations with essays on conservation, arguing that land is a community to which humans belong rather than a commodity to be owned. The book introduces the land ethic, which extends moral consideration to soils, waters, plants, and animals.",
+      "key_takeaways": [
+        "The land ethic enlarges the moral community to include the ecological systems that sustain human life.",
+        "Conservation fails when it treats land only as a resource; it succeeds when people develop affection and responsibility for it.",
+        "Close, repeated observation of a single place yields more insight than superficial travel to many."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780195053050",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780195053050"
+    },
+    "id": "2026-10-25-66",
+    "slug": "a-sand-county-almanac-and-sketches-here-and-there"
+  },
+  {
+    "isbn_13": "9780061233326",
+    "title": "Pilgrim at Tinker Creek",
+    "author": "Annie Dillard",
+    "publication_year": 1974,
+    "page_count": 290,
+    "genres_tags": [
+      "Nature",
+      "Memoir",
+      "Philosophy",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.12,
+      "ratings_count": 29000,
+      "review_summary_highlights": [
+        "Readers praise the incandescent prose and the unflinching attention to nature's cruelty as well as beauty.",
+        "Praised for making ordinary observation feel like spiritual inquiry."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780061233326-L.jpg",
+    "one_sentence_hook": "A year of watching a single creek becomes an inquiry into creation, violence, and attention.",
+    "summary": {
+      "overview": "Annie Dillard describes a year of observing the natural world around Tinker Creek in Virginia, from insects and birds to floods and seasons. The book is a meditation on attention, the sublime, and the disturbing indifference of nature.",
+      "key_takeaways": [
+        "Sustained attention transforms ordinary landscapes into inexhaustible subjects.",
+        "Nature is not a moral mirror; it contains beauty and brutality without reconciliation.",
+        "Wonder is a discipline that requires patience and the willingness to be unsettled."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780061233326",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780061233326"
+    },
+    "id": "2026-10-25-67",
+    "slug": "pilgrim-at-tinker-creek"
+  },
+  {
+    "isbn_13": "9780241146422",
+    "title": "Underland: A Deep Time Journey",
+    "author": "Robert Macfarlane",
+    "publication_year": 2019,
+    "page_count": 496,
+    "genres_tags": [
+      "Nature",
+      "Travel",
+      "Science",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.26,
+      "ratings_count": 20000,
+      "review_summary_highlights": [
+        "Readers praise the extraordinary prose and the range from caves to glaciers to nuclear waste sites.",
+        "Praised for connecting geology, memory, and the human future."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780241146422-L.jpg",
+    "one_sentence_hook": "Going underground, into caves, catacombs, and ice, reveals how deep time and human memory are entangled.",
+    "summary": {
+      "overview": "Robert Macfarlane travels through subterranean landscapes in Britain, Europe, and Greenland, from prehistoric caves to a nuclear waste repository. He explores how humans have used the underground for burial, storage, and meaning, and what it says about our relationship to deep time.",
+      "key_takeaways": [
+        "Landscapes hold memory, and going beneath the surface exposes histories that are otherwise invisible.",
+        "Deep time reframes human concerns, showing both our brevity and our geological impact.",
+        "The underground is a place of both extraction and preservation, revealing what a society values."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780241146422",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780241146422"
+    },
+    "id": "2026-10-25-68",
+    "slug": "underland-a-deep-time-journey"
+  },
+  {
+    "isbn_13": "9780374532505",
+    "title": "Justice: What's the Right Thing to Do?",
+    "author": "Michael J. Sandel",
+    "publication_year": 2009,
+    "page_count": 308,
+    "genres_tags": [
+      "Philosophy",
+      "Ethics",
+      "Politics",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.12,
+      "ratings_count": 26000,
+      "review_summary_highlights": [
+        "Readers praise the clarity of the competing moral frameworks and the use of real dilemmas.",
+        "Praised for making political philosophy feel urgent rather than academic."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780374532505-L.jpg",
+    "one_sentence_hook": "Trolley problems and real court cases reveal that we disagree about justice because we disagree about what makes a life valuable.",
+    "summary": {
+      "overview": "Michael Sandel introduces the major traditions of justice, utilitarianism, libertarianism, Kantian duty, and Aristotelian virtue, through concrete dilemmas. He shows how disagreements about policy often rest on deeper disagreements about freedom, desert, and the common good.",
+      "key_takeaways": [
+        "Utilitarian reasoning maximises welfare but can justify sacrificing individuals for the majority.",
+        "Libertarian freedom protects choice but struggles to address coercion that arises from unequal conditions.",
+        "Kantian and virtue traditions ask not only what happens but what kind of person and society an action expresses."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780374532505",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780374532505"
+    },
+    "id": "2026-10-25-69",
+    "slug": "justice-what-s-the-right-thing-to-do"
+  },
+  {
+    "isbn_13": "9781250621436",
+    "title": "How to Think Like a Roman Emperor: The Stoic Philosophy of Marcus Aurelius",
+    "author": "Donald Robertson",
+    "publication_year": 2019,
+    "page_count": 304,
+    "genres_tags": [
+      "Philosophy",
+      "Stoicism",
+      "Psychology",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.21,
+      "ratings_count": 12000,
+      "review_summary_highlights": [
+        "Readers value the blend of Roman history, Stoic texts, and cognitive-behavioural techniques.",
+        "Praised for making Marcus Aurelius's practice concrete and usable."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781250621436-L.jpg",
+    "one_sentence_hook": "Marcus Aurelius ruled an empire while practising the same cognitive disciplines that modern therapy rediscovered.",
+    "summary": {
+      "overview": "Donald Robertson combines the biography of Marcus Aurelius with Stoic exercises and cognitive-behavioural therapy. He shows how the emperor managed fear, anger, and grief through repeated philosophical practice rather than innate temperament.",
+      "key_takeaways": [
+        "Judgements, not events, produce most emotional suffering, so examining interpretations is a practical skill.",
+        "Stoic practice includes negative visualisation, voluntary discomfort, and daily review to build resilience.",
+        "Virtue is a habit cultivated through repeated action, not a state achieved by insight alone."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781250621436",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781250621436"
+    },
+    "id": "2026-10-25-70",
+    "slug": "how-to-think-like-a-roman-emperor-the-stoic-philosophy-of-marcus-aurelius"
+  },
+  {
+    "isbn_13": "9780195374612",
+    "title": "A Guide to the Good Life: The Ancient Art of Stoic Joy",
+    "author": "William B. Irvine",
+    "publication_year": 2008,
+    "page_count": 326,
+    "genres_tags": [
+      "Philosophy",
+      "Stoicism",
+      "Self-Help",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.21,
+      "ratings_count": 19000,
+      "review_summary_highlights": [
+        "Readers appreciate the practical, secular presentation of Stoicism.",
+        "Praised for the trichotomy of control and the techniques for reducing dissatisfaction."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780195374612-L.jpg",
+    "one_sentence_hook": "Stoicism is not about suppressing emotion but about wanting what you already have.",
+    "summary": {
+      "overview": "William Irvine presents Stoicism as a philosophy of life designed to reduce negative emotions and increase satisfaction. He explains techniques such as negative visualisation, the trichotomy of control, and voluntary discomfort.",
+      "key_takeaways": [
+        "Focus effort on what you can fully control, accept what you cannot, and recognise that most things fall in between.",
+        "Imagining loss increases gratitude for what you currently have.",
+        "Voluntary discomfort builds resilience and reduces fear of future hardship."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780195374612",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780195374612"
+    },
+    "id": "2026-10-25-71",
+    "slug": "a-guide-to-the-good-life-the-ancient-art-of-stoic-joy"
+  },
+  {
+    "isbn_13": "9781788166348",
+    "title": "Discipline Is Destiny: The Power of Self-Control",
+    "author": "Ryan Holiday",
+    "publication_year": 2022,
+    "page_count": 304,
+    "genres_tags": [
+      "Philosophy",
+      "Stoicism",
+      "Self-Help",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.12,
+      "ratings_count": 11000,
+      "review_summary_highlights": [
+        "Readers enjoy the historical examples and the focus on daily habits.",
+        "Praised for framing discipline as freedom rather than restriction."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781788166348-L.jpg",
+    "one_sentence_hook": "Self-discipline is the quiet foundation of every lasting achievement, and it is built one small refusal at a time.",
+    "summary": {
+      "overview": "Ryan Holiday explores temperance as a core virtue, drawing on Stoic philosophy and historical figures. He argues that discipline in small daily choices creates the freedom and capacity for larger accomplishments.",
+      "key_takeaways": [
+        "Discipline is a practice of boundaries, not punishment; it protects what matters from impulse.",
+        "Small acts of self-restraint train the capacity for larger ones.",
+        "Physical habits such as sleep, exercise, and moderation shape mental discipline more than willpower alone."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781788166348",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781788166348"
+    },
+    "id": "2026-10-25-72",
+    "slug": "discipline-is-destiny-the-power-of-self-control"
+  },
+  {
+    "isbn_13": "9781627652735",
+    "title": "Understanding Comics: The Invisible Art",
+    "author": "Scott McCloud",
+    "publication_year": 1993,
+    "page_count": 215,
+    "genres_tags": [
+      "Art",
+      "Design",
+      "Communication",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.26,
+      "ratings_count": 32000,
+      "review_summary_highlights": [
+        "Readers praise the use of the comic form to explain comics.",
+        "Praised for the concept of closure and the analysis of how panels create time."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781627652735-L.jpg",
+    "one_sentence_hook": "Comics are a language of panels and gaps, and understanding that grammar changes how you read every image.",
+    "summary": {
+      "overview": "Scott McCloud uses comics to analyse comics as a medium, covering panels, closure, time, colour, and the relationship between words and images. He argues that comics are a distinct art form with its own grammar rather than a hybrid of text and illustration.",
+      "key_takeaways": [
+        "The space between panels, called the gutter, is where readers perform closure and construct meaning.",
+        "Sequential images create the experience of time through layout and repetition.",
+        "Simplified images invite identification, which is why cartooning can be more emotionally immediate than realism."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781627652735",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781627652735"
+    },
+    "id": "2026-10-25-73",
+    "slug": "understanding-comics-the-invisible-art"
+  },
+  {
+    "isbn_13": "9780060391683",
+    "title": "Story: Substance, Structure, Style and the Principles of Screenwriting",
+    "author": "Robert McKee",
+    "publication_year": 1997,
+    "page_count": 480,
+    "genres_tags": [
+      "Writing",
+      "Storytelling",
+      "Film",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.21,
+      "ratings_count": 19000,
+      "review_summary_highlights": [
+        "Readers value the rigorous treatment of structure and the analysis of why scenes fail.",
+        "Praised for principles that apply beyond screenwriting."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780060391683-L.jpg",
+    "one_sentence_hook": "Stories work because of structure, and structure is a set of principles that can be learned and diagnosed.",
+    "summary": {
+      "overview": "Robert McKee lays out the principles of story structure for screenwriters, from the inciting incident through progressive complications to crisis, climax, and resolution. He argues that scene construction and character choice are governed by identifiable craft rules.",
+      "key_takeaways": [
+        "A story is driven by a character pursuing a desire against increasing obstacles.",
+        "Each scene should turn on a value, changing from positive to negative or the reverse.",
+        "Exposition works best when it is embedded in conflict rather than delivered directly."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780060391683",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780060391683"
+    },
+    "id": "2026-10-25-74",
+    "slug": "story-substance-structure-style-and-the-principles-of-screenwriting"
+  },
+  {
+    "isbn_13": "9781577315933",
+    "title": "The Hero with a Thousand Faces",
+    "author": "Joseph Campbell",
+    "publication_year": 1949,
+    "page_count": 432,
+    "genres_tags": [
+      "Mythology",
+      "Psychology",
+      "Writing",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.11,
+      "ratings_count": 34000,
+      "review_summary_highlights": [
+        "Readers value the comparative sweep across myths and the monomyth framework.",
+        "Praised for influencing generations of storytellers and filmmakers."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781577315933-L.jpg",
+    "one_sentence_hook": "Across cultures and centuries, hero stories follow a surprisingly consistent pattern of departure, initiation, and return.",
+    "summary": {
+      "overview": "Joseph Campbell compares myths from around the world and identifies a recurring narrative pattern he calls the monomyth. The hero leaves ordinary life, faces trials and transformation, and returns with something of value for the community.",
+      "key_takeaways": [
+        "The hero's journey maps an inner psychological transformation onto an outward adventure.",
+        "Archetypal figures such as mentors, thresholds, and shadows recur because they dramatise universal human conflicts.",
+        "Comparative mythology reveals shared structures without erasing important cultural differences."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781577315933",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781577315933"
+    },
+    "id": "2026-10-25-75",
+    "slug": "the-hero-with-a-thousand-faces"
+  },
+  {
+    "isbn_13": "9780425276181",
+    "title": "The Elements of Eloquence: How to Turn the Perfect English Phrase",
+    "author": "Mark Forsyth",
+    "publication_year": 2013,
+    "page_count": 239,
+    "genres_tags": [
+      "Writing",
+      "Language",
+      "Communication",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.19,
+      "ratings_count": 12000,
+      "review_summary_highlights": [
+        "Readers enjoy the witty catalogue of rhetorical figures and the examples from literature and advertising.",
+        "Praised for making classical rhetoric practical for modern writing."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780425276181-L.jpg",
+    "one_sentence_hook": "Great sentences are not magic; they use named rhetorical patterns that anyone can learn and deploy.",
+    "summary": {
+      "overview": "Mark Forsyth explains classical rhetorical figures, from alliteration and tricolon to epistrophe and chiasmus, showing how they create memorable prose. He demonstrates each device with examples from poetry, speeches, and advertising.",
+      "key_takeaways": [
+        "Rhetorical figures work by satisfying patterns and expectations in the reader's ear.",
+        "Three-part lists and repeated endings create a sense of completeness and emphasis.",
+        "Knowing the names of devices makes them easier to notice, imitate, and revise."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780425276181",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780425276181"
+    },
+    "id": "2026-10-25-76",
+    "slug": "the-elements-of-eloquence-how-to-turn-the-perfect-english-phrase"
+  },
+  {
+    "isbn_13": "9780307279415",
+    "title": "Several Short Sentences About Writing",
+    "author": "Verlyn Klinkenborg",
+    "publication_year": 2012,
+    "page_count": 224,
+    "genres_tags": [
+      "Writing",
+      "Language",
+      "Creativity",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.16,
+      "ratings_count": 5600,
+      "review_summary_highlights": [
+        "Readers appreciate the unusual form and the focus on sentence-level clarity.",
+        "Praised for liberating writers from the pressure of grand inspiration."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780307279415-L.jpg",
+    "one_sentence_hook": "Good writing begins with noticing, then with sentences short enough to know what each one is doing.",
+    "summary": {
+      "overview": "Verlyn Klinkenborg presents a series of short reflections on writing, arguing that clear sentences are the foundation of everything else. He encourages writers to slow down, notice the world, and revise at the level of the sentence.",
+      "key_takeaways": [
+        "Short sentences make it easier to see whether each one carries a clear thought.",
+        "Noticing is a trainable habit and the raw material of good prose.",
+        "Revision is not polishing; it is the process of discovering what you actually mean."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780307279415",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780307279415"
+    },
+    "id": "2026-10-25-77",
+    "slug": "several-short-sentences-about-writing"
+  },
+  {
+    "isbn_13": "9780375424434",
+    "title": "The Architecture of Happiness",
+    "author": "Alain de Botton",
+    "publication_year": 2006,
+    "page_count": 288,
+    "genres_tags": [
+      "Architecture",
+      "Design",
+      "Philosophy",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.09,
+      "ratings_count": 21000,
+      "review_summary_highlights": [
+        "Readers praise the elegant writing and the argument that buildings shape emotional life.",
+        "Praised for connecting aesthetic preference to psychological need."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780375424434-L.jpg",
+    "one_sentence_hook": "Buildings are arguments about how life should feel, and we are shaped by the spaces we inhabit.",
+    "summary": {
+      "overview": "Alain de Botton explores why certain buildings and interiors move us and how architecture expresses ideals about the good life. He argues that beauty in design is connected to psychological needs such as order, balance, and meaning.",
+      "key_takeaways": [
+        "Aesthetic responses reveal what we lack or long for, making architecture a form of emotional communication.",
+        "Good design balances order and complexity rather than choosing one extreme.",
+        "The spaces we inhabit influence mood and behaviour more than we usually acknowledge."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780375424434",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780375424434"
+    },
+    "id": "2026-10-25-78",
+    "slug": "the-architecture-of-happiness"
+  },
+  {
+    "isbn_13": "9781982172015",
+    "title": "Chip War: The Fight for the World's Most Critical Technology",
+    "author": "Chris Miller",
+    "publication_year": 2022,
+    "page_count": 464,
+    "genres_tags": [
+      "Technology",
+      "Geopolitics",
+      "History",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.31,
+      "ratings_count": 22000,
+      "review_summary_highlights": [
+        "Readers praise the clear explanation of the semiconductor supply chain and its strategic stakes.",
+        "Praised for connecting engineering history to current US-China tensions."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781982172015-L.jpg",
+    "one_sentence_hook": "The modern world runs on semiconductors, and the struggle to control their supply chain is the central geopolitical contest of the century.",
+    "summary": {
+      "overview": "Chris Miller traces the history of semiconductors from military research to globalised manufacturing, explaining why chip production is concentrated in a few fragile chokepoints. He shows how computing power became a strategic asset and why the United States and China are now competing for control.",
+      "key_takeaways": [
+        "Semiconductor manufacturing depends on an extraordinarily specialised global network with a handful of critical nodes.",
+        "Computing advantage translates directly into military and economic advantage.",
+        "Export controls and industrial policy are attempts to control chokepoints that took decades to build."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781982172015",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781982172015"
+    },
+    "id": "2026-10-25-79",
+    "slug": "chip-war-the-fight-for-the-world-s-most-critical-technology"
+  },
+  {
+    "isbn_13": "9780393635829",
+    "title": "The Alignment Problem: Machine Learning and Human Values",
+    "author": "Brian Christian",
+    "publication_year": 2020,
+    "page_count": 356,
+    "genres_tags": [
+      "AI",
+      "Technology",
+      "Ethics",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.19,
+      "ratings_count": 8200,
+      "review_summary_highlights": [
+        "Readers praise the accessible tour of machine learning, fairness, and interpretability research.",
+        "Praised for grounding abstract AI risk in concrete technical problems."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780393635829-L.jpg",
+    "one_sentence_hook": "Teaching machines to do what we actually want turns out to be one of the hardest problems in computer science.",
+    "summary": {
+      "overview": "Brian Christian explores the technical and ethical challenges of aligning machine learning systems with human values. He covers reinforcement learning, fairness, interpretability, and the difficulty of specifying what we want.",
+      "key_takeaways": [
+        "Specifying objectives precisely is difficult because human values are contextual and often contradictory.",
+        "Systems trained on historical data reproduce and amplify existing biases unless actively corrected.",
+        "Interpretability and human oversight are technical requirements, not optional additions."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780393635829",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780393635829"
+    },
+    "id": "2026-10-25-80",
+    "slug": "the-alignment-problem-machine-learning-and-human-values"
+  },
+  {
+    "isbn_13": "9781524742690",
+    "title": "Genius Makers: The Mavericks Who Brought AI to Google, Facebook, and the World",
+    "author": "Cade Metz",
+    "publication_year": 2021,
+    "page_count": 384,
+    "genres_tags": [
+      "AI",
+      "Technology",
+      "Biography",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.12,
+      "ratings_count": 7000,
+      "review_summary_highlights": [
+        "Readers enjoy the inside account of the researchers and companies behind deep learning.",
+        "Praised for showing how academic rivalries shaped the commercial AI race."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781524742690-L.jpg",
+    "one_sentence_hook": "Deep learning went from academic heresy to the centre of global technology, and a handful of stubborn researchers made it happen.",
+    "summary": {
+      "overview": "Cade Metz chronicles the people and institutions behind the rise of deep learning, including Geoffrey Hinton, Yann LeCun, and the companies that recruited them. He shows how a marginal research programme became the foundation of modern AI.",
+      "key_takeaways": [
+        "Scientific revolutions often begin with a small group willing to pursue an unfashionable idea.",
+        "Talent acquisition, not just research, determined which companies captured the benefits of deep learning.",
+        "The commercialisation of AI has been shaped by open research norms colliding with proprietary interests."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781524742690",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781524742690"
+    },
+    "id": "2026-10-25-81",
+    "slug": "genius-makers-the-mavericks-who-brought-ai-to-google-facebook-and-the-world"
+  },
+  {
+    "isbn_13": "9780525558620",
+    "title": "Human Compatible: Artificial Intelligence and the Problem of Control",
+    "author": "Stuart Russell",
+    "publication_year": 2019,
+    "page_count": 336,
+    "genres_tags": [
+      "AI",
+      "Technology",
+      "Philosophy",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.05,
+      "ratings_count": 8000,
+      "review_summary_highlights": [
+        "Readers value the technical framing of the control problem and the proposed redesign of AI objectives.",
+        "Praised for being rigorous without being alarmist."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780525558620-L.jpg",
+    "one_sentence_hook": "The danger is not that AI becomes evil but that it becomes competent at the wrong objective.",
+    "summary": {
+      "overview": "Stuart Russell argues that the standard model of AI, optimising a fixed objective, is inherently risky as systems become more capable. He proposes machines that remain uncertain about human preferences and defer to humans, making them provably beneficial.",
+      "key_takeaways": [
+        "A sufficiently capable system optimising a misspecified objective can cause harm without any malice.",
+        "Machines should be designed to be uncertain about what humans want and to learn preferences over time.",
+        "Control requires architectural choices now, not after systems are already deployed at scale."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780525558620",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780525558620"
+    },
+    "id": "2026-10-25-82",
+    "slug": "human-compatible-artificial-intelligence-and-the-problem-of-control"
+  },
+  {
+    "isbn_13": "9781101946596",
+    "title": "Life 3.0: Being Human in the Age of Artificial Intelligence",
+    "author": "Max Tegmark",
+    "publication_year": 2017,
+    "page_count": 364,
+    "genres_tags": [
+      "AI",
+      "Science",
+      "Philosophy",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.02,
+      "ratings_count": 22000,
+      "review_summary_highlights": [
+        "Readers appreciate the broad scenarios for how AI could reshape civilisation.",
+        "Praised for making the long-term stakes vivid without claiming certainty."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781101946596-L.jpg",
+    "one_sentence_hook": "Artificial intelligence may be the last invention humanity needs to make, and what happens next depends on choices we have not yet made.",
+    "summary": {
+      "overview": "Max Tegmark explores how advanced artificial intelligence could transform life, work, and the cosmos. He lays out scenarios from benevolent abundance to dystopian control and argues that the outcome depends on deliberate choices about goals and governance.",
+      "key_takeaways": [
+        "The long-run trajectory of intelligence is not predetermined; early design and governance choices have outsized effects.",
+        "Goal specification and value alignment are the central technical and political challenges.",
+        "Existential risk deserves serious attention because the scale of the outcome dwarfs ordinary policy trade-offs."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781101946596",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781101946596"
+    },
+    "id": "2026-10-25-83",
+    "slug": "life-3-0-being-human-in-the-age-of-artificial-intelligence"
+  },
+  {
+    "isbn_13": "9780932633057",
+    "title": "Peopleware: Productive Projects and Teams",
+    "author": "Tom DeMarco and Timothy Lister",
+    "publication_year": 1987,
+    "page_count": 188,
+    "genres_tags": [
+      "Management",
+      "Software",
+      "Business",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.14,
+      "ratings_count": 9000,
+      "review_summary_highlights": [
+        "Readers value the evidence that working conditions and team dynamics dominate tooling choices.",
+        "Praised for the enduring arguments about flow, private space, and jelled teams."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780932633057-L.jpg",
+    "one_sentence_hook": "Software projects fail for human reasons, and the most effective interventions are environmental and social rather than technical.",
+    "summary": {
+      "overview": "Tom DeMarco and Timothy Lister argue that the main problems in software development are sociological, not technological. They examine office environments, team formation, corporate culture, and the conditions that allow people to enter flow.",
+      "key_takeaways": [
+        "Interruptions and noisy environments destroy flow, and private workspace is a productivity investment.",
+        "The best teams jell through shared purpose and autonomy rather than through process mandates.",
+        "Management's job is to remove obstacles and protect focus, not to increase oversight."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780932633057",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780932633057"
+    },
+    "id": "2026-10-25-84",
+    "slug": "peopleware-productive-projects-and-teams"
+  },
+  {
+    "isbn_13": "9780132350884",
+    "title": "Clean Code: A Handbook of Agile Software Craftsmanship",
+    "author": "Robert C. Martin",
+    "publication_year": 2008,
+    "page_count": 431,
+    "genres_tags": [
+      "Software",
+      "Technology",
+      "Programming",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.36,
+      "ratings_count": 40000,
+      "review_summary_highlights": [
+        "Readers value the concrete rules for naming, functions, and refactoring.",
+        "Praised for making code quality a matter of professional discipline."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780132350884-L.jpg",
+    "one_sentence_hook": "Code is read far more often than it is written, so clarity is a professional obligation rather than a preference.",
+    "summary": {
+      "overview": "Robert Martin presents principles and heuristics for writing readable, maintainable code. He covers naming, function design, comments, error handling, testing, and refactoring, illustrating each with before-and-after examples.",
+      "key_takeaways": [
+        "Names should reveal intent, and functions should do one thing at one level of abstraction.",
+        "Comments should explain why, not what; code that needs a comment to be understood usually needs rewriting.",
+        "Tests and continuous refactoring keep code clean as requirements change."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780132350884",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780132350884"
+    },
+    "id": "2026-10-25-85",
+    "slug": "clean-code-a-handbook-of-agile-software-craftsmanship"
+  },
+  {
+    "isbn_13": "9781932100662",
+    "title": "The China Study: The Most Comprehensive Study of Nutrition Ever Conducted",
+    "author": "T. Colin Campbell and Thomas M. Campbell II",
+    "publication_year": 2005,
+    "page_count": 417,
+    "genres_tags": [
+      "Health",
+      "Nutrition",
+      "Science",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.11,
+      "ratings_count": 42000,
+      "review_summary_highlights": [
+        "Readers value the large observational evidence base and the accessible explanation of nutrition research.",
+        "Praised for making a whole-food, plant-based diet feel evidence-driven rather than ideological."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781932100662-L.jpg",
+    "one_sentence_hook": "A sweeping nutritional survey argues that diets built on whole plants are linked to lower rates of chronic disease.",
+    "summary": {
+      "overview": "T. Colin Campbell and Thomas Campbell review decades of nutritional research, including the China-Cornell-Oxford Project, to argue that animal-based foods are associated with higher rates of chronic disease. They recommend a whole-food, plant-based diet and critique the influence of food industry interests on nutrition policy.",
+      "key_takeaways": [
+        "Population studies link plant-heavy diets with lower rates of heart disease, diabetes, and some cancers.",
+        "Nutrition research is easily distorted by industry funding and by focusing on single nutrients rather than whole diets.",
+        "Dietary change may be more powerful than many people expect, but individual results vary and causation is difficult to isolate."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781932100662",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781932100662"
+    },
+    "id": "2026-10-25-86",
+    "slug": "the-china-study-the-most-comprehensive-study-of-nutrition-ever-conducted"
+  },
+  {
+    "isbn_13": "9780316113502",
+    "title": "Spark: The Revolutionary New Science of Exercise and the Brain",
+    "author": "John J. Ratey",
+    "publication_year": 2008,
+    "page_count": 304,
+    "genres_tags": [
+      "Health",
+      "Neuroscience",
+      "Fitness",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.14,
+      "ratings_count": 24000,
+      "review_summary_highlights": [
+        "Readers appreciate the explanation of exercise's effects on mood, memory, and attention.",
+        "Praised for making the neuroscience accessible and the recommendations practical."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780316113502-L.jpg",
+    "one_sentence_hook": "Exercise is not just good for the body; it changes the brain's chemistry in ways that improve learning, mood, and resilience.",
+    "summary": {
+      "overview": "Psychiatrist John Ratey explains how aerobic exercise affects brain chemistry, including BDNF, dopamine, and serotonin. He connects exercise to improved cognition, stress regulation, and symptoms of ADHD, anxiety, and depression.",
+      "key_takeaways": [
+        "Exercise raises BDNF, a growth factor that supports learning and neuronal health.",
+        "Regular aerobic activity improves mood and stress resilience through multiple neurotransmitter systems.",
+        "Even modest amounts of movement, including brisk walking, produce measurable cognitive benefits."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780316113502",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780316113502"
+    },
+    "id": "2026-10-25-87",
+    "slug": "spark-the-revolutionary-new-science-of-exercise-and-the-brain"
+  },
+  {
+    "isbn_13": "9781426207556",
+    "title": "The Blue Zones: Lessons for Living Longer from the People Who've Lived the Longest",
+    "author": "Dan Buettner",
+    "publication_year": 2008,
+    "page_count": 320,
+    "genres_tags": [
+      "Health",
+      "Lifestyle",
+      "Travel",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.05,
+      "ratings_count": 19000,
+      "review_summary_highlights": [
+        "Readers enjoy the portraits of Okinawa, Sardinia, and other longevity hotspots.",
+        "Praised for distilling common lifestyle patterns without promising a miracle cure."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781426207556-L.jpg",
+    "one_sentence_hook": "The world's longest-lived communities share a handful of everyday habits, and none of them involve a gym membership.",
+    "summary": {
+      "overview": "Dan Buettner visits regions with unusually high concentrations of centenarians, including Okinawa, Sardinia, Ikaria, and the Nicoya Peninsula. He identifies shared lifestyle patterns such as plant-heavy diets, constant low-intensity movement, strong social ties, and a sense of purpose.",
+      "key_takeaways": [
+        "Longevity is associated with environment and daily routine more than with deliberate exercise programmes.",
+        "Strong social networks and a sense of purpose are consistent features of long-lived communities.",
+        "Eating mostly plants, in moderate amounts, and stopping before full are common dietary patterns."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781426207556",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781426207556"
+    },
+    "id": "2026-10-25-88",
+    "slug": "the-blue-zones-lessons-for-living-longer-from-the-people-who-ve-lived-the-longest"
+  },
+  {
+    "isbn_13": "9781250757623",
+    "title": "Fast. Feast. Repeat.: The Comprehensive Guide to Delay, Don't Deny Intermittent Fasting",
+    "author": "Gin Stephens",
+    "publication_year": 2020,
+    "page_count": 352,
+    "genres_tags": [
+      "Health",
+      "Nutrition",
+      "Lifestyle",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.06,
+      "ratings_count": 11000,
+      "review_summary_highlights": [
+        "Readers appreciate the simple rules and the emphasis on sustainability over willpower.",
+        "Praised for explaining how fasting windows affect hunger and insulin."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781250757623-L.jpg",
+    "one_sentence_hook": "Intermittent fasting works by changing when you eat, not by counting every calorie.",
+    "summary": {
+      "overview": "Gin Stephens explains intermittent fasting as a flexible approach to eating that alternates fasting windows with normal meals. She covers clean fasting, hunger adaptation, and the role of insulin, and offers practical schedules.",
+      "key_takeaways": [
+        "Extending the overnight fast gives the body more time in a low-insulin state.",
+        "Keeping fasting periods truly clean, with no calories or sweet tastes, helps hunger hormones adapt.",
+        "Sustainability depends on finding a schedule that fits daily life rather than maximising fasting duration."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781250757623",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781250757623"
+    },
+    "id": "2026-10-25-89",
+    "slug": "fast-feast-repeat-the-comprehensive-guide-to-delay-don-t-deny-intermittent-fasting"
+  },
+  {
+    "isbn_13": "9781848316515",
+    "title": "The First 20 Minutes: Surprising Science Reveals How We Can Exercise Better, Train Smarter, Live Longer",
+    "author": "Gretchen Reynolds",
+    "publication_year": 2012,
+    "page_count": 284,
+    "genres_tags": [
+      "Health",
+      "Fitness",
+      "Science",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.01,
+      "ratings_count": 8000,
+      "review_summary_highlights": [
+        "Readers like having common exercise myths tested against research.",
+        "Praised for the practical guidance on intensity, stretching, and recovery."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781848316515-L.jpg",
+    "one_sentence_hook": "The first twenty minutes of exercise deliver most of the health benefit, and much of what we believe about fitness is wrong.",
+    "summary": {
+      "overview": "Gretchen Reynolds reviews exercise science to correct common misconceptions about stretching, hydration, soreness, and fat burning. She argues that even short bouts of activity produce significant benefits and that consistency matters more than intensity.",
+      "key_takeaways": [
+        "Short sessions of moderate to vigorous activity produce substantial health gains, especially for sedentary people.",
+        "Static stretching before exercise does not prevent injury and can reduce performance.",
+        "Breaking up long periods of sitting has metabolic benefits independent of formal workouts."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781848316515",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781848316515"
+    },
+    "id": "2026-10-25-90",
+    "slug": "the-first-20-minutes-surprising-science-reveals-how-we-can-exercise-better-train-smarter-live-longer"
+  },
+  {
+    "isbn_13": "9781250297198",
+    "title": "You're Not Listening: What You're Missing and Why It Matters",
+    "author": "Kate Murphy",
+    "publication_year": 2020,
+    "page_count": 278,
+    "genres_tags": [
+      "Communication",
+      "Psychology",
+      "Relationships",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.01,
+      "ratings_count": 7000,
+      "review_summary_highlights": [
+        "Readers appreciate the interview-based reporting and the practical listening exercises.",
+        "Praised for diagnosing a culture that rewards talking over understanding."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781250297198-L.jpg",
+    "one_sentence_hook": "Most people listen to reply rather than to understand, and reclaiming real listening changes relationships and decisions.",
+    "summary": {
+      "overview": "Journalist Kate Murphy interviews researchers, therapists, and professional listeners to explain why genuine listening has become rare and what it costs us. She describes the conditions that make people feel heard and the habits that block it.",
+      "key_takeaways": [
+        "Listening requires suppressing the urge to formulate a response while the other person is still speaking.",
+        "Questions that invite elaboration, rather than interrogation, create the safety needed for honesty.",
+        "Feeling heard regulates emotion and improves memory, trust, and problem-solving."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781250297198",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781250297198"
+    },
+    "id": "2026-10-25-91",
+    "slug": "you-re-not-listening-what-you-re-missing-and-why-it-matters"
+  },
+  {
+    "isbn_13": "9780060753634",
+    "title": "Mating in Captivity: Unlocking Erotic Intelligence",
+    "author": "Esther Perel",
+    "publication_year": 2006,
+    "page_count": 244,
+    "genres_tags": [
+      "Relationships",
+      "Psychology",
+      "Sexuality",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.03,
+      "ratings_count": 22000,
+      "review_summary_highlights": [
+        "Readers appreciate the nuanced treatment of desire within long-term relationships.",
+        "Praised for naming the tension between security and erotic novelty."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780060753634-L.jpg",
+    "one_sentence_hook": "Long-term love requires security, but desire requires mystery, and couples have to hold both.",
+    "summary": {
+      "overview": "Psychotherapist Esther Perel argues that domesticity and erotic desire pull in opposite directions: intimacy needs safety while desire needs distance and novelty. She explores how couples can sustain both without sacrificing either.",
+      "key_takeaways": [
+        "Desire thrives on separateness and imagination, which can be eroded by total enmeshment.",
+        "Couples can cultivate mystery by maintaining individual interests, friendships, and privacy.",
+        "Honest conversation about fantasy and needs is more useful than assuming desire should be spontaneous."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780060753634",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780060753634"
+    },
+    "id": "2026-10-25-92",
+    "slug": "mating-in-captivity-unlocking-erotic-intelligence"
+  },
+  {
+    "isbn_13": "9780393310726",
+    "title": "How to Lie with Statistics",
+    "author": "Darrell Huff",
+    "publication_year": 1954,
+    "page_count": 142,
+    "genres_tags": [
+      "Statistics",
+      "Science",
+      "Communication",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.01,
+      "ratings_count": 14000,
+      "review_summary_highlights": [
+        "Readers value the timeless catalogue of statistical deception.",
+        "Praised for the clear examples of misleading graphs, averages, and samples."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780393310726-L.jpg",
+    "one_sentence_hook": "Numbers can be made to say almost anything, and knowing the tricks is the best defence.",
+    "summary": {
+      "overview": "Darrell Huff explains how statistics are commonly misused in advertising, journalism, and politics. He covers biased samples, misleading graphs, ambiguous averages, and spurious correlations with humour and clarity.",
+      "key_takeaways": [
+        "A sample must represent the population it claims to describe; self-selected samples rarely do.",
+        "Averages can hide distribution shape, and the mean, median, and mode can tell different stories.",
+        "Graphs can distort perception through truncated axes, misleading scales, and selective framing."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780393310726",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780393310726"
+    },
+    "id": "2026-10-25-93",
+    "slug": "how-to-lie-with-statistics"
+  },
+  {
+    "isbn_13": "9780141026473",
+    "title": "The Drunkard's Walk: How Randomness Rules Our Lives",
+    "author": "Leonard Mlodinow",
+    "publication_year": 2008,
+    "page_count": 272,
+    "genres_tags": [
+      "Statistics",
+      "Psychology",
+      "Science",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.03,
+      "ratings_count": 18000,
+      "review_summary_highlights": [
+        "Readers enjoy the mix of probability theory and everyday examples.",
+        "Praised for showing how pattern-seeking minds misread random events."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780141026473-L.jpg",
+    "one_sentence_hook": "Much of what looks like skill, merit, or fate is randomness that our minds insist on explaining.",
+    "summary": {
+      "overview": "Leonard Mlodinow explains probability and randomness through examples from gambling, business, sports, and medicine. He shows how humans systematically misjudge chance and over-attribute outcomes to talent or intention.",
+      "key_takeaways": [
+        "Random variation produces streaks and clusters that people mistake for meaningful patterns.",
+        "Conditional probability is counterintuitive, and failing to account for base rates distorts decisions.",
+        "Success involves a substantial random component, which should temper both arrogance and self-blame."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780141026473",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780141026473"
+    },
+    "id": "2026-10-25-94",
+    "slug": "the-drunkard-s-walk-how-randomness-rules-our-lives"
+  },
+  {
+    "isbn_13": "9780241258750",
+    "title": "The Art of Statistics: How to Learn from Data",
+    "author": "David Spiegelhalter",
+    "publication_year": 2019,
+    "page_count": 448,
+    "genres_tags": [
+      "Statistics",
+      "Science",
+      "Data",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.19,
+      "ratings_count": 6000,
+      "review_summary_highlights": [
+        "Readers praise the clear explanations of causation, uncertainty, and regression to the mean.",
+        "Praised for using real case studies rather than abstract formulas."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780241258750-L.jpg",
+    "one_sentence_hook": "Statistics is the discipline of learning from imperfect data, and its core ideas are more intuitive than the formulas suggest.",
+    "summary": {
+      "overview": "David Spiegelhalter introduces statistical reasoning through real-world questions, from disease screening to criminal trials. He explains the PPDAC cycle, problem, plan, data, analysis, conclusion, and covers uncertainty, causation, and algorithmic prediction.",
+      "key_takeaways": [
+        "Good statistical work begins with a clear question and a plan, not with a dataset.",
+        "Correlation can guide investigation but causal claims require design or strong assumptions.",
+        "Uncertainty should be communicated explicitly, because point estimates without ranges invite overconfidence."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780241258750",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780241258750"
+    },
+    "id": "2026-10-25-95",
+    "slug": "the-art-of-statistics-how-to-learn-from-data"
+  },
+  {
+    "isbn_13": "9780786884063",
+    "title": "The Man Who Loved Only Numbers: The Story of Paul Erdos and the Search for Mathematical Truth",
+    "author": "Paul Hoffman",
+    "publication_year": 1998,
+    "page_count": 317,
+    "genres_tags": [
+      "Biography",
+      "Mathematics",
+      "Science",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.2,
+      "ratings_count": 8000,
+      "review_summary_highlights": [
+        "Readers enjoy the portrait of an eccentric genius who lived out of a suitcase.",
+        "Praised for making the culture of mathematics vivid and human."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780786884063-L.jpg",
+    "one_sentence_hook": "Paul Erdos had no home, no possessions, and no interest in money, only an insatiable appetite for mathematical problems.",
+    "summary": {
+      "overview": "Paul Hoffman recounts the life of Paul Erdos, a prolific mathematician who travelled between colleagues' homes, collaborated on hundreds of papers, and lived with almost no material attachments. The book also explains some of the problems that obsessed him.",
+      "key_takeaways": [
+        "Erdos's collaborative network shows how social structures can amplify intellectual output.",
+        "Deep obsession can produce extraordinary work while making ordinary life difficult.",
+        "Mathematics advances through shared problems and conversation as much as solitary insight."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780786884063",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780786884063"
+    },
+    "id": "2026-10-25-96",
+    "slug": "the-man-who-loved-only-numbers-the-story-of-paul-erdos-and-the-search-for-mathematical-truth"
+  },
+  {
+    "isbn_13": "9780805081954",
+    "title": "Through the Language Glass: Why the World Looks Different in Other Languages",
+    "author": "Guy Deutscher",
+    "publication_year": 2010,
+    "page_count": 304,
+    "genres_tags": [
+      "Language",
+      "Science",
+      "Psychology",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.11,
+      "ratings_count": 9000,
+      "review_summary_highlights": [
+        "Readers appreciate the careful treatment of the language-and-thought debate.",
+        "Praised for the fascinating case of colour terms and spatial language."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780805081954-L.jpg",
+    "one_sentence_hook": "Language does not imprison thought, but it does nudge attention in ways that change what speakers notice.",
+    "summary": {
+      "overview": "Guy Deutscher examines the relationship between language and thought, rejecting both the idea that language determines thought and the claim that it has no effect. He draws on colour naming, spatial orientation, and grammatical gender to show subtle influences.",
+      "key_takeaways": [
+        "Languages differ in how they divide colour space, and speakers' performance on colour tasks shifts accordingly.",
+        "Some languages use absolute directions rather than relative ones, which changes spatial reasoning habits.",
+        "Effects of language on thought are real but modest, shaping attention rather than making certain thoughts impossible."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780805081954",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780805081954"
+    },
+    "id": "2026-10-25-97",
+    "slug": "through-the-language-glass-why-the-world-looks-different-in-other-languages"
+  },
+  {
+    "isbn_13": "9780735210936",
+    "title": "Because Internet: Understanding the New Rules of Language",
+    "author": "Gretchen McCulloch",
+    "publication_year": 2019,
+    "page_count": 326,
+    "genres_tags": [
+      "Language",
+      "Technology",
+      "Communication",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.06,
+      "ratings_count": 12000,
+      "review_summary_highlights": [
+        "Readers enjoy the analysis of memes, punctuation, and informal writing styles.",
+        "Praised for treating internet language as legitimate linguistic evolution."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780735210936-L.jpg",
+    "one_sentence_hook": "Internet writing is not a degradation of language but a new register with its own grammar, and it is changing how everyone writes.",
+    "summary": {
+      "overview": "Linguist Gretchen McCulloch analyses how people write online, from punctuation and emoji to memes and all-caps. She argues that informal internet writing is a genuine linguistic register shaped by the medium's lack of tone and gesture.",
+      "key_takeaways": [
+        "Internet writing compensates for missing vocal and facial cues through typography, repetition, and emoji.",
+        "Different online communities develop distinct conventions, which function as identity markers.",
+        "Language change is normal and often driven by young people experimenting with new forms."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780735210936",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780735210936"
+    },
+    "id": "2026-10-25-98",
+    "slug": "because-internet-understanding-the-new-rules-of-language"
+  },
+  {
+    "isbn_13": "9781476753836",
+    "title": "Salt, Fat, Acid, Heat: Mastering the Elements of Good Cooking",
+    "author": "Samin Nosrat",
+    "publication_year": 2017,
+    "page_count": 480,
+    "genres_tags": [
+      "Cooking",
+      "Food",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.31,
+      "ratings_count": 34000,
+      "review_summary_highlights": [
+        "Readers praise the intuitive framework that replaces rigid recipes with principles.",
+        "Praised for the illustrations and the practical explanations of why food tastes good."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781476753836-L.jpg",
+    "one_sentence_hook": "Cooking becomes intuitive once you understand the four elements that make food taste right.",
+    "summary": {
+      "overview": "Samin Nosrat explains cooking through four elements, salt, fat, acid, and heat, showing how each affects flavour and texture. She argues that understanding these principles frees cooks from dependence on recipes.",
+      "key_takeaways": [
+        "Salt enhances flavour and controls texture; seasoning early and in layers produces better results.",
+        "Fat carries flavour and affects texture, and different fats behave differently at different temperatures.",
+        "Acid balances richness and brightens dishes, and heat management determines whether food browns, steams, or burns."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781476753836",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781476753836"
+    },
+    "id": "2026-10-25-99",
+    "slug": "salt-fat-acid-heat-mastering-the-elements-of-good-cooking"
+  },
+  {
+    "isbn_13": "9781416566113",
+    "title": "Ratio: The Simple Codes Behind the Craft of Everyday Cooking",
+    "author": "Michael Ruhlman",
+    "publication_year": 2009,
+    "page_count": 244,
+    "genres_tags": [
+      "Cooking",
+      "Food",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.07,
+      "ratings_count": 6000,
+      "review_summary_highlights": [
+        "Readers value the freedom that comes from learning core ratios.",
+        "Praised for simplifying baking and sauces into memorable proportions."
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781416566113-L.jpg",
+    "one_sentence_hook": "Most cooking is a handful of ratios, and once you know them you can improvise without a recipe.",
+    "summary": {
+      "overview": "Michael Ruhlman argues that many fundamental preparations, from bread dough to stock to mayonnaise, are defined by simple ratios of ingredients. Learning these ratios gives cooks a flexible foundation for improvisation.",
+      "key_takeaways": [
+        "Core ratios, such as bread at five parts flour to three parts water, provide a reliable starting point for variation.",
+        "Understanding why a ratio works is more useful than memorising a single recipe.",
+        "Scaling and adjusting become straightforward once proportions rather than absolute amounts are the reference."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781416566113",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781416566113"
+    },
+    "id": "2026-10-25-100",
+    "slug": "ratio-the-simple-codes-behind-the-craft-of-everyday-cooking"
+  },
+  {
     "isbn_13": "9780399184437",
     "title": "Seven Brief Lessons on Physics",
     "author": "Carlo Rovelli",
