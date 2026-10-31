@@ -567,7 +567,8 @@ def render_page(book, newer, older, libraries=None):
     </div>
   </main>
   <footer class="bg-white border-t border-amber-100 mt-12 py-8">
-    <div class="max-w-4xl mx-auto px-4 sm:px-6 text-center">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 text-center space-y-2">
+      <p class="text-xs text-stone-500">Looking for books for kids or teens? <a href="https://novicelab.org/golden-shelf-kids/" class="text-amber-700 hover:text-amber-800 hover:underline font-medium">Visit Golden Shelf Kids</a>.</p>
       <p class="text-xs text-stone-500">Shivraj Rath</p>
     </div>
   </footer>
