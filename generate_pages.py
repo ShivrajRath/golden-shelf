@@ -32,7 +32,7 @@ LIBRARIES_FILE = os.path.join("data", "libraries.json")
 OUTPUT_DIR = "books"
 SITEMAP_FILE = "sitemap.xml"
 SITE_URL = os.environ.get("SITE_URL", "https://novicelab.org").strip().rstrip("/")
-API_BASE = os.environ.get("GSK_API_BASE", "").strip().rstrip("/")
+API_BASE = os.environ.get("GSK_API_BASE", "https://gsk-library-api.novicelab.workers.dev").strip().rstrip("/")
 
 
 def slugify(value):
