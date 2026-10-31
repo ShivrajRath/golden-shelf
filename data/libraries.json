@@ -1,0 +1,84 @@
+{
+  "version": 1,
+  "updated": "2026-10-30",
+  "libraries": [
+    {
+      "id": "frisco",
+      "name": "Frisco Public Library",
+      "city": "Frisco, TX",
+      "system": "BiblioCommons",
+      "catalog_type": "bibliocommons",
+      "auto_update": true,
+      "catalog_url": "https://friscolibrary.bibliocommons.com",
+      "search_url": "https://friscolibrary.bibliocommons.com/v2/search?query={query}&searchType=keyword",
+      "homepage": "https://friscolibrary.com",
+      "digital_url": "https://libbyapp.com/library/frisco/search/query-{query}/page-1",
+      "digital_label": "eBook / eAudiobook"
+    },
+    {
+      "id": "the-colony",
+      "name": "The Colony Public Library",
+      "city": "The Colony, TX",
+      "system": "Aspen Discovery",
+      "catalog_type": "aspen",
+      "auto_update": false,
+      "catalog_url": "https://tcpl.aspendiscovery.org",
+      "search_url": "https://tcpl.aspendiscovery.org/Search/Results?lookfor={query}&type=all",
+      "homepage": "https://www.thecolonytx.gov/1237/Library",
+      "digital_url": "https://ebook.yourcloudlibrary.com/library/thecolonyplereadtx",
+      "digital_label": "eBook / eAudiobook"
+    },
+    {
+      "id": "little-elm",
+      "name": "Little Elm Public Library",
+      "city": "Little Elm, TX",
+      "system": "Koha",
+      "catalog_type": "koha",
+      "auto_update": false,
+      "catalog_url": "https://littleelm.bywatersolutions.com",
+      "search_url": "https://littleelm.bywatersolutions.com/cgi-bin/koha/opac-search.pl?q={query}",
+      "homepage": "https://www.littleelm.gov",
+      "digital_url": "https://ebook.yourcloudlibrary.com/library/littleelmpl",
+      "digital_label": "eBook / eAudiobook"
+    },
+    {
+      "id": "plano",
+      "name": "Plano Public Library System",
+      "city": "Plano, TX",
+      "system": "SirsiDynix Enterprise",
+      "catalog_type": "sirsi",
+      "auto_update": true,
+      "catalog_url": "https://plano.ent.sirsi.net/client/en_US/default",
+      "search_url": "https://plano.ent.sirsi.net/client/en_US/default/search/results?qu={query}&te=",
+      "homepage": "https://www.plano.gov/library",
+      "digital_url": "https://libbyapp.com/library/plano/search/query-{query}/page-1",
+      "digital_label": "eBook / eAudiobook"
+    },
+    {
+      "id": "harris-county",
+      "name": "Harris County Public Library",
+      "city": "Harris County, TX",
+      "system": "BiblioCommons",
+      "catalog_type": "bibliocommons",
+      "auto_update": true,
+      "catalog_url": "https://hcpl.bibliocommons.com",
+      "search_url": "https://hcpl.bibliocommons.com/v2/search?query={query}&searchType=keyword",
+      "homepage": "https://hcpl.net",
+      "digital_url": "https://libbyapp.com/library/hcpl/search/query-{query}/page-1",
+      "digital_label": "eBook / eAudiobook"
+    },
+    {
+      "id": "houston",
+      "name": "Houston Public Library",
+      "city": "Houston, TX",
+      "system": "SirsiDynix Enterprise",
+      "catalog_type": "sirsi",
+      "auto_update": false,
+      "catalog_url": "https://halan.sdp.sirsi.net/client/en_US/hou",
+      "search_url": "https://halan.sdp.sirsi.net/client/en_US/hou/search/results?qu={query}&te=",
+      "homepage": "https://houstonlibrary.org",
+      "digital_url": "https://libbyapp.com/library/houstonlibrary/search/query-{query}/page-1",
+      "digital_label": "eBook / eAudiobook"
+    }
+  ]
+}

@@ -25,6 +25,7 @@ jobs:
       - name: Regenerate Book Pages
         env:
           SITE_URL: https://novicelab.org
+          GSK_API_BASE: ${{ vars.GSK_API_BASE }}
         run: |
           python3 generate_pages.py
 

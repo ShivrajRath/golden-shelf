@@ -28,9 +28,11 @@ import unicodedata
 import urllib.parse
 
 DATA_FILE = os.path.join("data", "books.json")
+LIBRARIES_FILE = os.path.join("data", "libraries.json")
 OUTPUT_DIR = "books"
 SITEMAP_FILE = "sitemap.xml"
 SITE_URL = os.environ.get("SITE_URL", "https://novicelab.org").strip().rstrip("/")
+API_BASE = os.environ.get("GSK_API_BASE", "").strip().rstrip("/")
 
 
 def slugify(value):
@@ -104,7 +106,208 @@ def esc(text):
     return html.escape(str(text or ""), quote=True)
 
 
-def render_page(book, newer, older):
+def normalize_isbn(value):
+    return re.sub(r"[^0-9Xx]", "", str(value or "")).upper()
+
+
+def library_query(book):
+    isbn = normalize_isbn(book.get("isbn_13"))
+    if is_valid_isbn13(isbn):
+        return isbn
+    title = str(book.get("title") or "").strip()
+    author = str(book.get("author") or "").strip()
+    return f"{title} {author}".strip() or isbn or title
+
+
+def fill_library_url(template, book):
+    isbn = normalize_isbn(book.get("isbn_13"))
+    title = str(book.get("title") or "").strip()
+    author = str(book.get("author") or "").strip()
+    query = library_query(book)
+    return (
+        str(template or "")
+        .replace("{query}", urllib.parse.quote_plus(query))
+        .replace("{isbn}", urllib.parse.quote_plus(isbn))
+        .replace("{title}", urllib.parse.quote_plus(title))
+        .replace("{author}", urllib.parse.quote_plus(author))
+    )
+
+
+def library_search_url(lib, book):
+    template = lib.get("search_url") or lib.get("catalog_url") or ""
+    return fill_library_url(template, book)
+
+
+def int_or_none(value):
+    try:
+        return int(value)
+    except (TypeError, ValueError):
+        return None
+
+
+ACTION_LABELS = {
+    "borrow": "Borrow",
+    "hold": "Place a hold",
+    "view": "View",
+    "search": "Check",
+}
+
+ACTION_CLASSES = {
+    "borrow": "bg-amber-600 hover:bg-amber-700 text-white",
+    "hold": "bg-amber-50 hover:bg-amber-100 text-amber-800 border border-amber-300",
+    "view": "bg-white hover:bg-stone-50 text-stone-700 border border-stone-300",
+    "search": "bg-white hover:bg-stone-50 text-stone-700 border border-stone-300",
+}
+
+STATUS_STYLES = {
+    "available": ("text-emerald-700", "bg-emerald-500"),
+    "on_hold": ("text-amber-700", "bg-amber-500"),
+    "unavailable": ("text-rose-700", "bg-rose-500"),
+    "unknown": ("text-stone-500", "bg-stone-300"),
+}
+
+
+def library_status_text(item):
+    status = str(item.get("status") or "unknown").lower()
+    available = int_or_none(item.get("available_copies"))
+    total = int_or_none(item.get("total_copies"))
+    holds = int_or_none(item.get("holds")) or 0
+
+    if status == "available":
+        if available is not None and total is not None and total > 0:
+            return f"{available} of {total} copies available"
+        if available is not None:
+            return f"{available} copies available"
+        return "Available"
+    if status == "on_hold":
+        if total is not None and total > 0:
+            text = f"{available or 0} of {total} copies available"
+        else:
+            text = "On hold"
+        if holds > 0:
+            text += f" • {holds} hold{'s' if holds != 1 else ''}"
+        return text
+    if status == "unavailable":
+        if total is not None and total > 0:
+            return f"0 of {total} copies available"
+        return "Not available"
+    return "Check availability"
+
+
+def render_library_item(item, lib, book):
+    status = str(item.get("status") or "unknown").lower()
+    if status not in STATUS_STYLES:
+        status = "unknown"
+    action = str(item.get("action") or "").lower()
+    if action not in ACTION_LABELS:
+        action = "view" if status == "available" else "search"
+
+    url = str(item.get("url") or "").strip() or library_search_url(lib, book)
+    fmt = str(item.get("format") or "Book").strip() or "Book"
+    fmt_lower = fmt.lower()
+    is_digital = (
+        bool(item.get("is_digital"))
+        or fmt_lower.startswith("e")
+        or "digital" in fmt_lower
+    )
+    format_classes = (
+        "bg-sky-50 text-sky-800 border-sky-100"
+        if is_digital
+        else "bg-stone-100 text-stone-700 border-stone-200"
+    )
+    text_color, dot_color = STATUS_STYLES[status]
+    label = ACTION_LABELS[action]
+    button_classes = ACTION_CLASSES[action]
+    status_text = library_status_text(item)
+
+    return (
+        '<div class="flex flex-wrap sm:flex-nowrap items-center gap-x-3 gap-y-2">'
+        '<div class="flex flex-wrap items-center gap-x-3 gap-y-1.5 min-w-0 flex-1">'
+        f'<span class="inline-flex items-center px-2 py-0.5 rounded-md border text-[11px] font-semibold {format_classes}">{esc(fmt)}</span>'
+        f'<span class="inline-flex items-center gap-1.5 text-xs font-medium {text_color}">'
+        f'<span class="w-2 h-2 rounded-full {dot_color} flex-shrink-0" aria-hidden="true"></span>'
+        f'<span>{esc(status_text)}</span></span>'
+        "</div>"
+        f'<a href="{esc(url)}" target="_blank" rel="noopener" '
+        f'class="inline-flex items-center justify-center px-3.5 py-1.5 rounded-lg text-xs font-semibold shadow-sm transition-colors whitespace-nowrap {button_classes}">'
+        f"{esc(label)}</a>"
+        "</div>"
+    )
+
+
+def render_library_panel(book, libraries):
+    if not libraries:
+        return ""
+
+    rows = []
+    for lib in libraries:
+        if not isinstance(lib, dict) or not lib.get("name"):
+            continue
+        name_url = str(lib.get("homepage") or lib.get("catalog_url") or "").strip()
+        system = str(lib.get("system") or "").strip()
+        search_url = library_search_url(lib, book)
+        item_html = render_library_item(
+            {
+                "format": "Book / eBook",
+                "status": "unknown",
+                "action": "search",
+                "url": search_url,
+            },
+            lib,
+            book,
+        )
+        rows.append(
+            '<li class="px-5 sm:px-7 py-4" data-gsk-lib="'
+            + esc(lib.get("id"))
+            + '">'
+            '<div class="flex flex-wrap items-baseline justify-between gap-x-3 gap-y-1">'
+            f'<a href="{esc(name_url)}" target="_blank" rel="noopener" '
+            f'class="font-semibold text-sky-800 hover:text-sky-900 hover:underline">{esc(lib.get("name"))}</a>'
+            + (f'<span class="text-[11px] text-stone-400">{esc(system)}</span>' if system else "")
+            + "</div>"
+            f'<div class="mt-2 space-y-2" data-gsk-items>{item_html}</div>'
+            "</li>"
+        )
+
+    if not rows:
+        return ""
+
+    count = len(rows)
+    return (
+        '<section id="library-availability" class="mt-6 bg-white rounded-3xl border border-amber-200/60 shadow-lg overflow-hidden">'
+        '<div class="px-5 sm:px-7 py-5 border-b border-stone-100 flex flex-wrap items-start justify-between gap-3">'
+        "<div>"
+        '<h2 class="font-serif text-xl sm:text-2xl font-bold text-stone-900">Find it at your library</h2>'
+        '<p class="text-xs sm:text-sm text-stone-500 mt-1">Check availability, then borrow or place a hold in one click.</p>'
+        "</div>"
+        '<div class="text-left sm:text-right">'
+        f'<span class="inline-flex items-center px-3 py-1 rounded-full bg-amber-50 border border-amber-200 text-xs font-semibold text-amber-800">{count} libraries</span>'
+        f'<p class="text-[11px] text-stone-400 mt-1" data-gsk-note>Checking live availability…</p>'
+        "</div>"
+        "</div>"
+        f'<ul class="divide-y divide-stone-100" data-gsk-list>{"".join(rows)}</ul>'
+        '<div class="px-5 sm:px-7 py-3 bg-stone-50 border-t border-stone-100">'
+        '<p class="text-[11px] text-stone-500" data-gsk-footer>Availability is checked live when this page is served by <code>serve.py</code>. On a static host, use the Check buttons to open each catalog.</p>'
+        "</div>"
+        "</section>"
+    )
+
+
+def load_json_file(path, default):
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except (OSError, json.JSONDecodeError):
+        return default
+
+
+def load_libraries():
+    data = load_json_file(LIBRARIES_FILE, {})
+    libraries = data.get("libraries") if isinstance(data, dict) else data
+    return [lib for lib in (libraries or []) if isinstance(lib, dict)]
+
+
+def render_page(book, newer, older, libraries=None):
     title = str(book.get("title") or "Untitled")
     author = str(book.get("author") or "Unknown author")
     slug = page_slug(book)
@@ -135,6 +338,29 @@ def render_page(book, newer, older):
     pages = esc(book.get("page_count", "—"))
     isbn = esc(book.get("isbn_13", "—"))
     gr_url = goodreads_url(book)
+
+    library_panel = render_library_panel(book, libraries or [])
+
+    libraries_for_js = []
+    for lib in (libraries or []):
+        if not isinstance(lib, dict) or not lib.get("name"):
+            continue
+        libraries_for_js.append(
+            {
+                "id": lib.get("id"),
+                "name": lib.get("name"),
+                "system": lib.get("system"),
+                "homepage": lib.get("homepage") or lib.get("catalog_url"),
+                "catalog_url": lib.get("catalog_url"),
+                "digital_url": lib.get("digital_url"),
+                "digital_label": lib.get("digital_label"),
+                "search_url": library_search_url(lib, book),
+            }
+        )
+    libraries_js = json.dumps(libraries_for_js, ensure_ascii=False)
+    isbn_js = json.dumps(str(book.get("isbn_13") or ""), ensure_ascii=False)
+    title_js = json.dumps(str(book.get("title") or ""), ensure_ascii=False)
+    author_js = json.dumps(str(book.get("author") or ""), ensure_ascii=False)
 
     tags_html = "".join(f'<span class="px-3 py-1 bg-amber-50 text-amber-900 border border-amber-100 rounded-lg text-xs font-medium">{esc(g)}</span>' for g in tags)
     takeaways_html = "".join(
@@ -190,6 +416,7 @@ def render_page(book, newer, older):
   <link rel="icon" type="image/svg+xml" href="../favicon.svg">
   <link rel="apple-touch-icon" href="../favicon.svg">
   <meta name="theme-color" content="#b45309">
+  <meta name="gsk-api-base" content="{esc(API_BASE)}">
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="Golden Shelf">
   <meta property="og:title" content="{esc(title)} by {esc(author)} | Golden Shelf">
@@ -333,6 +560,7 @@ def render_page(book, newer, older):
         </div>
       </div>
     </article>
+    {library_panel}
     <div class="mt-6 flex flex-col sm:flex-row gap-3">
       {nav_card(newer, "Newer pick", "←")}
       {nav_card(older, "Older pick", "→", True)}
@@ -343,6 +571,13 @@ def render_page(book, newer, older):
       <p class="text-xs text-stone-500">Shivraj Rath</p>
     </div>
   </footer>
+  <script>
+    window.GSK_ISBN = {isbn_js};
+    window.GSK_TITLE = {title_js};
+    window.GSK_AUTHOR = {author_js};
+    window.GSK_LIBRARIES = {libraries_js};
+    window.GSK_API_BASE = (document.querySelector('meta[name="gsk-api-base"]') && document.querySelector('meta[name="gsk-api-base"]').content || '').replace(/\\/$/, '');
+  </script>
   <script>
     function gsCoverNext(el) {{
       if (!el || el.dataset.gsDone) return;
@@ -361,6 +596,120 @@ def render_page(book, newer, older):
       if (!el || el.dataset.gsDone) return;
       if (el.naturalWidth <= 2 && el.naturalHeight <= 2) gsCoverNext(el);
     }}
+  </script>
+
+  <script>
+  (function () {{
+    var isbn = window.GSK_ISBN || '';
+    var libs = window.GSK_LIBRARIES || [];
+    var apiBase = window.GSK_API_BASE || '';
+    var panel = document.getElementById('library-availability');
+    if (!panel || !isbn || !libs.length) return;
+    var note = panel.querySelector('[data-gsk-note]');
+    var list = panel.querySelector('[data-gsk-list]');
+    var footer = panel.querySelector('[data-gsk-footer]');
+    function esc(s){{ return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }}
+    var STATUS_STYLES = {{ available:['text-emerald-700','bg-emerald-500'], on_hold:['text-amber-700','bg-amber-500'], unavailable:['text-rose-700','bg-rose-500'], unknown:['text-stone-500','bg-stone-300'] }};
+    var ACTION_LABELS = {{ borrow:'Borrow', hold:'Place a hold', view:'View', search:'Check' }};
+    var ACTION_CLASSES = {{ borrow:'bg-amber-600 hover:bg-amber-700 text-white', hold:'bg-amber-50 hover:bg-amber-100 text-amber-800 border border-amber-300', view:'bg-white hover:bg-stone-50 text-stone-700 border border-stone-300', search:'bg-white hover:bg-stone-50 text-stone-700 border border-stone-300' }};
+    function statusText(item) {{
+      var status = String(item.status||'unknown').toLowerCase();
+      var avail = (item.available_copies==null?null:Number(item.available_copies));
+      var total = (item.total_copies==null?null:Number(item.total_copies));
+      var holds = Number(item.holds||0);
+      if (status==='available') {{
+        if (avail!==null && total!==null && total>0) return avail+' of '+total+' copies available';
+        if (avail!==null) return avail+' copies available';
+        return 'Available';
+      }}
+      if (status==='on_hold') {{
+        var t = (total!==null && total>0) ? (avail||0)+' of '+total+' copies available' : 'On hold';
+        if (holds>0) t += ' • '+holds+' hold'+(holds!==1?'s':'');
+        return t;
+      }}
+      if (status==='unavailable') {{
+        if (total!==null && total>0) return '0 of '+total+' copies available';
+        return 'Not available';
+      }}
+      return 'Check availability';
+    }}
+    function isDigitalFormat(fmt, isDigital) {{
+      return !!isDigital || String(fmt||'').toLowerCase().indexOf('e')===0 || /digital/i.test(String(fmt||''));
+    }}
+    function renderItem(item, lib) {{
+      var status = String(item.status||'unknown').toLowerCase();
+      if (!STATUS_STYLES[status]) status = 'unknown';
+      var action = String(item.action||'').toLowerCase();
+      if (!ACTION_LABELS[action]) action = (status==='available'?'view':'search');
+      var url = String(item.url||'').trim() || (lib.search_url||'');
+      var fmt = String(item.format||'Book').trim() || 'Book';
+      var digital = isDigitalFormat(fmt, item.is_digital);
+      var fc = digital ? 'bg-sky-50 text-sky-800 border-sky-100' : 'bg-stone-100 text-stone-700 border-stone-200';
+      var sc = STATUS_STYLES[status][0];
+      var dc = STATUS_STYLES[status][1];
+      var label = ACTION_LABELS[action];
+      var bc = ACTION_CLASSES[action];
+      var st = statusText(item);
+      return '<div class="flex flex-wrap sm:flex-nowrap items-center gap-x-3 gap-y-2">'
+        + '<div class="flex flex-wrap items-center gap-x-3 gap-y-1.5 min-w-0 flex-1">'
+        + '<span class="inline-flex items-center px-2 py-0.5 rounded-md border text-[11px] font-semibold '+fc+'">'+esc(fmt)+'</span>'
+        + '<span class="inline-flex items-center gap-1.5 text-xs font-medium '+sc+'">'
+        + '<span class="w-2 h-2 rounded-full '+dc+' flex-shrink-0" aria-hidden="true"></span>'
+        + '<span>'+esc(st)+'</span></span>'
+        + '</div>'
+        + '<a href="'+esc(url)+'" target="_blank" rel="noopener" class="inline-flex items-center justify-center px-3.5 py-1.5 rounded-lg text-xs font-semibold shadow-sm transition-colors whitespace-nowrap '+bc+'">'+esc(label)+'</a>'
+        + '</div>';
+    }}
+    function renderRow(lib, items) {{
+      var nameUrl = lib.homepage || lib.catalog_url || '';
+      var system = lib.system || '';
+      var its = (items && items.length) ? items : [{{format:'Book / eBook',status:'unknown',action:'search',url:lib.search_url}}];
+      var itemsHtml = its.map(function(it){{ return renderItem(it, lib); }}).join('');
+      return '<li class="px-5 sm:px-7 py-4" data-gsk-lib="'+esc(lib.id)+'">'
+        + '<div class="flex flex-wrap items-baseline justify-between gap-x-3 gap-y-1">'
+        + '<a href="'+esc(nameUrl)+'" target="_blank" rel="noopener" class="font-semibold text-sky-800 hover:text-sky-900 hover:underline">'+esc(lib.name)+'</a>'
+        + (system ? '<span class="text-[11px] text-stone-400">'+esc(system)+'</span>' : '')
+        + '</div>'
+        + '<div class="mt-2 space-y-2">'+itemsHtml+'</div>'
+        + '</li>';
+    }}
+    function applyData(data) {{
+      var byId = {{}};
+      (data.libraries||[]).forEach(function(l){{ byId[l.id]=l; }});
+      var html = libs.map(function(lib) {{
+        var live = byId[lib.id];
+        var items = live ? (live.items||[]) : [];
+        if (!items.length) items = [{{format:'Book / eBook',status:'unknown',action:'search',url:lib.search_url}}];
+        return renderRow(lib, items);
+      }}).join('');
+      if (list) list.innerHTML = html;
+      if (note) {{
+        var liveCount = (data.libraries||[]).filter(function(l){{return l.live;}}).length;
+        var total = (data.libraries||[]).length || libs.length;
+        note.textContent = liveCount>0 ? ('Live • '+liveCount+' of '+total+' catalogs checked just now') : 'Open a library to check current status';
+      }}
+      if (footer) {{
+        var checked = (data.libraries||[]).filter(function(l){{return l.live;}}).length;
+        if (checked>0) footer.textContent = 'Live availability from '+checked+' catalog(s). Confirm at checkout; catalogs may require a library card.';
+      }}
+    }}
+    if (note) note.textContent = 'Checking live availability…';
+    var url = (apiBase ? apiBase : '') + '/api/library-availability?isbn=' + encodeURIComponent(isbn)
+      + '&title=' + encodeURIComponent(window.GSK_TITLE||'');
+    var ctrl = null;
+    try {{ ctrl = new AbortController(); }} catch (e) {{ ctrl = null; }}
+    var fetchOpts = {{credentials:'omit'}};
+    if (ctrl) {{ fetchOpts.signal = ctrl.signal; setTimeout(function(){{ try {{ ctrl.abort(); }} catch(e){{}} }}, 8000); }}
+    fetch(url, fetchOpts)
+      .then(function(r){{ if(!r.ok) throw new Error('HTTP '+r.status); return r.json(); }})
+      .then(applyData)
+      .catch(function(err){{
+        try {{ console.error('GSK live fetch failed:', err); }} catch (e) {{}}
+        var msg = (err && err.message) ? err.message : String(err);
+        if (note) note.textContent = 'Live status unavailable (' + msg + ').';
+        if (footer) footer.textContent = 'Could not reach the live API. Check your network/ad-blocker. API: ' + url;
+      }});
+  }})();
   </script>
 </body>
 </html>
@@ -387,8 +736,6 @@ def write_sitemap(slugs_with_dates):
     urls = [f"  <url><loc>{SITE_URL}/</loc></url>"]
     for slug, date_str in slugs_with_dates:
         loc = f"{SITE_URL}/books/{slug}.html"
-        # Batch ids look like YYYY-MM-DD-N (multi-book runs); the sitemap
-        # only needs the leading YYYY-MM-DD date for <lastmod>.
         m = re.match(r"(\d{4}-\d{2}-\d{2})", str(date_str or ""))
         if m:
             urls.append(f"  <url><loc>{loc}</loc><lastmod>{m.group(1)}</lastmod></url>")
@@ -401,6 +748,7 @@ def write_sitemap(slugs_with_dates):
 
 def main():
     books = load_books()
+    libraries = load_libraries()
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     expected = set()
     sitemap_entries = []
@@ -412,9 +760,8 @@ def main():
         newer = books[i - 1] if i > 0 and isinstance(books[i - 1], dict) else None
         older = books[i + 1] if i + 1 < len(books) and isinstance(books[i + 1], dict) else None
         with open(os.path.join(OUTPUT_DIR, slug + ".html"), "w", encoding="utf-8") as f:
-            f.write(render_page(book, newer, older))
+            f.write(render_page(book, newer, older, libraries))
         sitemap_entries.append((slug, book.get("id")))
-    # Remove stale pages from renamed titles / deleted entries.
     removed = 0
     for name in os.listdir(OUTPUT_DIR):
         if name.endswith(".html") and name not in expected:

@@ -5,7 +5,10 @@ Static GitHub Pages site + Python curation script. No build, bundler, tests, lin
 ## Structure
 - `index.html` — entire frontend (Tailwind CDN + Alpine.js `bookShelf()`). Fetches `data/books.json` (`cache: 'no-cache'`); `books[0]` is the Featured Pick. `slugify()`/`bookSlug()`/`bookPageUrl()` build per-book links from the stored `slug` field and must stay in sync with `generate_pages.py:slugify()`.
 - `script.py` — stdlib only (`urllib`, no pip install). Prepends 1 Friday pick (`BOOKS_PER_RUN`, env-overridable) to `data/books.json`, appends ISBN + title per book to `data/history.json`, then best-effort refreshes `books/` + `sitemap.xml` via `generate_pages`. Batch id is `YYYY-MM-DD` (multi-book runs append `YYYY-MM-DD-2…-N`). Fails fast with no partial save if any pick is invalid/duplicate.
-- `generate_pages.py` — stdlib only. Renders evergreen `books/<slug>.html` (title-based `slug` stored on each entry, never the curation date; pre-rendered SEO/OG/JSON-LD so share previews work) + root `sitemap.xml` from `data/books.json`; deletes stale pages.
+- `generate_pages.py` — stdlib only. Renders evergreen `books/<slug>.html` (title-based `slug` stored on each entry, never the curation date; pre-rendered SEO/OG/JSON-LD so share previews work) + root `sitemap.xml` from `data/books.json`; deletes stale pages. Also renders the "Find it at your library" panel (data/libraries.json).
+- `serve.py` — local HTTP server with live `/api/library-availability` (wraps scripts/update_library_availability.py fetchers).
+- `scripts/update_library_availability.py` — refreshes `data/library-availability.json` from auto-update catalogs.
+- `data/libraries.json` — six library systems + search URL templates (same as golden-shelf-kids).
 - `data/books.json` — newest-first. `id` is `YYYY-MM-DD` (first pick of a batch) or `YYYY-MM-DD-N` (batch siblings). `data/history.json` — flat `[isbn, title, ...]` list fed to the Gemini prompt for dedup.
 - `.github/workflows/curate-book.yml` — Fridays `0 8 * * 5` + `workflow_dispatch`, Python 3.11. Runs `script.py` then `generate_pages.py`; commits `data/books.json` + `data/history.json` + `books/` + `sitemap.xml`.
 - `.github/workflows/refresh-pages.yml` — manual only (`workflow_dispatch`). Rebuilds `books/` + `sitemap.xml` from `data/books.json` via `generate_pages.py` (no new picks, no API key needed); commits them if changed.
