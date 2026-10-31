@@ -196,7 +196,7 @@
             <!-- Cover & Quick Actions -->
             <div class="lg:col-span-4 w-full flex flex-col items-center space-y-6">
               <div class="relative group w-48 sm:w-60 rounded-2xl shadow-2xl overflow-hidden bg-stone-100 aspect-[2/3] border border-stone-200">
-                <img :src="coverUrl(featuredBook)" :alt="'Cover of ' + (featuredBook.title || 'featured book') + ' by ' + (featuredBook.author || 'unknown author')" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500" @error="handleCoverError($event, featuredBook)" @load="checkCover($event, featuredBook)">
+                <img :src="coverUrl(featuredBook)" :alt="'Cover of ' + (featuredBook.title || 'featured book') + ' by ' + (featuredBook.author || 'unknown author')" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500" loading="eager" decoding="async" fetchpriority="high" @error="handleCoverError($event, featuredBook)" @load="checkCover($event, featuredBook)">
               </div>
               <div class="w-full max-w-sm mx-auto space-y-3">
                 <a :href="goodreadsUrl(featuredBook)" target="_blank" rel="noopener" class="w-full flex items-center justify-center px-4 py-2.5 bg-amber-600 hover:bg-amber-700 text-white font-medium rounded-xl shadow-sm transition-colors text-sm">
@@ -306,7 +306,7 @@
             <article @click="openModal(book)" @keyup.enter="openModal(book)" @keyup.space.prevent="openModal(book)" tabindex="0" role="button" :aria-label="'View details for ' + (book.title || 'book')" class="bg-white rounded-2xl border border-stone-200/80 hover:border-amber-300 shadow-sm hover:shadow-xl transition-all duration-300 cursor-pointer overflow-hidden flex flex-col group focus:outline-none focus:ring-2 focus:ring-amber-600 focus:border-amber-500">
               <div class="p-6 flex items-start space-x-4 flex-grow">
                 <div class="w-24 flex-shrink-0 aspect-[2/3] rounded-lg overflow-hidden bg-stone-100 border border-stone-200 shadow-sm">
-                  <img :src="coverUrl(book)" :alt="'Cover of ' + (book.title || 'book') + ' by ' + (book.author || 'unknown author')" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" @error="handleCoverError($event, book)" @load="checkCover($event, book)">
+                  <img :src="coverUrl(book, 'M')" :alt="'Cover of ' + (book.title || 'book') + ' by ' + (book.author || 'unknown author')" loading="lazy" decoding="async" fetchpriority="low" data-cover-size="M" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" @error="handleCoverError($event, book)" @load="checkCover($event, book)">
                 </div>
                 <div class="space-y-2 flex-grow min-w-0">
                   <div class="flex items-center justify-between">
@@ -408,7 +408,7 @@
 
           <div class="flex flex-col sm:flex-row gap-6 items-start">
             <div class="w-36 sm:w-44 flex-shrink-0 aspect-[2/3] rounded-xl overflow-hidden shadow-lg border border-stone-200 mx-auto sm:mx-0">
-              <img :src="coverUrl(activeBook)" :alt="'Cover of ' + (activeBook.title || 'book') + ' by ' + (activeBook.author || 'unknown author')" class="w-full h-full object-cover" @error="handleCoverError($event, activeBook)" @load="checkCover($event, activeBook)">
+              <img :src="coverUrl(activeBook)" :alt="'Cover of ' + (activeBook.title || 'book') + ' by ' + (activeBook.author || 'unknown author')" class="w-full h-full object-cover" loading="lazy" decoding="async" @error="handleCoverError($event, activeBook)" @load="checkCover($event, activeBook)">
             </div>
             <div class="space-y-3 flex-grow min-w-0 pr-10">
               <div class="flex flex-wrap gap-2">
@@ -724,9 +724,11 @@
           '9780998406217': 10102083 // The University of Berkshire Hathaway
         },
 
-        coverUrl(book) {
+        coverUrl(book, size) {
+          size = size || 'L';
           if (!book || !book.cover_image_url) return this.fallbackCoverSrc(book);
-          const url = book.cover_image_url;
+          let url = book.cover_image_url;
+          url = url.replace(/-[SML]\.jpg/i, '-' + size + '.jpg');
           // Open Library returns a 1x1 blank gif (HTTP 200) when a cover is
           // missing, so @error never fires. ?default=false forces a 404
           // instead, letting the fallback trigger. See checkCover() below.
@@ -736,10 +738,11 @@
           return url;
         },
 
-        titleCoverUrl(book) {
+        titleCoverUrl(book, size) {
+          size = size || 'L';
           const title = book && book.title ? String(book.title).trim() : '';
           if (!title) return null;
-          return 'https://covers.openlibrary.org/b/title/' + encodeURIComponent(title) + '-L.jpg?default=false';
+          return 'https://covers.openlibrary.org/b/title/' + encodeURIComponent(title) + '-' + size + '.jpg?default=false';
         },
 
         resetCoverState(el, book) {
@@ -757,16 +760,17 @@
           // title-keyed Open Library cover -> pinned cover ID -> null (use SVG).
           // cover_ol_id comes from the data (set by script.py at curation
           // time); coverIdOverrides is legacy for entries predating it.
+          const size = (el && el.dataset && el.dataset.coverSize) || 'L';
           if (!el.dataset.triedTitle) {
             el.dataset.triedTitle = '1';
-            const t = this.titleCoverUrl(book);
+            const t = this.titleCoverUrl(book, size);
             if (t && el.src !== t) return t;
           }
           const isbn = book && book.isbn_13 ? String(book.isbn_13) : '';
           const pinned = (book && book.cover_ol_id) || (isbn && this.coverIdOverrides[isbn]);
           if (pinned && !el.dataset.triedId) {
             el.dataset.triedId = '1';
-            return 'https://covers.openlibrary.org/b/id/' + pinned + '-L.jpg?default=false';
+            return 'https://covers.openlibrary.org/b/id/' + pinned + '-' + size + '.jpg?default=false';
           }
           return null;
         },

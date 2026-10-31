@@ -525,7 +525,7 @@ def render_page(book, newer, older, libraries=None):
               <p class="mt-4 text-[11px] tracking-widest text-amber-700/70">GOLDEN SHELF</p>
             </div>
             <img src="{esc(cover)}" alt="Cover of {esc(title)} by {esc(author)}" class="absolute inset-0 w-full h-full object-cover"
-              data-title-cover="{esc(title_cover)}" data-id-cover="{esc(id_cover)}" onload="gsCheckCover(this)" onerror="gsCoverNext(this)">
+              loading="lazy" decoding="async" data-title-cover="{esc(title_cover)}" data-id-cover="{esc(id_cover)}" onload="gsCheckCover(this)" onerror="gsCoverNext(this)">
           </div>
           <a href="{esc(gr_url)}" target="_blank" rel="noopener" class="w-full max-w-[240px] flex items-center justify-center px-4 py-2.5 bg-amber-600 hover:bg-amber-700 text-white font-medium rounded-xl shadow-sm transition-colors text-sm">View on Goodreads</a>
         </div>
