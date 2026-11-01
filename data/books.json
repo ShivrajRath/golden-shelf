@@ -1,5 +1,4582 @@
 [
   {
+    "title": "The Intelligent Investor",
+    "author": "Benjamin Graham",
+    "genres_tags": [
+      "Investing",
+      "Finance",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.2,
+      "ratings_count": 150000,
+      "review_summary_highlights": [
+        "Praised as the classic value-investing text.",
+        "Readers value the margin-of-safety principle."
+      ]
+    },
+    "one_sentence_hook": "Value investing begins with a margin of safety and a patient, disciplined temperament.",
+    "summary": {
+      "overview": "Benjamin Graham lays out the principles of value investing, distinguishing investment from speculation and emphasizing margin of safety.",
+      "key_takeaways": [
+        "Price is what you pay; value is what you get.",
+        "Margin of safety protects against error.",
+        "Mr. Market's moods are opportunities."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9783898798273",
+      "worldcat_url": "https://search.worldcat.org/search?q=9783898798273"
+    },
+    "isbn_13": "9783898798273",
+    "publication_year": 1949,
+    "page_count": 360,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9783898798273-L.jpg",
+    "id": "2026-10-31-87",
+    "slug": "the-intelligent-investor"
+  },
+  {
+    "title": "Common Sense on Mutual Funds",
+    "author": "John C. Bogle",
+    "genres_tags": [
+      "Investing",
+      "Finance",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.2,
+      "ratings_count": 8000,
+      "review_summary_highlights": [
+        "Praised for its detailed fund analysis.",
+        "Readers value the cost arithmetic."
+      ]
+    },
+    "one_sentence_hook": "Mutual fund investing succeeds through low costs, diversification, and patience.",
+    "summary": {
+      "overview": "John Bogle explains how to invest in mutual funds sensibly.",
+      "key_takeaways": [
+        "Costs matter enormously.",
+        "Diversify broadly.",
+        "Ignore market timing."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780471392286",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780471392286"
+    },
+    "isbn_13": "9780471392286",
+    "publication_year": 1999,
+    "page_count": 496,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780471392286-L.jpg",
+    "id": "2026-10-31-88",
+    "slug": "common-sense-on-mutual-funds"
+  },
+  {
+    "title": "The Clash of the Cultures: Investment vs. Speculation",
+    "author": "John C. Bogle",
+    "genres_tags": [
+      "Investing",
+      "Finance",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.1,
+      "ratings_count": 3000,
+      "review_summary_highlights": [
+        "Praised for its critique of financial culture.",
+        "Readers value the historical perspective."
+      ]
+    },
+    "one_sentence_hook": "Investment and speculation have diverged, and the culture of finance needs reform.",
+    "summary": {
+      "overview": "John Bogle contrasts investment and speculation and calls for a return to fiduciary values.",
+      "key_takeaways": [
+        "Speculation dominates modern markets.",
+        "Fiduciary duty matters.",
+        "Long-term investing serves society."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781118122778",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781118122778"
+    },
+    "isbn_13": "9781118122778",
+    "publication_year": 2012,
+    "page_count": 353,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781118122778-L.jpg",
+    "id": "2026-10-31-89",
+    "slug": "the-clash-of-the-cultures-investment-vs-speculation"
+  },
+  {
+    "title": "The Millionaire Fastlane",
+    "author": "MJ DeMarco",
+    "genres_tags": [
+      "Business",
+      "Finance",
+      "Entrepreneurship",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.2,
+      "ratings_count": 40000,
+      "review_summary_highlights": [
+        "Praised for its entrepreneurial wealth framework.",
+        "Readers value the CENTS framework."
+      ]
+    },
+    "one_sentence_hook": "The fastlane to wealth is entrepreneurship, not frugality and index funds.",
+    "summary": {
+      "overview": "MJ DeMarco argues for building scalable businesses to achieve wealth.",
+      "key_takeaways": [
+        "Control your time.",
+        "Build scalable systems.",
+        "Provide value at scale."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780984358106",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780984358106"
+    },
+    "isbn_13": "9780984358106",
+    "publication_year": 2011,
+    "page_count": 332,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780984358106-L.jpg",
+    "id": "2026-10-31-90",
+    "slug": "the-millionaire-fastlane"
+  },
+  {
+    "title": "Courage Is Calling",
+    "author": "Ryan Holiday",
+    "genres_tags": [
+      "Philosophy",
+      "Self-Help",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.2,
+      "ratings_count": 20000,
+      "review_summary_highlights": [
+        "Praised for its courage framework.",
+        "Readers value the stories."
+      ]
+    },
+    "one_sentence_hook": "Courage is the first virtue, and it can be cultivated.",
+    "summary": {
+      "overview": "Ryan Holiday explores courage through Stoic philosophy and historical examples.",
+      "key_takeaways": [
+        "Courage is a choice.",
+        "Fear is conquered by action.",
+        "Virtue requires bravery."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781788166270",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781788166270"
+    },
+    "isbn_13": "9781788166270",
+    "publication_year": 2021,
+    "page_count": 304,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781788166270-L.jpg",
+    "id": "2026-10-31-91",
+    "slug": "courage-is-calling"
+  },
+  {
+    "title": "Lives of the Stoics",
+    "author": "Ryan Holiday and Stephen Hanselman",
+    "genres_tags": [
+      "Philosophy",
+      "History",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.1,
+      "ratings_count": 10000,
+      "review_summary_highlights": [
+        "Praised for its biographical approach.",
+        "Readers value the Stoic examples."
+      ]
+    },
+    "one_sentence_hook": "Stoic philosophy brought to life through the biographies of its practitioners.",
+    "summary": {
+      "overview": "The authors profile Stoic philosophers and their lives.",
+      "key_takeaways": [
+        "Philosophy is lived, not just studied.",
+        "Character shapes destiny.",
+        "Stoicism endures."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781788166010",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781788166010"
+    },
+    "isbn_13": "9781788166010",
+    "publication_year": 2020,
+    "page_count": 352,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781788166010-L.jpg",
+    "id": "2026-10-31-92",
+    "slug": "lives-of-the-stoics"
+  },
+  {
+    "title": "Discourses and Selected Writings",
+    "author": "Epictetus",
+    "genres_tags": [
+      "Philosophy",
+      "Stoicism",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.4,
+      "ratings_count": 60000,
+      "review_summary_highlights": [
+        "Praised for its direct Stoic teaching.",
+        "Readers value the dichotomy of control."
+      ]
+    },
+    "one_sentence_hook": "Freedom comes from wanting only what is within your control.",
+    "summary": {
+      "overview": "Epictetus teaches Stoic philosophy through dialogues and maxims.",
+      "key_takeaways": [
+        "Focus on what you control.",
+        "Judgments cause suffering.",
+        "Virtue is the only good."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780140449464",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780140449464"
+    },
+    "isbn_13": "9780140449464",
+    "publication_year": 2008,
+    "page_count": 304,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780140449464-L.jpg",
+    "id": "2026-10-31-93",
+    "slug": "discourses-and-selected-writings"
+  },
+  {
+    "title": "On the Shortness of Life",
+    "author": "Seneca",
+    "genres_tags": [
+      "Philosophy",
+      "Stoicism",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.2,
+      "ratings_count": 60000,
+      "review_summary_highlights": [
+        "Praised for its urgency.",
+        "Readers value the time focus."
+      ]
+    },
+    "one_sentence_hook": "Life is long enough if you use it well; most people waste it.",
+    "summary": {
+      "overview": "Seneca argues that life is not short but squandered.",
+      "key_takeaways": [
+        "Time is wasted on trivialities.",
+        "Live deliberately.",
+        "Death is always near."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780143036326",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780143036326"
+    },
+    "isbn_13": "9780143036326",
+    "publication_year": 2005,
+    "page_count": 105,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780143036326-L.jpg",
+    "id": "2026-10-31-94",
+    "slug": "on-the-shortness-of-life"
+  },
+  {
+    "title": "How to Be a Stoic",
+    "author": "Massimo Pigliucci",
+    "genres_tags": [
+      "Philosophy",
+      "Stoicism",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.0,
+      "ratings_count": 15000,
+      "review_summary_highlights": [
+        "Praised for its modern Stoic guide.",
+        "Readers value the practical exercises."
+      ]
+    },
+    "one_sentence_hook": "Stoicism as a practical philosophy for modern life.",
+    "summary": {
+      "overview": "Massimo Pigliucci introduces Stoic practice for contemporary readers.",
+      "key_takeaways": [
+        "Philosophy should be practiced.",
+        "Focus on character.",
+        "Accept what you cannot change."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780465097951",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780465097951"
+    },
+    "isbn_13": "9780465097951",
+    "publication_year": 2017,
+    "page_count": 288,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780465097951-L.jpg",
+    "id": "2026-10-31-95",
+    "slug": "how-to-be-a-stoic"
+  },
+  {
+    "title": "The Shallows: What the Internet Is Doing to Our Brains",
+    "author": "Nicholas Carr",
+    "genres_tags": [
+      "Technology",
+      "Neuroscience",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.0,
+      "ratings_count": 50000,
+      "review_summary_highlights": [
+        "Praised for its critique of digital distraction.",
+        "Readers value the historical context."
+      ]
+    },
+    "one_sentence_hook": "The internet is reshaping our brains and diminishing deep attention.",
+    "summary": {
+      "overview": "Nicholas Carr argues that the internet is changing how we think and read.",
+      "key_takeaways": [
+        "Attention is trainable and fragile.",
+        "Media shape cognition.",
+        "Deep reading matters."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781848872257",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781848872257"
+    },
+    "isbn_13": "9781848872257",
+    "publication_year": 2010,
+    "page_count": 276,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781848872257-L.jpg",
+    "id": "2026-10-31-96",
+    "slug": "the-shallows-what-the-internet-is-doing-to-our-brains"
+  },
+  {
+    "title": "The Glass Cage: How Our Computers Are Changing Us",
+    "author": "Nicholas Carr",
+    "genres_tags": [
+      "Technology",
+      "Psychology",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.0,
+      "ratings_count": 10000,
+      "review_summary_highlights": [
+        "Praised for its automation critique.",
+        "Readers value the skill-loss argument."
+      ]
+    },
+    "one_sentence_hook": "Automation can erode the skills and satisfaction it was meant to enhance.",
+    "summary": {
+      "overview": "Nicholas Carr examines how automation affects human skill and meaning.",
+      "key_takeaways": [
+        "Automation can deskill.",
+        "Friction has value.",
+        "Design should support agency."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780393351637",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780393351637"
+    },
+    "isbn_13": "9780393351637",
+    "publication_year": 2014,
+    "page_count": 288,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780393351637-L.jpg",
+    "id": "2026-10-31-97",
+    "slug": "the-glass-cage-how-our-computers-are-changing-us"
+  },
+  {
+    "title": "Utopia Is Creepy: And Other Provocations",
+    "author": "Nicholas Carr",
+    "genres_tags": [
+      "Technology",
+      "Essays",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.0,
+      "ratings_count": 5000,
+      "review_summary_highlights": [
+        "Praised for its skeptical tech essays.",
+        "Readers value the wit."
+      ]
+    },
+    "one_sentence_hook": "Tech utopianism deserves skepticism, and these essays deliver it.",
+    "summary": {
+      "overview": "Nicholas Carr collects essays critiquing digital utopianism.",
+      "key_takeaways": [
+        "Technology has trade-offs.",
+        "Skepticism is healthy.",
+        "Human values matter."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780393254549",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780393254549"
+    },
+    "isbn_13": "9780393254549",
+    "publication_year": 2016,
+    "page_count": 360,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780393254549-L.jpg",
+    "id": "2026-10-31-98",
+    "slug": "utopia-is-creepy-and-other-provocations"
+  },
+  {
+    "title": "Superintelligence: Paths, Dangers, Strategies",
+    "author": "Nick Bostrom",
+    "genres_tags": [
+      "Technology",
+      "Philosophy",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.0,
+      "ratings_count": 30000,
+      "review_summary_highlights": [
+        "Praised for its AI risk analysis.",
+        "Readers value the control problem."
+      ]
+    },
+    "one_sentence_hook": "Artificial superintelligence could be humanity's greatest triumph or final mistake.",
+    "summary": {
+      "overview": "Nick Bostrom analyzes the risks and governance of superintelligent AI.",
+      "key_takeaways": [
+        "AI alignment is critical.",
+        "Intelligence is not wisdom.",
+        "Control is hard."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9783518586129",
+      "worldcat_url": "https://search.worldcat.org/search?q=9783518586129"
+    },
+    "isbn_13": "9783518586129",
+    "publication_year": 2014,
+    "page_count": 352,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9783518586129-L.jpg",
+    "id": "2026-10-31-99",
+    "slug": "superintelligence-paths-dangers-strategies"
+  },
+  {
+    "title": "The Precipice: Existential Risk and the Future of Humanity",
+    "author": "Toby Ord",
+    "genres_tags": [
+      "Philosophy",
+      "Technology",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.2,
+      "ratings_count": 10000,
+      "review_summary_highlights": [
+        "Praised for its existential risk analysis.",
+        "Readers value the moral urgency."
+      ]
+    },
+    "one_sentence_hook": "Humanity's future is vast, but existential risks threaten to cut it short.",
+    "summary": {
+      "overview": "Toby Ord assesses existential risks and argues for safeguarding humanity's potential.",
+      "key_takeaways": [
+        "Existential risk is urgent.",
+        "Future generations matter.",
+        "Prevention is possible."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780316484923",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780316484923"
+    },
+    "isbn_13": "9780316484923",
+    "publication_year": 2020,
+    "page_count": 480,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780316484923-L.jpg",
+    "id": "2026-10-31-100",
+    "slug": "the-precipice-existential-risk-and-the-future-of-humanity"
+  },
+  {
+    "title": "What We Owe the Future",
+    "author": "William MacAskill",
+    "genres_tags": [
+      "Philosophy",
+      "Ethics",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.0,
+      "ratings_count": 15000,
+      "review_summary_highlights": [
+        "Praised for its longtermism argument.",
+        "Readers value the moral scope."
+      ]
+    },
+    "one_sentence_hook": "We owe future generations a serious effort to protect their potential.",
+    "summary": {
+      "overview": "William MacAskill argues for longtermism in moral decision-making.",
+      "key_takeaways": [
+        "Future people matter.",
+        "Our actions have long tails.",
+        "We can shape the future."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781541618626",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781541618626"
+    },
+    "isbn_13": "9781541618626",
+    "publication_year": 2022,
+    "page_count": 335,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781541618626-L.jpg",
+    "id": "2026-10-31-101",
+    "slug": "what-we-owe-the-future"
+  },
+  {
+    "title": "Doing Good Better",
+    "author": "William MacAskill",
+    "genres_tags": [
+      "Ethics",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.1,
+      "ratings_count": 10000,
+      "review_summary_highlights": [
+        "Praised for its effective altruism framework.",
+        "Readers value the practical approach."
+      ]
+    },
+    "one_sentence_hook": "Do the most good with your resources by using evidence and reason.",
+    "summary": {
+      "overview": "William MacAskill introduces effective altruism and how to maximize impact.",
+      "key_takeaways": [
+        "Evidence guides giving.",
+        "Counterfactuals matter.",
+        "Career choices are impactful."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781592409105",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781592409105"
+    },
+    "isbn_13": "9781592409105",
+    "publication_year": 2015,
+    "page_count": 272,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781592409105-L.jpg",
+    "id": "2026-10-31-102",
+    "slug": "doing-good-better"
+  },
+  {
+    "title": "The Most Good You Can Do",
+    "author": "Peter Singer",
+    "genres_tags": [
+      "Ethics",
+      "Philosophy",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.0,
+      "ratings_count": 8000,
+      "review_summary_highlights": [
+        "Praised for its effective altruism case.",
+        "Readers value the moral clarity."
+      ]
+    },
+    "one_sentence_hook": "Effective altruism asks how to do the most good, not just some good.",
+    "summary": {
+      "overview": "Peter Singer argues for effective altruism and evidence-based giving.",
+      "key_takeaways": [
+        "Effectiveness matters morally.",
+        "Give to effective charities.",
+        "Earn to give."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780300219869",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780300219869"
+    },
+    "isbn_13": "9780300219869",
+    "publication_year": 2015,
+    "page_count": 211,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780300219869-L.jpg",
+    "id": "2026-10-31-103",
+    "slug": "the-most-good-you-can-do"
+  },
+  {
+    "title": "The Life You Can Save",
+    "author": "Peter Singer",
+    "genres_tags": [
+      "Ethics",
+      "Philosophy",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.1,
+      "ratings_count": 10000,
+      "review_summary_highlights": [
+        "Praised for its moral argument on poverty.",
+        "Readers value the practical solutions."
+      ]
+    },
+    "one_sentence_hook": "Affluent people have a moral obligation to help those in extreme poverty.",
+    "summary": {
+      "overview": "Peter Singer argues that we should give more to combat global poverty.",
+      "key_takeaways": [
+        "Distance does not diminish obligation.",
+        "Small sacrifices can save lives.",
+        "Effective giving matters."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781588367792",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781588367792"
+    },
+    "isbn_13": "9781588367792",
+    "publication_year": 2009,
+    "page_count": 206,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781588367792-L.jpg",
+    "id": "2026-10-31-104",
+    "slug": "the-life-you-can-save"
+  },
+  {
+    "title": "Animal Liberation",
+    "author": "Peter Singer",
+    "genres_tags": [
+      "Ethics",
+      "Philosophy",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.1,
+      "ratings_count": 30000,
+      "review_summary_highlights": [
+        "Praised as the founding text of the animal rights movement.",
+        "Readers value the utilitarian argument."
+      ]
+    },
+    "one_sentence_hook": "The capacity to suffer, not species membership, should ground moral consideration.",
+    "summary": {
+      "overview": "Peter Singer argues for equal consideration of animal interests.",
+      "key_takeaways": [
+        "Suffering matters regardless of species.",
+        "Factory farming causes immense suffering.",
+        "Diet is an ethical choice."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780061711305",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780061711305"
+    },
+    "isbn_13": "9780061711305",
+    "publication_year": 1976,
+    "page_count": 384,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780061711305-L.jpg",
+    "id": "2026-10-31-105",
+    "slug": "animal-liberation"
+  },
+  {
+    "title": "Practical Ethics",
+    "author": "Peter Singer",
+    "genres_tags": [
+      "Ethics",
+      "Philosophy",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.0,
+      "ratings_count": 5000,
+      "review_summary_highlights": [
+        "Praised for its applied ethics.",
+        "Readers value the rigor."
+      ]
+    },
+    "one_sentence_hook": "A rigorous guide to applying ethics to real-world dilemmas.",
+    "summary": {
+      "overview": "Peter Singer applies utilitarian ethics to contemporary issues.",
+      "key_takeaways": [
+        "Ethics requires reasoning.",
+        "Interests matter equally.",
+        "Actions have consequences."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780521433631",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780521433631"
+    },
+    "isbn_13": "9780521433631",
+    "publication_year": 1979,
+    "page_count": 395,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780521433631-L.jpg",
+    "id": "2026-10-31-106",
+    "slug": "practical-ethics"
+  },
+  {
+    "title": "The Tyranny of Merit: What's Become of the Common Good?",
+    "author": "Michael J. Sandel",
+    "genres_tags": [
+      "Politics",
+      "Philosophy",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.1,
+      "ratings_count": 15000,
+      "review_summary_highlights": [
+        "Praised for its critique of meritocracy.",
+        "Readers value the dignity argument."
+      ]
+    },
+    "one_sentence_hook": "Meritocracy undermines the common good and the dignity of work.",
+    "summary": {
+      "overview": "Michael Sandel argues that meritocracy creates hubris and humiliation.",
+      "key_takeaways": [
+        "Merit is partly luck.",
+        "Dignity of work matters.",
+        "Common good requires solidarity."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780374289980",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780374289980"
+    },
+    "isbn_13": "9780374289980",
+    "publication_year": 2020,
+    "page_count": 272,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780374289980-L.jpg",
+    "id": "2026-10-31-107",
+    "slug": "the-tyranny-of-merit-what-s-become-of-the-common-good"
+  },
+  {
+    "title": "What Money Can't Buy: The Moral Limits of Markets",
+    "author": "Michael J. Sandel",
+    "genres_tags": [
+      "Ethics",
+      "Economics",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.0,
+      "ratings_count": 15000,
+      "review_summary_highlights": [
+        "Praised for its market-limits argument.",
+        "Readers value the moral questions."
+      ]
+    },
+    "one_sentence_hook": "Markets can crowd out moral values, and some things should not be for sale.",
+    "summary": {
+      "overview": "Michael Sandel examines the moral limits of markets.",
+      "key_takeaways": [
+        "Markets have moral limits.",
+        "Commodification corrupts values.",
+        "Civic life matters."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780374983918",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780374983918"
+    },
+    "isbn_13": "9780374983918",
+    "publication_year": 2011,
+    "page_count": 256,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780374983918-L.jpg",
+    "id": "2026-10-31-108",
+    "slug": "what-money-can-t-buy-the-moral-limits-of-markets"
+  },
+  {
+    "title": "The Feminine Mystique",
+    "author": "Betty Friedan",
+    "genres_tags": [
+      "History",
+      "Feminism",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.0,
+      "ratings_count": 30000,
+      "review_summary_highlights": [
+        "Praised as a catalyst of second-wave feminism.",
+        "Readers value the problem that has no name."
+      ]
+    },
+    "one_sentence_hook": "The suburban housewife's unhappiness had a name and a cause.",
+    "summary": {
+      "overview": "Betty Friedan identifies the dissatisfaction of educated housewives and its social roots.",
+      "key_takeaways": [
+        "Women's roles were socially constrained.",
+        "Meaningful work matters.",
+        "Feminism is a liberation movement."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780393086850",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780393086850"
+    },
+    "isbn_13": "9780393086850",
+    "publication_year": 1963,
+    "page_count": 430,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780393086850-L.jpg",
+    "id": "2026-10-31-109",
+    "slug": "the-feminine-mystique"
+  },
+  {
+    "title": "A Room of One's Own",
+    "author": "Virginia Woolf",
+    "genres_tags": [
+      "Essays",
+      "Feminism",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.2,
+      "ratings_count": 100000,
+      "review_summary_highlights": [
+        "Praised for its argument on women and creativity.",
+        "Readers value the prose."
+      ]
+    },
+    "one_sentence_hook": "Women need money and space to create, and history denied them both.",
+    "summary": {
+      "overview": "Virginia Woolf argues that women need financial independence and a room of their own to write.",
+      "key_takeaways": [
+        "Material conditions shape creativity.",
+        "Gender inequality is structural.",
+        "Freedom requires resources."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781544183572",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781544183572"
+    },
+    "isbn_13": "9781544183572",
+    "publication_year": 1989,
+    "page_count": 94,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781544183572-L.jpg",
+    "id": "2026-10-31-110",
+    "slug": "a-room-of-one-s-own"
+  },
+  {
+    "title": "Three Guineas",
+    "author": "Virginia Woolf",
+    "genres_tags": [
+      "Essays",
+      "Feminism",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.0,
+      "ratings_count": 5000,
+      "review_summary_highlights": [
+        "Praised for its anti-war and feminist argument.",
+        "Readers value the essay form."
+      ]
+    },
+    "one_sentence_hook": "How should women respond to war and patriarchy?",
+    "summary": {
+      "overview": "Virginia Woolf examines war, fascism, and women's education.",
+      "key_takeaways": [
+        "Patriarchy and war are linked.",
+        "Education is liberation.",
+        "Women must define their own response."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780156901772",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780156901772"
+    },
+    "isbn_13": "9780156901772",
+    "publication_year": 1938,
+    "page_count": 192,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780156901772-L.jpg",
+    "id": "2026-10-31-111",
+    "slug": "three-guineas"
+  },
+  {
+    "title": "Ain't I a Woman: Black Women and Feminism",
+    "author": "bell hooks",
+    "genres_tags": [
+      "Feminism",
+      "Race",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.3,
+      "ratings_count": 15000,
+      "review_summary_highlights": [
+        "Praised for its foundational intersectional critique.",
+        "Readers value the directness."
+      ]
+    },
+    "one_sentence_hook": "Black women's experiences were erased from mainstream feminism, and that history still matters.",
+    "summary": {
+      "overview": "bell hooks examines the exclusion of Black women from feminist movements.",
+      "key_takeaways": [
+        "Race and gender intersect.",
+        "Feminism must be inclusive.",
+        "History of erasure persists."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780896081284",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780896081284"
+    },
+    "isbn_13": "9780896081284",
+    "publication_year": 1981,
+    "page_count": 205,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780896081284-L.jpg",
+    "id": "2026-10-31-112",
+    "slug": "ain-t-i-a-woman-black-women-and-feminism"
+  },
+  {
+    "title": "The Will to Change: Men, Masculinity, and Love",
+    "author": "bell hooks",
+    "genres_tags": [
+      "Feminism",
+      "Psychology",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.2,
+      "ratings_count": 10000,
+      "review_summary_highlights": [
+        "Praised for its compassionate approach to masculinity.",
+        "Readers value the love ethic."
+      ]
+    },
+    "one_sentence_hook": "Men need love and emotional expression, and patriarchy denies them both.",
+    "summary": {
+      "overview": "bell hooks argues that patriarchy harms men and proposes love as transformation.",
+      "key_takeaways": [
+        "Patriarchy damages men.",
+        "Emotional openness is strength.",
+        "Love is political."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780743456081",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780743456081"
+    },
+    "isbn_13": "9780743456081",
+    "publication_year": 2004,
+    "page_count": 188,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780743456081-L.jpg",
+    "id": "2026-10-31-113",
+    "slug": "the-will-to-change-men-masculinity-and-love"
+  },
+  {
+    "title": "Teaching to Transgress: Education as the Practice of Freedom",
+    "author": "bell hooks",
+    "genres_tags": [
+      "Education",
+      "Feminism",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.3,
+      "ratings_count": 10000,
+      "review_summary_highlights": [
+        "Praised for its engaged pedagogy.",
+        "Readers value the liberation focus."
+      ]
+    },
+    "one_sentence_hook": "Education should liberate, not indoctrinate.",
+    "summary": {
+      "overview": "bell hooks presents engaged pedagogy as a practice of freedom.",
+      "key_takeaways": [
+        "Education is liberation.",
+        "Teachers and students co-create.",
+        "Critical thinking matters."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780203700280",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780203700280"
+    },
+    "isbn_13": "9780203700280",
+    "publication_year": 1994,
+    "page_count": 216,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780203700280-L.jpg",
+    "id": "2026-10-31-114",
+    "slug": "teaching-to-transgress-education-as-the-practice-of-freedom"
+  },
+  {
+    "title": "All About Love: New Visions",
+    "author": "bell hooks",
+    "genres_tags": [
+      "Relationships",
+      "Philosophy",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.4,
+      "ratings_count": 60000,
+      "review_summary_highlights": [
+        "Praised for its expansive definition of love.",
+        "Readers value the honesty."
+      ]
+    },
+    "one_sentence_hook": "Love is a practice, not a feeling, and it requires justice.",
+    "summary": {
+      "overview": "bell hooks explores love as an action and ethical practice.",
+      "key_takeaways": [
+        "Love is a verb.",
+        "Love requires honesty.",
+        "Self-love is foundational."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780688168445",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780688168445"
+    },
+    "isbn_13": "9780688168445",
+    "publication_year": 2000,
+    "page_count": 239,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780688168445-L.jpg",
+    "id": "2026-10-31-115",
+    "slug": "all-about-love-new-visions"
+  },
+  {
+    "title": "Communion: The Female Search for Love",
+    "author": "bell hooks",
+    "genres_tags": [
+      "Relationships",
+      "Feminism",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.2,
+      "ratings_count": 5000,
+      "review_summary_highlights": [
+        "Praised for its honest look at women and love.",
+        "Readers value the insight."
+      ]
+    },
+    "one_sentence_hook": "Women's search for love is shaped by patriarchy and can be reclaimed.",
+    "summary": {
+      "overview": "bell hooks examines women's search for love and connection.",
+      "key_takeaways": [
+        "Patriarchy distorts love.",
+        "Self-knowledge is key.",
+        "Love requires equality."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780704347588",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780704347588"
+    },
+    "isbn_13": "9780704347588",
+    "publication_year": 2002,
+    "page_count": 272,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780704347588-L.jpg",
+    "id": "2026-10-31-116",
+    "slug": "communion-the-female-search-for-love"
+  },
+  {
+    "title": "The Uses of Enchantment: The Meaning and Importance of Fairy Tales",
+    "author": "Bruno Bettelheim",
+    "genres_tags": [
+      "Psychology",
+      "Literature",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.1,
+      "ratings_count": 10000,
+      "review_summary_highlights": [
+        "Praised for its psychoanalytic reading of fairy tales.",
+        "Readers value the child development insights."
+      ]
+    },
+    "one_sentence_hook": "Fairy tales help children process existential fears and develop identity.",
+    "summary": {
+      "overview": "Bruno Bettelheim argues that fairy tales are vital for emotional development.",
+      "key_takeaways": [
+        "Stories help children cope.",
+        "Symbols carry meaning.",
+        "Fairy tales address real fears."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780307773524",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780307773524"
+    },
+    "isbn_13": "9780307773524",
+    "publication_year": 2010,
+    "page_count": 343,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780307773524-L.jpg",
+    "id": "2026-10-31-117",
+    "slug": "the-uses-of-enchantment-the-meaning-and-importance-of-fairy-tales"
+  },
+  {
+    "title": "The Denial of Death",
+    "author": "Ernest Becker",
+    "genres_tags": [
+      "Psychology",
+      "Philosophy",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.2,
+      "ratings_count": 20000,
+      "review_summary_highlights": [
+        "Praised for its death-denial thesis.",
+        "Readers value the cultural analysis."
+      ]
+    },
+    "one_sentence_hook": "Much of human culture is a response to the terror of death.",
+    "summary": {
+      "overview": "Ernest Becker argues that fear of death drives human behavior and culture.",
+      "key_takeaways": [
+        "Death anxiety is universal.",
+        "Culture provides meaning.",
+        "Heroism is a response."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780844669328",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780844669328"
+    },
+    "isbn_13": "9780844669328",
+    "publication_year": 1973,
+    "page_count": 314,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780844669328-L.jpg",
+    "id": "2026-10-31-118",
+    "slug": "the-denial-of-death"
+  },
+  {
+    "title": "Escape from Evil",
+    "author": "Ernest Becker",
+    "genres_tags": [
+      "Psychology",
+      "Philosophy",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.1,
+      "ratings_count": 3000,
+      "review_summary_highlights": [
+        "Praised for its follow-up to Denial of Death.",
+        "Readers value the evil analysis."
+      ]
+    },
+    "one_sentence_hook": "Evil arises from the human need to escape death anxiety.",
+    "summary": {
+      "overview": "Ernest Becker explores how death denial contributes to evil.",
+      "key_takeaways": [
+        "Evil has psychological roots.",
+        "Death anxiety drives harm.",
+        "Awareness is healing."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780029024508",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780029024508"
+    },
+    "isbn_13": "9780029024508",
+    "publication_year": 1975,
+    "page_count": 188,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780029024508-L.jpg",
+    "id": "2026-10-31-119",
+    "slug": "escape-from-evil"
+  },
+  {
+    "title": "The Anatomy of Human Destructiveness",
+    "author": "Erich Fromm",
+    "genres_tags": [
+      "Psychology",
+      "Philosophy",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.1,
+      "ratings_count": 5000,
+      "review_summary_highlights": [
+        "Praised for its analysis of aggression.",
+        "Readers value the humanistic perspective."
+      ]
+    },
+    "one_sentence_hook": "Human destructiveness is not innate but shaped by society and character.",
+    "summary": {
+      "overview": "Erich Fromm examines the roots of human aggression and destructiveness.",
+      "key_takeaways": [
+        "Aggression has social roots.",
+        "Character shapes violence.",
+        "Humanism offers alternatives."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780030184512",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780030184512"
+    },
+    "isbn_13": "9780030184512",
+    "publication_year": 1973,
+    "page_count": 448,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780030184512-L.jpg",
+    "id": "2026-10-31-120",
+    "slug": "the-anatomy-of-human-destructiveness"
+  },
+  {
+    "title": "The Art of Loving",
+    "author": "Erich Fromm",
+    "genres_tags": [
+      "Psychology",
+      "Philosophy",
+      "Relationships",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.1,
+      "ratings_count": 60000,
+      "review_summary_highlights": [
+        "Praised for its view of love as an art.",
+        "Readers value the practical guidance."
+      ]
+    },
+    "one_sentence_hook": "Love is an art that requires knowledge, effort, and practice.",
+    "summary": {
+      "overview": "Erich Fromm argues that love is an active practice, not a passive feeling.",
+      "key_takeaways": [
+        "Love is an art.",
+        "Self-love is essential.",
+        "Practice makes love real."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780060113759",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780060113759"
+    },
+    "isbn_13": "9780060113759",
+    "publication_year": 1956,
+    "page_count": 133,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780060113759-L.jpg",
+    "id": "2026-10-31-121",
+    "slug": "the-art-of-loving"
+  },
+  {
+    "title": "Escape from Freedom",
+    "author": "Erich Fromm",
+    "genres_tags": [
+      "Psychology",
+      "Politics",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.2,
+      "ratings_count": 15000,
+      "review_summary_highlights": [
+        "Praised for its analysis of freedom and authoritarianism.",
+        "Readers value the historical insight."
+      ]
+    },
+    "one_sentence_hook": "Modern freedom can be frightening, and people sometimes escape into conformity.",
+    "summary": {
+      "overview": "Erich Fromm explores the psychological appeal of authoritarianism.",
+      "key_takeaways": [
+        "Freedom creates anxiety.",
+        "Conformity is an escape.",
+        "Democracy requires maturity."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780030184413",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780030184413"
+    },
+    "isbn_13": "9780030184413",
+    "publication_year": 1941,
+    "page_count": 305,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780030184413-L.jpg",
+    "id": "2026-10-31-122",
+    "slug": "escape-from-freedom"
+  },
+  {
+    "title": "The Sane Society",
+    "author": "Erich Fromm",
+    "genres_tags": [
+      "Psychology",
+      "Politics",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.1,
+      "ratings_count": 5000,
+      "review_summary_highlights": [
+        "Praised for its social critique.",
+        "Readers value the humanistic psychology."
+      ]
+    },
+    "one_sentence_hook": "A society can be insane even when its members adapt to it.",
+    "summary": {
+      "overview": "Erich Fromm critiques modern society and argues for humanistic renewal.",
+      "key_takeaways": [
+        "Adaptation is not sanity.",
+        "Alienation harms.",
+        "Humanism offers a path."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781439509791",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781439509791"
+    },
+    "isbn_13": "9781439509791",
+    "publication_year": 1955,
+    "page_count": 390,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781439509791-L.jpg",
+    "id": "2026-10-31-123",
+    "slug": "the-sane-society"
+  },
+  {
+    "title": "Man for Himself: An Inquiry into the Psychology of Ethics",
+    "author": "Erich Fromm",
+    "genres_tags": [
+      "Psychology",
+      "Ethics",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.1,
+      "ratings_count": 4000,
+      "review_summary_highlights": [
+        "Praised for its humanistic ethics.",
+        "Readers value the character analysis."
+      ]
+    },
+    "one_sentence_hook": "Ethics should be grounded in human nature and flourishing.",
+    "summary": {
+      "overview": "Erich Fromm develops a humanistic ethics based on character.",
+      "key_takeaways": [
+        "Ethics is human-centered.",
+        "Character matters.",
+        "Flourishing is the goal."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780710070401",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780710070401"
+    },
+    "isbn_13": "9780710070401",
+    "publication_year": 1947,
+    "page_count": 255,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780710070401-L.jpg",
+    "id": "2026-10-31-124",
+    "slug": "man-for-himself-an-inquiry-into-the-psychology-of-ethics"
+  },
+  {
+    "title": "The Heart of Man: Its Genius for Good and Evil",
+    "author": "Erich Fromm",
+    "genres_tags": [
+      "Psychology",
+      "Ethics",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.1,
+      "ratings_count": 3000,
+      "review_summary_highlights": [
+        "Praised for its moral psychology.",
+        "Readers value the good and evil analysis."
+      ]
+    },
+    "one_sentence_hook": "Human nature contains both good and evil, and choice determines which grows.",
+    "summary": {
+      "overview": "Erich Fromm examines the human capacity for good and evil.",
+      "key_takeaways": [
+        "Good and evil coexist.",
+        "Choice matters.",
+        "Love counters destructiveness."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780060907952",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780060907952"
+    },
+    "isbn_13": "9780060907952",
+    "publication_year": 1964,
+    "page_count": 160,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780060907952-L.jpg",
+    "id": "2026-10-31-125",
+    "slug": "the-heart-of-man-its-genius-for-good-and-evil"
+  },
+  {
+    "title": "The Forgotten Language: An Introduction to the Understanding of Dreams, Fairy Tales, and Myths",
+    "author": "Erich Fromm",
+    "genres_tags": [
+      "Psychology",
+      "Literature",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.0,
+      "ratings_count": 3000,
+      "review_summary_highlights": [
+        "Praised for its symbolic analysis.",
+        "Readers value the dream interpretation."
+      ]
+    },
+    "one_sentence_hook": "Dreams, myths, and fairy tales share a symbolic language worth learning.",
+    "summary": {
+      "overview": "Erich Fromm introduces the symbolic language of dreams and myths.",
+      "key_takeaways": [
+        "Symbols carry meaning.",
+        "Dreams reveal concerns.",
+        "Myths are universal."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780802130501",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780802130501"
+    },
+    "isbn_13": "9780802130501",
+    "publication_year": 1951,
+    "page_count": 263,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780802130501-L.jpg",
+    "id": "2026-10-31-126",
+    "slug": "the-forgotten-language-an-introduction-to-the-understanding-of-dreams-fairy-tales-and-myths"
+  },
+  {
+    "title": "Beyond the Chains of Illusion: My Encounter with Marx and Freud",
+    "author": "Erich Fromm",
+    "genres_tags": [
+      "Psychology",
+      "Philosophy",
+      "Memoir",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.1,
+      "ratings_count": 3000,
+      "review_summary_highlights": [
+        "Praised for its intellectual autobiography.",
+        "Readers value the synthesis."
+      ]
+    },
+    "one_sentence_hook": "Fromm's intellectual journey through Marx and Freud.",
+    "summary": {
+      "overview": "Erich Fromm reflects on his encounters with Marx and Freud.",
+      "key_takeaways": [
+        "Ideas shape lives.",
+        "Synthesis is possible.",
+        "Critical thinking matters."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780671085353",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780671085353"
+    },
+    "isbn_13": "9780671085353",
+    "publication_year": 1962,
+    "page_count": 182,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780671085353-L.jpg",
+    "id": "2026-10-31-127",
+    "slug": "beyond-the-chains-of-illusion-my-encounter-with-marx-and-freud"
+  },
+  {
+    "title": "An Anthropologist on Mars: Seven Paradoxical Tales",
+    "author": "Oliver Sacks",
+    "genres_tags": [
+      "Neuroscience",
+      "Psychology",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.15,
+      "ratings_count": 40000,
+      "review_summary_highlights": [
+        "Praised for its compassionate portraits of neurological difference.",
+        "Readers value the reflections on identity and adaptation."
+      ]
+    },
+    "one_sentence_hook": "Seven people with remarkable neurological conditions show how the brain adapts and defines identity.",
+    "summary": {
+      "overview": "Oliver Sacks profiles seven individuals with neurological conditions, exploring how they adapt and what their experiences reveal about the human brain.",
+      "key_takeaways": [
+        "Neurological difference reshapes identity.",
+        "Adaptation is a creative process.",
+        "The brain's plasticity is profound."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780330357180",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780330357180"
+    },
+    "isbn_13": "9780330357180",
+    "publication_year": 1995,
+    "page_count": 351,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780330357180-L.jpg",
+    "id": "2026-10-31",
+    "slug": "an-anthropologist-on-mars-seven-paradoxical-tales"
+  },
+  {
+    "title": "Seeing Voices: A Journey into the World of the Deaf",
+    "author": "Oliver Sacks",
+    "genres_tags": [
+      "Neuroscience",
+      "Language",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.0,
+      "ratings_count": 12000,
+      "review_summary_highlights": [
+        "Praised for its exploration of sign language and deaf culture.",
+        "Readers value the linguistic insights."
+      ]
+    },
+    "one_sentence_hook": "Sign language is a full language, and deaf culture a complete world, not a deficit.",
+    "summary": {
+      "overview": "Oliver Sacks explores deaf culture, sign language, and the neuroscience of language acquisition.",
+      "key_takeaways": [
+        "Sign language has full linguistic structure.",
+        "Early language exposure is critical.",
+        "Deaf culture is rich and distinct."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780060973476",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780060973476"
+    },
+    "isbn_13": "9780060973476",
+    "publication_year": 1989,
+    "page_count": 186,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780060973476-L.jpg",
+    "id": "2026-10-31-2",
+    "slug": "seeing-voices-a-journey-into-the-world-of-the-deaf"
+  },
+  {
+    "title": "The River of Consciousness",
+    "author": "Oliver Sacks",
+    "genres_tags": [
+      "Neuroscience",
+      "Essays",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.1,
+      "ratings_count": 8000,
+      "review_summary_highlights": [
+        "Praised for its final essays on time, creativity, and consciousness.",
+        "Readers value the breadth."
+      ]
+    },
+    "one_sentence_hook": "A final collection of essays on consciousness, creativity, and the passage of time.",
+    "summary": {
+      "overview": "Oliver Sacks's last essays explore evolution, creativity, memory, and the nature of consciousness.",
+      "key_takeaways": [
+        "Consciousness is a flowing process.",
+        "Creativity arises from unconscious incubation.",
+        "Memory is reconstructive."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781447263661",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781447263661"
+    },
+    "isbn_13": "9781447263661",
+    "publication_year": 2017,
+    "page_count": 232,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781447263661-L.jpg",
+    "id": "2026-10-31-3",
+    "slug": "the-river-of-consciousness"
+  },
+  {
+    "title": "Being Mortal: Medicine and What Matters in the End",
+    "author": "Atul Gawande",
+    "genres_tags": [
+      "Medicine",
+      "Aging",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.3,
+      "ratings_count": 150000,
+      "review_summary_highlights": [
+        "Praised for its humane approach to end-of-life care.",
+        "Readers value the questions about priorities."
+      ]
+    },
+    "one_sentence_hook": "Modern medicine can extend life but often at the cost of living well; we need a better conversation about the end.",
+    "summary": {
+      "overview": "Atul Gawande examines how medicine handles aging and dying and argues for prioritizing quality of life.",
+      "key_takeaways": [
+        "Independence and meaning matter more than longevity alone.",
+        "Hospice can improve final days.",
+        "Ask what patients value most."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781627790550",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781627790550"
+    },
+    "isbn_13": "9781627790550",
+    "publication_year": 2014,
+    "page_count": 283,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781627790550-L.jpg",
+    "id": "2026-10-31-4",
+    "slug": "being-mortal-medicine-and-what-matters-in-the-end"
+  },
+  {
+    "title": "The Checklist Manifesto: How to Get Things Right",
+    "author": "Atul Gawande",
+    "genres_tags": [
+      "Medicine",
+      "Management",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.0,
+      "ratings_count": 80000,
+      "review_summary_highlights": [
+        "Praised for showing checklists save lives.",
+        "Readers value the aviation and construction examples."
+      ]
+    },
+    "one_sentence_hook": "Simple checklists dramatically reduce errors in complex, high-stakes work.",
+    "summary": {
+      "overview": "Atul Gawande argues that checklists improve outcomes in surgery, aviation, and construction by catching human error.",
+      "key_takeaways": [
+        "Complexity exceeds individual memory.",
+        "Checklists standardize the critical steps.",
+        "Team communication is part of the checklist."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781846683138",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781846683138"
+    },
+    "isbn_13": "9781846683138",
+    "publication_year": 2010,
+    "page_count": 209,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781846683138-L.jpg",
+    "id": "2026-10-31-5",
+    "slug": "the-checklist-manifesto-how-to-get-things-right"
+  },
+  {
+    "title": "The Hot Zone: The Terrifying True Story of the Origins of the Ebola Virus",
+    "author": "Richard Preston",
+    "genres_tags": [
+      "Science",
+      "Medicine",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.1,
+      "ratings_count": 120000,
+      "review_summary_highlights": [
+        "Praised for its gripping account of Ebola outbreaks.",
+        "Readers note the terrifying but compelling narrative."
+      ]
+    },
+    "one_sentence_hook": "The true story of Ebola's emergence and the scientists who fought to contain it.",
+    "summary": {
+      "overview": "Richard Preston chronicles the origins and outbreaks of the Ebola virus, following researchers who confronted it.",
+      "key_takeaways": [
+        "Emerging viruses cross from animals to humans rapidly.",
+        "Containment depends on rapid identification.",
+        "Scientific courage shapes outcomes."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780552171649",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780552171649"
+    },
+    "isbn_13": "9780552171649",
+    "publication_year": 1994,
+    "page_count": 384,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780552171649-L.jpg",
+    "id": "2026-10-31-6",
+    "slug": "the-hot-zone-the-terrifying-true-story-of-the-origins-of-the-ebola-virus"
+  },
+  {
+    "title": "Crisis in the Red Zone: The Story of the Deadliest Ebola Outbreak in History, and of the Outbreaks to Come",
+    "author": "Richard Preston",
+    "genres_tags": [
+      "Science",
+      "Medicine",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.2,
+      "ratings_count": 15000,
+      "review_summary_highlights": [
+        "Praised for its follow-up to The Hot Zone.",
+        "Readers value the updates on Ebola research."
+      ]
+    },
+    "one_sentence_hook": "The deadliest Ebola outbreak in history and what it reveals about future pandemics.",
+    "summary": {
+      "overview": "Richard Preston returns to Ebola, covering the 2014 West African outbreak and the race for treatments.",
+      "key_takeaways": [
+        "Outbreaks expose weak health systems.",
+        "Research and response must move faster.",
+        "Zoonotic threats are increasing."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780812998832",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780812998832"
+    },
+    "isbn_13": "9780812998832",
+    "publication_year": 2019,
+    "page_count": 375,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780812998832-L.jpg",
+    "id": "2026-10-31-7",
+    "slug": "crisis-in-the-red-zone-the-story-of-the-deadliest-ebola-outbreak-in-history-and-of-the-outbreaks-to-come"
+  },
+  {
+    "title": "The Demon in the Freezer: A True Story",
+    "author": "Richard Preston",
+    "genres_tags": [
+      "Science",
+      "Medicine",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.0,
+      "ratings_count": 25000,
+      "review_summary_highlights": [
+        "Praised for its account of smallpox and bioterrorism.",
+        "Readers value the biosecurity warnings."
+      ]
+    },
+    "one_sentence_hook": "Smallpox was eradicated, but the virus and the fear of it remain.",
+    "summary": {
+      "overview": "Richard Preston explores the history of smallpox, its eradication, and the lingering threat of bioterrorism.",
+      "key_takeaways": [
+        "Eradication is fragile without vigilance.",
+        "Bioterrorism is a real threat.",
+        "Public health preparedness matters."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780375431869",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780375431869"
+    },
+    "isbn_13": "9780375431869",
+    "publication_year": 2002,
+    "page_count": 432,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780375431869-L.jpg",
+    "id": "2026-10-31-8",
+    "slug": "the-demon-in-the-freezer-a-true-story"
+  },
+  {
+    "title": "Pandemic: Tracking Contagions, from Cholera to Ebola and Beyond",
+    "author": "Sonia Shah",
+    "genres_tags": [
+      "Science",
+      "Medicine",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.0,
+      "ratings_count": 12000,
+      "review_summary_highlights": [
+        "Praised for its exploration of disease emergence.",
+        "Readers value the historical breadth."
+      ]
+    },
+    "one_sentence_hook": "How and why new diseases emerge, and what we can do to prevent the next pandemic.",
+    "summary": {
+      "overview": "Sonia Shah examines the factors behind disease outbreaks and the systems that enable them.",
+      "key_takeaways": [
+        "Human activity drives disease emergence.",
+        "Surveillance is critical.",
+        "Prevention is cheaper than response."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781250118004",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781250118004"
+    },
+    "isbn_13": "9781250118004",
+    "publication_year": 2016,
+    "page_count": 288,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781250118004-L.jpg",
+    "id": "2026-10-31-9",
+    "slug": "pandemic-tracking-contagions-from-cholera-to-ebola-and-beyond"
+  },
+  {
+    "title": "The Fever: How Malaria Has Ruled Humankind for 500,000 Years",
+    "author": "Sonia Shah",
+    "genres_tags": [
+      "Science",
+      "Medicine",
+      "History",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.0,
+      "ratings_count": 8000,
+      "review_summary_highlights": [
+        "Praised for its history of malaria.",
+        "Readers value the parasite's perspective."
+      ]
+    },
+    "one_sentence_hook": "Malaria has shaped human history for half a million years and still kills hundreds of thousands annually.",
+    "summary": {
+      "overview": "Sonia Shah traces malaria's impact on human history and the ongoing struggle to control it.",
+      "key_takeaways": [
+        "Malaria shaped civilizations and wars.",
+        "The parasite is evolutionarily sophisticated.",
+        "Control requires sustained effort."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780374230012",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780374230012"
+    },
+    "isbn_13": "9780374230012",
+    "publication_year": 2010,
+    "page_count": 307,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780374230012-L.jpg",
+    "id": "2026-10-31-10",
+    "slug": "the-fever-how-malaria-has-ruled-humankind-for-500-000-years"
+  },
+  {
+    "title": "The Next Pandemic: On the Front Lines Against Humankind's Gravest Dangers",
+    "author": "Ali S. Khan",
+    "genres_tags": [
+      "Medicine",
+      "Public Health",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.1,
+      "ratings_count": 6000,
+      "review_summary_highlights": [
+        "Praised for its insider view of disease detection.",
+        "Readers value the preparedness lessons."
+      ]
+    },
+    "one_sentence_hook": "A disease detective's account of tracking outbreaks and preparing for the next one.",
+    "summary": {
+      "overview": "Ali Khan shares experiences from the CDC's disease detective corps and the realities of outbreak response.",
+      "key_takeaways": [
+        "Early detection saves lives.",
+        "Preparedness is underfunded.",
+        "Global cooperation is essential."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781610395915",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781610395915"
+    },
+    "isbn_13": "9781610395915",
+    "publication_year": 2016,
+    "page_count": 275,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781610395915-L.jpg",
+    "id": "2026-10-31-11",
+    "slug": "the-next-pandemic-on-the-front-lines-against-humankind-s-gravest-dangers"
+  },
+  {
+    "title": "The Tangled Tree: A Radical New History of Life",
+    "author": "David Quammen",
+    "genres_tags": [
+      "Science",
+      "Biology",
+      "History",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.1,
+      "ratings_count": 8000,
+      "review_summary_highlights": [
+        "Praised for its revision of the tree of life.",
+        "Readers value the horizontal gene transfer story."
+      ]
+    },
+    "one_sentence_hook": "The tree of life is not a tree but a tangled web, and horizontal gene transfer rewrites evolution.",
+    "summary": {
+      "overview": "David Quammen traces the discovery of horizontal gene transfer and its challenge to the tree of life.",
+      "key_takeaways": [
+        "Genes move sideways between species.",
+        "Microbes dominate evolutionary history.",
+        "The tree of life is a web."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781476776620",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781476776620"
+    },
+    "isbn_13": "9781476776620",
+    "publication_year": 2018,
+    "page_count": 461,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781476776620-L.jpg",
+    "id": "2026-10-31-12",
+    "slug": "the-tangled-tree-a-radical-new-history-of-life"
+  },
+  {
+    "title": "Breath: The New Science of a Lost Art",
+    "author": "James Nestor",
+    "genres_tags": [
+      "Health",
+      "Science",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.2,
+      "ratings_count": 80000,
+      "review_summary_highlights": [
+        "Praised for its exploration of breathing practices.",
+        "Readers value the practical techniques."
+      ]
+    },
+    "one_sentence_hook": "How we breathe affects everything, and modern habits have made us worse at it.",
+    "summary": {
+      "overview": "James Nestor investigates the science of breathing and how changing how we breathe can improve health.",
+      "key_takeaways": [
+        "Nasal breathing has benefits.",
+        "Slow breathing calms the nervous system.",
+        "Breath is a trainable skill."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780241289082",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780241289082"
+    },
+    "isbn_13": "9780241289082",
+    "publication_year": 2020,
+    "page_count": 336,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780241289082-L.jpg",
+    "id": "2026-10-31-13",
+    "slug": "breath-the-new-science-of-a-lost-art"
+  },
+  {
+    "title": "Why We Sleep: Unlocking the Power of Sleep and Dreams",
+    "author": "Matthew Walker",
+    "genres_tags": [
+      "Science",
+      "Health",
+      "Neuroscience",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.4,
+      "ratings_count": 200000,
+      "review_summary_highlights": [
+        "Praised for its urgent case for sleep.",
+        "Readers value the science of dreams."
+      ]
+    },
+    "one_sentence_hook": "Sleep is not optional; it is the foundation of health, memory, and longevity.",
+    "summary": {
+      "overview": "Matthew Walker explains the science of sleep and dreams and the devastating effects of sleep deprivation.",
+      "key_takeaways": [
+        "Sleep consolidates memory.",
+        "Deprivation harms nearly every system.",
+        "Dreams serve emotional processing."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780141983769",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780141983769"
+    },
+    "isbn_13": "9780141983769",
+    "publication_year": 2017,
+    "page_count": 360,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780141983769-L.jpg",
+    "id": "2026-10-31-14",
+    "slug": "why-we-sleep-unlocking-the-power-of-sleep-and-dreams"
+  },
+  {
+    "title": "Lost Connections: Uncovering the Real Causes of Depression",
+    "author": "Johann Hari",
+    "genres_tags": [
+      "Psychology",
+      "Mental Health",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.2,
+      "ratings_count": 60000,
+      "review_summary_highlights": [
+        "Praised for its social model of depression.",
+        "Readers value the reconnection theme."
+      ]
+    },
+    "one_sentence_hook": "Depression is not just a chemical imbalance; it is often a response to disconnection.",
+    "summary": {
+      "overview": "Johann Hari argues that depression stems from lost connections to people, meaningful work, values, and nature.",
+      "key_takeaways": [
+        "Social disconnection drives depression.",
+        "Work and values matter for mental health.",
+        "Reconnection is therapeutic."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781408878682",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781408878682"
+    },
+    "isbn_13": "9781408878682",
+    "publication_year": 2018,
+    "page_count": 336,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781408878682-L.jpg",
+    "id": "2026-10-31-15",
+    "slug": "lost-connections-uncovering-the-real-causes-of-depression"
+  },
+  {
+    "title": "An Unquiet Mind: A Memoir of Moods and Madness",
+    "author": "Kay Redfield Jamison",
+    "genres_tags": [
+      "Memoir",
+      "Mental Health",
+      "Psychology",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.2,
+      "ratings_count": 80000,
+      "review_summary_highlights": [
+        "Praised for its insider account of bipolar disorder.",
+        "Readers value the clinician-patient duality."
+      ]
+    },
+    "one_sentence_hook": "A clinical psychologist's memoir of living with bipolar disorder.",
+    "summary": {
+      "overview": "Kay Redfield Jamison writes about her experience with bipolar disorder as both a patient and a clinician.",
+      "key_takeaways": [
+        "Mania and depression are two poles of one illness.",
+        "Treatment enables a full life.",
+        "Stigma delays help."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780330346504",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780330346504"
+    },
+    "isbn_13": "9780330346504",
+    "publication_year": 1995,
+    "page_count": 224,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780330346504-L.jpg",
+    "id": "2026-10-31-16",
+    "slug": "an-unquiet-mind-a-memoir-of-moods-and-madness"
+  },
+  {
+    "title": "The Center Cannot Hold: My Journey Through Madness",
+    "author": "Elyn R. Saks",
+    "genres_tags": [
+      "Memoir",
+      "Mental Health",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.2,
+      "ratings_count": 25000,
+      "review_summary_highlights": [
+        "Praised for its account of schizophrenia and recovery.",
+        "Readers value the academic achievement."
+      ]
+    },
+    "one_sentence_hook": "A law professor's memoir of living with schizophrenia and achieving despite it.",
+    "summary": {
+      "overview": "Elyn Saks describes her experience with schizophrenia and her path to a successful academic career.",
+      "key_takeaways": [
+        "Schizophrenia is manageable with treatment.",
+        "Stigma is a major barrier.",
+        "Work and purpose aid recovery."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781401389314",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781401389314"
+    },
+    "isbn_13": "9781401389314",
+    "publication_year": 2007,
+    "page_count": 352,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781401389314-L.jpg",
+    "id": "2026-10-31-17",
+    "slug": "the-center-cannot-hold-my-journey-through-madness"
+  },
+  {
+    "title": "The Man Who Couldn't Stop: OCD and the True Story of a Life Lost in Thought",
+    "author": "David Adam",
+    "genres_tags": [
+      "Psychology",
+      "Mental Health",
+      "Memoir",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.0,
+      "ratings_count": 8000,
+      "review_summary_highlights": [
+        "Praised for its blend of memoir and science.",
+        "Readers value the demystification of OCD."
+      ]
+    },
+    "one_sentence_hook": "OCD is not about cleanliness; it is about intrusive thoughts and the trap of trying to neutralize them.",
+    "summary": {
+      "overview": "David Adam combines his own OCD experience with the science of the condition.",
+      "key_takeaways": [
+        "OCD involves intrusive thoughts and compulsions.",
+        "The brain's error-detection system misfires.",
+        "Exposure therapy is effective."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780374223953",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780374223953"
+    },
+    "isbn_13": "9780374223953",
+    "publication_year": 2015,
+    "page_count": 324,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780374223953-L.jpg",
+    "id": "2026-10-31-18",
+    "slug": "the-man-who-couldn-t-stop-ocd-and-the-true-story-of-a-life-lost-in-thought"
+  },
+  {
+    "title": "Wherever You Go, There You Are: Mindfulness Meditation in Everyday Life",
+    "author": "Jon Kabat-Zinn",
+    "genres_tags": [
+      "Mindfulness",
+      "Psychology",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.1,
+      "ratings_count": 90000,
+      "review_summary_highlights": [
+        "Praised for its accessible introduction to mindfulness.",
+        "Readers value the everyday applications."
+      ]
+    },
+    "one_sentence_hook": "Mindfulness is not a technique to master but a way of being present in ordinary life.",
+    "summary": {
+      "overview": "Jon Kabat-Zinn introduces mindfulness meditation and its application to everyday life.",
+      "key_takeaways": [
+        "Mindfulness is awareness without judgment.",
+        "Practice happens in daily moments.",
+        "Acceptance reduces suffering."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781401307783",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781401307783"
+    },
+    "isbn_13": "9781401307783",
+    "publication_year": 1994,
+    "page_count": 280,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781401307783-L.jpg",
+    "id": "2026-10-31-19",
+    "slug": "wherever-you-go-there-you-are-mindfulness-meditation-in-everyday-life"
+  },
+  {
+    "title": "Full Catastrophe Living: Using the Wisdom of Your Body and Mind to Face Stress, Pain, and Illness",
+    "author": "Jon Kabat-Zinn",
+    "genres_tags": [
+      "Mindfulness",
+      "Health",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.2,
+      "ratings_count": 30000,
+      "review_summary_highlights": [
+        "Praised for the MBSR program.",
+        "Readers value the stress reduction techniques."
+      ]
+    },
+    "one_sentence_hook": "Mindfulness-based stress reduction helps face pain, illness, and the full catastrophe of life.",
+    "summary": {
+      "overview": "Jon Kabat-Zinn presents the MBSR program for managing stress, pain, and illness through mindfulness.",
+      "key_takeaways": [
+        "Stress is a response, not just an event.",
+        "Mindfulness changes relationship to pain.",
+        "Practice builds resilience."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780385298971",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780385298971"
+    },
+    "isbn_13": "9780385298971",
+    "publication_year": 1990,
+    "page_count": 453,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780385298971-L.jpg",
+    "id": "2026-10-31-20",
+    "slug": "full-catastrophe-living-using-the-wisdom-of-your-body-and-mind-to-face-stress-pain-and-illness"
+  },
+  {
+    "title": "Radical Acceptance: Embracing Your Life With the Heart of a Buddha",
+    "author": "Tara Brach",
+    "genres_tags": [
+      "Mindfulness",
+      "Psychology",
+      "Spirituality",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.2,
+      "ratings_count": 60000,
+      "review_summary_highlights": [
+        "Praised for its compassionate approach to self-acceptance.",
+        "Readers value the RAIN practice."
+      ]
+    },
+    "one_sentence_hook": "Radical acceptance frees us from the trance of unworthiness.",
+    "summary": {
+      "overview": "Tara Brach combines Buddhist teaching and psychology to help readers accept themselves and their lives.",
+      "key_takeaways": [
+        "Self-judgment perpetuates suffering.",
+        "RAIN (Recognize, Allow, Investigate, Nurture) builds acceptance.",
+        "Compassion is a practice, not a feeling."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780553380996",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780553380996"
+    },
+    "isbn_13": "9780553380996",
+    "publication_year": 2003,
+    "page_count": 352,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780553380996-L.jpg",
+    "id": "2026-10-31-21",
+    "slug": "radical-acceptance-embracing-your-life-with-the-heart-of-a-buddha"
+  },
+  {
+    "title": "True Refuge: Finding Peace and Freedom in Your Own Awakened Heart",
+    "author": "Tara Brach",
+    "genres_tags": [
+      "Mindfulness",
+      "Spirituality",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.3,
+      "ratings_count": 15000,
+      "review_summary_highlights": [
+        "Praised for its guidance through difficulty.",
+        "Readers value the refuge concept."
+      ]
+    },
+    "one_sentence_hook": "True refuge is found not in avoidance but in awakened presence.",
+    "summary": {
+      "overview": "Tara Brach offers guidance for finding peace amid difficulty through mindfulness and compassion.",
+      "key_takeaways": [
+        "Refuge is internal, not external.",
+        "Awareness transforms suffering.",
+        "Compassion is the heart of practice."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780553386349",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780553386349"
+    },
+    "isbn_13": "9780553386349",
+    "publication_year": 2012,
+    "page_count": 320,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780553386349-L.jpg",
+    "id": "2026-10-31-22",
+    "slug": "true-refuge-finding-peace-and-freedom-in-your-own-awakened-heart"
+  },
+  {
+    "title": "The Wise Heart: A Guide to the Universal Teachings of Buddhist Psychology",
+    "author": "Jack Kornfield",
+    "genres_tags": [
+      "Psychology",
+      "Spirituality",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.3,
+      "ratings_count": 20000,
+      "review_summary_highlights": [
+        "Praised for integrating Buddhist and Western psychology.",
+        "Readers value the practical exercises."
+      ]
+    },
+    "one_sentence_hook": "Buddhist psychology offers a universal map of the mind and a path to freedom.",
+    "summary": {
+      "overview": "Jack Kornfield presents Buddhist psychology as a framework for understanding and healing the mind.",
+      "key_takeaways": [
+        "Suffering comes from clinging.",
+        "Awareness and compassion transform.",
+        "Practice is the path."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780553803471",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780553803471"
+    },
+    "isbn_13": "9780553803471",
+    "publication_year": 2008,
+    "page_count": 432,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780553803471-L.jpg",
+    "id": "2026-10-31-23",
+    "slug": "the-wise-heart-a-guide-to-the-universal-teachings-of-buddhist-psychology"
+  },
+  {
+    "title": "After the Ecstasy, the Laundry: How the Heart Grows Wise on the Spiritual Path",
+    "author": "Jack Kornfield",
+    "genres_tags": [
+      "Spirituality",
+      "Psychology",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.2,
+      "ratings_count": 15000,
+      "review_summary_highlights": [
+        "Praised for its grounded spirituality.",
+        "Readers value the everyday wisdom."
+      ]
+    },
+    "one_sentence_hook": "Spiritual awakening must be integrated into ordinary life.",
+    "summary": {
+      "overview": "Jack Kornfield explores how to bring spiritual insight into daily life and relationships.",
+      "key_takeaways": [
+        "Awakening is not an endpoint.",
+        "Integration happens in ordinary moments.",
+        "Compassion includes the self."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780553102901",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780553102901"
+    },
+    "isbn_13": "9780553102901",
+    "publication_year": 2000,
+    "page_count": 336,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780553102901-L.jpg",
+    "id": "2026-10-31-24",
+    "slug": "after-the-ecstasy-the-laundry-how-the-heart-grows-wise-on-the-spiritual-path"
+  },
+  {
+    "title": "A Path with Heart: A Guide Through the Perils and Promises of Spiritual Life",
+    "author": "Jack Kornfield",
+    "genres_tags": [
+      "Spirituality",
+      "Psychology",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.3,
+      "ratings_count": 25000,
+      "review_summary_highlights": [
+        "Praised for its practical spiritual guidance.",
+        "Readers value the stories."
+      ]
+    },
+    "one_sentence_hook": "The spiritual path requires both courage and compassion.",
+    "summary": {
+      "overview": "Jack Kornfield offers guidance on navigating the challenges of spiritual practice.",
+      "key_takeaways": [
+        "Intention matters more than technique.",
+        "Difficulties are part of the path.",
+        "Compassion sustains practice."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780553372113",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780553372113"
+    },
+    "isbn_13": "9780553372113",
+    "publication_year": 1993,
+    "page_count": 352,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780553372113-L.jpg",
+    "id": "2026-10-31-25",
+    "slug": "a-path-with-heart-a-guide-through-the-perils-and-promises-of-spiritual-life"
+  },
+  {
+    "title": "The Art of Power",
+    "author": "Thich Nhat Hanh",
+    "genres_tags": [
+      "Spirituality",
+      "Mindfulness",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.2,
+      "ratings_count": 20000,
+      "review_summary_highlights": [
+        "Praised for redefining power as inner strength.",
+        "Readers value the mindfulness teachings."
+      ]
+    },
+    "one_sentence_hook": "True power is the ability to be free and to help others be free.",
+    "summary": {
+      "overview": "Thich Nhat Hanh explores true power as mindfulness, compassion, and freedom rather than control.",
+      "key_takeaways": [
+        "Power without compassion is destructive.",
+        "Mindfulness is the basis of real strength.",
+        "Freedom is internal."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780061738081",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780061738081"
+    },
+    "isbn_13": "9780061738081",
+    "publication_year": 2007,
+    "page_count": 240,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780061738081-L.jpg",
+    "id": "2026-10-31-26",
+    "slug": "the-art-of-power"
+  },
+  {
+    "title": "The Miracle of Mindfulness: An Introduction to the Practice of Meditation",
+    "author": "Thich Nhat Hanh",
+    "genres_tags": [
+      "Mindfulness",
+      "Spirituality",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.2,
+      "ratings_count": 80000,
+      "review_summary_highlights": [
+        "Praised for its simple, profound teaching.",
+        "Readers value the orange meditation."
+      ]
+    },
+    "one_sentence_hook": "Mindfulness turns ordinary activities into meditation.",
+    "summary": {
+      "overview": "Thich Nhat Hanh introduces mindfulness through simple practices and stories.",
+      "key_takeaways": [
+        "Any activity can be meditation.",
+        "Presence transforms experience.",
+        "Mindfulness is accessible to all."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780807012017",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780807012017"
+    },
+    "isbn_13": "9780807012017",
+    "publication_year": 1987,
+    "page_count": 140,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780807012017-L.jpg",
+    "id": "2026-10-31-27",
+    "slug": "the-miracle-of-mindfulness-an-introduction-to-the-practice-of-meditation"
+  },
+  {
+    "title": "Zen Mind, Beginner's Mind: Informal Talks on Zen Meditation and Practice",
+    "author": "Shunryu Suzuki",
+    "genres_tags": [
+      "Zen",
+      "Spirituality",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.3,
+      "ratings_count": 70000,
+      "review_summary_highlights": [
+        "Praised for its classic Zen teaching.",
+        "Readers value the beginner's mind concept."
+      ]
+    },
+    "one_sentence_hook": "In the beginner's mind there are many possibilities; in the expert's, few.",
+    "summary": {
+      "overview": "Shunryu Suzuki offers talks on Zen practice, emphasizing beginner's mind and direct experience.",
+      "key_takeaways": [
+        "Beginner's mind is open and curious.",
+        "Practice is the path.",
+        "Zen is about direct experience."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781590308493",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781590308493"
+    },
+    "isbn_13": "9781590308493",
+    "publication_year": 1970,
+    "page_count": 148,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781590308493-L.jpg",
+    "id": "2026-10-31-28",
+    "slug": "zen-mind-beginner-s-mind-informal-talks-on-zen-meditation-and-practice"
+  },
+  {
+    "title": "Cutting Through Spiritual Materialism",
+    "author": "Chogyam Trungpa",
+    "genres_tags": [
+      "Spirituality",
+      "Buddhism",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.2,
+      "ratings_count": 20000,
+      "review_summary_highlights": [
+        "Praised for its sharp critique of spiritual ego.",
+        "Readers value the directness."
+      ]
+    },
+    "one_sentence_hook": "Spiritual practice can become just another form of ego, and cutting through it is the real work.",
+    "summary": {
+      "overview": "Chogyam Trungpa warns against using spirituality to build ego and offers a direct approach.",
+      "key_takeaways": [
+        "Spiritual materialism is ego in disguise.",
+        "Practice requires honesty.",
+        "Direct experience transcends concepts."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781590306390",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781590306390"
+    },
+    "isbn_13": "9781590306390",
+    "publication_year": 1973,
+    "page_count": 300,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781590306390-L.jpg",
+    "id": "2026-10-31-29",
+    "slug": "cutting-through-spiritual-materialism"
+  },
+  {
+    "title": "The Myth of Freedom and the Way of Meditation",
+    "author": "Chogyam Trungpa",
+    "genres_tags": [
+      "Spirituality",
+      "Buddhism",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.1,
+      "ratings_count": 10000,
+      "review_summary_highlights": [
+        "Praised for its exploration of freedom and meditation.",
+        "Readers value the clarity."
+      ]
+    },
+    "one_sentence_hook": "True freedom is not doing what you want but being free from ego's control.",
+    "summary": {
+      "overview": "Chogyam Trungpa explores freedom and meditation, challenging conventional notions of liberty.",
+      "key_takeaways": [
+        "Freedom is internal, not external.",
+        "Meditation reveals ego's patterns.",
+        "Awareness is liberation."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780877730842",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780877730842"
+    },
+    "isbn_13": "9780877730842",
+    "publication_year": 1976,
+    "page_count": 176,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780877730842-L.jpg",
+    "id": "2026-10-31-30",
+    "slug": "the-myth-of-freedom-and-the-way-of-meditation"
+  },
+  {
+    "title": "Shambhala: The Sacred Path of the Warrior",
+    "author": "Chogyam Trungpa",
+    "genres_tags": [
+      "Spirituality",
+      "Buddhism",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.2,
+      "ratings_count": 25000,
+      "review_summary_highlights": [
+        "Praised for its warriorship concept.",
+        "Readers value the dignity teachings."
+      ]
+    },
+    "one_sentence_hook": "The sacred path of the warrior is about bravery, dignity, and serving others.",
+    "summary": {
+      "overview": "Chogyam Trungpa presents Shambhala warriorship as a path of bravery and service.",
+      "key_takeaways": [
+        "Warriorship means facing fear.",
+        "Dignity is inherent.",
+        "Service to others is central."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781590301777",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781590301777"
+    },
+    "isbn_13": "9781590301777",
+    "publication_year": 2004,
+    "page_count": 226,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781590301777-L.jpg",
+    "id": "2026-10-31-31",
+    "slug": "shambhala-the-sacred-path-of-the-warrior"
+  },
+  {
+    "title": "When Things Fall Apart: Heart Advice for Difficult Times",
+    "author": "Pema Chodron",
+    "genres_tags": [
+      "Spirituality",
+      "Psychology",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.4,
+      "ratings_count": 90000,
+      "review_summary_highlights": [
+        "Praised for its compassionate guidance through difficulty.",
+        "Readers value the tonglen practice."
+      ]
+    },
+    "one_sentence_hook": "Difficult times are opportunities for growth when met with openness and compassion.",
+    "summary": {
+      "overview": "Pema Chodron offers Buddhist wisdom for navigating fear, change, and loss.",
+      "key_takeaways": [
+        "Lean into discomfort rather than flee.",
+        "Compassion includes oneself.",
+        "Groundlessness is the path."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781570623448",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781570623448"
+    },
+    "isbn_13": "9781570623448",
+    "publication_year": 1996,
+    "page_count": 148,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781570623448-L.jpg",
+    "id": "2026-10-31-32",
+    "slug": "when-things-fall-apart-heart-advice-for-difficult-times"
+  },
+  {
+    "title": "The Places That Scare You: A Guide to Fearlessness in Difficult Times",
+    "author": "Pema Chodron",
+    "genres_tags": [
+      "Spirituality",
+      "Psychology",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.3,
+      "ratings_count": 40000,
+      "review_summary_highlights": [
+        "Praised for its guidance on fear and courage.",
+        "Readers value the bodhichitta teachings."
+      ]
+    },
+    "one_sentence_hook": "The places that scare you are the very places where awakening happens.",
+    "summary": {
+      "overview": "Pema Chodron explores how to work with fear and develop courage through compassion.",
+      "key_takeaways": [
+        "Fear is a doorway, not a wall.",
+        "Compassion for self and others is key.",
+        "Practice happens in difficulty."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781570629211",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781570629211"
+    },
+    "isbn_13": "9781570629211",
+    "publication_year": 2001,
+    "page_count": 160,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781570629211-L.jpg",
+    "id": "2026-10-31-33",
+    "slug": "the-places-that-scare-you-a-guide-to-fearlessness-in-difficult-times"
+  },
+  {
+    "title": "Start Where You Are: A Guide to Compassionate Living",
+    "author": "Pema Chodron",
+    "genres_tags": [
+      "Spirituality",
+      "Psychology",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.2,
+      "ratings_count": 25000,
+      "review_summary_highlights": [
+        "Praised for its accessible compassion teachings.",
+        "Readers value the tonglen practice."
+      ]
+    },
+    "one_sentence_hook": "Compassion begins exactly where you are, with whatever you feel.",
+    "summary": {
+      "overview": "Pema Chodron offers a guide to developing compassion starting from the present moment.",
+      "key_takeaways": [
+        "Compassion is trainable.",
+        "Self-compassion is essential.",
+        "Practice is imperfect and ongoing."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780877738800",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780877738800"
+    },
+    "isbn_13": "9780877738800",
+    "publication_year": 1994,
+    "page_count": 154,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780877738800-L.jpg",
+    "id": "2026-10-31-34",
+    "slug": "start-where-you-are-a-guide-to-compassionate-living"
+  },
+  {
+    "title": "The Pocket Pema Chodron",
+    "author": "Pema Chodron",
+    "genres_tags": [
+      "Spirituality",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.3,
+      "ratings_count": 10000,
+      "review_summary_highlights": [
+        "Praised for its portable wisdom.",
+        "Readers value the short passages."
+      ]
+    },
+    "one_sentence_hook": "A pocket-sized collection of wisdom for difficult moments.",
+    "summary": {
+      "overview": "A compact collection of Pema Chodron's teachings.",
+      "key_takeaways": [
+        "Wisdom fits in a pocket.",
+        "Short reminders sustain practice.",
+        "Compassion is always available."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781590306512",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781590306512"
+    },
+    "isbn_13": "9781590306512",
+    "publication_year": 2008,
+    "page_count": 176,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781590306512-L.jpg",
+    "id": "2026-10-31-35",
+    "slug": "the-pocket-pema-chodron"
+  },
+  {
+    "title": "No Time to Lose: A Timely Guide to the Way of the Bodhisattva",
+    "author": "Pema Chodron",
+    "genres_tags": [
+      "Spirituality",
+      "Buddhism",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.3,
+      "ratings_count": 8000,
+      "review_summary_highlights": [
+        "Praised for its commentary on the Bodhisattva path.",
+        "Readers value the practical guidance."
+      ]
+    },
+    "one_sentence_hook": "The Bodhisattva path of compassion is urgent and practical.",
+    "summary": {
+      "overview": "Pema Chodron comments on the Way of the Bodhisattva, a classic Mahayana text.",
+      "key_takeaways": [
+        "Compassion is the heart of the path.",
+        "Practice transforms the mind.",
+        "Urgency and patience coexist."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781590304242",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781590304242"
+    },
+    "isbn_13": "9781590304242",
+    "publication_year": 2005,
+    "page_count": 408,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781590304242-L.jpg",
+    "id": "2026-10-31-36",
+    "slug": "no-time-to-lose-a-timely-guide-to-the-way-of-the-bodhisattva"
+  },
+  {
+    "title": "Fail, Fail Again, Fail Better: Wise Advice for Leaning into the Unknown",
+    "author": "Pema Chodron",
+    "genres_tags": [
+      "Spirituality",
+      "Self-Help",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.1,
+      "ratings_count": 8000,
+      "review_summary_highlights": [
+        "Praised for its reframe of failure.",
+        "Readers value the commencement speech."
+      ]
+    },
+    "one_sentence_hook": "Failure is not the opposite of success; it is the path to it.",
+    "summary": {
+      "overview": "Pema Chodron reflects on failure as an opportunity for growth and awakening.",
+      "key_takeaways": [
+        "Failure is information.",
+        "Compassion softens failure's sting.",
+        "Resilience is built through falling."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781622035311",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781622035311"
+    },
+    "isbn_13": "9781622035311",
+    "publication_year": 2015,
+    "page_count": 133,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781622035311-L.jpg",
+    "id": "2026-10-31-37",
+    "slug": "fail-fail-again-fail-better-wise-advice-for-leaning-into-the-unknown"
+  },
+  {
+    "title": "Guns, Germs, and Steel: The Fates of Human Societies",
+    "author": "Jared Diamond",
+    "genres_tags": [
+      "History",
+      "Anthropology",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.03,
+      "ratings_count": 400000,
+      "review_summary_highlights": [
+        "Praised for its grand synthesis of human history.",
+        "Readers value the geographic determinism argument."
+      ]
+    },
+    "one_sentence_hook": "Why some societies conquered others comes down to geography, not genetics.",
+    "summary": {
+      "overview": "Jared Diamond argues that geographic and environmental factors shaped the unequal development of human societies.",
+      "key_takeaways": [
+        "Domesticable species and axes of diffusion mattered.",
+        "Technology and disease followed from geography.",
+        "Racial explanations of inequality are unsupported."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780224038096",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780224038096"
+    },
+    "isbn_13": "9780224038096",
+    "publication_year": 1997,
+    "page_count": 480,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780224038096-L.jpg",
+    "id": "2026-10-31-38",
+    "slug": "guns-germs-and-steel-the-fates-of-human-societies"
+  },
+  {
+    "title": "The Third Chimpanzee: The Evolution and Future of the Human Animal",
+    "author": "Jared Diamond",
+    "genres_tags": [
+      "Science",
+      "Anthropology",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.0,
+      "ratings_count": 40000,
+      "review_summary_highlights": [
+        "Praised for its evolutionary perspective on humans.",
+        "Readers value the engaging style."
+      ]
+    },
+    "one_sentence_hook": "Humans are a third species of chimpanzee, and our evolutionary history explains our best and worst traits.",
+    "summary": {
+      "overview": "Jared Diamond explores human evolution and the animal origins of our behaviors.",
+      "key_takeaways": [
+        "Humans share most DNA with chimps.",
+        "Language and technology are our superpowers.",
+        "Self-destruction is an evolutionary risk."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780060984038",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780060984038"
+    },
+    "isbn_13": "9780060984038",
+    "publication_year": 1991,
+    "page_count": 407,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780060984038-L.jpg",
+    "id": "2026-10-31-39",
+    "slug": "the-third-chimpanzee-the-evolution-and-future-of-the-human-animal"
+  },
+  {
+    "title": "Prisoners of Geography: Ten Maps That Explain Everything About the World",
+    "author": "Tim Marshall",
+    "genres_tags": [
+      "Geography",
+      "Politics",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.2,
+      "ratings_count": 80000,
+      "review_summary_highlights": [
+        "Praised for making geopolitics accessible.",
+        "Readers value the map-based explanations."
+      ]
+    },
+    "one_sentence_hook": "Geography constrains politics, and ten maps explain global power.",
+    "summary": {
+      "overview": "Tim Marshall explains how physical geography shapes international relations and conflicts.",
+      "key_takeaways": [
+        "Mountains and rivers define borders.",
+        "Resources drive geopolitics.",
+        "Geography is destiny, partly."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781783961412",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781783961412"
+    },
+    "isbn_13": "9781783961412",
+    "publication_year": 2015,
+    "page_count": 291,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781783961412-L.jpg",
+    "id": "2026-10-31-40",
+    "slug": "prisoners-of-geography-ten-maps-that-explain-everything-about-the-world"
+  },
+  {
+    "title": "The Power of Geography: Ten Maps That Reveal the Future of Our World",
+    "author": "Tim Marshall",
+    "genres_tags": [
+      "Geography",
+      "Politics",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.1,
+      "ratings_count": 20000,
+      "review_summary_highlights": [
+        "Praised for its forward-looking geopolitics.",
+        "Readers value the regional analysis."
+      ]
+    },
+    "one_sentence_hook": "Future global power will be shaped by geography as much as by technology.",
+    "summary": {
+      "overview": "Tim Marshall examines how geography will shape the coming decades of global politics.",
+      "key_takeaways": [
+        "Geography still matters in a digital age.",
+        "Regional power shifts are underway.",
+        "Resources and routes define influence."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781783966028",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781783966028"
+    },
+    "isbn_13": "9781783966028",
+    "publication_year": 2021,
+    "page_count": 304,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781783966028-L.jpg",
+    "id": "2026-10-31-41",
+    "slug": "the-power-of-geography-ten-maps-that-reveal-the-future-of-our-world"
+  },
+  {
+    "title": "A Short History of the World",
+    "author": "H. G. Wells",
+    "genres_tags": [
+      "History",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.0,
+      "ratings_count": 20000,
+      "review_summary_highlights": [
+        "Praised for its sweeping scope.",
+        "Readers value the accessible prose."
+      ]
+    },
+    "one_sentence_hook": "A sweeping, accessible history of the world from its origins to the twentieth century.",
+    "summary": {
+      "overview": "H. G. Wells surveys world history in a single volume.",
+      "key_takeaways": [
+        "History is interconnected.",
+        "Civilization builds cumulatively.",
+        "Progress is uneven."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781602069312",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781602069312"
+    },
+    "isbn_13": "9781602069312",
+    "publication_year": 1922,
+    "page_count": 476,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781602069312-L.jpg",
+    "id": "2026-10-31-42",
+    "slug": "a-short-history-of-the-world"
+  },
+  {
+    "title": "The Silk Roads: A New History of the World",
+    "author": "Peter Frankopan",
+    "genres_tags": [
+      "History",
+      "Geopolitics",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.2,
+      "ratings_count": 60000,
+      "review_summary_highlights": [
+        "Praised for recentering history on Asia.",
+        "Readers value the trade-route narrative."
+      ]
+    },
+    "one_sentence_hook": "The center of world history lies not in Europe but along the Silk Roads.",
+    "summary": {
+      "overview": "Peter Frankopan reorients world history around the trade routes connecting East and West.",
+      "key_takeaways": [
+        "Asia was the center of global wealth.",
+        "Trade routes shaped civilizations.",
+        "History is more connected than taught."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781408889930",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781408889930"
+    },
+    "isbn_13": "9781408889930",
+    "publication_year": 2015,
+    "page_count": 128,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781408889930-L.jpg",
+    "id": "2026-10-31-43",
+    "slug": "the-silk-roads-a-new-history-of-the-world"
+  },
+  {
+    "title": "The March of Folly: From Troy to Vietnam",
+    "author": "Barbara W. Tuchman",
+    "genres_tags": [
+      "History",
+      "Politics",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.0,
+      "ratings_count": 20000,
+      "review_summary_highlights": [
+        "Praised for its analysis of governmental folly.",
+        "Readers value the case studies."
+      ]
+    },
+    "one_sentence_hook": "Governments repeatedly pursue policies contrary to their own interests.",
+    "summary": {
+      "overview": "Barbara Tuchman examines four historical cases of governmental folly.",
+      "key_takeaways": [
+        "Folly is persistent across eras.",
+        "Self-interest often overrides wisdom.",
+        "Institutions resist correction."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780394527772",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780394527772"
+    },
+    "isbn_13": "9780394527772",
+    "publication_year": 1984,
+    "page_count": 447,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780394527772-L.jpg",
+    "id": "2026-10-31-44",
+    "slug": "the-march-of-folly-from-troy-to-vietnam"
+  },
+  {
+    "title": "Practicing History: Selected Essays",
+    "author": "Barbara W. Tuchman",
+    "genres_tags": [
+      "History",
+      "Essays",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.0,
+      "ratings_count": 5000,
+      "review_summary_highlights": [
+        "Praised for its reflections on the craft of history.",
+        "Readers value the insights."
+      ]
+    },
+    "one_sentence_hook": "The craft of history requires judgment, narrative skill, and respect for evidence.",
+    "summary": {
+      "overview": "Barbara Tuchman collects essays on writing and practicing history.",
+      "key_takeaways": [
+        "History is an art as well as a science.",
+        "Narrative matters.",
+        "Evidence must guide interpretation."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780345303639",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780345303639"
+    },
+    "isbn_13": "9780345303639",
+    "publication_year": 1981,
+    "page_count": 306,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780345303639-L.jpg",
+    "id": "2026-10-31-45",
+    "slug": "practicing-history-selected-essays"
+  },
+  {
+    "title": "Notes on a Foreign Country: An American Abroad in a Post-American World",
+    "author": "Suzy Hansen",
+    "genres_tags": [
+      "Memoir",
+      "Politics",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.1,
+      "ratings_count": 6000,
+      "review_summary_highlights": [
+        "Praised for its critical look at American exceptionalism.",
+        "Readers value the Istanbul setting."
+      ]
+    },
+    "one_sentence_hook": "An American journalist in Istanbul confronts the limits of American exceptionalism.",
+    "summary": {
+      "overview": "Suzy Hansen reflects on American power and identity from abroad.",
+      "key_takeaways": [
+        "American exceptionalism is a myth.",
+        "Foreign policy has human costs.",
+        "Perspective changes abroad."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780374280048",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780374280048"
+    },
+    "isbn_13": "9780374280048",
+    "publication_year": 2017,
+    "page_count": 276,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780374280048-L.jpg",
+    "id": "2026-10-31-46",
+    "slug": "notes-on-a-foreign-country-an-american-abroad-in-a-post-american-world"
+  },
+  {
+    "title": "The Looming Tower: Al-Qaeda and the Road to 9/11",
+    "author": "Lawrence Wright",
+    "genres_tags": [
+      "History",
+      "Politics",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.3,
+      "ratings_count": 80000,
+      "review_summary_highlights": [
+        "Praised for its detailed narrative of 9/11's origins.",
+        "Readers value the character portraits."
+      ]
+    },
+    "one_sentence_hook": "The road to 9/11 traced through the lives of those who shaped it.",
+    "summary": {
+      "overview": "Lawrence Wright traces the history of Al-Qaeda and the intelligence failures leading to 9/11.",
+      "key_takeaways": [
+        "Personalities drove the conflict.",
+        "Intelligence failures were systemic.",
+        "Ideology motivated violence."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780375414862",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780375414862"
+    },
+    "isbn_13": "9780375414862",
+    "publication_year": 2006,
+    "page_count": 480,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780375414862-L.jpg",
+    "id": "2026-10-31-47",
+    "slug": "the-looming-tower-al-qaeda-and-the-road-to-9-11"
+  },
+  {
+    "title": "Going Clear: Scientology, Hollywood, and the Prison of Belief",
+    "author": "Lawrence Wright",
+    "genres_tags": [
+      "Investigative",
+      "Religion",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.1,
+      "ratings_count": 70000,
+      "review_summary_highlights": [
+        "Praised for its expose of Scientology.",
+        "Readers value the research depth."
+      ]
+    },
+    "one_sentence_hook": "How Scientology attracts and traps believers, and the cost of leaving.",
+    "summary": {
+      "overview": "Lawrence Wright investigates Scientology's history, beliefs, and practices.",
+      "key_takeaways": [
+        "Belief systems can become coercive.",
+        "Celebrity recruitment is strategic.",
+        "Leaving carries heavy costs."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780307700667",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780307700667"
+    },
+    "isbn_13": "9780307700667",
+    "publication_year": 2013,
+    "page_count": 430,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780307700667-L.jpg",
+    "id": "2026-10-31-48",
+    "slug": "going-clear-scientology-hollywood-and-the-prison-of-belief"
+  },
+  {
+    "title": "The Terror Years: From al-Qaeda to the Islamic State",
+    "author": "Lawrence Wright",
+    "genres_tags": [
+      "History",
+      "Politics",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.0,
+      "ratings_count": 5000,
+      "review_summary_highlights": [
+        "Praised for its reporting on terrorism.",
+        "Readers value the firsthand accounts."
+      ]
+    },
+    "one_sentence_hook": "A decade of reporting on terrorism and its evolution.",
+    "summary": {
+      "overview": "Lawrence Wright collects reporting on terrorism from al-Qaeda to ISIS.",
+      "key_takeaways": [
+        "Terrorism evolves.",
+        "Reporting requires access and courage.",
+        "Understanding motives matters."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780385352055",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780385352055"
+    },
+    "isbn_13": "9780385352055",
+    "publication_year": 2016,
+    "page_count": 366,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780385352055-L.jpg",
+    "id": "2026-10-31-49",
+    "slug": "the-terror-years-from-al-qaeda-to-the-islamic-state"
+  },
+  {
+    "title": "Essence of Decision: Explaining the Cuban Missile Crisis",
+    "author": "Graham T. Allison",
+    "genres_tags": [
+      "Politics",
+      "History",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.0,
+      "ratings_count": 8000,
+      "review_summary_highlights": [
+        "Praised for its analytical frameworks.",
+        "Readers value the three models."
+      ]
+    },
+    "one_sentence_hook": "The Cuban Missile Crisis explained through three models of decision-making.",
+    "summary": {
+      "overview": "Graham Allison analyzes the crisis through rational actor, organizational process, and bureaucratic politics models.",
+      "key_takeaways": [
+        "Decisions are not purely rational.",
+        "Organizations shape outcomes.",
+        "Multiple lenses reveal truth."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780321013491",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780321013491"
+    },
+    "isbn_13": "9780321013491",
+    "publication_year": 1971,
+    "page_count": 416,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780321013491-L.jpg",
+    "id": "2026-10-31-50",
+    "slug": "essence-of-decision-explaining-the-cuban-missile-crisis"
+  },
+  {
+    "title": "World Order",
+    "author": "Henry Kissinger",
+    "genres_tags": [
+      "Politics",
+      "History",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.0,
+      "ratings_count": 15000,
+      "review_summary_highlights": [
+        "Praised for its global order analysis.",
+        "Readers value the regional perspectives."
+      ]
+    },
+    "one_sentence_hook": "How different regions conceive of world order and why it matters.",
+    "summary": {
+      "overview": "Henry Kissinger examines competing conceptions of world order across regions.",
+      "key_takeaways": [
+        "Order is culturally specific.",
+        "Regions have different worldviews.",
+        "Diplomacy bridges gaps."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781594206146",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781594206146"
+    },
+    "isbn_13": "9781594206146",
+    "publication_year": 1975,
+    "page_count": 420,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781594206146-L.jpg",
+    "id": "2026-10-31-51",
+    "slug": "world-order"
+  },
+  {
+    "title": "The Dictator's Handbook: Why Bad Behavior Is Almost Always Good Politics",
+    "author": "Bruce Bueno de Mesquita and Alastair Smith",
+    "genres_tags": [
+      "Politics",
+      "Economics",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.2,
+      "ratings_count": 20000,
+      "review_summary_highlights": [
+        "Praised for its cynical but illuminating framework.",
+        "Readers value the coalition logic."
+      ]
+    },
+    "one_sentence_hook": "Leaders stay in power by rewarding their coalition, not by serving the public.",
+    "summary": {
+      "overview": "The authors explain political survival through the logic of coalitions and selectorates.",
+      "key_takeaways": [
+        "Small coalitions favor autocracy.",
+        "Public goods are a coalition strategy.",
+        "Incentives drive political behavior."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781610390453",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781610390453"
+    },
+    "isbn_13": "9781610390453",
+    "publication_year": 2011,
+    "page_count": 352,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781610390453-L.jpg",
+    "id": "2026-10-31-52",
+    "slug": "the-dictator-s-handbook-why-bad-behavior-is-almost-always-good-politics"
+  },
+  {
+    "title": "Why Nations Fail: The Origins of Power, Prosperity, and Poverty",
+    "author": "Daron Acemoglu and James A. Robinson",
+    "genres_tags": [
+      "Economics",
+      "Politics",
+      "History",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.1,
+      "ratings_count": 80000,
+      "review_summary_highlights": [
+        "Praised for its institutional explanation of prosperity.",
+        "Readers value the case studies."
+      ]
+    },
+    "one_sentence_hook": "Nations fail when extractive institutions concentrate power and wealth.",
+    "summary": {
+      "overview": "Acemoglu and Robinson argue that inclusive institutions drive prosperity while extractive ones cause poverty.",
+      "key_takeaways": [
+        "Institutions determine outcomes.",
+        "Inclusive institutions foster innovation.",
+        "Critical junctures shape paths."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781846686108",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781846686108"
+    },
+    "isbn_13": "9781846686108",
+    "publication_year": 2012,
+    "page_count": 320,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781846686108-L.jpg",
+    "id": "2026-10-31-53",
+    "slug": "why-nations-fail-the-origins-of-power-prosperity-and-poverty"
+  },
+  {
+    "title": "How Asia Works: Success and Failure in the World's Most Dynamic Region",
+    "author": "Joe Studwell",
+    "genres_tags": [
+      "Economics",
+      "Politics",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.3,
+      "ratings_count": 15000,
+      "review_summary_highlights": [
+        "Praised for its analysis of Asian development.",
+        "Readers value the three interventions."
+      ]
+    },
+    "one_sentence_hook": "Asian development succeeded through land reform, manufacturing, and financial control.",
+    "summary": {
+      "overview": "Joe Studwell explains why some Asian economies succeeded while others stagnated.",
+      "key_takeaways": [
+        "Land reform creates markets.",
+        "Export manufacturing builds capability.",
+        "Financial control directs investment."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780802121325",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780802121325"
+    },
+    "isbn_13": "9780802121325",
+    "publication_year": 2013,
+    "page_count": 400,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780802121325-L.jpg",
+    "id": "2026-10-31-54",
+    "slug": "how-asia-works-success-and-failure-in-the-world-s-most-dynamic-region"
+  },
+  {
+    "title": "Bad Samaritans: The Myth of Free Trade and the Secret History of Capitalism",
+    "author": "Ha-Joon Chang",
+    "genres_tags": [
+      "Economics",
+      "Politics",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.1,
+      "ratings_count": 20000,
+      "review_summary_highlights": [
+        "Praised for its critique of free trade orthodoxy.",
+        "Readers value the historical evidence."
+      ]
+    },
+    "one_sentence_hook": "Rich countries got rich through protectionism, then kicked away the ladder.",
+    "summary": {
+      "overview": "Ha-Joon Chang argues that free trade is not the path to development that rich countries claim.",
+      "key_takeaways": [
+        "Development requires intervention.",
+        "Rich countries used protectionism.",
+        "Free trade can harm developing nations."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781596913998",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781596913998"
+    },
+    "isbn_13": "9781596913998",
+    "publication_year": 1998,
+    "page_count": 288,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781596913998-L.jpg",
+    "id": "2026-10-31-55",
+    "slug": "bad-samaritans-the-myth-of-free-trade-and-the-secret-history-of-capitalism"
+  },
+  {
+    "title": "23 Things They Don't Tell You About Capitalism",
+    "author": "Ha-Joon Chang",
+    "genres_tags": [
+      "Economics",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.0,
+      "ratings_count": 30000,
+      "review_summary_highlights": [
+        "Praised for its accessible critique.",
+        "Readers value the myth-busting."
+      ]
+    },
+    "one_sentence_hook": "Capitalism is not what free-market ideologues say it is.",
+    "summary": {
+      "overview": "Ha-Joon Chang debunks common myths about capitalism and free markets.",
+      "key_takeaways": [
+        "Markets are political constructs.",
+        "Free markets don't exist.",
+        "Government plays a key role."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9789992194263",
+      "worldcat_url": "https://search.worldcat.org/search?q=9789992194263"
+    },
+    "isbn_13": "9789992194263",
+    "publication_year": 2010,
+    "page_count": 272,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9789992194263-L.jpg",
+    "id": "2026-10-31-56",
+    "slug": "23-things-they-don-t-tell-you-about-capitalism"
+  },
+  {
+    "title": "Kicking Away the Ladder: Development Strategy in Historical Perspective",
+    "author": "Ha-Joon Chang",
+    "genres_tags": [
+      "Economics",
+      "History",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.0,
+      "ratings_count": 5000,
+      "review_summary_highlights": [
+        "Praised for its historical evidence.",
+        "Readers value the development critique."
+      ]
+    },
+    "one_sentence_hook": "Rich countries used protectionism to develop, then denied it to poor countries.",
+    "summary": {
+      "overview": "Ha-Joon Chang shows how rich countries developed through intervention and now preach free trade.",
+      "key_takeaways": [
+        "History contradicts free trade dogma.",
+        "Policy space matters for development.",
+        "Institutions are built, not given."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781843310273",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781843310273"
+    },
+    "isbn_13": "9781843310273",
+    "publication_year": 2002,
+    "page_count": 187,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781843310273-L.jpg",
+    "id": "2026-10-31-57",
+    "slug": "kicking-away-the-ladder-development-strategy-in-historical-perspective"
+  },
+  {
+    "title": "Fifty Inventions That Shaped the Modern Economy",
+    "author": "Tim Harford",
+    "genres_tags": [
+      "Economics",
+      "History",
+      "Technology",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.1,
+      "ratings_count": 8000,
+      "review_summary_highlights": [
+        "Praised for its engaging invention stories.",
+        "Readers value the economic context."
+      ]
+    },
+    "one_sentence_hook": "Fifty inventions, from barbed wire to the iPhone, shaped the modern economy.",
+    "summary": {
+      "overview": "Tim Harford traces fifty inventions and their economic impact.",
+      "key_takeaways": [
+        "Inventions have unintended consequences.",
+        "Economics explains adoption.",
+        "Technology and society co-evolve."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780735216143",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780735216143"
+    },
+    "isbn_13": "9780735216143",
+    "publication_year": 2018,
+    "page_count": 336,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780735216143-L.jpg",
+    "id": "2026-10-31-58",
+    "slug": "fifty-inventions-that-shaped-the-modern-economy"
+  },
+  {
+    "title": "Naked Statistics: Stripping the Dread from the Data",
+    "author": "Charles Wheelan",
+    "genres_tags": [
+      "Statistics",
+      "Economics",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.1,
+      "ratings_count": 20000,
+      "review_summary_highlights": [
+        "Praised for making statistics accessible.",
+        "Readers value the humor."
+      ]
+    },
+    "one_sentence_hook": "Statistics need not be scary; they are tools for understanding the world.",
+    "summary": {
+      "overview": "Charles Wheelan demystifies statistics with humor and real-world examples.",
+      "key_takeaways": [
+        "Statistics describe uncertainty.",
+        "Correlation is not causation.",
+        "Regression has limits."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780393347777",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780393347777"
+    },
+    "isbn_13": "9780393347777",
+    "publication_year": 2013,
+    "page_count": 304,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780393347777-L.jpg",
+    "id": "2026-10-31-59",
+    "slug": "naked-statistics-stripping-the-dread-from-the-data"
+  },
+  {
+    "title": "The Black Swan: The Impact of the Highly Improbable",
+    "author": "Nassim Nicholas Taleb",
+    "genres_tags": [
+      "Economics",
+      "Philosophy",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.0,
+      "ratings_count": 200000,
+      "review_summary_highlights": [
+        "Praised for its critique of prediction.",
+        "Readers value the black swan concept."
+      ]
+    },
+    "one_sentence_hook": "Rare, unpredictable events shape history more than regular ones.",
+    "summary": {
+      "overview": "Nassim Taleb argues that black swan events dominate history and are systematically underestimated.",
+      "key_takeaways": [
+        "Black swans are unpredictable and high-impact.",
+        "We overestimate our ability to predict.",
+        "Robustness beats optimization."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780141889238",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780141889238"
+    },
+    "isbn_13": "9780141889238",
+    "publication_year": 2005,
+    "page_count": 421,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780141889238-L.jpg",
+    "id": "2026-10-31-60",
+    "slug": "the-black-swan-the-impact-of-the-highly-improbable"
+  },
+  {
+    "title": "The Will to Meaning: Foundations and Applications of Logotherapy",
+    "author": "Viktor E. Frankl",
+    "genres_tags": [
+      "Psychology",
+      "Philosophy",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.2,
+      "ratings_count": 8000,
+      "review_summary_highlights": [
+        "Praised for its exposition of logotherapy.",
+        "Readers value the clinical applications."
+      ]
+    },
+    "one_sentence_hook": "Logotherapy: therapy focused on meaning rather than pleasure or power.",
+    "summary": {
+      "overview": "Viktor Frankl presents the foundations of logotherapy.",
+      "key_takeaways": [
+        "Meaning is central to mental health.",
+        "Logotherapy is future-oriented.",
+        "Noö-dynamics drive growth."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780452010345",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780452010345"
+    },
+    "isbn_13": "9780452010345",
+    "publication_year": 1969,
+    "page_count": 198,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780452010345-L.jpg",
+    "id": "2026-10-31-61",
+    "slug": "the-will-to-meaning-foundations-and-applications-of-logotherapy"
+  },
+  {
+    "title": "The Unheard Cry for Meaning: Psychotherapy and Humanism",
+    "author": "Viktor E. Frankl",
+    "genres_tags": [
+      "Psychology",
+      "Philosophy",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.1,
+      "ratings_count": 5000,
+      "review_summary_highlights": [
+        "Praised for its humanistic psychology.",
+        "Readers value the meaning focus."
+      ]
+    },
+    "one_sentence_hook": "Humanism without meaning is incomplete.",
+    "summary": {
+      "overview": "Viktor Frankl argues for a humanistic psychology centered on meaning.",
+      "key_takeaways": [
+        "Humanism needs a meaning dimension.",
+        "Psychotherapy should be meaning-centered.",
+        "Values guide growth."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780671247362",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780671247362"
+    },
+    "isbn_13": "9780671247362",
+    "publication_year": 1978,
+    "page_count": 191,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780671247362-L.jpg",
+    "id": "2026-10-31-62",
+    "slug": "the-unheard-cry-for-meaning-psychotherapy-and-humanism"
+  },
+  {
+    "title": "Man's Search for Ultimate Meaning",
+    "author": "Viktor E. Frankl",
+    "genres_tags": [
+      "Psychology",
+      "Philosophy",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.2,
+      "ratings_count": 6000,
+      "review_summary_highlights": [
+        "Praised for its spiritual dimension.",
+        "Readers value the ultimate meaning quest."
+      ]
+    },
+    "one_sentence_hook": "The search for ultimate meaning transcends psychology.",
+    "summary": {
+      "overview": "Viktor Frankl explores the spiritual dimension of the search for meaning.",
+      "key_takeaways": [
+        "Ultimate meaning transcends the self.",
+        "Spirituality is part of human nature.",
+        "Meaning is discovered, not invented."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780738203546",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780738203546"
+    },
+    "isbn_13": "9780738203546",
+    "publication_year": 1997,
+    "page_count": 208,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780738203546-L.jpg",
+    "id": "2026-10-31-63",
+    "slug": "man-s-search-for-ultimate-meaning"
+  },
+  {
+    "title": "The Feeling of What Happens: Body and Emotion in the Making of Consciousness",
+    "author": "Antonio Damasio",
+    "genres_tags": [
+      "Neuroscience",
+      "Psychology",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.1,
+      "ratings_count": 20000,
+      "review_summary_highlights": [
+        "Praised for its theory of consciousness.",
+        "Readers value the clinical cases."
+      ]
+    },
+    "one_sentence_hook": "Consciousness emerges from the body's representation of itself.",
+    "summary": {
+      "overview": "Antonio Damasio argues that consciousness arises from the brain's mapping of the body.",
+      "key_takeaways": [
+        "Emotions are bodily states.",
+        "Consciousness requires a self-model.",
+        "Feelings guide reasoning."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780151003693",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780151003693"
+    },
+    "isbn_13": "9780151003693",
+    "publication_year": 1999,
+    "page_count": 400,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780151003693-L.jpg",
+    "id": "2026-10-31-64",
+    "slug": "the-feeling-of-what-happens-body-and-emotion-in-the-making-of-consciousness"
+  },
+  {
+    "title": "Descartes' Error: Emotion, Reason, and the Human Brain",
+    "author": "Antonio Damasio",
+    "genres_tags": [
+      "Neuroscience",
+      "Psychology",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.1,
+      "ratings_count": 30000,
+      "review_summary_highlights": [
+        "Praised for overturning the reason-emotion split.",
+        "Readers value the case studies."
+      ]
+    },
+    "one_sentence_hook": "Reason depends on emotion; Descartes was wrong to separate them.",
+    "summary": {
+      "overview": "Antonio Damasio shows that emotion is essential to rational decision-making.",
+      "key_takeaways": [
+        "Emotion guides reason.",
+        "Somatic markers shape choices.",
+        "Brain damage reveals dependencies."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780143036227",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780143036227"
+    },
+    "isbn_13": "9780143036227",
+    "publication_year": 1995,
+    "page_count": 336,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780143036227-L.jpg",
+    "id": "2026-10-31-65",
+    "slug": "descartes-error-emotion-reason-and-the-human-brain"
+  },
+  {
+    "title": "Looking for Spinoza: Joy, Sorrow, and the Feeling Brain",
+    "author": "Antonio Damasio",
+    "genres_tags": [
+      "Neuroscience",
+      "Philosophy",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.0,
+      "ratings_count": 8000,
+      "review_summary_highlights": [
+        "Praised for linking Spinoza and neuroscience.",
+        "Readers value the integration."
+      ]
+    },
+    "one_sentence_hook": "Spinoza anticipated modern neuroscience on emotion and the body.",
+    "summary": {
+      "overview": "Antonio Damasio connects Spinoza's philosophy to modern neuroscience of emotion.",
+      "key_takeaways": [
+        "Spinoza was ahead of his time.",
+        "Emotions are bodily processes.",
+        "Joy and sorrow have neural bases."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780156028714",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780156028714"
+    },
+    "isbn_13": "9780156028714",
+    "publication_year": 2003,
+    "page_count": 368,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780156028714-L.jpg",
+    "id": "2026-10-31-66",
+    "slug": "looking-for-spinoza-joy-sorrow-and-the-feeling-brain"
+  },
+  {
+    "title": "Self Comes to Mind: Constructing the Conscious Brain",
+    "author": "Antonio Damasio",
+    "genres_tags": [
+      "Neuroscience",
+      "Psychology",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.0,
+      "ratings_count": 8000,
+      "review_summary_highlights": [
+        "Praised for its theory of self.",
+        "Readers value the developmental account."
+      ]
+    },
+    "one_sentence_hook": "The self is constructed by the brain as a feeling entity.",
+    "summary": {
+      "overview": "Antonio Damasio presents his theory of how the self emerges from neural processes.",
+      "key_takeaways": [
+        "The self is a feeling process.",
+        "Consciousness requires a self-model.",
+        "Development shapes the self."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780307474957",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780307474957"
+    },
+    "isbn_13": "9780307474957",
+    "publication_year": 2012,
+    "page_count": 398,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780307474957-L.jpg",
+    "id": "2026-10-31-67",
+    "slug": "self-comes-to-mind-constructing-the-conscious-brain"
+  },
+  {
+    "title": "The Strange Order of Things: Life, Feeling, and the Making of Cultures",
+    "author": "Antonio Damasio",
+    "genres_tags": [
+      "Neuroscience",
+      "Culture",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.0,
+      "ratings_count": 6000,
+      "review_summary_highlights": [
+        "Praised for extending neuroscience to culture.",
+        "Readers value the homeostasis concept."
+      ]
+    },
+    "one_sentence_hook": "Feelings, not reason, drive the making of cultures.",
+    "summary": {
+      "overview": "Antonio Damasio extends his theory to explain how feelings shape cultures.",
+      "key_takeaways": [
+        "Homeostasis drives behavior.",
+        "Feelings precede reason.",
+        "Cultures are feeling-based."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780345807144",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780345807144"
+    },
+    "isbn_13": "9780345807144",
+    "publication_year": 2017,
+    "page_count": 336,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780345807144-L.jpg",
+    "id": "2026-10-31-68",
+    "slug": "the-strange-order-of-things-life-feeling-and-the-making-of-cultures"
+  },
+  {
+    "title": "Phantoms in the Brain: Probing the Mysteries of the Human Mind",
+    "author": "V. S. Ramachandran and Sandra Blakeslee",
+    "genres_tags": [
+      "Neuroscience",
+      "Psychology",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.2,
+      "ratings_count": 40000,
+      "review_summary_highlights": [
+        "Praised for its vivid neurological cases.",
+        "Readers value the mirror neuron discussion."
+      ]
+    },
+    "one_sentence_hook": "Phantom limbs and other neurological oddities reveal how the brain constructs reality.",
+    "summary": {
+      "overview": "V. S. Ramachandran explores neurological phenomena like phantom limbs to understand the brain.",
+      "key_takeaways": [
+        "The brain is highly plastic.",
+        "Perception is constructed.",
+        "Neurological cases illuminate normal function."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780688172176",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780688172176"
+    },
+    "isbn_13": "9780688172176",
+    "publication_year": 1999,
+    "page_count": 352,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780688172176-L.jpg",
+    "id": "2026-10-31-69",
+    "slug": "phantoms-in-the-brain-probing-the-mysteries-of-the-human-mind"
+  },
+  {
+    "title": "The Tell-Tale Brain: A Neuroscientist's Quest for What Makes Us Human",
+    "author": "V. S. Ramachandran",
+    "genres_tags": [
+      "Neuroscience",
+      "Psychology",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.0,
+      "ratings_count": 20000,
+      "review_summary_highlights": [
+        "Praised for its exploration of human uniqueness.",
+        "Readers value the mirror neuron theory."
+      ]
+    },
+    "one_sentence_hook": "What makes humans unique lies in specific brain circuits and their cultural effects.",
+    "summary": {
+      "overview": "V. S. Ramachandran explores the neural basis of human uniqueness.",
+      "key_takeaways": [
+        "Mirror neurons enable empathy and culture.",
+        "Brain circuits underlie art and language.",
+        "Neurology explains human exceptionalism."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9788184001198",
+      "worldcat_url": "https://search.worldcat.org/search?q=9788184001198"
+    },
+    "isbn_13": "9788184001198",
+    "publication_year": 2010,
+    "page_count": 358,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9788184001198-L.jpg",
+    "id": "2026-10-31-70",
+    "slug": "the-tell-tale-brain-a-neuroscientist-s-quest-for-what-makes-us-human"
+  },
+  {
+    "title": "The Man Who Wasn't There: Investigations into the Strange New Science of the Self",
+    "author": "Anil Ananthaswamy",
+    "genres_tags": [
+      "Neuroscience",
+      "Psychology",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.0,
+      "ratings_count": 6000,
+      "review_summary_highlights": [
+        "Praised for its exploration of self disorders.",
+        "Readers value the philosophical depth."
+      ]
+    },
+    "one_sentence_hook": "Disorders of the self reveal that the self is not a fixed entity.",
+    "summary": {
+      "overview": "Anil Ananthaswamy explores disorders of the self to understand identity.",
+      "key_takeaways": [
+        "The self is constructed.",
+        "Body and brain together create identity.",
+        "Disorders illuminate normal function."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780525954194",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780525954194"
+    },
+    "isbn_13": "9780525954194",
+    "publication_year": 2015,
+    "page_count": 305,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780525954194-L.jpg",
+    "id": "2026-10-31-71",
+    "slug": "the-man-who-wasn-t-there-investigations-into-the-strange-new-science-of-the-self"
+  },
+  {
+    "title": "The Human Brain Book: An Illustrated Guide to Its Structure, Function, and Disorders",
+    "author": "Rita Carter",
+    "genres_tags": [
+      "Neuroscience",
+      "Reference",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.2,
+      "ratings_count": 5000,
+      "review_summary_highlights": [
+        "Praised for its visual clarity.",
+        "Readers value the comprehensive coverage."
+      ]
+    },
+    "one_sentence_hook": "A richly illustrated guide to the brain's structure and function.",
+    "summary": {
+      "overview": "Rita Carter presents an illustrated guide to the brain.",
+      "key_takeaways": [
+        "The brain is highly organized.",
+        "Structure determines function.",
+        "Disorders reveal function."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780756654412",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780756654412"
+    },
+    "isbn_13": "9780756654412",
+    "publication_year": 2009,
+    "page_count": 256,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780756654412-L.jpg",
+    "id": "2026-10-31-72",
+    "slug": "the-human-brain-book-an-illustrated-guide-to-its-structure-function-and-disorders"
+  },
+  {
+    "title": "The Brain That Changes Itself: Stories of Personal Triumph from the Frontiers of Brain Science",
+    "author": "Norman Doidge",
+    "genres_tags": [
+      "Neuroscience",
+      "Psychology",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.2,
+      "ratings_count": 80000,
+      "review_summary_highlights": [
+        "Praised for its stories of neuroplasticity.",
+        "Readers value the hope it offers."
+      ]
+    },
+    "one_sentence_hook": "The brain can rewire itself, and neuroplasticity is the key to recovery.",
+    "summary": {
+      "overview": "Norman Doidge presents case studies of brain plasticity and recovery.",
+      "key_takeaways": [
+        "The brain is plastic throughout life.",
+        "Practice rewires circuits.",
+        "Recovery is possible."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780143113102",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780143113102"
+    },
+    "isbn_13": "9780143113102",
+    "publication_year": 2007,
+    "page_count": 448,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780143113102-L.jpg",
+    "id": "2026-10-31-73",
+    "slug": "the-brain-that-changes-itself-stories-of-personal-triumph-from-the-frontiers-of-brain-science"
+  },
+  {
+    "title": "The Brain's Way of Healing: Remarkable Discoveries and Recoveries from the Frontiers of Neuroplasticity",
+    "author": "Norman Doidge",
+    "genres_tags": [
+      "Neuroscience",
+      "Health",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.1,
+      "ratings_count": 20000,
+      "review_summary_highlights": [
+        "Praised for its healing stories.",
+        "Readers value the practical methods."
+      ]
+    },
+    "one_sentence_hook": "Neuroplasticity can heal conditions once deemed incurable.",
+    "summary": {
+      "overview": "Norman Doidge presents more cases of neuroplastic healing.",
+      "key_takeaways": [
+        "The brain can heal itself.",
+        "Specific exercises drive change.",
+        "Hope is warranted."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780143128373",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780143128373"
+    },
+    "isbn_13": "9780143128373",
+    "publication_year": 2015,
+    "page_count": 409,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780143128373-L.jpg",
+    "id": "2026-10-31-74",
+    "slug": "the-brain-s-way-of-healing-remarkable-discoveries-and-recoveries-from-the-frontiers-of-neuroplasticity"
+  },
+  {
+    "title": "Soft-Wired: How the New Science of Brain Plasticity Can Change Your Life",
+    "author": "Michael Merzenich",
+    "genres_tags": [
+      "Neuroscience",
+      "Health",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.1,
+      "ratings_count": 5000,
+      "review_summary_highlights": [
+        "Praised for its plasticity insights.",
+        "Readers value the practical advice."
+      ]
+    },
+    "one_sentence_hook": "Your brain is soft-wired, and you can reshape it through practice.",
+    "summary": {
+      "overview": "Michael Merzenich explains brain plasticity and how to harness it.",
+      "key_takeaways": [
+        "Plasticity persists lifelong.",
+        "Attention drives change.",
+        "Habits reshape circuits."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780989432825",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780989432825"
+    },
+    "isbn_13": "9780989432825",
+    "publication_year": 2013,
+    "page_count": 253,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780989432825-L.jpg",
+    "id": "2026-10-31-75",
+    "slug": "soft-wired-how-the-new-science-of-brain-plasticity-can-change-your-life"
+  },
+  {
+    "title": "Livewired: The Inside Story of the Ever-Changing Brain",
+    "author": "David Eagleman",
+    "genres_tags": [
+      "Neuroscience",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.2,
+      "ratings_count": 15000,
+      "review_summary_highlights": [
+        "Praised for its plasticity narrative.",
+        "Readers value the sensory substitution."
+      ]
+    },
+    "one_sentence_hook": "The brain is not hardwired but livewired, constantly rewiring itself.",
+    "summary": {
+      "overview": "David Eagleman explores how the brain continuously adapts and rewires.",
+      "key_takeaways": [
+        "The brain is dynamic, not fixed.",
+        "Senses can be remapped.",
+        "Plasticity enables recovery."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780307949691",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780307949691"
+    },
+    "isbn_13": "9780307949691",
+    "publication_year": 2020,
+    "page_count": 320,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780307949691-L.jpg",
+    "id": "2026-10-31-76",
+    "slug": "livewired-the-inside-story-of-the-ever-changing-brain"
+  },
+  {
+    "title": "Incognito: The Secret Lives of the Brain",
+    "author": "David Eagleman",
+    "genres_tags": [
+      "Neuroscience",
+      "Psychology",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.1,
+      "ratings_count": 60000,
+      "review_summary_highlights": [
+        "Praised for its accessible neuroscience.",
+        "Readers value the unconscious mind focus."
+      ]
+    },
+    "one_sentence_hook": "Most of what your brain does is hidden from you, and that's a good thing.",
+    "summary": {
+      "overview": "David Eagleman explores the unconscious processes that drive behavior.",
+      "key_takeaways": [
+        "Consciousness is a small part of brain activity.",
+        "The unconscious is powerful.",
+        "Understanding it changes self-perception."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780307377333",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780307377333"
+    },
+    "isbn_13": "9780307377333",
+    "publication_year": 2011,
+    "page_count": 290,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780307377333-L.jpg",
+    "id": "2026-10-31-77",
+    "slug": "incognito-the-secret-lives-of-the-brain"
+  },
+  {
+    "title": "The Brain: The Story of You",
+    "author": "David Eagleman",
+    "genres_tags": [
+      "Neuroscience",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.1,
+      "ratings_count": 30000,
+      "review_summary_highlights": [
+        "Praised for its accessible brain overview.",
+        "Readers value the identity discussion."
+      ]
+    },
+    "one_sentence_hook": "You are your brain, and understanding it reveals who you are.",
+    "summary": {
+      "overview": "David Eagleman presents the brain as the basis of identity and experience.",
+      "key_takeaways": [
+        "The brain constructs reality.",
+        "Identity is neural.",
+        "Understanding the brain informs life."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781101870532",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781101870532"
+    },
+    "isbn_13": "9781101870532",
+    "publication_year": 2015,
+    "page_count": 218,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781101870532-L.jpg",
+    "id": "2026-10-31-78",
+    "slug": "the-brain-the-story-of-you"
+  },
+  {
+    "title": "Sum: Forty Tales from the Afterlives",
+    "author": "David Eagleman",
+    "genres_tags": [
+      "Philosophy",
+      "Fiction",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.1,
+      "ratings_count": 25000,
+      "review_summary_highlights": [
+        "Praised for its imaginative afterlife tales.",
+        "Readers value the philosophical depth."
+      ]
+    },
+    "one_sentence_hook": "Forty imaginative visions of the afterlife explore what we value.",
+    "summary": {
+      "overview": "David Eagleman offers forty short tales about possible afterlives.",
+      "key_takeaways": [
+        "Imagination illuminates values.",
+        "Afterlife beliefs reveal priorities.",
+        "Stories can carry philosophy."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780307389930",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780307389930"
+    },
+    "isbn_13": "9780307389930",
+    "publication_year": 2008,
+    "page_count": 124,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780307389930-L.jpg",
+    "id": "2026-10-31-79",
+    "slug": "sum-forty-tales-from-the-afterlives"
+  },
+  {
+    "title": "The Runaway Species: How Human Creativity Remakes the World",
+    "author": "David Eagleman and Anthony Brandt",
+    "genres_tags": [
+      "Neuroscience",
+      "Creativity",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.0,
+      "ratings_count": 5000,
+      "review_summary_highlights": [
+        "Praised for its creativity framework.",
+        "Readers value the examples."
+      ]
+    },
+    "one_sentence_hook": "Human creativity remakes the world through three operations: bending, breaking, and blending.",
+    "summary": {
+      "overview": "Eagleman and Brandt explore the neural basis of creativity.",
+      "key_takeaways": [
+        "Creativity has neural foundations.",
+        "Bending, breaking, blending drive innovation.",
+        "Culture amplifies creativity."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781936787524",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781936787524"
+    },
+    "isbn_13": "9781936787524",
+    "publication_year": 2017,
+    "page_count": 296,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781936787524-L.jpg",
+    "id": "2026-10-31-80",
+    "slug": "the-runaway-species-how-human-creativity-remakes-the-world"
+  },
+  {
+    "title": "The Creative Brain: The Science of Genius",
+    "author": "Nancy C. Andreasen",
+    "genres_tags": [
+      "Neuroscience",
+      "Creativity",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.0,
+      "ratings_count": 3000,
+      "review_summary_highlights": [
+        "Praised for its research on creative minds.",
+        "Readers value the case studies."
+      ]
+    },
+    "one_sentence_hook": "Genius arises from specific brain patterns and life experiences.",
+    "summary": {
+      "overview": "Nancy Andreasen explores the neuroscience of creativity and genius.",
+      "key_takeaways": [
+        "Creativity has neural correlates.",
+        "Mental illness and creativity link.",
+        "Environment shapes genius."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780452287815",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780452287815"
+    },
+    "isbn_13": "9780452287815",
+    "publication_year": 2006,
+    "page_count": 224,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780452287815-L.jpg",
+    "id": "2026-10-31-81",
+    "slug": "the-creative-brain-the-science-of-genius"
+  },
+  {
+    "title": "Wired to Create: Unraveling the Mysteries of the Creative Mind",
+    "author": "Scott Barry Kaufman and Carolyn Gregoire",
+    "genres_tags": [
+      "Psychology",
+      "Creativity",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.0,
+      "ratings_count": 8000,
+      "review_summary_highlights": [
+        "Praised for its ten habits of creative people.",
+        "Readers value the research synthesis."
+      ]
+    },
+    "one_sentence_hook": "Creative people share habits like daydreaming, openness, and sensitivity.",
+    "summary": {
+      "overview": "The authors explore the habits and traits of creative people.",
+      "key_takeaways": [
+        "Daydreaming aids creativity.",
+        "Openness is key.",
+        "Sensitivity fuels art."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780399174100",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780399174100"
+    },
+    "isbn_13": "9780399174100",
+    "publication_year": 2015,
+    "page_count": 252,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780399174100-L.jpg",
+    "id": "2026-10-31-82",
+    "slug": "wired-to-create-unraveling-the-mysteries-of-the-creative-mind"
+  },
+  {
+    "title": "Keep Going: 10 Ways to Stay Creative in Good Times and Bad",
+    "author": "Austin Kleon",
+    "genres_tags": [
+      "Creativity",
+      "Self-Help",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.0,
+      "ratings_count": 20000,
+      "review_summary_highlights": [
+        "Praised for its encouragement.",
+        "Readers value the daily practice."
+      ]
+    },
+    "one_sentence_hook": "Creativity is a daily practice, not a burst of inspiration.",
+    "summary": {
+      "overview": "Austin Kleon offers ten ways to sustain creativity over time.",
+      "key_takeaways": [
+        "Routine sustains creativity.",
+        "Rest is productive.",
+        "Play is essential."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781523506644",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781523506644"
+    },
+    "isbn_13": "9781523506644",
+    "publication_year": 2019,
+    "page_count": 224,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781523506644-L.jpg",
+    "id": "2026-10-31-83",
+    "slug": "keep-going-10-ways-to-stay-creative-in-good-times-and-bad"
+  },
+  {
+    "title": "The War of Art: Break Through the Blocks and Win Your Inner Creative Battles",
+    "author": "Steven Pressfield",
+    "genres_tags": [
+      "Creativity",
+      "Self-Help",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.0,
+      "ratings_count": 100000,
+      "review_summary_highlights": [
+        "Praised for its concept of Resistance.",
+        "Readers value the motivational punch."
+      ]
+    },
+    "one_sentence_hook": "Resistance is the enemy of creative work, and professionalism is the answer.",
+    "summary": {
+      "overview": "Steven Pressfield personifies creative resistance and argues for professional discipline.",
+      "key_takeaways": [
+        "Resistance is universal.",
+        "Professionals show up daily.",
+        "Turning pro changes everything."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781590710036",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781590710036"
+    },
+    "isbn_13": "9781590710036",
+    "publication_year": 2002,
+    "page_count": 224,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781590710036-L.jpg",
+    "id": "2026-10-31-84",
+    "slug": "the-war-of-art-break-through-the-blocks-and-win-your-inner-creative-battles"
+  },
+  {
+    "title": "The Icarus Deception: How High Will You Fly?",
+    "author": "Seth Godin",
+    "genres_tags": [
+      "Creativity",
+      "Business",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.0,
+      "ratings_count": 15000,
+      "review_summary_highlights": [
+        "Praised for its call to make art.",
+        "Readers value the connection economy."
+      ]
+    },
+    "one_sentence_hook": "The real danger is not flying too high but flying too low.",
+    "summary": {
+      "overview": "Seth Godin argues that everyone should make art and connect.",
+      "key_takeaways": [
+        "Art is connection.",
+        "Playing it safe is risky.",
+        "Ship your work."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781591846079",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781591846079"
+    },
+    "isbn_13": "9781591846079",
+    "publication_year": 2012,
+    "page_count": 241,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781591846079-L.jpg",
+    "id": "2026-10-31-85",
+    "slug": "the-icarus-deception-how-high-will-you-fly"
+  },
+  {
+    "title": "Linchpin: Are You Indispensable?",
+    "author": "Seth Godin",
+    "genres_tags": [
+      "Business",
+      "Self-Help",
+      "Nonfiction"
+    ],
+    "goodreads": {
+      "rating": 4.0,
+      "ratings_count": 60000,
+      "review_summary_highlights": [
+        "Praised for its call to be indispensable.",
+        "Readers value the artistry concept."
+      ]
+    },
+    "one_sentence_hook": "Become a linchpin by bringing artistry and initiative to your work.",
+    "summary": {
+      "overview": "Seth Godin argues that the future belongs to linchpins who create value.",
+      "key_takeaways": [
+        "Linchpins are indispensable.",
+        "Artistry is a choice.",
+        "Generosity builds value."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9781591843160",
+      "worldcat_url": "https://search.worldcat.org/search?q=9781591843160"
+    },
+    "isbn_13": "9781591843160",
+    "publication_year": 1960,
+    "page_count": 244,
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9781591843160-L.jpg",
+    "id": "2026-10-31-86",
+    "slug": "linchpin-are-you-indispensable"
+  },
+  {
     "isbn_13": "9781571313560",
     "title": "Braiding Sweetgrass: Indigenous Wisdom, Scientific Knowledge and the Teachings of Plants",
     "author": "Robin Wall Kimmerer",
