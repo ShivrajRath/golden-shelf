@@ -1,5 +1,43 @@
 [
   {
+    "isbn_13": "9780393324822",
+    "title": "Stiff: The Curious Lives of Human Cadavers",
+    "author": "Mary Roach",
+    "publication_year": 2003,
+    "page_count": 304,
+    "genres_tags": [
+      "Nonfiction",
+      "Science",
+      "Popular Science",
+      "Medicine",
+      "History"
+    ],
+    "goodreads": {
+      "rating": 4.07,
+      "ratings_count": 215000,
+      "review_summary_highlights": [
+        "Praised for balancing respectful medical curiosity with sharp wit and accessible scientific reporting",
+        "Celebrated for turning a macabre topic into an enlightening examination of human ingenuity and postmortem contribution"
+      ]
+    },
+    "cover_image_url": "https://covers.openlibrary.org/b/isbn/9780393324822-L.jpg",
+    "one_sentence_hook": "An oddly uplifting and delightfully curious exploration of the profound scientific contributions made by human bodies after death.",
+    "summary": {
+      "overview": "Mary Roach investigates the surprising and indispensable second lives of human cadavers across centuries of medical research and technological testing. From vehicle impact trials to surgical practice and forensic decomposition facilities, the narrative explores how deceased bodies have continuously safeguarded the living.",
+      "key_takeaways": [
+        "Human anatomical donation transformed medicine from speculative dogma into empirical science despite centuries of cultural taboo.",
+        "Cadavers provide biological kinetic feedback in vehicle safety and impact testing that cannot be replicated by synthetic crash test dummies.",
+        "Forensic body farms and anatomical gifts provide essential data that advance justice, reconstructive surgery, and life-saving engineering."
+      ]
+    },
+    "library_lookup": {
+      "goodreads_url": "https://www.goodreads.com/search?q=9780393324822",
+      "worldcat_url": "https://search.worldcat.org/search?q=9780393324822"
+    },
+    "id": "2026-11-20",
+    "slug": "stiff-the-curious-lives-of-human-cadavers"
+  },
+  {
     "title": "The Intelligent Investor",
     "author": "Benjamin Graham",
     "genres_tags": [
